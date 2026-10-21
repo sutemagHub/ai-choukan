@@ -1,0 +1,791 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<style>:root{color-scheme:light}[hidden]{display:none!important}img{max-width:100%}</style>
+<title>生成AI朝刊</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500&family=Zen+Kaku+Gothic+New:wght@400;500;700&family=Zen+Old+Mincho:wght@700;900&display=swap">
+<style>
+/* Layout: one phone-width column set like the front page of a Japanese morning paper.
+   Masthead = vertical 題字 block at top right, date / era year / issue number at left.
+   Stories are grouped by weight: 一面 (lead stories) → 主なニュース → 短信 (briefs). */
+:root {
+  /* color: 白磁 paper, 紺 ink, 東雲 (dawn) accent */
+  --paper: #F5F6F3;
+  --surface: #FFFFFF;
+  --ink: #1C2740;
+  --ink-soft: #465066;
+  --muted: #626A7A;
+  --line: #D9DEE2;
+  --chip: #E7EBEE;
+  --kon: #1E2E54;
+  --on-kon: #F4F2EC;
+  --dawn: #B4512C;
+  --dawn-sun: #E8774D;
+  --dawn-wash: #F6E6DD;
+  --focus: #2E6BD1;
+  --skeleton: #E3E7EA;
+  /* type: mincho for the 題字 and lead headlines, gothic for reading, mono for times */
+  --font-display: "Zen Old Mincho", "Hiragino Mincho ProN", "Yu Mincho", "Noto Serif CJK JP", "Noto Serif JP", serif;
+  --font-body: "Zen Kaku Gothic New", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", "Noto Sans CJK JP", "Noto Sans JP", system-ui, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  --fs-xs: 0.8125rem;
+  --fs-s: 0.9375rem;
+  --fs-m: 1rem;
+  --fs-l: 1.125rem;
+  --fs-xl: 1.375rem;
+  --fs-xxl: 2.25rem;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --paper: #0F141E;
+    --surface: #161D2B;
+    --ink: #E6E9EF;
+    --ink-soft: #B4BBC8;
+    --muted: #8E97A7;
+    --line: #283244;
+    --chip: #1F2736;
+    --kon: #26396A;
+    --on-kon: #F4F2EC;
+    --dawn: #F08A62;
+    --dawn-sun: #F08A62;
+    --dawn-wash: #33231D;
+    --focus: #82A9F2;
+    --skeleton: #1D2533;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --paper: #0F141E;
+  --surface: #161D2B;
+  --ink: #E6E9EF;
+  --ink-soft: #B4BBC8;
+  --muted: #8E97A7;
+  --line: #283244;
+  --chip: #1F2736;
+  --kon: #26396A;
+  --on-kon: #F4F2EC;
+  --dawn: #F08A62;
+  --dawn-sun: #F08A62;
+  --dawn-wash: #33231D;
+  --focus: #82A9F2;
+  --skeleton: #1D2533;
+  color-scheme: dark;
+}
+
+* { box-sizing: border-box; }
+html { background: var(--paper); }
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-body);
+  font-size: var(--fs-m);
+  line-height: 1.75;
+  line-break: strict;
+  overflow-wrap: anywhere;
+  -webkit-text-size-adjust: 100%;
+}
+.page {
+  max-width: 40rem;
+  margin: 0 auto;
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+  padding-block: 20px 44px;
+}
+.sr-only {
+  position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px;
+  overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0;
+}
+:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }
+
+/* ---------- masthead ---------- */
+.masthead {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: stretch;
+  gap: 16px;
+  padding-bottom: 16px;
+  border-bottom: 2px solid var(--ink);
+}
+.daiji {
+  flex: none;
+  align-self: flex-start;
+  margin: 0;
+  writing-mode: vertical-rl;
+  font-family: var(--font-display);
+  font-weight: 900;
+  font-size: clamp(1.875rem, 8.6vw, 2.5rem);
+  line-height: 1;
+  letter-spacing: .08em;
+  color: var(--on-kon);
+  background: var(--kon);
+  padding: .5em .36em .42em;
+  border-radius: 2px;
+}
+.daiji .tcy { text-combine-upright: all; -webkit-text-combine: horizontal; }
+.meta {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 14px;
+}
+.era {
+  margin: 0;
+  font-size: var(--fs-xs);
+  color: var(--muted);
+  letter-spacing: .06em;
+  font-variant-numeric: tabular-nums;
+}
+.date {
+  margin: 2px 0 0;
+  font-family: var(--font-display);
+  font-weight: 900;
+  font-size: var(--fs-xxl);
+  line-height: 1.15;
+  font-variant-numeric: tabular-nums;
+}
+.date .dow {
+  display: block;
+  margin-top: 6px;
+  font-size: var(--fs-l);
+  font-weight: 700;
+  letter-spacing: .12em;
+}
+.facts { margin: 0; display: flex; flex-wrap: wrap; gap: 2px 18px; }
+.facts > div { display: flex; align-items: baseline; gap: 6px; }
+.facts dt { font-size: var(--fs-xs); color: var(--muted); letter-spacing: .06em; }
+.facts dd { margin: 0; font-weight: 700; font-variant-numeric: tabular-nums; }
+.time { font-family: var(--font-mono); font-weight: 500; }
+.sun {
+  display: inline-block;
+  width: .6em;
+  height: .6em;
+  margin-right: .35em;
+  border-radius: 50%;
+  background: var(--dawn-sun);
+  vertical-align: .02em;
+}
+
+/* ---------- back issues ---------- */
+.issues-wrap { padding-top: 16px; }
+.label {
+  margin: 0 0 6px;
+  font-size: var(--fs-xs);
+  font-weight: 700;
+  letter-spacing: .14em;
+  color: var(--dawn);
+}
+.label--quiet { color: var(--muted); }
+.scroller {
+  display: flex;
+  gap: 8px;
+  overflow-x: auto;
+  padding-bottom: 4px;
+  scrollbar-width: none;
+}
+.scroller::-webkit-scrollbar { display: none; }
+.issue, .chip {
+  flex: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  min-height: 36px;
+  padding: 6px 14px;
+  border-radius: 999px;
+  font: inherit;
+  font-size: var(--fs-s);
+  line-height: 1.4;
+  cursor: pointer;
+}
+.issue {
+  border: 1px solid var(--line);
+  background: transparent;
+  color: var(--ink-soft);
+  font-variant-numeric: tabular-nums;
+}
+.issue small { font-size: var(--fs-xs); }
+.issue[aria-pressed="true"] { background: var(--kon); border-color: var(--kon); color: var(--on-kon); }
+
+/* ---------- notice / lead ---------- */
+.notice {
+  margin: 16px 0 0;
+  padding: 10px 14px;
+  border-radius: 6px;
+  background: var(--dawn-wash);
+  color: var(--ink);
+  font-size: var(--fs-s);
+  line-height: 1.7;
+}
+.linklike {
+  margin-left: .4em;
+  padding: 0;
+  border: 0;
+  background: none;
+  font: inherit;
+  font-weight: 700;
+  color: var(--dawn);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  cursor: pointer;
+}
+.lead { padding-top: 18px; }
+.overview { margin: 0; font-size: 1.0625rem; line-height: 1.9; }
+
+/* ---------- filters ---------- */
+.filters { margin-top: 20px; }
+.chip { border: 0; background: var(--chip); color: var(--ink-soft); font-weight: 500; }
+.chip .n { font-family: var(--font-mono); font-size: var(--fs-xs); opacity: .8; }
+.chip[aria-pressed="true"] { background: var(--ink); color: var(--paper); }
+
+/* ---------- stories ---------- */
+.section { margin-top: 24px; }
+.section-head { display: flex; align-items: center; gap: 10px; }
+.section-head h2 { margin: 0; font-size: var(--fs-s); font-weight: 700; letter-spacing: .2em; }
+.section-head .count { font-family: var(--font-mono); font-size: var(--fs-xs); color: var(--muted); }
+.section-head::after { content: ""; flex: 1; height: 1px; background: var(--line); }
+.section--front {
+  padding: 16px 16px 4px;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 6px;
+}
+.section--front .section-head h2 { color: var(--dawn); }
+
+.story { padding-block: 16px; border-top: 1px solid var(--line); }
+.section-head + .story { border-top: 0; padding-top: 10px; }
+.story-meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 2px 10px;
+  font-size: var(--fs-xs);
+  line-height: 1.6;
+  color: var(--muted);
+}
+.cat { padding: 1px 8px; border-radius: 4px; background: var(--chip); color: var(--ink-soft); font-weight: 500; }
+.story-meta time { font-variant-numeric: tabular-nums; }
+.story-title {
+  margin: 8px 0 6px;
+  font-size: var(--fs-l);
+  font-weight: 700;
+  line-height: 1.5;
+  text-wrap: balance;
+  font-feature-settings: "palt";
+  letter-spacing: .02em;
+}
+@supports (word-break: auto-phrase) { .story-title { word-break: auto-phrase; } }
+.story-title a { color: inherit; text-decoration: none; }
+.story-title a:hover { text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 4px; }
+.section--front .story-title {
+  font-family: var(--font-display);
+  font-weight: 900;
+  font-size: var(--fs-xl);
+  line-height: 1.45;
+}
+.story-summary { margin: 0; }
+.story-point {
+  margin: 10px 0 0;
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  gap: 10px;
+  font-size: var(--fs-s);
+  line-height: 1.7;
+  color: var(--ink-soft);
+}
+.point-label {
+  padding-top: .15em;
+  font-size: var(--fs-xs);
+  font-weight: 700;
+  letter-spacing: .1em;
+  color: var(--dawn);
+  white-space: nowrap;
+}
+.story-foot { margin-top: 12px; display: flex; align-items: center; gap: 12px; }
+.read-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  min-height: 36px;
+  padding: 6px 14px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  color: var(--ink);
+  text-decoration: none;
+  font-size: var(--fs-xs);
+  font-weight: 700;
+}
+.read-link:hover { border-color: var(--ink-soft); }
+.read-flag { font-size: var(--fs-xs); color: var(--muted); }
+.story.is-read .story-title { color: var(--ink-soft); }
+.story[data-weight="1"] { padding-block: 12px; }
+.story[data-weight="1"] .story-title { margin-top: 6px; font-size: var(--fs-m); }
+.story[data-weight="1"] .story-summary { font-size: var(--fs-s); color: var(--ink-soft); }
+.story[data-weight="1"] .story-foot { margin-top: 8px; }
+
+/* ---------- states ---------- */
+.state { padding: 32px 0 8px; }
+.state h2 { margin: 0 0 8px; font-family: var(--font-display); font-weight: 900; font-size: var(--fs-xl); line-height: 1.4; }
+.state p { margin: 0; color: var(--ink-soft); }
+.skel-story { padding-block: 16px; border-top: 1px solid var(--line); }
+.skel-story:first-child { border-top: 0; }
+.skel {
+  height: 12px;
+  margin: 10px 0;
+  border-radius: 4px;
+  background: var(--skeleton);
+  animation: pulse 1.6s ease-in-out infinite;
+}
+.skel.tall { height: 20px; }
+.w30 { width: 30%; }
+.w70 { width: 70%; }
+.w90 { width: 90%; }
+@keyframes pulse { 50% { opacity: .45; } }
+@media (prefers-reduced-motion: reduce) { .skel { animation: none; } }
+
+/* ---------- footer ---------- */
+.foot {
+  margin-top: 32px;
+  padding-top: 16px;
+  border-top: 2px solid var(--ink);
+  display: grid;
+  gap: 6px;
+  font-size: var(--fs-xs);
+  line-height: 1.7;
+  color: var(--muted);
+}
+.foot p { margin: 0; }
+.foot .next { font-size: var(--fs-m); color: var(--ink); }
+</style>
+</head>
+<body>
+<div class="page">
+  <header class="masthead">
+    <h1 class="daiji">生成<span class="tcy">AI</span>朝刊</h1>
+    <div class="meta">
+      <p class="era" id="era">2026年（令和8年）</p>
+      <p class="date" id="date">10月21日<span class="dow">水曜日</span></p>
+      <dl class="facts">
+        <div><dt>号数</dt><dd id="issue-no">第1号</dd></div>
+        <div><dt>配信</dt><dd><span class="sun" aria-hidden="true"></span><span class="time">08:00</span> JST</dd></div>
+        <div><dt>本数</dt><dd id="count">—</dd></div>
+      </dl>
+    </div>
+  </header>
+
+  <nav class="issues-wrap" id="issues-wrap" aria-label="バックナンバー" hidden>
+    <p class="label label--quiet">バックナンバー</p>
+    <div class="scroller" id="issues"></div>
+  </nav>
+
+  <p class="notice" id="notice" role="status" hidden></p>
+
+  <section class="lead" id="lead" aria-labelledby="lead-label" hidden>
+    <p class="label" id="lead-label">けさの要点</p>
+    <p class="overview" id="overview"></p>
+  </section>
+
+  <div class="filters scroller" id="filters" role="group" aria-label="分類で絞り込む" hidden></div>
+
+  <main id="stories" aria-busy="true"></main>
+
+  <footer class="foot">
+    <p class="next" id="next"></p>
+    <p>各記事の要約は、Claudeが報道や各社の発表をもとに作成しています。正確な内容は元記事でご確認ください。</p>
+    <p id="made"></p>
+  </footer>
+</div>
+
+<script>
+(function () {
+  'use strict';
+
+  var TZ = 'Asia/Tokyo';
+  var LAUNCH = '2026-10-21';
+  var CATEGORY_ORDER = ['モデル', 'プロダクト', '開発者', '研究', '安全性', 'ビジネス', '政策', '国内'];
+  var GROUPS = [
+    { weight: 3, label: '一面', cls: 'section--front' },
+    { weight: 2, label: '主なニュース', cls: '' },
+    { weight: 1, label: '短信', cls: '' }
+  ];
+  var DOW = ['日', '月', '火', '水', '木', '金', '土'];
+  var READ_KEY = 'ai-choukan:read:v1';
+  var ARROW = '<svg width="12" height="12" viewBox="0 0 12 12" aria-hidden="true"><path d="M4.5 2.5h5v5M9.5 2.5 3 9" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>';
+
+  try { if (window.Native && Native.theme) document.documentElement.setAttribute('data-theme', Native.theme()); } catch (e) {}
+
+  function byId(id) { return document.getElementById(id); }
+  var els = {
+    era: byId('era'), date: byId('date'), issueNo: byId('issue-no'), count: byId('count'),
+    issuesWrap: byId('issues-wrap'), issues: byId('issues'), notice: byId('notice'),
+    lead: byId('lead'), leadLabel: byId('lead-label'), overview: byId('overview'),
+    filters: byId('filters'), stories: byId('stories'), next: byId('next'), made: byId('made')
+  };
+
+  // status: loading | ready | empty | error
+  var state = { status: 'loading', dates: [], cache: {}, selected: null, followLatest: true, filter: 'all', loadingEdition: false };
+
+  /* ---------- native bridge ---------- */
+  var seq = 0, pending = {};
+  window.__nativeDone = function (id, body) {
+    var done = pending[id];
+    delete pending[id];
+    if (done) done(body);
+  };
+  function getText(path) {
+    return new Promise(function (resolve) {
+      if (!window.Native || typeof Native.request !== 'function') { resolve(null); return; }
+      var id = 'r' + (++seq);
+      pending[id] = resolve;
+      Native.request(id, path);
+    });
+  }
+  function getJson(path) {
+    return getText(path).then(function (body) {
+      try { return body ? JSON.parse(body) : null; } catch (e) { return null; }
+    });
+  }
+
+  /* ---------- helpers ---------- */
+  function esc(s) {
+    return String(s == null ? '' : s).replace(/[&<>"']/g, function (c) {
+      return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c];
+    });
+  }
+  function safeUrl(u) {
+    try {
+      var x = new URL(String(u));
+      return (x.protocol === 'https:' || x.protocol === 'http:') ? x.href : null;
+    } catch (e) { return null; }
+  }
+  function parseYmd(s) {
+    var m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(String(s || ''));
+    if (!m) return null;
+    var y = +m[1], mo = +m[2], d = +m[3];
+    return { y: y, m: mo, d: d, t: Date.UTC(y, mo - 1, d) };
+  }
+  function dowOf(p) { return DOW[new Date(p.t).getUTCDay()]; }
+  function addDays(ymd, n) {
+    var p = parseYmd(ymd);
+    return new Date(p.t + n * 86400000).toISOString().slice(0, 10);
+  }
+  function nowJst() {
+    var parts = new Intl.DateTimeFormat('en-CA', {
+      timeZone: TZ, year: 'numeric', month: '2-digit', day: '2-digit', hour: '2-digit', hour12: false
+    }).formatToParts(new Date());
+    var o = {};
+    parts.forEach(function (x) { o[x.type] = x.value; });
+    return { ymd: o.year + '-' + o.month + '-' + o.day, hour: Number(o.hour) % 24 };
+  }
+  function issueNumber(ymd) {
+    var a = parseYmd(LAUNCH), b = parseYmd(ymd);
+    if (!a || !b) return null;
+    var n = Math.round((b.t - a.t) / 86400000) + 1;
+    return n >= 1 ? n : null;
+  }
+  function longDate(ymd) {
+    var p = parseYmd(ymd);
+    return p ? p.m + '月' + p.d + '日（' + dowOf(p) + '）' : '';
+  }
+  function pubLabel(s) {
+    var p = parseYmd(s);
+    if (p) return p.m + '/' + p.d;
+    var d = new Date(s);
+    if (!s || isNaN(d)) return '';
+    return new Intl.DateTimeFormat('ja-JP', { timeZone: TZ, month: 'numeric', day: 'numeric' }).format(d);
+  }
+  function stampLabel(iso) {
+    var d = new Date(iso);
+    if (!iso || isNaN(d)) return '';
+    return new Intl.DateTimeFormat('ja-JP', {
+      timeZone: TZ, month: 'numeric', day: 'numeric', hour: '2-digit', minute: '2-digit', hour12: false
+    }).format(d);
+  }
+
+  /* ---------- read marks ---------- */
+  var readSet = new Set();
+  try {
+    var raw = localStorage.getItem(READ_KEY);
+    if (raw) readSet = new Set(JSON.parse(raw));
+  } catch (e) {}
+  function markRead(key) {
+    if (readSet.has(key)) return;
+    readSet.add(key);
+    try { localStorage.setItem(READ_KEY, JSON.stringify(Array.from(readSet).slice(-600))); } catch (e) {}
+  }
+
+  /* ---------- data ---------- */
+  function normalize(id, d) {
+    d = d || {};
+    var items = Array.isArray(d.items) ? d.items : [];
+    return {
+      id: id,
+      date: parseYmd(d.date) ? d.date : id,
+      issuedAt: d.issuedAt || null,
+      overview: typeof d.overview === 'string' ? d.overview : '',
+      items: items.filter(function (it) { return it && typeof it.title === 'string' && it.title; })
+        .map(function (it, i) {
+          var w = Number(it.importance);
+          return {
+            id: String(it.id || ('item-' + i)),
+            title: it.title,
+            summary: typeof it.summary === 'string' ? it.summary : '',
+            point: typeof it.point === 'string' ? it.point : '',
+            category: (typeof it.category === 'string' && it.category) ? it.category : 'その他',
+            weight: (w === 1 || w === 2 || w === 3) ? w : 2,
+            source: typeof it.source === 'string' ? it.source : '',
+            url: safeUrl(it.url),
+            publishedAt: it.publishedAt || ''
+          };
+        })
+    };
+  }
+
+  function loadEdition(date) {
+    return getJson('data/editions/' + date + '.json').then(function (o) {
+      if (o) state.cache[date] = normalize(date, o);
+    });
+  }
+
+  var refreshing = false;
+  function refresh() {
+    if (refreshing) return;
+    refreshing = true;
+    getJson('data/index.json').then(function (idx) {
+      if (!idx) {
+        if (!state.dates.length) state.status = 'error';
+        return;
+      }
+      var dates = (Array.isArray(idx.dates) ? idx.dates : [])
+        .filter(function (d) { return !!parseYmd(d); }).sort().reverse().slice(0, 60);
+      state.dates = dates;
+      if (!dates.length) { state.status = 'empty'; return; }
+      if (state.followLatest || dates.indexOf(state.selected) < 0) {
+        state.selected = dates[0];
+        state.followLatest = true;
+      }
+      return loadEdition(state.selected).then(function () {
+        state.status = 'ready';
+      });
+    }).then(function () {
+      refreshing = false;
+      render();
+    }, function () {
+      refreshing = false;
+      if (!state.dates.length) state.status = 'error';
+      render();
+    });
+  }
+  window.__refresh = refresh;
+
+  function select(date) {
+    state.selected = date;
+    state.followLatest = date === state.dates[0];
+    state.filter = 'all';
+    if (state.cache[date]) { render(); return; }
+    state.loadingEdition = true;
+    render();
+    loadEdition(date).then(function () {
+      state.loadingEdition = false;
+      render();
+    });
+  }
+
+  /* ---------- render ---------- */
+  function render() {
+    var today = nowJst();
+    var ed = state.cache[state.selected] || null;
+    renderMasthead(ed ? ed.date : (state.selected || today.ymd), ed);
+    renderIssues();
+    renderNotice(today, ed);
+    renderLead(today, ed);
+    renderFilters(ed);
+    renderStories(ed);
+    renderFooter(today, ed);
+  }
+
+  function renderMasthead(ymd, ed) {
+    var p = parseYmd(ymd);
+    if (!p) return;
+    els.era.textContent = p.y + '年（令和' + (p.y - 2018) + '年）';
+    els.date.innerHTML = p.m + '月' + p.d + '日<span class="dow">' + dowOf(p) + '曜日</span>';
+    var n = issueNumber(ymd);
+    els.issueNo.textContent = n ? '第' + n + '号' : '—';
+    els.count.textContent = ed ? ed.items.length + '本' : '—';
+  }
+
+  function renderIssues() {
+    var list = state.dates.slice(0, 30);
+    els.issuesWrap.hidden = list.length < 2;
+    els.issues.innerHTML = list.map(function (d) {
+      var p = parseYmd(d);
+      return '<button type="button" class="issue" data-issue="' + esc(d) + '" aria-pressed="' +
+        (d === state.selected) + '">' + p.m + '/' + p.d + ' <small>' + dowOf(p) + '</small></button>';
+    }).join('');
+  }
+
+  function renderNotice(today, ed) {
+    var html = '';
+    var latest = state.dates[0];
+    if (state.status === 'ready' && latest) {
+      if (state.selected !== latest) {
+        html = esc(longDate(state.selected)) + 'の号を表示しています。' +
+          '<button type="button" class="linklike" data-action="latest">最新号に戻る</button>';
+      } else if (latest < today.ymd) {
+        html = today.hour < 8
+          ? '今日の号は8:00ごろに届きます。いま表示しているのは' + esc(longDate(latest)) + 'の号です。'
+          : '今日の号はまだ届いていません。届きしだい、ここに表示されます。';
+      }
+    }
+    els.notice.innerHTML = html;
+    els.notice.hidden = !html;
+  }
+
+  function renderLead(today, ed) {
+    var show = !!(ed && ed.overview && state.status === 'ready');
+    els.lead.hidden = !show;
+    if (!show) return;
+    els.leadLabel.textContent = ed.date === today.ymd ? 'けさの要点' : 'この号の要点';
+    els.overview.textContent = ed.overview;
+  }
+
+  function renderFilters(ed) {
+    if (!ed || !ed.items.length || state.status !== 'ready') {
+      els.filters.hidden = true;
+      els.filters.innerHTML = '';
+      return;
+    }
+    var counts = {};
+    ed.items.forEach(function (it) { counts[it.category] = (counts[it.category] || 0) + 1; });
+    var cats = CATEGORY_ORDER.filter(function (c) { return counts[c]; })
+      .concat(Object.keys(counts).filter(function (c) { return CATEGORY_ORDER.indexOf(c) < 0; }));
+    if (state.filter !== 'all' && !counts[state.filter]) state.filter = 'all';
+    function chip(key, label, n) {
+      return '<button type="button" class="chip" data-filter="' + esc(key) + '" aria-pressed="' +
+        (state.filter === key) + '">' + esc(label) + '<span class="n">' + n + '</span></button>';
+    }
+    els.filters.innerHTML = chip('all', 'すべて', ed.items.length) +
+      cats.map(function (c) { return chip(c, c, counts[c]); }).join('');
+    els.filters.hidden = cats.length < 2;
+  }
+
+  function stateBox(title, body) {
+    return '<div class="state"><h2>' + esc(title) + '</h2><p>' + esc(body) + '</p></div>';
+  }
+  function skeleton() {
+    var one = '<div class="skel-story"><div class="skel w30"></div><div class="skel tall w90"></div>' +
+      '<div class="skel"></div><div class="skel w70"></div></div>';
+    return '<div aria-hidden="true">' + one + one + one + '</div><p class="sr-only">読み込み中</p>';
+  }
+
+  function storyHtml(ed, it) {
+    var key = ed.id + '/' + it.id;
+    var read = readSet.has(key);
+    var title = it.url
+      ? '<a href="' + esc(it.url) + '" target="_blank" rel="noopener noreferrer" data-key="' + esc(key) + '">' + esc(it.title) + '</a>'
+      : esc(it.title);
+    var pub = pubLabel(it.publishedAt);
+    return '<article class="story' + (read ? ' is-read' : '') + '" data-weight="' + it.weight + '">' +
+      '<div class="story-meta"><span class="cat">' + esc(it.category) + '</span>' +
+        (it.source ? '<span>' + esc(it.source) + '</span>' : '') +
+        (pub ? '<time>' + esc(pub) + '</time>' : '') + '</div>' +
+      '<h3 class="story-title">' + title + '</h3>' +
+      (it.summary ? '<p class="story-summary">' + esc(it.summary) + '</p>' : '') +
+      (it.point && it.weight > 1
+        ? '<p class="story-point"><span class="point-label">ポイント</span><span>' + esc(it.point) + '</span></p>'
+        : '') +
+      '<div class="story-foot">' +
+        (it.url ? '<a class="read-link" href="' + esc(it.url) + '" target="_blank" rel="noopener noreferrer" data-key="' +
+          esc(key) + '">元記事を読む' + ARROW + '</a>' : '') +
+        '<span class="read-flag"' + (read ? '' : ' hidden') + '>既読</span>' +
+      '</div>' +
+    '</article>';
+  }
+
+  function renderStories(ed) {
+    var busy = state.status === 'loading' || state.loadingEdition;
+    els.stories.setAttribute('aria-busy', busy ? 'true' : 'false');
+    if (busy) { els.stories.innerHTML = skeleton(); return; }
+    if (state.status === 'error') {
+      els.stories.innerHTML = stateBox('ニュースを読み込めませんでした',
+        'インターネットにつながっているか確かめて、アプリを開き直してください。');
+      return;
+    }
+    if (state.status === 'empty') {
+      els.stories.innerHTML = stateBox('まだ号が届いていません',
+        '毎朝8:00ごろ、その日の生成AIニュースがここに届きます。');
+      return;
+    }
+    if (!ed) {
+      els.stories.innerHTML = stateBox('この号を読み込めませんでした',
+        '通信状態を確かめて、もう一度選んでください。');
+      return;
+    }
+    var items = ed.items.filter(function (it) { return state.filter === 'all' || it.category === state.filter; });
+    var html = GROUPS.map(function (g) {
+      var group = items.filter(function (it) { return it.weight === g.weight; });
+      if (!group.length) return '';
+      return '<section class="section ' + g.cls + '" aria-labelledby="sec-' + g.weight + '">' +
+        '<div class="section-head"><h2 id="sec-' + g.weight + '">' + g.label + '</h2>' +
+        '<span class="count">' + group.length + '</span></div>' +
+        group.map(function (it) { return storyHtml(ed, it); }).join('') +
+      '</section>';
+    }).join('');
+    els.stories.innerHTML = html || stateBox('この号にはニュースがありません', '別の日の号を選んでください。');
+  }
+
+  function renderFooter(today, ed) {
+    var hasToday = state.dates.indexOf(today.ymd) >= 0;
+    var text;
+    if (hasToday) {
+      text = '次の号は <strong>明日 ' + esc(longDate(addDays(today.ymd, 1))) + ' 8:00ごろ</strong> に届きます。';
+    } else if (today.hour < 8) {
+      text = '次の号は <strong>今日 ' + esc(longDate(today.ymd)) + ' 8:00ごろ</strong> に届きます。';
+    } else {
+      text = '今日の号を準備しています。届きしだい、ここに表示されます。';
+    }
+    els.next.innerHTML = text;
+    var stamp = ed && ed.issuedAt ? stampLabel(ed.issuedAt) : '';
+    els.made.textContent = stamp ? 'この号の作成：' + stamp : '';
+  }
+
+  /* ---------- interaction ---------- */
+  document.addEventListener('click', function (ev) {
+    var t = ev.target;
+    if (!(t instanceof Element)) return;
+    var link = t.closest('a[data-key]');
+    if (link) {
+      markRead(link.getAttribute('data-key'));
+      var art = link.closest('.story');
+      if (art) {
+        art.classList.add('is-read');
+        var flag = art.querySelector('.read-flag');
+        if (flag) flag.hidden = false;
+      }
+      return;
+    }
+    var chip = t.closest('[data-filter]');
+    if (chip) {
+      var f = chip.getAttribute('data-filter');
+      state.filter = f;
+      render();
+      var again = els.filters.querySelector('[data-filter="' + CSS.escape(f) + '"]');
+      if (again) again.focus();
+      return;
+    }
+    var issue = t.closest('[data-issue]');
+    if (issue) { select(issue.getAttribute('data-issue')); return; }
+    if (t.closest('[data-action="latest"]') && state.dates[0]) select(state.dates[0]);
+  });
+
+  render();
+  refresh();
+})();
+</script>
+</body>
+</html>
