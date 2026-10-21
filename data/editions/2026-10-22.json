@@ -1,0 +1,117 @@
+{
+  "date": "2026-10-22",
+  "issuedAt": "2026-10-22T07:47:37+09:00",
+  "items": [
+    {
+      "category": "ビジネス",
+      "id": "anthropic-draft-s1",
+      "importance": 3,
+      "point": "主要AI企業の財務の実態が初めて詳しく見えてきました。計算資源の確保が成長の制約になっていることも、申請書の中で認めています。",
+      "publishedAt": "2026-10-20",
+      "source": "The Wall Street Journal（Investing.com経由）",
+      "summary": "WSJが入手したAnthropicの上場目論見書の草案によると、2026年上半期の売上高は163億ドルで、前年同期の11億ドルから急増しました。純損失は807億ドルですが、その大半は転換社債などに関わる非現金の会計処理によるものです。今後10年で解約できないクラウド契約は約4500億ドルにのぼります。",
+      "title": "Anthropic、上場申請書の草案で上半期売上163億ドルと判明",
+      "url": "https://www.investing.com/news/stock-market-news/anthropic-revenue-hits-163-billion-as-preliminary-s1-outlines-ipo-risks--wsj-4960928"
+    },
+    {
+      "category": "プロダクト",
+      "id": "claude-duet",
+      "importance": 3,
+      "point": "チャットで質問に答える形から、AIの側から先に声をかけてくる形へ。各社が狙う個人エージェントの競争で、Anthropicも具体的な製品を出してきました。",
+      "publishedAt": "2026-10-21",
+      "source": "Anthropic",
+      "summary": "Claude Opus 5.5で動く単独アプリで、iOS・Android・Webで使えます。メールや予定に目を配って朝のまとめを届け、会議の調整などはクラウド上の環境で進めます。送信や支払いの前には承認を求めます。いまは米国のPro・Max契約者向けのウェイトリスト制です。",
+      "title": "Anthropic、自分から動く個人エージェント「Claude Duet」を試験公開",
+      "url": "https://claude.com/product/claude-duet"
+    },
+    {
+      "category": "安全性",
+      "id": "php2shell-ai-found-rce",
+      "importance": 2,
+      "point": "AIで脆弱性を見つけ、攻撃手順まで作る時間が大きく縮まっていることを示しました。PHPを使うサイトはすぐに更新する必要があります。",
+      "publishedAt": "2026-10-21",
+      "source": "Wiz Research",
+      "summary": "Wiz ResearchはGeminiやGPTのモデルを使い、PHP本体のメモリ安全性の欠陥を見つけました。認証なしでの遠隔コード実行につながり、深刻度はCVSS 9.2です。PHP 5.4以降のほぼ全版が対象で、10月21日に修正版が出ました。",
+      "title": "AIを使った調査でPHPに深刻な脆弱性　10年分の版が影響",
+      "url": "https://www.wiz.io/blog/php2shell-php-rce"
+    },
+    {
+      "category": "国内",
+      "id": "genai-agent-chat",
+      "importance": 2,
+      "point": "行政の日常業務にエージェントを大規模に入れる、珍しい取り組みです。2027年2月ごろにはオープンソース版が出る予定で、自治体や企業にも広がる可能性があります。",
+      "publishedAt": "2026-10-21",
+      "source": "Impress Watch",
+      "summary": "デジタル庁は、政府職員向けAI「源内」に、AIエージェントをつくって動かせる「エージェントチャット」を加え、10月20日から各府省庁へ順に広げています。12月ごろにはさらに高度な開発環境「源内工房」を出す予定です。利用者・管理者・開発者が守るべき安全基準も、AISIの協力を得てまとめました。",
+      "title": "政府AI「源内」、職員18万人にエージェント機能を提供",
+      "url": "https://www.watch.impress.co.jp/docs/news/2149756.html"
+    },
+    {
+      "category": "開発者",
+      "id": "litellm-pypi-compromise",
+      "importance": 2,
+      "point": "AI開発の基盤ライブラリが狙われた、サプライチェーン攻撃です。インストールした環境では、鍵や認証情報の取り替えが必要です。",
+      "publishedAt": "2026-10-21",
+      "source": "SafeDep",
+      "summary": "LLMの呼び出しを仲介する人気ライブラリLiteLLMについて、PyPIで配布された1.107.0にだけ不正なコードが入っていたことが分かりました。SSH鍵やクラウドの認証情報、LLMのAPIキーを外部へ送り、さらに外部から指示を受けて動くバックドアも仕込まれていました。1.106.2とリリース候補版は問題ありません。",
+      "title": "PyPIのLiteLLM 1.107.0に不正コード　認証情報を盗む",
+      "url": "https://safedep.io/litellm-pypi-compromise-credential-stealer-backdoor/"
+    },
+    {
+      "category": "ビジネス",
+      "id": "openai-orchestra-bio",
+      "importance": 2,
+      "point": "研究そのものだけでなく、開発全体の進め方にもAIを入れる動きです。生命科学は、OpenAIが力を入れる分野になっています。",
+      "publishedAt": "2026-10-20",
+      "source": "OpenAI",
+      "summary": "OpenAIは、製薬企業の医薬品開発の段取りをAIエージェントで支える「Orchestra Bio」を買収しました。生命科学向けのモデルとツール群「Rosalind」と組み合わせ、研究の成果を次の試験や判断へつなぐエージェントをつくるとしています。買収額は公表していません。",
+      "title": "OpenAI、創薬の進行管理を支えるOrchestra Bioを買収",
+      "url": "https://openai.com/index/openai-to-acquire-orchestra-bio/"
+    },
+    {
+      "category": "ビジネス",
+      "id": "meta-q3-2026",
+      "importance": 2,
+      "point": "AIへの巨額投資が広告収入につながっているかが、市場の注目点です。2027年も積極的な投資を続ける方針です。",
+      "publishedAt": "2026-10-21",
+      "source": "Meta",
+      "summary": "Metaの7〜9月期の売上高は646億ドルで、前年同期より26%増えました。2026年の設備投資の見通しは1350億〜1450億ドルとし、幅を狭めています。議決権のないC種株式を2027年1月から新たに設けることも決めました。",
+      "title": "Meta決算、売上26%増　AI設備投資は最大1450億ドル",
+      "url": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Third-Quarter-2026-Results/default.aspx"
+    },
+    {
+      "category": "政策",
+      "id": "anthropic-safety-bill",
+      "importance": 2,
+      "point": "AI企業が自ら、強制力のある規制の枠組みを示した点が目を引きます。業界の他社は、自主規制を推す立場が主流です。",
+      "publishedAt": "2026-10-20",
+      "source": "TechCrunch",
+      "summary": "Anthropicが議会に示した法案の草案では、生物兵器やサイバー攻撃などによって50人を超える死者や10億ドルを超える被害が差し迫っていると第三者評価機関が判断した場合、商務省が連邦判事にモデルの公開停止を求められます。省庁が単独で公開を止めることはできない仕組みです。",
+      "title": "Anthropic、危険なモデルの公開を止められる連邦法案を提案",
+      "url": "https://techcrunch.com/2026/10/20/anthropic-pitches-ai-safety-bill-that-may-block-a-model-if-50-people-could-be-killed/"
+    },
+    {
+      "category": "研究",
+      "id": "gpt-rosalind-brain-atlas",
+      "importance": 1,
+      "point": "",
+      "publishedAt": "2026-10-21",
+      "source": "OpenAI",
+      "summary": "OpenAIはPerturbAIとScripps研究所と組み、数千のエージェントでマウス脳の大規模なCRISPRデータを分析しました。専門家に伏せて比べてもらうと、単独エージェントより複数エージェントの報告が75%で好まれました。得られた仮説は、これから実験で確かめる段階です。",
+      "title": "多数のGPT-Rosalindエージェント、脳の遺伝子データを32分で分析",
+      "url": "https://openai.com/index/scaling-ai-research-for-complex-biological-data/"
+    },
+    {
+      "category": "ビジネス",
+      "id": "flapping-airplanes-1b",
+      "importance": 1,
+      "point": "",
+      "publishedAt": "2026-10-21",
+      "source": "The Next Web（Bloomberg報道）",
+      "summary": "少ないデータと計算資源でモデルを訓練する研究を進めるFlapping Airplanesが、評価額60億ドルで10億ドルを調達しました。Index VenturesとLux Capitalが主導し、NvidiaやSequoiaも出資しています。まだ製品はありません。",
+      "title": "新興AI研究所Flapping Airplanes、10億ドルを調達",
+      "url": "https://thenextweb.com/news/flapping-airplanes-1b-6b-valuation"
+    }
+  ],
+  "overview": "Anthropicの上場申請書の草案から、急成長する売上と巨額の計算資源契約が見えてきました。同社は自分から動く個人エージェント「Claude Duet」も試験公開しています。AIを使った調査でPHPの深刻な脆弱性が見つかり、LiteLLMへのサプライチェーン攻撃も発覚するなど、セキュリティの話題も続きました。国内では、政府AI「源内」が職員18万人にエージェント機能を広げています。"
+}
