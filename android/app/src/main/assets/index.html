@@ -372,7 +372,7 @@ body {
       <p class="date" id="date">10月21日<span class="dow">水曜日</span></p>
       <dl class="facts">
         <div><dt>号数</dt><dd id="issue-no">第1号</dd></div>
-        <div><dt>配信</dt><dd><span class="sun" aria-hidden="true"></span><span class="time">08:00</span> JST</dd></div>
+        <div><dt>配信</dt><dd><span class="sun" aria-hidden="true"></span><span class="time">07:00</span> JST</dd></div>
         <div><dt>本数</dt><dd id="count">—</dd></div>
       </dl>
     </div>
@@ -637,8 +637,8 @@ body {
         html = esc(longDate(state.selected)) + 'の号を表示しています。' +
           '<button type="button" class="linklike" data-action="latest">最新号に戻る</button>';
       } else if (latest < today.ymd) {
-        html = today.hour < 8
-          ? '今日の号は8:00ごろに届きます。いま表示しているのは' + esc(longDate(latest)) + 'の号です。'
+        html = today.hour < 7
+          ? '今日の号は7:00ごろに届きます。いま表示しているのは' + esc(longDate(latest)) + 'の号です。'
           : '今日の号はまだ届いていません。届きしだい、ここに表示されます。';
       }
     }
@@ -718,7 +718,7 @@ body {
     }
     if (state.status === 'empty') {
       els.stories.innerHTML = stateBox('まだ号が届いていません',
-        '毎朝8:00ごろ、その日の生成AIニュースがここに届きます。');
+        '毎朝7:00ごろ、その日の生成AIニュースがここに届きます。');
       return;
     }
     if (!ed) {
@@ -743,9 +743,9 @@ body {
     var hasToday = state.dates.indexOf(today.ymd) >= 0;
     var text;
     if (hasToday) {
-      text = '次の号は <strong>明日 ' + esc(longDate(addDays(today.ymd, 1))) + ' 8:00ごろ</strong> に届きます。';
-    } else if (today.hour < 8) {
-      text = '次の号は <strong>今日 ' + esc(longDate(today.ymd)) + ' 8:00ごろ</strong> に届きます。';
+      text = '次の号は <strong>明日 ' + esc(longDate(addDays(today.ymd, 1))) + ' 7:00ごろ</strong> に届きます。';
+    } else if (today.hour < 7) {
+      text = '次の号は <strong>今日 ' + esc(longDate(today.ymd)) + ' 7:00ごろ</strong> に届きます。';
     } else {
       text = '今日の号を準備しています。届きしだい、ここに表示されます。';
     }

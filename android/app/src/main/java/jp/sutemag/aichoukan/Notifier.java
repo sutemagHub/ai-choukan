@@ -20,7 +20,7 @@ final class Notifier {
         if (nm == null || nm.getNotificationChannel(CHANNEL) != null) return;
         NotificationChannel ch = new NotificationChannel(CHANNEL, "毎朝のニュース",
                 NotificationManager.IMPORTANCE_DEFAULT);
-        ch.setDescription("毎朝8時に今日の号が届いたことをお知らせします");
+        ch.setDescription("毎朝7時に今日の号が届いたことをお知らせします");
         nm.createNotificationChannel(ch);
     }
 

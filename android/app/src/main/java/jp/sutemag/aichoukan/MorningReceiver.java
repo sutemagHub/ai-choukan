@@ -6,7 +6,7 @@ import android.content.Intent;
 
 import org.json.JSONObject;
 
-/** Runs at 8:00: if today's edition is on GitHub, shows the notification; otherwise retries a few times. */
+/** Runs at 7:00: if today's edition is on GitHub, shows the notification; otherwise retries a few times. */
 public class MorningReceiver extends BroadcastReceiver {
     private static final int MAX_RETRIES = 9; // about 90 minutes
 

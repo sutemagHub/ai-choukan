@@ -11,7 +11,7 @@ import java.util.Date;
 import java.util.Locale;
 import java.util.TimeZone;
 
-/** Sets the daily 8:00 (Japan time) alarm that checks for the new edition. */
+/** Sets the daily 7:00 (Japan time) alarm that checks for the new edition. */
 final class Scheduler {
     static final TimeZone JST = TimeZone.getTimeZone("Asia/Tokyo");
     static final String EXTRA_ATTEMPT = "attempt";
@@ -22,7 +22,7 @@ final class Scheduler {
     static long nextMorning() {
         Calendar cal = Calendar.getInstance(JST);
         long now = cal.getTimeInMillis();
-        cal.set(Calendar.HOUR_OF_DAY, 8);
+        cal.set(Calendar.HOUR_OF_DAY, 7);
         cal.set(Calendar.MINUTE, 0);
         cal.set(Calendar.SECOND, 0);
         cal.set(Calendar.MILLISECOND, 0);
