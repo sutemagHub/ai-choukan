@@ -1,0 +1,95 @@
+{
+  "date": "2026-10-23",
+  "issuedAt": "2026-10-23T07:00:00+09:00",
+  "overview": "OpenAIのGPT-6系モデルがGoogle Cloudに載り、主要クラウド3社に出そろう動きが出ました。英バークレイズはAI活用を背景に年内5000人削減を表明し、AIが雇用に及ぼす影響が改めて注目されています。国内ではPFNとTenstorrentが次世代AI半導体の共同開発を始めました。",
+  "items": [
+    {
+      "id": "openai-google-cloud",
+      "importance": 3,
+      "category": "ビジネス",
+      "title": "OpenAIのGPT-6系がGoogle Cloudに、限定プレビュー開始",
+      "summary": "GoogleのModel Gardenに、GPT-6 Astra、GPT-6.1 Sol、GPT-6 Lunaが加わった。現在は一部の法人顧客向けの限定プレビューで、一般提供は数週間内の予定。Codexも続いて提供される見通しで、請求はGoogle Cloud Marketplace経由、既存の契約枠も使える。",
+      "point": "OpenAIはMicrosoftを主要パートナーとしつつ、複数クラウドで企業需要を取りにいく。一般提供の時期と価格は未発表。",
+      "source": "Tech Wire Asia",
+      "url": "https://techwireasia.com/2026/10/openai-google-cloud-ai-models/",
+      "publishedAt": "2026-10-22"
+    },
+    {
+      "id": "barclays-5000-cuts",
+      "importance": 3,
+      "category": "ビジネス",
+      "title": "英バークレイズ、AI活用で年内に約5000人を削減へ",
+      "summary": "同行は7〜9月期決算にあわせ、年末までに従業員の約5%にあたる約5000人を減らす方針を示した。対象の約6割は開発者を含む支援部門とされ、上期にすでに約1000人を減らしている。経営側は、削減の一部はAIによるが全てではないと説明している。",
+      "point": "大手金融でAIを理由にした大規模な人員整理が明言された例で、労組は反発している。",
+      "source": "日本経済新聞",
+      "url": "https://www.nikkei.com/article/DGXZQOUB228YL0S6A021C2000000/",
+      "publishedAt": "2026-10-22"
+    },
+    {
+      "id": "gemini-government-services",
+      "importance": 2,
+      "category": "プロダクト",
+      "title": "Google、米政府機関向けのGeminiエージェントをプレビュー公開",
+      "summary": "Google Cloudが、米国の政府機関・自治体向けに調整した「Gemini for government services」を発表した。データは機関の私的な環境にとどまり、FedRAMP Highの基準に沿う。ERPやMicrosoft 365などに、データを移さず接続できるという。",
+      "point": "情報公開請求の対応や申請書類の検証など、行政の定型業務へのエージェント導入が進む。",
+      "source": "ITmedia AI＋",
+      "url": "https://www.itmedia.co.jp/aiplus/article/2610/21/2000002470/",
+      "publishedAt": "2026-10-21"
+    },
+    {
+      "id": "pfn-tenstorrent-xpu",
+      "importance": 2,
+      "category": "国内",
+      "title": "PFNとTenstorrent、光電融合の次世代AI半導体を共同開発",
+      "summary": "Preferred NetworksとTenstorrentが、NEDOの研究開発事業に採択された。PFNが3次元メモリ搭載のAIチップレットを、Tenstorrentが機密計算対応のCPUチップレットを担当し、光電融合と先端パッケージングで統合する。研究は2031年度までで、その後の事業化を目指す。",
+      "point": "NVIDIA一強のAI半導体に、国内主導の選択肢を作る取り組み。",
+      "source": "Preferred Networks",
+      "url": "https://www.preferred.jp/ja/news/pr20261020",
+      "publishedAt": "2026-10-20"
+    },
+    {
+      "id": "micron-taoyuan-strike",
+      "importance": 2,
+      "category": "ビジネス",
+      "title": "台湾のマイクロン工場で初の半導体ストライキ、AI利益の分配を要求",
+      "summary": "桃園工場の労組が10月22日、24時間のストを実施した。AI需要で膨らむ利益のうち営業利益の15%を従業員に分配する恒久的な仕組みを求め、会社側は一時金で応じている。一方、台中工場の労組とは別の合意に達した。規模は小さく象徴的との見方もある。",
+      "point": "AIメモリ好況の果実を労働者にどう配るかが、半導体業界の争点になってきた。",
+      "source": "Focus Taiwan",
+      "url": "https://focustaiwan.tw/business/202610220016",
+      "publishedAt": "2026-10-22"
+    },
+    {
+      "id": "meta-muse-spark-open",
+      "importance": 1,
+      "category": "モデル",
+      "title": "Meta、オープンウェイトのMuse Sparkを公開",
+      "summary": "Metaは10月15日、総パラメータ8160億、アクティブ420億、コンテキスト100万トークンのマルチモーダルモデルの重みを公開した。商用利用や微調整ができ、BasetenやMicrosoft Foundryでも使える。事前学習のコードやデータは非公開。",
+      "point": "",
+      "source": "Unite.AI",
+      "url": "https://www.unite.ai/metas-816b-parameter-muse-spark-open-weights-are-now-public/",
+      "publishedAt": "2026-10-15"
+    },
+    {
+      "id": "nvidia-nemotron-3-5",
+      "importance": 1,
+      "category": "モデル",
+      "title": "NVIDIA、Nemotron 3.5を公開　74B級のBoltは小型機でも動作",
+      "summary": "Nemotron 3.5 Super VLは総120B・アクティブ12B。そこから圧縮したBoltは総74B・アクティブ9Bで、1〜2ビット量子化なら約32GBのメモリで動く。Microsoft FoundryやBasetenでも利用できる。",
+      "point": "",
+      "source": "Kaitchup",
+      "url": "https://kaitchup.substack.com/p/nemotron-35-bolt-muse-spark-open",
+      "publishedAt": "2026-10-19"
+    },
+    {
+      "id": "kanken-ai-image-typo",
+      "importance": 1,
+      "category": "国内",
+      "title": "漢検協会、AI生成画像の誤字で謝罪",
+      "summary": "日本漢字能力検定協会は10月20日、18日に公式Xへ投稿したAI生成の画像で「祭」の字が誤っていたとして謝罪した。フォロワーの指摘で発覚し、協会は誤字の例を挙げて注意も呼びかけた。",
+      "point": "",
+      "source": "ITmedia AI＋",
+      "url": "https://www.itmedia.co.jp/aiplus/article/2610/22/2000002494/",
+      "publishedAt": "2026-10-22"
+    }
+  ]
+}
