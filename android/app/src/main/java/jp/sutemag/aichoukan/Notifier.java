@@ -11,21 +11,22 @@ import org.json.JSONArray;
 import org.json.JSONObject;
 
 final class Notifier {
-    static final String CHANNEL = "morning";
-
     private Notifier() {}
 
-    static void ensureChannel(Context context) {
+    static void ensureChannels(Context context) {
         NotificationManager nm = context.getSystemService(NotificationManager.class);
-        if (nm == null || nm.getNotificationChannel(CHANNEL) != null) return;
-        NotificationChannel ch = new NotificationChannel(CHANNEL, "毎朝のニュース",
-                NotificationManager.IMPORTANCE_DEFAULT);
-        ch.setDescription("毎朝7時に今日の号が届いたことをお知らせします");
-        nm.createNotificationChannel(ch);
+        if (nm == null) return;
+        for (Feed f : Feed.ALL) {
+            if (nm.getNotificationChannel(f.channelId) != null) continue;
+            NotificationChannel ch = new NotificationChannel(f.channelId, f.channelName,
+                    NotificationManager.IMPORTANCE_DEFAULT);
+            ch.setDescription(f.channelDescription);
+            nm.createNotificationChannel(ch);
+        }
     }
 
-    static void showEdition(Context context, JSONObject edition) {
-        ensureChannel(context);
+    static void showEdition(Context context, Feed feed, JSONObject edition) {
+        ensureChannels(context);
         JSONArray items = edition.optJSONArray("items");
         int count = items == null ? 0 : items.length();
 
@@ -41,14 +42,15 @@ final class Notifier {
         }
 
         Intent open = new Intent(context, MainActivity.class)
+                .putExtra(Scheduler.EXTRA_FEED, feed.key)
                 .addFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TOP);
-        PendingIntent pi = PendingIntent.getActivity(context, 0, open,
+        PendingIntent pi = PendingIntent.getActivity(context, feed.requestCode, open,
                 PendingIntent.FLAG_UPDATE_CURRENT | PendingIntent.FLAG_IMMUTABLE);
 
-        Notification n = new Notification.Builder(context, CHANNEL)
+        Notification n = new Notification.Builder(context, feed.channelId)
                 .setSmallIcon(R.drawable.ic_stat_sun)
                 .setColor(0xFFB4512C)
-                .setContentTitle("けさの生成AI朝刊（" + count + "本）")
+                .setContentTitle(feed.titlePrefix + "（" + count + "本）")
                 .setContentText(first)
                 .setStyle(new Notification.BigTextStyle().bigText(lines.toString()))
                 .setContentIntent(pi)
@@ -56,6 +58,6 @@ final class Notifier {
                 .build();
 
         NotificationManager nm = context.getSystemService(NotificationManager.class);
-        if (nm != null) nm.notify(1, n);
+        if (nm != null) nm.notify(feed.notificationId, n);
     }
 }

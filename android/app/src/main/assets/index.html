@@ -11,7 +11,8 @@
 <style>
 /* Layout: one phone-width column set like the front page of a Japanese morning paper.
    Masthead = vertical 題字 block at top right, date / era year / issue number at left.
-   Stories are grouped by weight: 一面 (lead stories) → 主なニュース → 短信 (briefs). */
+   Two papers share the layout: 生成AI朝刊 (07:00) and マスク通信 (11:30), switched by tabs.
+   AI stories are grouped by weight (一面 → 主なニュース → 短信); Musk stories by subject. */
 :root {
   /* color: 白磁 paper, 紺 ink, 東雲 (dawn) accent */
   --paper: #F5F6F3;
@@ -94,13 +95,39 @@ body {
   margin: 0 auto;
   padding-left: max(16px, env(safe-area-inset-left, 0px));
   padding-right: max(16px, env(safe-area-inset-right, 0px));
-  padding-block: 20px 44px;
+  padding-block: 12px 44px;
 }
 .sr-only {
   position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px;
   overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0;
 }
 :focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }
+
+/* ---------- paper tabs ---------- */
+.tabs {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4px;
+  margin-bottom: 16px;
+  padding: 4px;
+  border-radius: 10px;
+  background: var(--chip);
+}
+.tab {
+  min-height: 40px;
+  padding: 6px 10px;
+  border: 0;
+  border-radius: 7px;
+  background: transparent;
+  color: var(--ink-soft);
+  font: inherit;
+  font-size: var(--fs-s);
+  font-weight: 700;
+  line-height: 1.3;
+  cursor: pointer;
+}
+.tab small { display: block; font-family: var(--font-mono); font-size: .75rem; font-weight: 500; opacity: .8; }
+.tab[aria-selected="true"] { background: var(--surface); color: var(--ink); box-shadow: 0 1px 2px rgba(20, 30, 50, .12); }
 
 /* ---------- masthead ---------- */
 .masthead {
@@ -269,6 +296,7 @@ body {
   color: var(--muted);
 }
 .cat { padding: 1px 8px; border-radius: 4px; background: var(--chip); color: var(--ink-soft); font-weight: 500; }
+.cat--lead { background: var(--dawn-wash); color: var(--dawn); font-weight: 700; }
 .story-meta time { font-variant-numeric: tabular-nums; }
 .story-title {
   margin: 8px 0 6px;
@@ -282,7 +310,8 @@ body {
 @supports (word-break: auto-phrase) { .story-title { word-break: auto-phrase; } }
 .story-title a { color: inherit; text-decoration: none; }
 .story-title a:hover { text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 4px; }
-.section--front .story-title {
+.section--front .story-title,
+.story--lead .story-title {
   font-family: var(--font-display);
   font-weight: 900;
   font-size: var(--fs-xl);
@@ -364,35 +393,43 @@ body {
 </style>
 </head>
 <body>
+
 <div class="page">
-  <header class="masthead">
-    <h1 class="daiji">生成<span class="tcy">AI</span>朝刊</h1>
-    <div class="meta">
-      <p class="era" id="era">2026年（令和8年）</p>
-      <p class="date" id="date">10月21日<span class="dow">水曜日</span></p>
-      <dl class="facts">
-        <div><dt>号数</dt><dd id="issue-no">第1号</dd></div>
-        <div><dt>配信</dt><dd><span class="sun" aria-hidden="true"></span><span class="time">07:00</span> JST</dd></div>
-        <div><dt>本数</dt><dd id="count">—</dd></div>
-      </dl>
-    </div>
-  </header>
+  <div class="tabs" role="tablist" aria-label="新聞を選ぶ">
+    <button type="button" class="tab" role="tab" id="tab-ai" data-feed="ai" aria-selected="true" aria-controls="paper">生成AI朝刊<small>07:00</small></button>
+    <button type="button" class="tab" role="tab" id="tab-musk" data-feed="musk" aria-selected="false" aria-controls="paper">マスク・スペースX<small>11:30</small></button>
+  </div>
 
-  <nav class="issues-wrap" id="issues-wrap" aria-label="バックナンバー" hidden>
-    <p class="label label--quiet">バックナンバー</p>
-    <div class="scroller" id="issues"></div>
-  </nav>
+  <div id="paper" role="tabpanel" aria-labelledby="tab-ai">
+    <header class="masthead">
+      <h1 class="daiji" id="daiji">生成<span class="tcy">AI</span>朝刊</h1>
+      <div class="meta">
+        <p class="era" id="era">2026年（令和8年）</p>
+        <p class="date" id="date">10月22日<span class="dow">木曜日</span></p>
+        <dl class="facts">
+          <div><dt>号数</dt><dd id="issue-no">—</dd></div>
+          <div><dt>配信</dt><dd><span class="sun" aria-hidden="true"></span><span class="time" id="deliver">07:00</span> JST</dd></div>
+          <div><dt>本数</dt><dd id="count">—</dd></div>
+        </dl>
+      </div>
+    </header>
 
-  <p class="notice" id="notice" role="status" hidden></p>
+    <nav class="issues-wrap" id="issues-wrap" aria-label="バックナンバー" hidden>
+      <p class="label label--quiet">バックナンバー</p>
+      <div class="scroller" id="issues"></div>
+    </nav>
 
-  <section class="lead" id="lead" aria-labelledby="lead-label" hidden>
-    <p class="label" id="lead-label">けさの要点</p>
-    <p class="overview" id="overview"></p>
-  </section>
+    <p class="notice" id="notice" role="status" hidden></p>
 
-  <div class="filters scroller" id="filters" role="group" aria-label="分類で絞り込む" hidden></div>
+    <section class="lead" id="lead" aria-labelledby="lead-label" hidden>
+      <p class="label" id="lead-label">けさの要点</p>
+      <p class="overview" id="overview"></p>
+    </section>
 
-  <main id="stories" aria-busy="true"></main>
+    <div class="filters scroller" id="filters" role="group" aria-label="分類で絞り込む" hidden></div>
+
+    <main id="stories" aria-busy="true"></main>
+  </div>
 
   <footer class="foot">
     <p class="next" id="next"></p>
@@ -406,50 +443,62 @@ body {
   'use strict';
 
   var TZ = 'Asia/Tokyo';
-  var LAUNCH = '2026-10-21';
-  var CATEGORY_ORDER = ['モデル', 'プロダクト', '開発者', '研究', '安全性', 'ビジネス', '政策', '国内'];
-  var GROUPS = [
-    { weight: 3, label: '一面', cls: 'section--front' },
-    { weight: 2, label: '主なニュース', cls: '' },
-    { weight: 1, label: '短信', cls: '' }
-  ];
   var DOW = ['日', '月', '火', '水', '木', '金', '土'];
   var READ_KEY = 'ai-choukan:read:v1';
+  var TAB_KEY = 'ai-choukan:tab:v1';
   var ARROW = '<svg width="12" height="12" viewBox="0 0 12 12" aria-hidden="true"><path d="M4.5 2.5h5v5M9.5 2.5 3 9" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>';
 
-  try { if (window.Native && Native.theme) document.documentElement.setAttribute('data-theme', Native.theme()); } catch (e) {}
+  /* Each paper: where its issues live, when it arrives, and how its stories are grouped. */
+  var FEEDS = {
+    ai: {
+      key: 'ai',
+      daiji: '生成<span class="tcy">AI</span>朝刊',
+      launch: '2026-10-21',
+      deliverMin: 7 * 60,
+      deliverLabel: '07:00',
+      dir: 'data/',
+      collection: 'editions',
+      leadToday: 'けさの要点',
+      groupBy: 'weight',
+      groups: [
+        { weight: 3, label: '一面', cls: 'section--front' },
+        { weight: 2, label: '主なニュース', cls: '' },
+        { weight: 1, label: '短信', cls: '' }
+      ],
+      categories: ['モデル', 'プロダクト', '開発者', '研究', '安全性', 'ビジネス', '政策', '国内']
+    },
+    musk: {
+      key: 'musk',
+      daiji: 'マスク通信',
+      launch: '2026-10-22',
+      deliverMin: 11 * 60 + 30,
+      deliverLabel: '11:30',
+      dir: 'data/musk/',
+      collection: 'musk',
+      leadToday: 'きょうの要点',
+      groupBy: 'category',
+      categories: ['スペースX', 'イーロン・マスク']
+    }
+  };
 
   function byId(id) { return document.getElementById(id); }
   var els = {
+    paper: byId('paper'), daiji: byId('daiji'), deliver: byId('deliver'),
     era: byId('era'), date: byId('date'), issueNo: byId('issue-no'), count: byId('count'),
     issuesWrap: byId('issues-wrap'), issues: byId('issues'), notice: byId('notice'),
     lead: byId('lead'), leadLabel: byId('lead-label'), overview: byId('overview'),
     filters: byId('filters'), stories: byId('stories'), next: byId('next'), made: byId('made')
   };
 
-  // status: loading | ready | empty | error
-  var state = { status: 'loading', dates: [], cache: {}, selected: null, followLatest: true, filter: 'all', loadingEdition: false };
+  function newFeedState() {
+    return { status: 'loading', dates: [], cache: {}, selected: null, followLatest: true, filter: 'all', loadingEdition: false };
+  }
+  var state = { feed: 'ai', feeds: { ai: newFeedState(), musk: newFeedState() } };
 
-  /* ---------- native bridge ---------- */
-  var seq = 0, pending = {};
-  window.__nativeDone = function (id, body) {
-    var done = pending[id];
-    delete pending[id];
-    if (done) done(body);
-  };
-  function getText(path) {
-    return new Promise(function (resolve) {
-      if (!window.Native || typeof Native.request !== 'function') { resolve(null); return; }
-      var id = 'r' + (++seq);
-      pending[id] = resolve;
-      Native.request(id, path);
-    });
-  }
-  function getJson(path) {
-    return getText(path).then(function (body) {
-      try { return body ? JSON.parse(body) : null; } catch (e) { return null; }
-    });
-  }
+  var initial = '';
+  try { initial = String(location.hash || '').replace('#', ''); } catch (e) {}
+  if (!FEEDS[initial]) { try { initial = localStorage.getItem(TAB_KEY) || ''; } catch (e) { initial = ''; } }
+  if (FEEDS[initial]) state.feed = initial;
 
   /* ---------- helpers ---------- */
   function esc(s) {
@@ -476,14 +525,14 @@ body {
   }
   function nowJst() {
     var parts = new Intl.DateTimeFormat('en-CA', {
-      timeZone: TZ, year: 'numeric', month: '2-digit', day: '2-digit', hour: '2-digit', hour12: false
+      timeZone: TZ, year: 'numeric', month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit', hour12: false
     }).formatToParts(new Date());
     var o = {};
     parts.forEach(function (x) { o[x.type] = x.value; });
-    return { ymd: o.year + '-' + o.month + '-' + o.day, hour: Number(o.hour) % 24 };
+    return { ymd: o.year + '-' + o.month + '-' + o.day, min: (Number(o.hour) % 24) * 60 + Number(o.minute) };
   }
-  function issueNumber(ymd) {
-    var a = parseYmd(LAUNCH), b = parseYmd(ymd);
+  function issueNumber(feed, ymd) {
+    var a = parseYmd(feed.launch), b = parseYmd(ymd);
     if (!a || !b) return null;
     var n = Math.round((b.t - a.t) / 86400000) + 1;
     return n >= 1 ? n : null;
@@ -507,7 +556,7 @@ body {
     }).format(d);
   }
 
-  /* ---------- read marks ---------- */
+  /* ---------- read marks (this device only) ---------- */
   var readSet = new Set();
   try {
     var raw = localStorage.getItem(READ_KEY);
@@ -516,10 +565,10 @@ body {
   function markRead(key) {
     if (readSet.has(key)) return;
     readSet.add(key);
-    try { localStorage.setItem(READ_KEY, JSON.stringify(Array.from(readSet).slice(-600))); } catch (e) {}
+    try { localStorage.setItem(READ_KEY, JSON.stringify(Array.from(readSet).slice(-800))); } catch (e) {}
   }
 
-  /* ---------- data ---------- */
+  /* ---------- edition shape ---------- */
   function normalize(id, d) {
     d = d || {};
     var items = Array.isArray(d.items) ? d.items : [];
@@ -546,99 +595,163 @@ body {
     };
   }
 
-  function loadEdition(date) {
-    return getJson('data/editions/' + date + '.json').then(function (o) {
-      if (o) state.cache[date] = normalize(date, o);
-    });
+  function setEditions(key, list) {
+    var fs = state.feeds[key];
+    list.sort(function (a, b) { return a.date < b.date ? 1 : a.date > b.date ? -1 : 0; });
+    fs.dates = list.map(function (e) { return e.id; });
+    fs.cache = {};
+    list.forEach(function (e) { fs.cache[e.id] = e; });
+    fs.status = list.length ? 'ready' : 'empty';
+    followLatest(fs);
+  }
+  function followLatest(fs) {
+    if (fs.followLatest || fs.dates.indexOf(fs.selected) < 0) {
+      fs.selected = fs.dates[0] || null;
+      fs.followLatest = true;
+    }
   }
 
-  var refreshing = false;
-  function refresh() {
-    if (refreshing) return;
-    refreshing = true;
-    getJson('data/index.json').then(function (idx) {
-      if (!idx) {
-        if (!state.dates.length) state.status = 'error';
-        return;
-      }
-      var dates = (Array.isArray(idx.dates) ? idx.dates : [])
-        .filter(function (d) { return !!parseYmd(d); }).sort().reverse().slice(0, 60);
-      state.dates = dates;
-      if (!dates.length) { state.status = 'empty'; return; }
-      if (state.followLatest || dates.indexOf(state.selected) < 0) {
-        state.selected = dates[0];
-        state.followLatest = true;
-      }
-      return loadEdition(state.selected).then(function () {
-        state.status = 'ready';
+  /* ---------- data source: Android app (files on GitHub) or Claude page (database) ---------- */
+  var source = null;
+
+  function nativeSource() {
+    var seq = 0, pending = {};
+    window.__nativeDone = function (id, body) {
+      var done = pending[id];
+      delete pending[id];
+      if (done) done(body);
+    };
+    function getJson(path) {
+      return new Promise(function (resolve) {
+        var id = 'r' + (++seq);
+        pending[id] = function (body) {
+          try { resolve(body ? JSON.parse(body) : null); } catch (e) { resolve(null); }
+        };
+        Native.request(id, path);
       });
-    }).then(function () {
-      refreshing = false;
-      render();
-    }, function () {
-      refreshing = false;
-      if (!state.dates.length) state.status = 'error';
-      render();
-    });
+    }
+    function loadEdition(key, date) {
+      var fs = state.feeds[key];
+      return getJson(FEEDS[key].dir + 'editions/' + date + '.json').then(function (o) {
+        if (o) fs.cache[date] = normalize(date, o);
+      });
+    }
+    var busy = {};
+    function refresh(key) {
+      if (busy[key]) return;
+      busy[key] = true;
+      var fs = state.feeds[key];
+      getJson(FEEDS[key].dir + 'index.json').then(function (idx) {
+        if (!idx) {
+          if (!fs.dates.length) fs.status = key === 'musk' ? 'empty' : 'error';
+          return;
+        }
+        fs.dates = (Array.isArray(idx.dates) ? idx.dates : [])
+          .filter(function (d) { return !!parseYmd(d); }).sort().reverse().slice(0, 60);
+        if (!fs.dates.length) { fs.status = 'empty'; return; }
+        followLatest(fs);
+        return loadEdition(key, fs.selected).then(function () { fs.status = 'ready'; });
+      }).then(function () {
+        busy[key] = false;
+        render();
+      }, function () {
+        busy[key] = false;
+        if (!fs.dates.length) fs.status = 'error';
+        render();
+      });
+    }
+    return {
+      start: function () { refresh('ai'); refresh('musk'); },
+      refresh: function () { refresh('ai'); refresh('musk'); },
+      open: function (key, date) {
+        var fs = state.feeds[key];
+        if (fs.cache[date]) return;
+        fs.loadingEdition = true;
+        loadEdition(key, date).then(function () { fs.loadingEdition = false; render(); });
+      }
+    };
   }
-  window.__refresh = refresh;
 
-  function select(date) {
-    state.selected = date;
-    state.followLatest = date === state.dates[0];
-    state.filter = 'all';
-    if (state.cache[date]) { render(); return; }
-    state.loadingEdition = true;
+  function dbSource(db) {
+    function subscribe(key, retried) {
+      var fs = state.feeds[key];
+      db.collection(FEEDS[key].collection).orderBy('date', 'desc').limit(60).onSnapshot(function (snap) {
+        setEditions(key, snap.docs.filter(function (d) { return d.exists; })
+          .map(function (d) { return normalize(d.id, d.data()); }));
+        render();
+      }, function (err) {
+        if (err && err.code === 'unavailable' && !retried) {
+          setTimeout(function () { subscribe(key, true); }, 3000);
+          return;
+        }
+        if (!fs.dates.length) { fs.status = 'error'; render(); }
+      });
+    }
+    return {
+      start: function () { subscribe('ai', false); subscribe('musk', false); },
+      refresh: function () { render(); },
+      open: function () {}
+    };
+  }
+
+  function failAll(status) {
+    Object.keys(state.feeds).forEach(function (k) { state.feeds[k].status = status; });
     render();
-    loadEdition(date).then(function () {
-      state.loadingEdition = false;
-      render();
-    });
   }
 
   /* ---------- render ---------- */
   function render() {
+    var feed = FEEDS[state.feed];
+    var fs = state.feeds[state.feed];
     var today = nowJst();
-    var ed = state.cache[state.selected] || null;
-    renderMasthead(ed ? ed.date : (state.selected || today.ymd), ed);
-    renderIssues();
-    renderNotice(today, ed);
-    renderLead(today, ed);
-    renderFilters(ed);
-    renderStories(ed);
-    renderFooter(today, ed);
+    var ed = fs.cache[fs.selected] || null;
+    document.querySelectorAll('.tab').forEach(function (t) {
+      var on = t.getAttribute('data-feed') === state.feed;
+      t.setAttribute('aria-selected', String(on));
+      t.tabIndex = on ? 0 : -1;
+    });
+    els.paper.setAttribute('aria-labelledby', 'tab-' + state.feed);
+    els.daiji.innerHTML = feed.daiji;
+    els.deliver.textContent = feed.deliverLabel;
+    renderMasthead(feed, ed ? ed.date : (fs.selected || today.ymd), ed);
+    renderIssues(fs);
+    renderNotice(feed, fs, today);
+    renderLead(feed, fs, today, ed);
+    renderFilters(feed, fs, ed);
+    renderStories(feed, fs, ed);
+    renderFooter(feed, fs, today, ed);
   }
 
-  function renderMasthead(ymd, ed) {
+  function renderMasthead(feed, ymd, ed) {
     var p = parseYmd(ymd);
     if (!p) return;
     els.era.textContent = p.y + '年（令和' + (p.y - 2018) + '年）';
     els.date.innerHTML = p.m + '月' + p.d + '日<span class="dow">' + dowOf(p) + '曜日</span>';
-    var n = issueNumber(ymd);
+    var n = ed ? issueNumber(feed, ymd) : null;
     els.issueNo.textContent = n ? '第' + n + '号' : '—';
     els.count.textContent = ed ? ed.items.length + '本' : '—';
   }
 
-  function renderIssues() {
-    var list = state.dates.slice(0, 30);
+  function renderIssues(fs) {
+    var list = fs.dates.slice(0, 30);
     els.issuesWrap.hidden = list.length < 2;
     els.issues.innerHTML = list.map(function (d) {
       var p = parseYmd(d);
       return '<button type="button" class="issue" data-issue="' + esc(d) + '" aria-pressed="' +
-        (d === state.selected) + '">' + p.m + '/' + p.d + ' <small>' + dowOf(p) + '</small></button>';
+        (d === fs.selected) + '">' + p.m + '/' + p.d + ' <small>' + dowOf(p) + '</small></button>';
     }).join('');
   }
 
-  function renderNotice(today, ed) {
+  function renderNotice(feed, fs, today) {
     var html = '';
-    var latest = state.dates[0];
-    if (state.status === 'ready' && latest) {
-      if (state.selected !== latest) {
-        html = esc(longDate(state.selected)) + 'の号を表示しています。' +
+    var latest = fs.dates[0];
+    if (fs.status === 'ready' && latest) {
+      if (fs.selected !== latest) {
+        html = esc(longDate(fs.selected)) + 'の号を表示しています。' +
           '<button type="button" class="linklike" data-action="latest">最新号に戻る</button>';
       } else if (latest < today.ymd) {
-        html = today.hour < 7
-          ? '今日の号は7:00ごろに届きます。いま表示しているのは' + esc(longDate(latest)) + 'の号です。'
+        html = today.min < feed.deliverMin
+          ? '今日の号は' + feed.deliverLabel.replace(/^0/, '') + 'ごろに届きます。いま表示しているのは' + esc(longDate(latest)) + 'の号です。'
           : '今日の号はまだ届いていません。届きしだい、ここに表示されます。';
       }
     }
@@ -646,28 +759,28 @@ body {
     els.notice.hidden = !html;
   }
 
-  function renderLead(today, ed) {
-    var show = !!(ed && ed.overview && state.status === 'ready');
+  function renderLead(feed, fs, today, ed) {
+    var show = !!(ed && ed.overview && fs.status === 'ready');
     els.lead.hidden = !show;
     if (!show) return;
-    els.leadLabel.textContent = ed.date === today.ymd ? 'けさの要点' : 'この号の要点';
+    els.leadLabel.textContent = ed.date === today.ymd ? feed.leadToday : 'この号の要点';
     els.overview.textContent = ed.overview;
   }
 
-  function renderFilters(ed) {
-    if (!ed || !ed.items.length || state.status !== 'ready') {
+  function renderFilters(feed, fs, ed) {
+    if (feed.groupBy !== 'weight' || !ed || !ed.items.length || fs.status !== 'ready') {
       els.filters.hidden = true;
       els.filters.innerHTML = '';
       return;
     }
     var counts = {};
     ed.items.forEach(function (it) { counts[it.category] = (counts[it.category] || 0) + 1; });
-    var cats = CATEGORY_ORDER.filter(function (c) { return counts[c]; })
-      .concat(Object.keys(counts).filter(function (c) { return CATEGORY_ORDER.indexOf(c) < 0; }));
-    if (state.filter !== 'all' && !counts[state.filter]) state.filter = 'all';
+    var cats = feed.categories.filter(function (c) { return counts[c]; })
+      .concat(Object.keys(counts).filter(function (c) { return feed.categories.indexOf(c) < 0; }));
+    if (fs.filter !== 'all' && !counts[fs.filter]) fs.filter = 'all';
     function chip(key, label, n) {
       return '<button type="button" class="chip" data-filter="' + esc(key) + '" aria-pressed="' +
-        (state.filter === key) + '">' + esc(label) + '<span class="n">' + n + '</span></button>';
+        (fs.filter === key) + '">' + esc(label) + '<span class="n">' + n + '</span></button>';
     }
     els.filters.innerHTML = chip('all', 'すべて', ed.items.length) +
       cats.map(function (c) { return chip(c, c, counts[c]); }).join('');
@@ -683,15 +796,19 @@ body {
     return '<div aria-hidden="true">' + one + one + one + '</div><p class="sr-only">読み込み中</p>';
   }
 
-  function storyHtml(ed, it) {
-    var key = ed.id + '/' + it.id;
+  function storyHtml(feed, ed, it) {
+    var key = (feed.key === 'ai' ? '' : feed.key + ':') + ed.id + '/' + it.id;
     var read = readSet.has(key);
+    var lead = feed.groupBy === 'category' && it.weight === 3;
     var title = it.url
       ? '<a href="' + esc(it.url) + '" target="_blank" rel="noopener noreferrer" data-key="' + esc(key) + '">' + esc(it.title) + '</a>'
       : esc(it.title);
     var pub = pubLabel(it.publishedAt);
-    return '<article class="story' + (read ? ' is-read' : '') + '" data-weight="' + it.weight + '">' +
-      '<div class="story-meta"><span class="cat">' + esc(it.category) + '</span>' +
+    var tag = feed.groupBy === 'category'
+      ? (lead ? '<span class="cat cat--lead">注目</span>' : '')
+      : '<span class="cat">' + esc(it.category) + '</span>';
+    return '<article class="story' + (lead ? ' story--lead' : '') + (read ? ' is-read' : '') + '" data-weight="' + it.weight + '">' +
+      '<div class="story-meta">' + tag +
         (it.source ? '<span>' + esc(it.source) + '</span>' : '') +
         (pub ? '<time>' + esc(pub) + '</time>' : '') + '</div>' +
       '<h3 class="story-title">' + title + '</h3>' +
@@ -707,45 +824,71 @@ body {
     '</article>';
   }
 
-  function renderStories(ed) {
-    var busy = state.status === 'loading' || state.loadingEdition;
+  function sectionHtml(id, label, cls, list, feed, ed) {
+    return '<section class="section ' + cls + '" aria-labelledby="' + id + '">' +
+      '<div class="section-head"><h2 id="' + id + '">' + esc(label) + '</h2>' +
+      '<span class="count">' + list.length + '</span></div>' +
+      list.map(function (it) { return storyHtml(feed, ed, it); }).join('') +
+    '</section>';
+  }
+
+  function renderStories(feed, fs, ed) {
+    var busy = fs.status === 'loading' || fs.loadingEdition;
     els.stories.setAttribute('aria-busy', busy ? 'true' : 'false');
     if (busy) { els.stories.innerHTML = skeleton(); return; }
-    if (state.status === 'error') {
-      els.stories.innerHTML = stateBox('ニュースを読み込めませんでした',
-        'インターネットにつながっているか確かめて、アプリを開き直してください。');
+    if (fs.status === 'nodb') {
+      els.stories.innerHTML = stateBox('この画面ではニュースを読み込めません',
+        'Claudeのアプリかclaude.aiでこのページを開くと、ニュースが表示されます。');
       return;
     }
-    if (state.status === 'empty') {
+    if (fs.status === 'error') {
+      els.stories.innerHTML = stateBox('ニュースを読み込めませんでした',
+        'インターネットにつながっているか確かめて、開き直してください。');
+      return;
+    }
+    if (fs.status === 'empty') {
       els.stories.innerHTML = stateBox('まだ号が届いていません',
-        '毎朝7:00ごろ、その日の生成AIニュースがここに届きます。');
+        '毎日' + feed.deliverLabel.replace(/^0/, '') + 'ごろ、その日のニュースがここに届きます。');
       return;
     }
     if (!ed) {
-      els.stories.innerHTML = stateBox('この号を読み込めませんでした',
-        '通信状態を確かめて、もう一度選んでください。');
+      els.stories.innerHTML = stateBox('この号を読み込めませんでした', '通信状態を確かめて、もう一度選んでください。');
       return;
     }
-    var items = ed.items.filter(function (it) { return state.filter === 'all' || it.category === state.filter; });
-    var html = GROUPS.map(function (g) {
-      var group = items.filter(function (it) { return it.weight === g.weight; });
-      if (!group.length) return '';
-      return '<section class="section ' + g.cls + '" aria-labelledby="sec-' + g.weight + '">' +
-        '<div class="section-head"><h2 id="sec-' + g.weight + '">' + g.label + '</h2>' +
-        '<span class="count">' + group.length + '</span></div>' +
-        group.map(function (it) { return storyHtml(ed, it); }).join('') +
-      '</section>';
-    }).join('');
+    var html = '';
+    if (feed.groupBy === 'weight') {
+      var items = ed.items.filter(function (it) { return fs.filter === 'all' || it.category === fs.filter; });
+      html = feed.groups.map(function (g) {
+        var group = items.filter(function (it) { return it.weight === g.weight; });
+        return group.length ? sectionHtml('sec-' + g.weight, g.label, g.cls, group, feed, ed) : '';
+      }).join('');
+    } else {
+      var cats = feed.categories.concat(ed.items.map(function (it) { return it.category; })
+        .filter(function (c, i, a) { return feed.categories.indexOf(c) < 0 && a.indexOf(c) === i; }));
+      html = cats.map(function (c, i) {
+        var group = ed.items.filter(function (it) { return it.category === c; })
+          .sort(function (a, b) { return b.weight - a.weight; });
+        if (!group.length) {
+          return feed.categories.indexOf(c) >= 0
+            ? '<section class="section" aria-labelledby="cat-' + i + '"><div class="section-head"><h2 id="cat-' + i + '">' +
+              esc(c) + '</h2><span class="count">0</span></div>' +
+              '<p class="story-summary" style="padding-top:10px;color:var(--muted)">この日は目立ったニュースがありませんでした。</p></section>'
+            : '';
+        }
+        return sectionHtml('cat-' + i, c, '', group, feed, ed);
+      }).join('');
+    }
     els.stories.innerHTML = html || stateBox('この号にはニュースがありません', '別の日の号を選んでください。');
   }
 
-  function renderFooter(today, ed) {
-    var hasToday = state.dates.indexOf(today.ymd) >= 0;
+  function renderFooter(feed, fs, today, ed) {
+    var hasToday = fs.dates.indexOf(today.ymd) >= 0;
+    var t = feed.deliverLabel.replace(/^0/, '');
     var text;
     if (hasToday) {
-      text = '次の号は <strong>明日 ' + esc(longDate(addDays(today.ymd, 1))) + ' 7:00ごろ</strong> に届きます。';
-    } else if (today.hour < 7) {
-      text = '次の号は <strong>今日 ' + esc(longDate(today.ymd)) + ' 7:00ごろ</strong> に届きます。';
+      text = '次の号は <strong>明日 ' + esc(longDate(addDays(today.ymd, 1))) + ' ' + t + 'ごろ</strong> に届きます。';
+    } else if (today.min < feed.deliverMin) {
+      text = '次の号は <strong>今日 ' + esc(longDate(today.ymd)) + ' ' + t + 'ごろ</strong> に届きます。';
     } else {
       text = '今日の号を準備しています。届きしだい、ここに表示されます。';
     }
@@ -755,6 +898,24 @@ body {
   }
 
   /* ---------- interaction ---------- */
+  function switchFeed(key) {
+    if (!FEEDS[key]) return;
+    state.feed = key;
+    try { localStorage.setItem(TAB_KEY, key); } catch (e) {}
+    render();
+    window.scrollTo(0, 0);
+  }
+  window.__openFeed = switchFeed;
+
+  function select(date) {
+    var fs = state.feeds[state.feed];
+    fs.selected = date;
+    fs.followLatest = date === fs.dates[0];
+    fs.filter = 'all';
+    if (source) source.open(state.feed, date);
+    render();
+  }
+
   document.addEventListener('click', function (ev) {
     var t = ev.target;
     if (!(t instanceof Element)) return;
@@ -769,10 +930,12 @@ body {
       }
       return;
     }
+    var tab = t.closest('[data-feed]');
+    if (tab) { switchFeed(tab.getAttribute('data-feed')); return; }
     var chip = t.closest('[data-filter]');
     if (chip) {
       var f = chip.getAttribute('data-filter');
-      state.filter = f;
+      state.feeds[state.feed].filter = f;
       render();
       var again = els.filters.querySelector('[data-filter="' + CSS.escape(f) + '"]');
       if (again) again.focus();
@@ -780,11 +943,42 @@ body {
     }
     var issue = t.closest('[data-issue]');
     if (issue) { select(issue.getAttribute('data-issue')); return; }
-    if (t.closest('[data-action="latest"]') && state.dates[0]) select(state.dates[0]);
+    if (t.closest('[data-action="latest"]')) {
+      var fs = state.feeds[state.feed];
+      if (fs.dates[0]) select(fs.dates[0]);
+    }
   });
+  document.querySelector('.tabs').addEventListener('keydown', function (ev) {
+    if (ev.key !== 'ArrowLeft' && ev.key !== 'ArrowRight') return;
+    var next = state.feed === 'ai' ? 'musk' : 'ai';
+    switchFeed(next);
+    var btn = byId('tab-' + next);
+    if (btn) btn.focus();
+  });
+  document.addEventListener('visibilitychange', function () {
+    if (document.visibilityState === 'visible') render();
+  });
+  window.__refresh = function () { if (source) source.refresh(); };
 
+  /* ---------- start ---------- */
+  try { if (window.Native && Native.theme) document.documentElement.setAttribute('data-theme', Native.theme()); } catch (e) {}
   render();
-  refresh();
+
+  if (window.Native && typeof Native.request === 'function') {
+    source = nativeSource();
+    source.start();
+  } else {
+    var c = window.claude;
+    if (!c || typeof c.use !== 'function') {
+      failAll('nodb');
+    } else {
+      c.use('db').then(function (db) {
+        if (!db) { failAll('nodb'); return; }
+        source = dbSource(db);
+        try { source.start(); } catch (e) { failAll('error'); }
+      }, function () { failAll('nodb'); });
+    }
+  }
 })();
 </script>
 </body>

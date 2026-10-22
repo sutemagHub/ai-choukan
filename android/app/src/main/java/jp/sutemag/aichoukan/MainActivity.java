@@ -29,8 +29,8 @@ public class MainActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        Notifier.ensureChannel(this);
-        Scheduler.scheduleNextMorning(this);
+        Notifier.ensureChannels(this);
+        Scheduler.scheduleAll(this);
         if (Build.VERSION.SDK_INT >= 33
                 && checkSelfPermission(Manifest.permission.POST_NOTIFICATIONS) != PackageManager.PERMISSION_GRANTED) {
             requestPermissions(new String[]{Manifest.permission.POST_NOTIFICATIONS}, 1);
@@ -68,7 +68,25 @@ public class MainActivity extends Activity {
         });
 
         applyTheme();
-        web.loadUrl("file:///android_asset/index.html");
+        String feed = feedFrom(getIntent());
+        web.loadUrl("file:///android_asset/index.html" + (feed == null ? "" : "#" + feed));
+    }
+
+    /** The paper a notification asked to open, or null. */
+    private static String feedFrom(Intent intent) {
+        if (intent == null) return null;
+        String feed = intent.getStringExtra(Scheduler.EXTRA_FEED);
+        return feed == null ? null : Feed.byKey(feed).key;
+    }
+
+    @Override
+    protected void onNewIntent(Intent intent) {
+        super.onNewIntent(intent);
+        setIntent(intent);
+        String feed = feedFrom(intent);
+        if (feed != null && web != null && pageReady) {
+            web.evaluateJavascript("window.__openFeed && window.__openFeed('" + feed + "')", null);
+        }
     }
 
     @Override
