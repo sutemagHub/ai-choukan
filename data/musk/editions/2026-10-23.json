@@ -1,0 +1,73 @@
+{
+  "date": "2026-10-23",
+  "issuedAt": "2026-10-23T11:22:00+09:00",
+  "overview": "SpaceX株は大量のロックアップ解除と合併をめぐる不透明感が重なり、22日に9%あまり下落しました。テスラとの合併には支配株主であるマスク氏の承認が必要だとSpaceXが開示し、交渉の進め方にも関心が集まっています。マスク氏個人ではSkydanceへの約10億ドル出資が報じられました。",
+  "items": [
+    {
+      "id": "spacex-shares-fall-lockup",
+      "importance": 3,
+      "category": "スペースX",
+      "title": "SpaceX株が9.1%下落　ロックアップ解除と合併の不透明感",
+      "summary": "SpaceX（SPCX）の株価は10月22日に9.1%下げました。この日は決算発表を受けて最大約13億株の売却制限が解け、市場ではAI投資の資金調達やテスラとの合併の行方への懸念も重なりました。同日はナスダック総合指数も2.6%下落し、相場全体が軟調でした。",
+      "point": "6月の上場以来で最大規模の売却解禁で、需給の重さが株価の重荷になっています。合併交渉の進み方と合わせて、当面の値動きを左右しそうです。",
+      "source": "Yahoo Finance（The Motley Fool）",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/why-spacex-stock-dropped-thursday-230002249.html",
+      "publishedAt": "2026-10-22"
+    },
+    {
+      "id": "starlink-ukraine-trump-call",
+      "importance": 2,
+      "category": "スペースX",
+      "title": "ウクライナのStarlink速度制限、トランプ氏が解除を要請と報道",
+      "summary": "ウォール・ストリート・ジャーナルは、トランプ大統領がマスク氏に電話し、ウクライナでのStarlinkの利用制限を解くよう求めたと報じました。トランプ氏は電話の有無には触れず、マスク氏が接続を元に戻したと述べました。一方、ゼレンスキー大統領は速度はまだ戻っていないとしています。",
+      "point": "前日にルビオ国務長官が「判断はマスク氏側にある」と述べたばかりで、民間企業の通信網が戦場の作戦に直結する構図が改めて浮き彫りになりました。",
+      "source": "ロイター（WSJ報道を引用）",
+      "url": "https://www.staradvertiser.com/2026/10/22/breaking-news/trump-reportedly-asks-musk-to-lift-ukraine-starlink-restrictions/",
+      "publishedAt": "2026-10-22"
+    },
+    {
+      "id": "spacexsi-partner-network",
+      "importance": 1,
+      "category": "スペースX",
+      "title": "AI部門SpaceXSI、Grokの企業向けパートナー制度を開始",
+      "summary": "SpaceXのAI部門SpaceXSIは、企業へのGrok導入を支援するパートナー制度を始めました。導入支援を担うコンサルや開発会社と、マーケットプレイスにプラグインを出すソフト会社の2種類があり、Bain、Databricks、NVIDIA、Snowflakeなどが初期の参加企業に名を連ねています。",
+      "point": "",
+      "source": "SpaceXSI発表（Tesla North報道）",
+      "url": "https://teslanorth.com/2026/10/22/spacexsi-partner-network-grok",
+      "publishedAt": "2026-10-22"
+    },
+    {
+      "id": "merger-needs-musk-approval",
+      "importance": 3,
+      "category": "イーロン・マスク",
+      "title": "テスラとの合併には「マスク氏の承認が必要」とSpaceXが開示",
+      "summary": "SpaceXは22日、テスラとの合併には支配株主であるマスク氏の承認が必要になると明らかにしました。マスク氏は利害関係者として特別委員会の協議には加われないとしています。ロイターは、同氏が合併を公に支持したことで株主の監視が強まり、交渉が数週間遅れるおそれがあると関係者の懸念を伝えました。",
+      "point": "史上最大級となる合併は、利益相反の扱いとテスラ株主の承認が焦点です。2016年のSolarCity買収では長期の訴訟に発展した経緯があります。",
+      "source": "ロイター",
+      "url": "https://www.investing.com/news/stock-market-news/spacex-says-tesla-merger-would-need-musks-approval-4967546",
+      "publishedAt": "2026-10-22"
+    },
+    {
+      "id": "musk-skydance-investment",
+      "importance": 2,
+      "category": "イーロン・マスク",
+      "title": "マスク氏、Skydanceに約10億ドルを出資と報道",
+      "summary": "米Semaforは、マスク氏がエリソン家の率いるメディア企業Skydanceに約10億ドルを出資したと報じました。ローリーン・パウエル・ジョブズ氏ら他の投資家の出資と同じ時期にまとまったといいます。Skydanceはワーナー・ブラザース買収を進めており、コスト削減と株価の下支えのため資金を必要としていました。出資比率は明らかになっていません。",
+      "point": "宇宙・AIに加えてハリウッドの大手メディアにも資本関係を持つことになり、Starlinkとの提携の可能性も取り沙汰されています。",
+      "source": "Semafor",
+      "url": "https://www.semafor.com/article/10/22/2026/elon-musk-makes-1-billion-investment-in-ellisons-skydance",
+      "publishedAt": "2026-10-22"
+    },
+    {
+      "id": "doge-opm-privacy-ruling",
+      "importance": 1,
+      "category": "イーロン・マスク",
+      "title": "連邦地裁、人事管理局のDOGEへのデータ提供はプライバシー法違反と判断",
+      "summary": "米連邦地裁のデニス・コート判事は、人事管理局（OPM）がマスク氏の立ち上げた政府効率化省（DOGE）に連邦職員らの個人データを渡したことはプライバシー法に違反すると判断しました。労組の連合が2025年に起こした訴訟で、救済措置はまだ決まっていません。",
+      "point": "",
+      "source": "Fortune",
+      "url": "https://fortune.com/2026/10/22/federal-judge-ruling-doge-opm-broke-law-access-sensitive-data-elon-musk/",
+      "publishedAt": "2026-10-22"
+    }
+  ]
+}
