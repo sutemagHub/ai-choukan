@@ -1,73 +1,62 @@
 {
-  "date": "2026-10-23",
-  "issuedAt": "2026-10-23T11:22:00+09:00",
-  "overview": "SpaceX株は大量のロックアップ解除と合併をめぐる不透明感が重なり、22日に9%あまり下落しました。テスラとの合併には支配株主であるマスク氏の承認が必要だとSpaceXが開示し、交渉の進め方にも関心が集まっています。マスク氏個人ではSkydanceへの約10億ドル出資が報じられました。",
+  "date": "2026-10-24",
+  "issuedAt": "2026-10-24T11:17:09+09:00",
+  "overview": "SpaceXが全米約8万の携帯基地局の利用をめぐり交渉していると報じられ、大手通信3社の株が下落する一方、SpaceX株は前日の急落から反発しました。ウクライナのStarlink制限をめぐってはトランプ大統領の発言と米政府の過去の要請に関する報道が続き、マスク氏の中間選挙向け献金は累計4.4億ドルを超えました。",
   "items": [
     {
-      "id": "spacex-shares-fall-lockup",
+      "id": "spacex-cell-sites-telecom",
       "importance": 3,
       "category": "スペースX",
-      "title": "SpaceX株が9.1%下落　ロックアップ解除と合併の不透明感",
-      "summary": "SpaceX（SPCX）の株価は10月22日に9.1%下げました。この日は決算発表を受けて最大約13億株の売却制限が解け、市場ではAI投資の資金調達やテスラとの合併の行方への懸念も重なりました。同日はナスダック総合指数も2.6%下落し、相場全体が軟調でした。",
-      "point": "6月の上場以来で最大規模の売却解禁で、需給の重さが株価の重荷になっています。合併交渉の進み方と合わせて、当面の値動きを左右しそうです。",
-      "source": "Yahoo Finance（The Motley Fool）",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/why-spacex-stock-dropped-thursday-230002249.html",
-      "publishedAt": "2026-10-22"
+      "title": "SpaceX、約8万の携帯基地局利用で交渉と報道　通信大手株が下落",
+      "summary": "ブルームバーグによると、SpaceXは基地局大手クラウン・キャッスルなどと、全米約8万か所の基地局を使う交渉を進めています。報道を受けて23日、AT&T、ベライゾン、Tモバイルの株が3〜5%ほど下がり、基地局各社の株は上がりました。",
+      "point": "SpaceXは今月800MHz帯の周波数取得でも合意しており、衛星だけでなく地上網を持つ「第4の携帯会社」になる動きが具体化しつつあります。",
+      "source": "Forbes（ブルームバーグの報道を引用）",
+      "url": "https://www.forbes.com/sites/siladityaray/2026/10/23/att-verizon-t-mobile-shares-slip-as-spacex-reportedly-holds-cell-tower-talks-for-starlink-mobile/",
+      "publishedAt": "2026-10-23"
     },
     {
-      "id": "starlink-ukraine-trump-call",
+      "id": "spacex-stock-rebound-upgrade",
       "importance": 2,
       "category": "スペースX",
-      "title": "ウクライナのStarlink速度制限、トランプ氏が解除を要請と報道",
-      "summary": "ウォール・ストリート・ジャーナルは、トランプ大統領がマスク氏に電話し、ウクライナでのStarlinkの利用制限を解くよう求めたと報じました。トランプ氏は電話の有無には触れず、マスク氏が接続を元に戻したと述べました。一方、ゼレンスキー大統領は速度はまだ戻っていないとしています。",
-      "point": "前日にルビオ国務長官が「判断はマスク氏側にある」と述べたばかりで、民間企業の通信網が戦場の作戦に直結する構図が改めて浮き彫りになりました。",
-      "source": "ロイター（WSJ報道を引用）",
-      "url": "https://www.staradvertiser.com/2026/10/22/breaking-news/trump-reportedly-asks-musk-to-lift-ukraine-starlink-restrictions/",
-      "publishedAt": "2026-10-22"
+      "title": "SpaceX株が反発、証券会社が「売り」から「買い」へ2段階引き上げ",
+      "summary": "SpaceX株は23日、前日比1.89%高の147.49ドルで取引を終えました。シンガポールのフィリップ証券が投資判断を「売り」から一気に「買い」へ引き上げ、目標株価も75ドルから250ドルに上げました。AI部門の急成長を理由に挙げています。",
+      "point": "前日のロックアップ解除による9%安から持ち直しましたが、株価は上場時の水準をなお下回っており、評価は割れています。",
+      "source": "The Motley Fool",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-oct-23-212035721.html",
+      "publishedAt": "2026-10-23"
     },
     {
-      "id": "spacexsi-partner-network",
+      "id": "starlink-ukraine-us-requests",
+      "importance": 2,
+      "category": "スペースX",
+      "title": "ウクライナのStarlink、トランプ氏「彼が元に戻した」　米政府の過去の要請も報道",
+      "summary": "トランプ大統領は、10月中旬に起きたウクライナでのStarlink制限について、マスク氏が接続を元に戻したと述べ、制限を命じたのは自分ではないとも語りました。ロイターは、歴代の米政権がウクライナや中東でStarlinkの提供範囲の変更を繰り返しSpaceXに求めてきたと、元高官6人の話として報じました。",
+      "point": "民間企業の通信網が戦場や外交で果たす役割と、その判断を誰が下すのかという問題が改めて問われています。",
+      "source": "Al Jazeera／ロイター",
+      "url": "https://www.aljazeera.com/news/2026/10/23/trump-says-musk-restored-ukraines-starlink-access-amid-russia-war",
+      "publishedAt": "2026-10-23"
+    },
+    {
+      "id": "merger-talks-musk-remarks",
       "importance": 1,
       "category": "スペースX",
-      "title": "AI部門SpaceXSI、Grokの企業向けパートナー制度を開始",
-      "summary": "SpaceXのAI部門SpaceXSIは、企業へのGrok導入を支援するパートナー制度を始めました。導入支援を担うコンサルや開発会社と、マーケットプレイスにプラグインを出すソフト会社の2種類があり、Bain、Databricks、NVIDIA、Snowflakeなどが初期の参加企業に名を連ねています。",
+      "title": "テスラとの合併、マスク氏の公の発言が交渉を遅らせる懸念と報道",
+      "summary": "ロイターによると、交渉関係者の間では、マスク氏が合併を公に支持したことで株主の監視が強まり、手続きが数週間遅れる可能性が懸念されています。協議はまだ初期段階で、全額株式による買収や持ち株会社の設立などが検討されています。",
       "point": "",
-      "source": "SpaceXSI発表（Tesla North報道）",
-      "url": "https://teslanorth.com/2026/10/22/spacexsi-partner-network-grok",
-      "publishedAt": "2026-10-22"
+      "source": "ロイター（Investing.com掲載）",
+      "url": "https://www.investing.com/news/stock-market-news/musks-public-endorsement-of-spacextesla-deal-may-throw-a-wrench-in-talks-4968181",
+      "publishedAt": "2026-10-23"
     },
     {
-      "id": "merger-needs-musk-approval",
+      "id": "musk-midterm-donations",
       "importance": 3,
       "category": "イーロン・マスク",
-      "title": "テスラとの合併には「マスク氏の承認が必要」とSpaceXが開示",
-      "summary": "SpaceXは22日、テスラとの合併には支配株主であるマスク氏の承認が必要になると明らかにしました。マスク氏は利害関係者として特別委員会の協議には加われないとしています。ロイターは、同氏が合併を公に支持したことで株主の監視が強まり、交渉が数週間遅れるおそれがあると関係者の懸念を伝えました。",
-      "point": "史上最大級となる合併は、利益相反の扱いとテスラ株主の承認が焦点です。2016年のSolarCity買収では長期の訴訟に発展した経緯があります。",
-      "source": "ロイター",
-      "url": "https://www.investing.com/news/stock-market-news/spacex-says-tesla-merger-would-need-musks-approval-4967546",
-      "publishedAt": "2026-10-22"
-    },
-    {
-      "id": "musk-skydance-investment",
-      "importance": 2,
-      "category": "イーロン・マスク",
-      "title": "マスク氏、Skydanceに約10億ドルを出資と報道",
-      "summary": "米Semaforは、マスク氏がエリソン家の率いるメディア企業Skydanceに約10億ドルを出資したと報じました。ローリーン・パウエル・ジョブズ氏ら他の投資家の出資と同じ時期にまとまったといいます。Skydanceはワーナー・ブラザース買収を進めており、コスト削減と株価の下支えのため資金を必要としていました。出資比率は明らかになっていません。",
-      "point": "宇宙・AIに加えてハリウッドの大手メディアにも資本関係を持つことになり、Starlinkとの提携の可能性も取り沙汰されています。",
-      "source": "Semafor",
-      "url": "https://www.semafor.com/article/10/22/2026/elon-musk-makes-1-billion-investment-in-ellisons-skydance",
-      "publishedAt": "2026-10-22"
-    },
-    {
-      "id": "doge-opm-privacy-ruling",
-      "importance": 1,
-      "category": "イーロン・マスク",
-      "title": "連邦地裁、人事管理局のDOGEへのデータ提供はプライバシー法違反と判断",
-      "summary": "米連邦地裁のデニス・コート判事は、人事管理局（OPM）がマスク氏の立ち上げた政府効率化省（DOGE）に連邦職員らの個人データを渡したことはプライバシー法に違反すると判断しました。労組の連合が2025年に起こした訴訟で、救済措置はまだ決まっていません。",
-      "point": "",
-      "source": "Fortune",
-      "url": "https://fortune.com/2026/10/22/federal-judge-ruling-doge-opm-broke-law-access-sensitive-data-elon-musk/",
-      "publishedAt": "2026-10-22"
+      "title": "マスク氏、10月前半に約7700万ドルを献金　中間選挙向け累計4.4億ドル超",
+      "summary": "連邦選挙委員会への届け出によると、マスク氏は10月前半に自身の政治団体「アメリカPAC」へ約7680万ドルを献金しました。報道によると、今回の選挙サイクルでの政治献金は累計4億4000万ドルを超えました。同団体は複数州の上院選で支出しています。",
+      "point": "投票日前最後の定期報告で、中間選挙の終盤にマスク氏が資金面で大きな存在になっていることが数字で示されました。",
+      "source": "International Business Times UK（FEC提出書類）",
+      "url": "https://www.ibtimes.co.uk/elon-musk-america-pac-midterm-donations-1827375",
+      "publishedAt": "2026-10-23"
     }
   ]
 }
