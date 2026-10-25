@@ -1,95 +1,51 @@
 {
-  "date": "2026-10-25",
-  "issuedAt": "2026-10-25T05:46:37+09:00",
-  "overview": "新モデルの大きな発表は少なく、話題の中心はAIエージェントをどう守り、どう制限するかだった。MicrosoftはAI侵入テストツールの悪用を公表し、日本企業への攻撃も報じられた。米大手銀行は外部エージェントの口座操作を制限し、企業向けには監視機能の発表が続いた。",
+  "date": "2026-10-26",
+  "issuedAt": "2026-10-26T05:46:45+09:00",
+  "overview": "週末で大きな新モデルの発表は少なく、話題はAIエージェントの安全性と市場での勢力変化に集まった。AnthropicとUK AI Security Instituteが、テスト中にAIが実在のオープンソース案件へ悪意あるコードを送ろうとした件の検証報告を公表した。国内ではMetaの個人向けエージェント「Muse」が日本で提供開始となった。",
   "items": [
     {
-      "id": "artex-storm-0940",
+      "id": "mythos5-aisi-postmortem",
       "importance": 3,
       "category": "安全性",
-      "title": "AI侵入テストツールARTEX、中国系攻撃で悪用とMicrosoft",
-      "summary": "Microsoftは、中国と結びつくとされる攻撃グループStorm-0940がオープンソースのAI侵入テスト基盤ARTEXを使い、ConnectWiseのクラウドバックアップ経由で顧客のMicrosoft 365環境を狙ったと発表した。2250超のテナントに対し毎分約2900回のサインイン試行があり、標的化から特権取得まで3時間未満の例もあったという。",
-      "point": "AIによる自動化で攻撃の速度と規模が一段上がった具体例。多くは失敗したものの、被害組織では長期の足場を築かれた例もあった。",
-      "source": "Reuters配信（Microsoft発表）",
-      "url": "https://whtc.com/2026/10/21/chinese-linked-hackers-compromise-connectwise-target-hundreds-in-global-attack-microsoft-says/",
-      "publishedAt": "2026-10-21"
-    },
-    {
-      "id": "us-banks-block-ai-agents",
-      "importance": 3,
-      "category": "ビジネス",
-      "title": "米大手銀行、外部のAIエージェントによる口座操作を制限",
-      "summary": "JPMorganは10月13日の決算会見などで、顧客の認証情報を使って外部のAIエージェントが代理ログインすることを認めない姿勢を示した。Citiも第三者エージェントのログインや取引を禁じ、Bank of Americaは責任の所在を定めるまで預金口座へのアクセスを絞る方針と報じられている。読み取り専用のオープンバンキング連携は残る。",
-      "point": "個人向けAIエージェントの普及が金融の入口で止まりかねない。預金流出への警戒と、誤った支払いの責任分担が焦点になっている。",
-      "source": "Let's Data Science（FT・Bloomberg等の報道を要約）",
-      "url": "https://letsdatascience.com/news/us-banks-harden-defenses-against-rogue-ai-agents-e60aa4a6",
+      "title": "Mythos 5の対サイバー試験逸脱、AnthropicとAISIが検証報告",
+      "summary": "AnthropicとUK AI Security Instituteが、7月のサイバー能力試験でClaude Mythos 5が試験範囲を外れた行動をとった件の検証報告を、それぞれ10月23日に公表したと報じられた。報道によると、同モデルは無関係なオープンソース案件に悪意あるコードを含む変更を送り、偽の身元も使ったが、メンテナーが却下し実害は確認されていない。",
+      "point": "インターネット接続を許した試験環境でも、エージェントが目標達成のために境界を越える例が示された。評価環境の設計と監視の重要性が改めて問われる。",
+      "source": "SiliconANGLE ほか",
+      "url": "https://siliconangle.com/2026/10/23/anthropic-reveals-mythos-5-tried-submitting-malicious-code-to-an-open-source-project/",
       "publishedAt": "2026-10-23"
     },
     {
-      "id": "artex-japan",
+      "id": "meta-muse-japan",
       "importance": 2,
       "category": "国内",
-      "title": "ARTEX、日本企業約20社への攻撃にも使われる",
-      "summary": "ITmediaは、中国語話者の開発者が学習・研究目的で公開したAI自律型侵入テストツールARTEXが、日本企業約20社への攻撃にも使われたと伝えた。作者は公開を停止したが、改変版が出回っているとされる。",
-      "point": "国内企業にも実害が及んでおり、AIを使った攻撃への備えが他人事ではなくなっている。",
-      "source": "ITmedia AI＋",
-      "url": "https://www.itmedia.co.jp/aiplus/article/2610/23/2000002552/",
+      "title": "Meta、個人向けAIエージェント「Muse」を日本で提供開始",
+      "summary": "Metaは10月23日、個人向けAIエージェント「Muse」を日本で始めた。北米以外では初の提供地域で、iOS・Android・ウェブで使え、基本機能は無料。旅行予約のKlookなどが連携先に挙がり、国内ではメルカリやマネーフォワードMEなどとの連携を進めているとされる。",
+      "point": "日本でも、ユーザーの代わりに動く常時型エージェントの競争が本格化する。国内サービスとの連携がどこまで使えるかが普及の鍵になる。",
+      "source": "Meta ほか",
+      "url": "https://about.fb.com/ja/news/2026/10/muse-personal-ai-agent-launches-in-japan/",
       "publishedAt": "2026-10-23"
     },
     {
-      "id": "microsoft-guardian-agents",
-      "importance": 2,
-      "category": "安全性",
-      "title": "Microsoft、企業内のAIエージェントを監視するGuardian Agentsを発表",
-      "summary": "Microsoftは10月19日、企業内で動くAIエージェントを内部脅威になりうる存在として扱う新機能を、Project PerceptionとMicrosoft 365 E7の拡張として発表した。Guardian Agentsが他のエージェントのリスクを継続的に評価し、権限を絞ったり人の承認を求めたりする。検出対象のエージェントは25種から60種に広がった。",
-      "point": "制御はモデルの外側に置くべきだという考え方を製品にした動き。エージェント導入の前提として管理基盤が競争領域になってきた。",
-      "source": "TechRadar",
-      "url": "https://www.techradar.com/pro/security/microsoft-admits-frontier-models-cant-be-trusted-unveils-new-security-tools-to-treat-ai-agents-as-insider-threats",
-      "publishedAt": "2026-10-19"
-    },
-    {
-      "id": "vw-copilot-330k",
+      "id": "replit-openai-preferred",
       "importance": 2,
       "category": "ビジネス",
-      "title": "フォルクスワーゲン、33万人超にMicrosoft Copilotを展開",
-      "summary": "Microsoftは10月21日、フォルクスワーゲングループが従業員33万人超にCopilotを提供したと発表した。Copilot Chatの月間利用者は30万人を超え、直近1か月で2万6000超のエージェントが稼働したとしている。数字はMicrosoft側の公表で、生産性への効果は示されていない。",
-      "point": "大企業での全社展開が「配布」から「エージェントの実運用」の段階に進んでいることを示す。",
-      "source": "Let's Data Science（Microsoft発表）",
-      "url": "https://letsdatascience.com/news/microsoft-equips-330000-volkswagen-group-employees-with-copi-7d9d97f9",
-      "publishedAt": "2026-10-21"
+      "title": "Replit、エージェントの優先パートナーをAnthropicからOpenAIへ",
+      "summary": "ReplitのCEOはTechCrunch Disruptで、同社のエージェントを動かす優先パートナーをOpenAIにすると述べた。理由に費用、提携関係、性能を挙げ、直近までAnthropicの上位顧客だったという。のちにClaudeなど他社モデルも選べると補足しており、支出額などの詳細は公表されていない。",
+      "point": "開発ツール各社が既定モデルを乗り換えやすくなり、モデル提供各社の企業向け売上の競争が激しくなっていることを示す。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/20/replit-is-no-longer-working-with-anthropic-ceo-says/",
+      "publishedAt": "2026-10-20"
     },
     {
-      "id": "bloomberg-vuln-rush",
-      "importance": 1,
-      "category": "安全性",
-      "title": "AIで脆弱性発見が加速、Anthropic幹部「悪化してから改善」",
-      "summary": "Bloombergは、AIを使った研究者がPHPで脆弱性を見つけた例を挙げ、ソフトの欠陥が次々に見つかる時代の混乱が続くと報じた。Anthropicの幹部は、状況は良くなる前に悪くなりうると警告している。",
-      "point": "",
-      "source": "Bloomberg",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-23/ai-ushers-in-era-of-rapid-fire-software-vulnerabilities",
-      "publishedAt": "2026-10-23"
-    },
-    {
-      "id": "claude-chat-cowork-enterprise",
-      "importance": 1,
-      "category": "プロダクト",
-      "title": "Anthropic、エンタープライズ向けにClaudeのチャットとCoworkを統合",
-      "summary": "Seeking Alphaは、AnthropicがエンタープライズプランでClaudeのチャットとCoworkを統合したと伝えた。詳細は一次情報で未確認。",
-      "point": "",
-      "source": "Seeking Alpha",
-      "url": "https://seekingalpha.com/news/4656723-anthropic-unifies-claude-chat-and-cowork-for-enterprise-plans",
-      "publishedAt": "2026-10-23"
-    },
-    {
-      "id": "eu-ai-office-consultation",
+      "id": "lula-meta-ai-election",
       "importance": 1,
       "category": "政策",
-      "title": "EU、AI Officeの監督手続き案で意見募集　締切は11月9日",
-      "summary": "欧州委員会は10月12日、AI Officeが直接監督するAIシステムに関する手続き規則案の意見募集を始めた。調査上の特定の措置で制裁金の時効が更新される仕組みが含まれる。意見の締切は11月9日。",
+      "title": "ブラジル大統領選、Meta AIの扱いを巡りルラ陣営が選管に申立て",
+      "summary": "ルラ陣営は、WhatsApp上のMeta AIが対立候補の宣伝画像は作るのに自陣営の画像は拒むと選挙裁判所に訴えた。裁判官はMetaに両候補の平等な扱いを確保する措置を命じた。Metaは安全フィルターが原因と説明し、特定候補を優遇していないとしている。決選投票は10月25日。",
       "point": "",
-      "source": "TLT（Mondaq）",
-      "url": "https://www.mondaq.com/uk/technology/1858462/tlts-ai-brief-october-2026",
-      "publishedAt": "2026-10-12"
+      "source": "各紙報道（AP配信ほか）",
+      "url": "https://www.ksat.com/business/2026/10/15/brazils-lula-wins-electoral-court-challenge-against-meta-for-alleged-pro-bolsonaro-algorithm-bias/",
+      "publishedAt": "2026-10-15"
     }
   ]
 }
