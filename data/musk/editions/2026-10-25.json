@@ -1,0 +1,73 @@
+{
+  "date": "2026-10-25",
+  "issuedAt": "2026-10-25T11:18:40+09:00",
+  "overview": "ウクライナのStarlink速度制限が解除され、マスク氏は制限を自らの判断と認めたうえで、ウクライナが利用規約に反したと主張しました。NASAは月着陸計画の最新日程を示し、SpaceXは来年早々に軌道上での推進剤移送を試す予定です。一方でFalcon 9の打ち上げ頻度はStarship重視の中で落ちています。",
+  "items": [
+    {
+      "id": "nasa-artemis-starship-schedule",
+      "importance": 3,
+      "category": "スペースX",
+      "title": "NASAが月着陸の新日程　Starshipは来年早々に燃料移送試験",
+      "summary": "NASAは23日、アルテミス計画の最新状況を説明し、2027年半ばのアルテミス3で地球周回軌道上での着陸船とのドッキングを試し、2028年に月面着陸を目指すとしました。SpaceXは2027年初めに初の軌道上推進剤移送、同年後半に無人の月着陸試験を予定しています。",
+      "point": "Starship月着陸船は未実証の大規模な軌道上燃料補給が前提で、成否が2028年の有人着陸とBlue Originとの競争を左右します。",
+      "source": "SpacePolicyOnline.com／CBS News",
+      "url": "https://spacepolicyonline.com/news/nasa-is-full-steam-ahead-on-artemis-iii-iv-and-v/",
+      "publishedAt": "2026-10-23"
+    },
+    {
+      "id": "falcon9-cadence-slows",
+      "importance": 2,
+      "category": "スペースX",
+      "title": "Falcon 9の打ち上げペース鈍化　Starshipへ重心移す",
+      "summary": "23日にカリフォルニアからStarlink衛星27基を打ち上げましたが、前回のStarlink打ち上げから11日空きました。今年のFalcon 9は116回目で、過去最多だった2025年の165回を下回る見通しです。次のStarlink 15-16は24日から26〜27日に延期されています。",
+      "point": "大型の第3世代Starlink衛星はStarshipでしか運べず、衛星網の拡大ペースがStarshipの実用化に左右されつつあります。",
+      "source": "Space.com／Spaceflight Now",
+      "url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-falcon-9-starlink-group-15-15-b1063-ocisly",
+      "publishedAt": "2026-10-23"
+    },
+    {
+      "id": "tower-stocks-gain",
+      "importance": 1,
+      "category": "スペースX",
+      "title": "基地局交渉の報道で鉄塔会社の時価総額が約90億ドル増",
+      "summary": "SpaceXが全米8万カ所以上の基地局利用を交渉中との報道を受け、23日はCrown CastleやAmerican Towerなど鉄塔会社の株が上がり、通信大手3社は合計約210億ドルの時価総額を失いました。契約はまだ結ばれていません。",
+      "point": "",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/markets/article/spacex-wants-to-be-americas-fourth-phone-carrier--tower-owners-are-cashing-in-162059593.html",
+      "publishedAt": "2026-10-23"
+    },
+    {
+      "id": "grok-midterm-study",
+      "importance": 1,
+      "category": "スペースX",
+      "title": "Grok、候補者選択の実験で共和党候補を92%選ぶと研究",
+      "summary": "コーネル大学教授が率いる研究チームが、開発者向けAPIで中間選挙の候補者を1人選ばせたところ、SpaceXのAI部門が開発するGrokは92%で共和党候補を、OpenAIのモデルは97%で民主党候補を選んだと発表しました。一般向けアプリはどちらも候補者名を挙げませんでした。",
+      "point": "",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/",
+      "publishedAt": "2026-10-24"
+    },
+    {
+      "id": "musk-ukraine-starlink-restored",
+      "importance": 3,
+      "category": "イーロン・マスク",
+      "title": "ウクライナのStarlink制限解除　マスク氏「規約違反だった」",
+      "summary": "ウクライナ国防相は24日、ドローンなど高速で動く機器でのStarlink利用が完全に戻ったと発表しました。マスク氏は同日Xで、制限は自身の判断だったと認め、ウクライナが攻撃用ドローンに使い利用規約に反したと主張しました。誰が制限を承認したかには触れていません。",
+      "point": "民間企業の判断が戦場の通信を左右する構図が改めて示され、米政府とSpaceXの役割分担をめぐる議論が続きそうです。",
+      "source": "CBS News（AP）／Fox News",
+      "url": "https://www.cbsnews.com/news/ukraine-starlink-drone-spacex-musk-speed-restriction/",
+      "publishedAt": "2026-10-24"
+    },
+    {
+      "id": "musk-warns-democrats",
+      "importance": 2,
+      "category": "イーロン・マスク",
+      "title": "マスク氏、民主党の調査構想に「剣を取る者は剣で滅びる」",
+      "summary": "民主党が議会で多数派となった場合にマスク氏や同氏の企業を調べる案を検討しているとの報道を受け、マスク氏はXで反発し、争いを仕掛ける相手の背後にいる人物を追及すると投稿しました。調査対象としてはDOGEの活動や政府契約が挙がっています。",
+      "point": "中間選挙の結果次第で、マスク氏の企業と政府との関係が議会の調査対象になる可能性があります。",
+      "source": "Fox Business",
+      "url": "https://www.foxbusiness.com/politics/musk-warns-democrats-he-retaliate-use-congressional-power-investigate-him",
+      "publishedAt": "2026-10-21"
+    }
+  ]
+}
