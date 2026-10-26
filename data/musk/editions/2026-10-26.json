@@ -1,0 +1,73 @@
+{
+  "date": "2026-10-26",
+  "issuedAt": "2026-10-26T11:17:31+09:00",
+  "overview": "マスク氏は週末、SpaceXがAI向け半導体の購入資金として400億ドルの借り入れをまとめたと明かし、資金力のないAIクラウド企業の淘汰を予想しました。月着陸に必要な打ち上げ回数をめぐってはNASAの安全諮問委員会の見積もりに反論し、ウクライナのStarlink問題では同国側が規約違反の指摘を否定しています。",
+  "items": [
+    {
+      "id": "spacex-40b-gpu-debt",
+      "importance": 3,
+      "category": "スペースX",
+      "title": "SpaceX、AI半導体購入へ400億ドルの借り入れ　マスク氏が明かす",
+      "summary": "マスク氏は25日、SpaceXがGPU購入のための400億ドルの借り入れをまとめたとXで明らかにしました。大半は期限前に返済できる条件で、2027年1〜6月に届く半導体に充てます。投資適格の格付けとStarlink・打ち上げの収入が決め手になったとし、AIデータセンター以外に十分な収入のない企業には貸し手が資金をほぼ出さなくなったと述べました。",
+      "point": "7〜9月期にAI部門が最大の事業となったSpaceXが、借り入れで設備投資を一段と加速させます。マスク氏は200社を超えるAIクラウド企業の破綻や再編を予想し、買収はしないと述べました。",
+      "source": "ロイター（Investing.com掲載）",
+      "url": "https://www.investing.com/news/stock-market-news/musk-says-spacex-raised-40-billion-in-debt-for-gpus-4971248",
+      "publishedAt": "2026-10-25"
+    },
+    {
+      "id": "musk-hls-launch-count",
+      "importance": 2,
+      "category": "スペースX",
+      "title": "月着陸の打ち上げ回数「6〜8回で足りる」　マスク氏がNASA委員会に反論",
+      "summary": "NASAの航空宇宙安全諮問委員会の会合を受け、Starshipの月着陸船には約22回の打ち上げが必要になるとの見方が報じられました。マスク氏はXでこの数字は多すぎると述べ、実際は6〜8回程度になるとの考えを示しました。委員会は、SpaceXがFalconとDragonを段階的に終える計画がISSの運用に影響しかねないとも指摘しています。",
+      "point": "月着陸には軌道上での大規模な燃料補給が欠かせず、必要な打ち上げ回数はアルテミス計画の日程と費用を左右します。",
+      "source": "The Register",
+      "url": "https://theregister.com/science/2026/10/23/musk-disputes-nasa-safety-panels-lunar-launch-estimates/5304961",
+      "publishedAt": "2026-10-23"
+    },
+    {
+      "id": "terafab-test-chip-2027",
+      "importance": 1,
+      "category": "スペースX",
+      "title": "テスラとの半導体合弁Terafab、初の試作チップは2027年半ば",
+      "summary": "SpaceXとテスラがテキサス州オースティンで進める半導体製造の合弁事業Terafabは、2027年5〜6月ごろに最初の試作チップを作り、2028年7〜9月期の量産開始を目指しています。SpaceXの上場書類では、GPUの自社製造が設備投資の計画に含まれています。",
+      "point": "",
+      "source": "ロイター（Investing.com掲載）",
+      "url": "https://www.investing.com/news/stock-market-news/musk-says-spacex-raised-40-billion-in-debt-for-gpus-4971248",
+      "publishedAt": "2026-10-25"
+    },
+    {
+      "id": "grok-odyssey-episode1",
+      "importance": 1,
+      "category": "スペースX",
+      "title": "Grok、AIで作った「オデュッセイア」の冒頭7分を公開",
+      "summary": "SpaceXのAI部門は23日、画像・動画生成機能Grok Imagineで制作した「オデュッセイア」の第1話として、冒頭7分の映像を公開しました。マスク氏が約3か月前に、史実に忠実な長編映画をGrokで作ると表明していたもので、制作会社Wonder Studiosなどが参加しています。",
+      "point": "",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/25/grok-releases-the-first-seven-minutes-of-its-ai-generated-odyssey",
+      "publishedAt": "2026-10-25"
+    },
+    {
+      "id": "ukraine-denies-starlink-violation",
+      "importance": 2,
+      "category": "イーロン・マスク",
+      "title": "Starlink規約違反の指摘、ウクライナ側が否定　マスク氏「抜け穴は塞いだ」",
+      "summary": "マスク氏はウクライナ軍が攻撃用ドローンにStarlinkを使い規約に反したとして、その抜け穴を先週塞いだと述べ、軍用版のStarshieldは米政府が管理しているとしました。ウクライナの大統領顧問らは違反を否定し、市販のStarlinkは遠距離の攻撃には使えない仕組みだと反論しました。米政権側は制限への関与を否定しています。",
+      "point": "前線の通信を民間企業の判断が左右する構図があらためて表面化し、責任の所在をめぐって説明が食い違っています。",
+      "source": "ワシントン・ポスト（Spokesman-Review掲載）",
+      "url": "https://www.spokesman.com/stories/2026/oct/25/elon-musk-says-spacex-was-behind-restrictions-to-u/",
+      "publishedAt": "2026-10-25"
+    },
+    {
+      "id": "musk-physical-ai-isaacson",
+      "importance": 1,
+      "category": "イーロン・マスク",
+      "title": "マスク氏「デジタルだけのAIでは生産増は2〜3割」　物理世界のAIに期待",
+      "summary": "マスク氏は伝記作家ウォルター・アイザックソン氏との対談で、画面の中だけで働くAIは超知能に達しても世界の生産を20〜30%増やす程度にとどまるとの見方を示しました。ロボットが普及し宇宙進出が進めば、経済規模は現在の地球の100万倍になりうるとも語っています。",
+      "point": "",
+      "source": "ITmedia ビジネスオンライン（AI新聞から転載）",
+      "url": "https://www.itmedia.co.jp/business/articles/2610/26/news030.html",
+      "publishedAt": "2026-10-26"
+    }
+  ]
+}

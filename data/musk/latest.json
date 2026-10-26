@@ -1,73 +1,73 @@
 {
-  "date": "2026-10-25",
-  "issuedAt": "2026-10-25T11:18:40+09:00",
-  "overview": "ウクライナのStarlink速度制限が解除され、マスク氏は制限を自らの判断と認めたうえで、ウクライナが利用規約に反したと主張しました。NASAは月着陸計画の最新日程を示し、SpaceXは来年早々に軌道上での推進剤移送を試す予定です。一方でFalcon 9の打ち上げ頻度はStarship重視の中で落ちています。",
+  "date": "2026-10-26",
+  "issuedAt": "2026-10-26T11:17:31+09:00",
+  "overview": "マスク氏は週末、SpaceXがAI向け半導体の購入資金として400億ドルの借り入れをまとめたと明かし、資金力のないAIクラウド企業の淘汰を予想しました。月着陸に必要な打ち上げ回数をめぐってはNASAの安全諮問委員会の見積もりに反論し、ウクライナのStarlink問題では同国側が規約違反の指摘を否定しています。",
   "items": [
     {
-      "id": "nasa-artemis-starship-schedule",
+      "id": "spacex-40b-gpu-debt",
       "importance": 3,
       "category": "スペースX",
-      "title": "NASAが月着陸の新日程　Starshipは来年早々に燃料移送試験",
-      "summary": "NASAは23日、アルテミス計画の最新状況を説明し、2027年半ばのアルテミス3で地球周回軌道上での着陸船とのドッキングを試し、2028年に月面着陸を目指すとしました。SpaceXは2027年初めに初の軌道上推進剤移送、同年後半に無人の月着陸試験を予定しています。",
-      "point": "Starship月着陸船は未実証の大規模な軌道上燃料補給が前提で、成否が2028年の有人着陸とBlue Originとの競争を左右します。",
-      "source": "SpacePolicyOnline.com／CBS News",
-      "url": "https://spacepolicyonline.com/news/nasa-is-full-steam-ahead-on-artemis-iii-iv-and-v/",
-      "publishedAt": "2026-10-23"
+      "title": "SpaceX、AI半導体購入へ400億ドルの借り入れ　マスク氏が明かす",
+      "summary": "マスク氏は25日、SpaceXがGPU購入のための400億ドルの借り入れをまとめたとXで明らかにしました。大半は期限前に返済できる条件で、2027年1〜6月に届く半導体に充てます。投資適格の格付けとStarlink・打ち上げの収入が決め手になったとし、AIデータセンター以外に十分な収入のない企業には貸し手が資金をほぼ出さなくなったと述べました。",
+      "point": "7〜9月期にAI部門が最大の事業となったSpaceXが、借り入れで設備投資を一段と加速させます。マスク氏は200社を超えるAIクラウド企業の破綻や再編を予想し、買収はしないと述べました。",
+      "source": "ロイター（Investing.com掲載）",
+      "url": "https://www.investing.com/news/stock-market-news/musk-says-spacex-raised-40-billion-in-debt-for-gpus-4971248",
+      "publishedAt": "2026-10-25"
     },
     {
-      "id": "falcon9-cadence-slows",
+      "id": "musk-hls-launch-count",
       "importance": 2,
       "category": "スペースX",
-      "title": "Falcon 9の打ち上げペース鈍化　Starshipへ重心移す",
-      "summary": "23日にカリフォルニアからStarlink衛星27基を打ち上げましたが、前回のStarlink打ち上げから11日空きました。今年のFalcon 9は116回目で、過去最多だった2025年の165回を下回る見通しです。次のStarlink 15-16は24日から26〜27日に延期されています。",
-      "point": "大型の第3世代Starlink衛星はStarshipでしか運べず、衛星網の拡大ペースがStarshipの実用化に左右されつつあります。",
-      "source": "Space.com／Spaceflight Now",
-      "url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-falcon-9-starlink-group-15-15-b1063-ocisly",
+      "title": "月着陸の打ち上げ回数「6〜8回で足りる」　マスク氏がNASA委員会に反論",
+      "summary": "NASAの航空宇宙安全諮問委員会の会合を受け、Starshipの月着陸船には約22回の打ち上げが必要になるとの見方が報じられました。マスク氏はXでこの数字は多すぎると述べ、実際は6〜8回程度になるとの考えを示しました。委員会は、SpaceXがFalconとDragonを段階的に終える計画がISSの運用に影響しかねないとも指摘しています。",
+      "point": "月着陸には軌道上での大規模な燃料補給が欠かせず、必要な打ち上げ回数はアルテミス計画の日程と費用を左右します。",
+      "source": "The Register",
+      "url": "https://theregister.com/science/2026/10/23/musk-disputes-nasa-safety-panels-lunar-launch-estimates/5304961",
       "publishedAt": "2026-10-23"
     },
     {
-      "id": "tower-stocks-gain",
+      "id": "terafab-test-chip-2027",
       "importance": 1,
       "category": "スペースX",
-      "title": "基地局交渉の報道で鉄塔会社の時価総額が約90億ドル増",
-      "summary": "SpaceXが全米8万カ所以上の基地局利用を交渉中との報道を受け、23日はCrown CastleやAmerican Towerなど鉄塔会社の株が上がり、通信大手3社は合計約210億ドルの時価総額を失いました。契約はまだ結ばれていません。",
+      "title": "テスラとの半導体合弁Terafab、初の試作チップは2027年半ば",
+      "summary": "SpaceXとテスラがテキサス州オースティンで進める半導体製造の合弁事業Terafabは、2027年5〜6月ごろに最初の試作チップを作り、2028年7〜9月期の量産開始を目指しています。SpaceXの上場書類では、GPUの自社製造が設備投資の計画に含まれています。",
       "point": "",
-      "source": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/markets/article/spacex-wants-to-be-americas-fourth-phone-carrier--tower-owners-are-cashing-in-162059593.html",
-      "publishedAt": "2026-10-23"
+      "source": "ロイター（Investing.com掲載）",
+      "url": "https://www.investing.com/news/stock-market-news/musk-says-spacex-raised-40-billion-in-debt-for-gpus-4971248",
+      "publishedAt": "2026-10-25"
     },
     {
-      "id": "grok-midterm-study",
+      "id": "grok-odyssey-episode1",
       "importance": 1,
       "category": "スペースX",
-      "title": "Grok、候補者選択の実験で共和党候補を92%選ぶと研究",
-      "summary": "コーネル大学教授が率いる研究チームが、開発者向けAPIで中間選挙の候補者を1人選ばせたところ、SpaceXのAI部門が開発するGrokは92%で共和党候補を、OpenAIのモデルは97%で民主党候補を選んだと発表しました。一般向けアプリはどちらも候補者名を挙げませんでした。",
+      "title": "Grok、AIで作った「オデュッセイア」の冒頭7分を公開",
+      "summary": "SpaceXのAI部門は23日、画像・動画生成機能Grok Imagineで制作した「オデュッセイア」の第1話として、冒頭7分の映像を公開しました。マスク氏が約3か月前に、史実に忠実な長編映画をGrokで作ると表明していたもので、制作会社Wonder Studiosなどが参加しています。",
       "point": "",
       "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/",
-      "publishedAt": "2026-10-24"
+      "url": "https://techcrunch.com/2026/10/25/grok-releases-the-first-seven-minutes-of-its-ai-generated-odyssey",
+      "publishedAt": "2026-10-25"
     },
     {
-      "id": "musk-ukraine-starlink-restored",
-      "importance": 3,
-      "category": "イーロン・マスク",
-      "title": "ウクライナのStarlink制限解除　マスク氏「規約違反だった」",
-      "summary": "ウクライナ国防相は24日、ドローンなど高速で動く機器でのStarlink利用が完全に戻ったと発表しました。マスク氏は同日Xで、制限は自身の判断だったと認め、ウクライナが攻撃用ドローンに使い利用規約に反したと主張しました。誰が制限を承認したかには触れていません。",
-      "point": "民間企業の判断が戦場の通信を左右する構図が改めて示され、米政府とSpaceXの役割分担をめぐる議論が続きそうです。",
-      "source": "CBS News（AP）／Fox News",
-      "url": "https://www.cbsnews.com/news/ukraine-starlink-drone-spacex-musk-speed-restriction/",
-      "publishedAt": "2026-10-24"
-    },
-    {
-      "id": "musk-warns-democrats",
+      "id": "ukraine-denies-starlink-violation",
       "importance": 2,
       "category": "イーロン・マスク",
-      "title": "マスク氏、民主党の調査構想に「剣を取る者は剣で滅びる」",
-      "summary": "民主党が議会で多数派となった場合にマスク氏や同氏の企業を調べる案を検討しているとの報道を受け、マスク氏はXで反発し、争いを仕掛ける相手の背後にいる人物を追及すると投稿しました。調査対象としてはDOGEの活動や政府契約が挙がっています。",
-      "point": "中間選挙の結果次第で、マスク氏の企業と政府との関係が議会の調査対象になる可能性があります。",
-      "source": "Fox Business",
-      "url": "https://www.foxbusiness.com/politics/musk-warns-democrats-he-retaliate-use-congressional-power-investigate-him",
-      "publishedAt": "2026-10-21"
+      "title": "Starlink規約違反の指摘、ウクライナ側が否定　マスク氏「抜け穴は塞いだ」",
+      "summary": "マスク氏はウクライナ軍が攻撃用ドローンにStarlinkを使い規約に反したとして、その抜け穴を先週塞いだと述べ、軍用版のStarshieldは米政府が管理しているとしました。ウクライナの大統領顧問らは違反を否定し、市販のStarlinkは遠距離の攻撃には使えない仕組みだと反論しました。米政権側は制限への関与を否定しています。",
+      "point": "前線の通信を民間企業の判断が左右する構図があらためて表面化し、責任の所在をめぐって説明が食い違っています。",
+      "source": "ワシントン・ポスト（Spokesman-Review掲載）",
+      "url": "https://www.spokesman.com/stories/2026/oct/25/elon-musk-says-spacex-was-behind-restrictions-to-u/",
+      "publishedAt": "2026-10-25"
+    },
+    {
+      "id": "musk-physical-ai-isaacson",
+      "importance": 1,
+      "category": "イーロン・マスク",
+      "title": "マスク氏「デジタルだけのAIでは生産増は2〜3割」　物理世界のAIに期待",
+      "summary": "マスク氏は伝記作家ウォルター・アイザックソン氏との対談で、画面の中だけで働くAIは超知能に達しても世界の生産を20〜30%増やす程度にとどまるとの見方を示しました。ロボットが普及し宇宙進出が進めば、経済規模は現在の地球の100万倍になりうるとも語っています。",
+      "point": "",
+      "source": "ITmedia ビジネスオンライン（AI新聞から転載）",
+      "url": "https://www.itmedia.co.jp/business/articles/2610/26/news030.html",
+      "publishedAt": "2026-10-26"
     }
   ]
 }
