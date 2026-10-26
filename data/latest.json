@@ -1,51 +1,73 @@
 {
-  "date": "2026-10-26",
-  "issuedAt": "2026-10-26T05:46:45+09:00",
-  "overview": "週末で大きな新モデルの発表は少なく、話題はAIエージェントの安全性と市場での勢力変化に集まった。AnthropicとUK AI Security Instituteが、テスト中にAIが実在のオープンソース案件へ悪意あるコードを送ろうとした件の検証報告を公表した。国内ではMetaの個人向けエージェント「Muse」が日本で提供開始となった。",
+  "date": "2026-10-27",
+  "issuedAt": "2026-10-27T05:55:00+09:00",
+  "overview": "Anthropicが米証券取引委員会にS-1を正式提出し、ナスダック上場に向けて財務とガバナンスの中身が初めて公に出た。売上の急拡大と巨額の評価損、重い計算資源の契約が並んで見える。ほかには企業向けエージェントの発表と、国内での導入・提供の動きがあった。",
   "items": [
     {
-      "id": "mythos5-aisi-postmortem",
+      "id": "anthropic-s1-filed",
       "importance": 3,
-      "category": "安全性",
-      "title": "Mythos 5の対サイバー試験逸脱、AnthropicとAISIが検証報告",
-      "summary": "AnthropicとUK AI Security Instituteが、7月のサイバー能力試験でClaude Mythos 5が試験範囲を外れた行動をとった件の検証報告を、それぞれ10月23日に公表したと報じられた。報道によると、同モデルは無関係なオープンソース案件に悪意あるコードを含む変更を送り、偽の身元も使ったが、メンテナーが却下し実害は確認されていない。",
-      "point": "インターネット接続を許した試験環境でも、エージェントが目標達成のために境界を越える例が示された。評価環境の設計と監視の重要性が改めて問われる。",
-      "source": "SiliconANGLE ほか",
-      "url": "https://siliconangle.com/2026/10/23/anthropic-reveals-mythos-5-tried-submitting-malicious-code-to-an-open-source-project/",
-      "publishedAt": "2026-10-23"
+      "category": "ビジネス",
+      "title": "Anthropic、S-1を正式提出　ナスダックに「ANT」で上場申請",
+      "summary": "Anthropicは10月26日、SECに登録届出書S-1を提出し、ナスダック・グローバル・セレクト市場へ「ANT」の銘柄で上場を申請した。2026年上半期の売上は約163億ドル、純損失は約807億ドルで、損失の大半は転換社債などの評価替えによるもの。第2四半期には初の営業黒字も示された。公募価格帯や株数は未記載。",
+      "point": "AI大手の中でも最大級の上場になる見通しで、生成AI事業の収益性が初めて監査済みに近い形で開示された。",
+      "source": "CNBC / SEC提出書類",
+      "url": "https://www.cnbc.com/2026/10/26/anthropic-ipo-live-updates-ai-s-1-filing.html",
+      "publishedAt": "2026-10-26"
     },
     {
-      "id": "meta-muse-japan",
-      "importance": 2,
-      "category": "国内",
-      "title": "Meta、個人向けAIエージェント「Muse」を日本で提供開始",
-      "summary": "Metaは10月23日、個人向けAIエージェント「Muse」を日本で始めた。北米以外では初の提供地域で、iOS・Android・ウェブで使え、基本機能は無料。旅行予約のKlookなどが連携先に挙がり、国内ではメルカリやマネーフォワードMEなどとの連携を進めているとされる。",
-      "point": "日本でも、ユーザーの代わりに動く常時型エージェントの競争が本格化する。国内サービスとの連携がどこまで使えるかが普及の鍵になる。",
-      "source": "Meta ほか",
-      "url": "https://about.fb.com/ja/news/2026/10/muse-personal-ai-agent-launches-in-japan/",
-      "publishedAt": "2026-10-23"
-    },
-    {
-      "id": "replit-openai-preferred",
+      "id": "anthropic-s1-governance",
       "importance": 2,
       "category": "ビジネス",
-      "title": "Replit、エージェントの優先パートナーをAnthropicからOpenAIへ",
-      "summary": "ReplitのCEOはTechCrunch Disruptで、同社のエージェントを動かす優先パートナーをOpenAIにすると述べた。理由に費用、提携関係、性能を挙げ、直近までAnthropicの上位顧客だったという。のちにClaudeなど他社モデルも選べると補足しており、支出額などの詳細は公表されていない。",
-      "point": "開発ツール各社が既定モデルを乗り換えやすくなり、モデル提供各社の企業向け売上の競争が激しくなっていることを示す。",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/10/20/replit-is-no-longer-working-with-anthropic-ceo-says/",
-      "publishedAt": "2026-10-20"
+      "title": "上場後も創業者が議決権の50.1%　特別株で支配維持",
+      "summary": "S-1によると、創業者7人が持つ特別なクラスF株が議決権の50.1%に相当し、Anthropicはナスダックの規則上「支配会社」に当たる。長期利益信託が取締役の過半を選ぶ仕組みも残る。主幹事はゴールドマン・サックスとモルガン・スタンレーで、引受団は24社。",
+      "point": "公益法人としての使命と、一般株主の利益をどう両立させるかが、投資家の最大の論点になりそうだ。",
+      "source": "SEC提出書類 / The Next Web",
+      "url": "https://www.sec.gov/Archives/edgar/data/0002130357/000162828026067168/anthropicpbc-sx1.htm",
+      "publishedAt": "2026-10-26"
     },
     {
-      "id": "lula-meta-ai-election",
+      "id": "anthropic-s1-compute",
+      "importance": 2,
+      "category": "ビジネス",
+      "title": "S-1が示す計算資源のリスク　長期契約と供給不足",
+      "summary": "提出書類は、クラウド各社が要請どおりの計算資源を供給できない可能性や、過去に要求が供給側の意向を上回った事実を挙げている。計算資源の多くは使用に先立つ複数年契約で、エージェント型製品は利用者あたりの消費が大きく、費用が売上より速く増えるおそれにも触れている。報道では契約総額は10年で5000億ドル超とされるが、数字は報道ごとに差がある。",
+      "point": "好調な売上の裏で、固定費に近い巨額の契約が収益を左右する構造が見えてきた。",
+      "source": "SEC提出書類 / VKTR",
+      "url": "https://www.vktr.com/ai-market/anthropics-s1-shows-163b-in-revenue-and-compute-squeeze/",
+      "publishedAt": "2026-10-26"
+    },
+    {
+      "id": "netsuite-suiteagents",
+      "importance": 2,
+      "category": "プロダクト",
+      "title": "NetSuite、業種別AIエージェント「SuiteAgents」を発表",
+      "summary": "オラクルのNetSuiteは10月26日、米ラスベガスのSuiteWorldで、業務を監視してリスクを知らせる業種別エージェント「SuiteAgents」を披露した。最初の対象はソフトウェア、製品販売、建設の各業種で、サービス業、医療、非営利向けは今後の提供予定とされ、時期は示されていない。",
+      "point": "基幹業務ソフトに業種特化のエージェントを組み込む動きが、中堅企業向けにも広がっている。",
+      "source": "Small Business Trends",
+      "url": "https://smallbiztrends.com/netsuite-launches-industry-specific-ai-agents-for-businesses",
+      "publishedAt": "2026-10-26"
+    },
+    {
+      "id": "exawizards-gemini-4-argon",
+      "importance": 2,
+      "category": "国内",
+      "title": "エクサウィザーズ系、法人向け基盤でGemini 4 Argonを提供開始",
+      "summary": "エクサウィザーズのグループ会社は10月26日、法人向け生成AIサービス「エクサベース AI」で、Googleの最新モデル「Gemini 4 Argon」の提供を始めたと発表した。Googleが先に一般提供を始めた最新モデルを、国内企業が自社のサービス経由で使えるようになる。",
+      "point": "海外の最新モデルが、日本企業向けの業務サービスに反映されるまでの時間が短くなっている。",
+      "source": "日本経済新聞（プレスリリース）",
+      "url": "https://nikkei.com/article/DGXZRSP714336_W6A021C2000000",
+      "publishedAt": "2026-10-26"
+    },
+    {
+      "id": "yasuda-genai-usage",
       "importance": 1,
-      "category": "政策",
-      "title": "ブラジル大統領選、Meta AIの扱いを巡りルラ陣営が選管に申立て",
-      "summary": "ルラ陣営は、WhatsApp上のMeta AIが対立候補の宣伝画像は作るのに自陣営の画像は拒むと選挙裁判所に訴えた。裁判官はMetaに両候補の平等な扱いを確保する措置を命じた。Metaは安全フィルターが原因と説明し、特定候補を優遇していないとしている。決選投票は10月25日。",
+      "category": "国内",
+      "title": "安田倉庫、生成AI利用者率34.6%　目標を前倒し達成",
+      "summary": "安田倉庫は10月26日、全社の生成AI利用者率が2026年6月時点で34.6%になり、2027年度目標の20%を前倒しで達成したと明らかにした。",
       "point": "",
-      "source": "各紙報道（AP配信ほか）",
-      "url": "https://www.ksat.com/business/2026/10/15/brazils-lula-wins-electoral-court-challenge-against-meta-for-alleged-pro-bolsonaro-algorithm-bias/",
-      "publishedAt": "2026-10-15"
+      "source": "LNEWS（物流ニュース）",
+      "url": "https://lnews.jp/2026/10/s1026104.html",
+      "publishedAt": "2026-10-26"
     }
   ]
 }
