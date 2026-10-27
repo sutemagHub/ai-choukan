@@ -1,73 +1,95 @@
 {
-  "date": "2026-10-27",
-  "issuedAt": "2026-10-27T05:55:00+09:00",
-  "overview": "Anthropicが米証券取引委員会にS-1を正式提出し、ナスダック上場に向けて財務とガバナンスの中身が初めて公に出た。売上の急拡大と巨額の評価損、重い計算資源の契約が並んで見える。ほかには企業向けエージェントの発表と、国内での導入・提供の動きがあった。",
+  "date": "2026-10-28",
+  "issuedAt": "2026-10-28T06:10:00+09:00",
+  "overview": "けさはOpenAIが、画面操作に強い低価格モデル「GPT-6.1 Terra」を投入しました。中国Moonshotの大型モデルがフロンティアに迫る一方、AppleのSiri AIの日本語対応が進み、Microsoftは自主退職の募集でAI時代の人員構成を見直しています。新しいニュースが少ない日で、周辺の動きを中心にまとめました。",
   "items": [
     {
-      "id": "anthropic-s1-filed",
+      "id": "gpt-6-1-terra",
       "importance": 3,
-      "category": "ビジネス",
-      "title": "Anthropic、S-1を正式提出　ナスダックに「ANT」で上場申請",
-      "summary": "Anthropicは10月26日、SECに登録届出書S-1を提出し、ナスダック・グローバル・セレクト市場へ「ANT」の銘柄で上場を申請した。2026年上半期の売上は約163億ドル、純損失は約807億ドルで、損失の大半は転換社債などの評価替えによるもの。第2四半期には初の営業黒字も示された。公募価格帯や株数は未記載。",
-      "point": "AI大手の中でも最大級の上場になる見通しで、生成AI事業の収益性が初めて監査済みに近い形で開示された。",
-      "source": "CNBC / SEC提出書類",
-      "url": "https://www.cnbc.com/2026/10/26/anthropic-ipo-live-updates-ai-s-1-filing.html",
+      "category": "モデル",
+      "title": "OpenAI、画面操作に強い低価格モデル「GPT-6.1 Terra」を公開",
+      "summary": "OpenAIが10月26日、GPT-6.1 Terraを公開した。ChatGPTの有料プランとCodexで使え、APIでは入力100万トークン1ドル、出力5ドルと従来の半額。AWSのBedrockでも同日に使えるようになった。性能や速度の数字はOpenAI自身の主張で、第三者の検証はまだ出ていない。",
+      "point": "画面を見てアプリを操作する作業を安く回せるようになり、業務自動化の採算が変わる可能性がある。",
+      "source": "BleepingComputer、OpenAI",
+      "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-launches-gpt-61-terra-with-3x-faster-ai-agents-50-percent-lower-pricing/",
       "publishedAt": "2026-10-26"
     },
     {
-      "id": "anthropic-s1-governance",
+      "id": "kimi-k3-1-pro",
       "importance": 2,
-      "category": "ビジネス",
-      "title": "上場後も創業者が議決権の50.1%　特別株で支配維持",
-      "summary": "S-1によると、創業者7人が持つ特別なクラスF株が議決権の50.1%に相当し、Anthropicはナスダックの規則上「支配会社」に当たる。長期利益信託が取締役の過半を選ぶ仕組みも残る。主幹事はゴールドマン・サックスとモルガン・スタンレーで、引受団は24社。",
-      "point": "公益法人としての使命と、一般株主の利益をどう両立させるかが、投資家の最大の論点になりそうだ。",
-      "source": "SEC提出書類 / The Next Web",
-      "url": "https://www.sec.gov/Archives/edgar/data/0002130357/000162828026067168/anthropicpbc-sx1.htm",
-      "publishedAt": "2026-10-26"
+      "category": "モデル",
+      "title": "Moonshot、Kimi K3.1 Proを公開　重みは11月4日までに",
+      "summary": "中国のMoonshot AIが10月23日、Kimi K3.1 ProをアプリとAPIで公開した。総パラメータ約2.8兆のMoE型で、文脈長は100万トークン。外部の知能指標では世界4位とされ、オープンウェイトとして重みは11月4日までに出すと同社は説明している。ライセンスは未発表。",
+      "point": "重みが実際に公開されれば、最上位級の性能を自前で動かせる選択肢になる。公開とライセンスの中身を確認したい。",
+      "source": "CGTN、Let's Data Science",
+      "url": "https://news.cgtn.com/news/2026-10-24/Kimi-K3-1-Pro-an-open-weight-model-within-3-points-of-the-frontier-1Rvpycrxw2s/p.html",
+      "publishedAt": "2026-10-24"
     },
     {
-      "id": "anthropic-s1-compute",
-      "importance": 2,
-      "category": "ビジネス",
-      "title": "S-1が示す計算資源のリスク　長期契約と供給不足",
-      "summary": "提出書類は、クラウド各社が要請どおりの計算資源を供給できない可能性や、過去に要求が供給側の意向を上回った事実を挙げている。計算資源の多くは使用に先立つ複数年契約で、エージェント型製品は利用者あたりの消費が大きく、費用が売上より速く増えるおそれにも触れている。報道では契約総額は10年で5000億ドル超とされるが、数字は報道ごとに差がある。",
-      "point": "好調な売上の裏で、固定費に近い巨額の契約が収益を左右する構造が見えてきた。",
-      "source": "SEC提出書類 / VKTR",
-      "url": "https://www.vktr.com/ai-market/anthropics-s1-shows-163b-in-revenue-and-compute-squeeze/",
-      "publishedAt": "2026-10-26"
-    },
-    {
-      "id": "netsuite-suiteagents",
-      "importance": 2,
-      "category": "プロダクト",
-      "title": "NetSuite、業種別AIエージェント「SuiteAgents」を発表",
-      "summary": "オラクルのNetSuiteは10月26日、米ラスベガスのSuiteWorldで、業務を監視してリスクを知らせる業種別エージェント「SuiteAgents」を披露した。最初の対象はソフトウェア、製品販売、建設の各業種で、サービス業、医療、非営利向けは今後の提供予定とされ、時期は示されていない。",
-      "point": "基幹業務ソフトに業種特化のエージェントを組み込む動きが、中堅企業向けにも広がっている。",
-      "source": "Small Business Trends",
-      "url": "https://smallbiztrends.com/netsuite-launches-industry-specific-ai-agents-for-businesses",
-      "publishedAt": "2026-10-26"
-    },
-    {
-      "id": "exawizards-gemini-4-argon",
+      "id": "siri-ai-japanese",
       "importance": 2,
       "category": "国内",
-      "title": "エクサウィザーズ系、法人向け基盤でGemini 4 Argonを提供開始",
-      "summary": "エクサウィザーズのグループ会社は10月26日、法人向け生成AIサービス「エクサベース AI」で、Googleの最新モデル「Gemini 4 Argon」の提供を始めたと発表した。Googleが先に一般提供を始めた最新モデルを、国内企業が自社のサービス経由で使えるようになる。",
-      "point": "海外の最新モデルが、日本企業向けの業務サービスに反映されるまでの時間が短くなっている。",
-      "source": "日本経済新聞（プレスリリース）",
-      "url": "https://nikkei.com/article/DGXZRSP714336_W6A021C2000000",
-      "publishedAt": "2026-10-26"
+      "title": "Siri AI、日本語対応がiOS 27.2ベータで進む",
+      "summary": "AppleのSiri AIは、開発者向けのiOS 27.2ベータ版で日本語が使えるようになっている。Appleは10月に日本語などのベータ提供を予定すると説明した。ただ公式ページは「年内」とも書いており、一般向けの正式な時期は固まっていない。対応機種はiPhone 15 Pro以降などに限られる。",
+      "point": "日本語で使える対話型アシスタントが標準搭載されると、国内の個人向けAI利用の入口が大きく変わる。",
+      "source": "monodeck、gori.me",
+      "url": "https://monodeck.jp/siri-ai-japanese-ios-27-2-beta/",
+      "publishedAt": "2026-10-27"
     },
     {
-      "id": "yasuda-genai-usage",
+      "id": "microsoft-voluntary-buyout",
+      "importance": 2,
+      "category": "ビジネス",
+      "title": "Microsoft、初の自主退職募集　AI投資への転換と結びつけ",
+      "summary": "Microsoftが初めて自主退職の募集を始めたと報じられた。対象は米国の上級ディレクター以下で、年齢と勤続年数の合計が70以上の社員。米国従業員の約7%にあたるとされる。会社はAI関連の支出を重視する方針の中での措置だと説明している。",
+      "point": "巨額のAI投資を続ける大手が、人員構成の見直しを同時に進めている点が目を引く。",
+      "source": "Nasdaq（RTTNews）、UC Today",
+      "url": "https://nasdaq.com/articles/microsoft-offers-voluntary-buyouts-us-employees-amid-ai-driven-shift",
+      "publishedAt": "2026-10-27"
+    },
+    {
+      "id": "cr-group-aitore",
       "importance": 1,
       "category": "国内",
-      "title": "安田倉庫、生成AI利用者率34.6%　目標を前倒し達成",
-      "summary": "安田倉庫は10月26日、全社の生成AI利用者率が2026年6月時点で34.6%になり、2027年度目標の20%を前倒しで達成したと明らかにした。",
+      "title": "C&Rグループ、生成AI人材育成パッケージ「アイトレ」を開始",
+      "summary": "C&Rグループが、企業向けの生成AI人材育成パッケージ「アイトレ」の提供を始めた。社内で生成AIを使いこなせる人を増やしたい企業が対象。",
       "point": "",
-      "source": "LNEWS（物流ニュース）",
-      "url": "https://lnews.jp/2026/10/s1026104.html",
-      "publishedAt": "2026-10-26"
+      "source": "headtopics（プレスリリース）",
+      "url": "https://jp.headtopics.com/news/673882124641252479065-89232825",
+      "publishedAt": "2026-10-27"
+    },
+    {
+      "id": "simplismart-series-b",
+      "importance": 1,
+      "category": "ビジネス",
+      "title": "インドのSimplismart、推論基盤で1400万ドル調達　NVIDIAも出資",
+      "summary": "ベンガルールのAI推論基盤企業Simplismartが、シリーズBで1400万ドルを調達した。Dallas Venture Capitalが主導し、NVIDIAやAccelなどが参加。推論プラットフォームの強化と北米展開に充てる。",
+      "point": "",
+      "source": "Analytics India Magazine",
+      "url": "https://analyticsindiamag.com/ai-news/bengaluru-ai-startup-simplismart-raises-14-mn-in-nvidia-backed-round",
+      "publishedAt": "2026-10-27"
+    },
+    {
+      "id": "hyperbolic-series-a1",
+      "importance": 1,
+      "category": "ビジネス",
+      "title": "AI計算資源の市場Hyperbolic、3000万ドルを調達",
+      "summary": "AI向け計算資源のマーケットプレイスを運営するHyperbolicが、シリーズA-1で3000万ドルを調達したと報じられた。",
+      "point": "",
+      "source": "Tech Startups",
+      "url": "https://techstartups.com/2026/10/27/tech-news-today-october-27-2026-anthropic-files-for-ipo-63b-ai-chip-deal-microsofts-60000-employee-buyouts-and-openais-new-gpt-6-1-terra/",
+      "publishedAt": "2026-10-27"
+    },
+    {
+      "id": "machenta-seed",
+      "importance": 1,
+      "category": "ビジネス",
+      "title": "ロンドンのMachenta、シミュレーションでロボットを訓練　4000万ドル調達",
+      "summary": "ロンドンのロボット企業Machentaが、シミュレーション環境でロボットを訓練する事業に向け、シードで4000万ドルを調達したと報じられた。",
+      "point": "",
+      "source": "Tech Startups",
+      "url": "https://techstartups.com/2026/10/27/tech-news-today-october-27-2026-anthropic-files-for-ipo-63b-ai-chip-deal-microsofts-60000-employee-buyouts-and-openais-new-gpt-6-1-terra/",
+      "publishedAt": "2026-10-27"
     }
   ]
 }
