@@ -1,84 +1,62 @@
 {
-  "date": "2026-10-27",
-  "issuedAt": "2026-10-27T11:22:18+09:00",
-  "overview": "アンソロピックの上場申請書類で、スペースXのAI計算資源に最大1205億ドルを支払う契約が明らかになり、AI事業の規模が改めて注目されています。テスラとの合併は、トランプ政権のうちに発表をめざす動きが報じられ、テスラへの「売り」推奨は11年ぶりの少なさに。Starshipは次の飛行に向けた地上燃焼試験を終えました。",
+  "date": "2026-10-28",
+  "issuedAt": "2026-10-28T11:18:21+09:00",
+  "overview": "ロイターは、イスラエルの広告技術会社がStarlink利用者を狙って大量の広告を出し、位置の特定や監視に使っていた可能性があると報じました。Starlinkはタジキスタンで新規受付を止め、同国の規制当局が説明を求めています。マスク氏はブラジル大統領選の結果に疑問を示し、テキサス州では知事室とマスク氏の企業とのメールの開示をめぐる裁判が続いています。",
   "items": [
     {
-      "id": "anthropic-spacex-compute",
+      "id": "starlink-users-adtech-surveillance",
       "importance": 3,
       "category": "スペースX",
-      "title": "アンソロピック、スペースXの計算資源に最大1205億ドル",
-      "summary": "AI企業アンソロピックが米SECに出した上場申請書類で、スペースXのAI部門と2029年まで最大1205億ドル分の計算資源を使う契約を結んでいたことがわかった。契約は5〜10月に結ばれ、スペースXが持つNVIDIA製GPUを使う。全容量がそろえば支払いは月約31億ドルになるという。",
-      "point": "スペースXが400億ドルを借りてGPUを買う理由の一つが、大口の顧客契約として数字で示された。AI計算資源の販売が、ロケットや通信と並ぶ収益の柱になりうる。",
-      "source": "Fortune",
-      "url": "https://fortune.com/2026/10/26/anthropics-s1-ipo-reveals-the-inner-workings-of-its-fast-evolving-compute-strategy/",
-      "publishedAt": "2026-10-26"
+      "title": "Starlink利用者、イスラエルの広告会社が監視目的で狙ったか",
+      "summary": "ロイターによると、トレンドマイクロの研究部門は、イスラエルの広告技術会社Discover-Techが100か国以上でStarlink経由の広告枠を最も多く買い、利用者の位置特定や監視を図っていた可能性が高いと結論づけた。Starlinkが禁止・制限されている国も含まれる。グーグルなどは同社を広告基盤から外した。スペースXはコメントしていない。",
+      "point": "衛星通信は紛争地や規制の厳しい国で使われることが多く、広告を通じて利用者の居場所が割り出されれば安全に関わる。Starlinkの利用者保護のあり方が問われる。",
+      "source": "ロイター（The Business Standard経由）",
+      "url": "https://www.tbsnews.net/world/alleged-israeli-spy-company-heavily-targeted-starlink-users-sources-say-1584556",
+      "publishedAt": "2026-10-27"
     },
     {
-      "id": "starship-flight15-static-fire",
+      "id": "starlink-tajikistan-pause",
       "importance": 2,
       "category": "スペースX",
-      "title": "Starship飛行試験15回目へ、ブースターが33基燃焼試験",
-      "summary": "スペースXは10月25日、Starship飛行試験15回目に使うSuper Heavyブースター22号で、33基のエンジンを予定時間いっぱい燃やす地上試験を行った。次の飛行では、上段の宇宙船を発射塔で受け止める初の試みが予定されている。打ち上げ日は発表されていない。",
-      "point": "上段まで発射塔で回収できれば、機体を丸ごと再使用する目標に大きく近づく。",
-      "source": "Space.com",
-      "url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-ignites-giant-super-heavy-booster-engines-ahead-of-daring-starship-launch-video",
-      "publishedAt": "2026-10-26"
+      "title": "Starlink、タジキスタンで新規受付を停止　当局は説明要求",
+      "summary": "Starlinkはタジキスタンで新規の販売と開通を一時停止した。利用者へのメールでは、政府の規制と、使わなければならない地上網の費用の高さを理由に挙げた。同国の通信当局は、受付を禁止・制限したことはなく事前の連絡もなかったとして、詳しい説明を求めている。既存の約6000人の利用者には影響はない。",
+      "point": "各国で事業を広げるStarlinkにとって、現地の規制や地上設備の費用が足かせになりうることを示す例となった。",
+      "source": "Asia-Plus",
+      "url": "https://asiaplus.news/en/2026/10/27/starlink-stops-connecting-new-subscribers-in-tajikistan-communications-service-awaits-explanation",
+      "publishedAt": "2026-10-27"
     },
     {
-      "id": "verizon-ceo-starlink-mobile",
-      "importance": 2,
-      "category": "スペースX",
-      "title": "ベライゾンCEO「対抗網に最大5000億ドル」　マスク氏は「2〜3年」",
-      "summary": "米通信大手ベライゾンのシュルマンCEOは決算説明会で、スペースXが同社並みの携帯網を米国で築くには最大5000億ドルと約8万の基地局が必要で、少なくとも4〜6年かかるとの見方を示した。マスク氏はXで「2〜3年でできる」と応じた。",
-      "point": "スペースXが進める基地局交渉や直販計画に対し、既存の通信大手が公に反論した形で、通信業界との競争が本格化している。",
-      "source": "The Next Web",
-      "url": "https://thenextweb.com/news/verizon-schulman-spacex-500b-wireless-network",
-      "publishedAt": "2026-10-26"
-    },
-    {
-      "id": "spacex-share-unlock",
+      "id": "vandenberg-launch-record",
       "importance": 1,
       "category": "スペースX",
-      "title": "スペースX株、約3億1900万株の売却制限が解除",
-      "summary": "10月26日、上場時の取り決めに基づき、一部の社内関係者が持つ約3億1900万株が売却できるようになった。上場から135日目に当たる解除で、マスク氏は対象外。同日のスペースX株の終値は146.90ドルだった。",
+      "title": "カリフォルニアからの年間打ち上げ、過去最多の72回に",
+      "summary": "スペースXは日本時間10月27日、カリフォルニア州ヴァンデンバーグ宇宙軍基地からFalcon 9でStarlink衛星27機を打ち上げた。同基地からの今年72回目の打ち上げで、2025年の71回を超えた。第1段は26回目の飛行で、洋上の船への着陸に成功した。",
       "point": "",
-      "source": "The Motley Fool",
-      "url": "https://www.fool.com/investing/2026/10/26/spacex-kicks-off-another-potential-fleecing-of-retail-investors-today-oct-26/",
-      "publishedAt": "2026-10-26"
+      "source": "sorae",
+      "url": "https://sorae.info/ssn/20261027-starlink-g15-16.html",
+      "publishedAt": "2026-10-27"
     },
     {
-      "id": "merger-before-trump-exit",
+      "id": "musk-brazil-election",
       "importance": 3,
       "category": "イーロン・マスク",
-      "title": "テスラとの合併、トランプ政権中の発表めざすと報道",
-      "summary": "ブルームバーグによると、マスク氏のスペースXとテスラの合併を推す側は、2027年前半までの発表をめざしている。合わせた時価総額は約3.7兆ドル。条件は決まっておらず、両社の特別委員会が交渉し、マスク氏は加わらない。マスク氏はスペースXの議決権の8割超を握る一方、テスラは約2割にとどまる。",
-      "point": "成否はテスラ株主の承認にかかる。11月3日の中間選挙の結果が、合併の審査や進め方に影響する可能性も指摘されている。",
-      "source": "Bloomberg（investingLive経由）",
-      "url": "https://investinglive.com/stocks/musk-races-to-seal-3-7-trillion-spacex-tesla-merger-before-trump-exits-bloomberg-says/",
+      "title": "マスク氏、ブラジル大統領選の結果に「計算が合わない」",
+      "summary": "10月25日のブラジル大統領選の決選投票で、ルラ大統領が約400万票差で勝った。マスク氏はXで繰り返し投稿し、「計算が合わない」などと結果に疑問を示した。投票日には悪天候などを理由に最高裁判事の命令で投票時間が2時間延長されたが、この間の票は4万票足らずだったと報じられている。",
+      "point": "Xで多くのフォロワーを持つマスク氏の発言は、他国の選挙をめぐる議論にも影響する。米国の中間選挙を11月3日に控えた時期でもある。",
+      "source": "Slate、Salon",
+      "url": "https://slate.com/news-and-politics/2026/10/brazil-election-results-lula-bolsonaro-far-right-maga.html",
       "publishedAt": "2026-10-26"
     },
     {
-      "id": "tesla-sell-ratings-low",
+      "id": "abbott-musk-emails-court",
       "importance": 2,
       "category": "イーロン・マスク",
-      "title": "テスラの「売り」推奨、合併期待で11年ぶりの少なさ",
-      "summary": "ブルームバーグの集計で、テスラを「売り」とするアナリストは60人中5人となり、2015年初め以来の低い割合になった。年初は71人中15人だった。英バークレイズは26日に投資判断を引き上げ、テスラ株は同日6%上がった。",
-      "point": "マスク氏が率いる2社の合併への期待が、テスラの評価を押し上げている。一方で、両社の議決権の過半数が必要など、実現のハードルは高いとの見方もある。",
-      "source": "The Next Web（ブルームバーグ集計）",
-      "url": "https://thenextweb.com/news/tesla-sell-ratings-11-year-low-spacex-merger",
-      "publishedAt": "2026-10-26"
-    },
-    {
-      "id": "x-like-tipping",
-      "importance": 1,
-      "category": "イーロン・マスク",
-      "title": "Xの「いいね」長押しで1ドル送金、マスク氏が予告",
-      "summary": "マスク氏は、Xの「いいね」ボタンを長押しすると、決済機能X Moneyを通じて投稿者に1ドルを送れるようにすると明らかにした。開始時期は示していない。",
-      "point": "",
-      "source": "ITmedia NEWS",
-      "url": "https://news.infoseek.co.jp/article/itmedia_news_202610262000002579/",
-      "publishedAt": "2026-10-26"
+      "title": "テキサス知事室とマスク氏企業のメール、裁判所が開示命令",
+      "summary": "テキサス州知事選の民主党候補ヒノホサ氏は、アボット知事の事務所とマスク氏のテキサスの企業とのメールを黒塗りなしで見せるよう求めて提訴していた。オースティンの州地裁は10月26日に開示を命じたが、知事室は控訴し、命令は止まっている。控訴の審理は11月2日に予定されている。",
+      "point": "マスク氏の企業と州政府との関係が、11月3日の知事選を前に争点の一つになっている。",
+      "source": "KUT（The Texas Newsroom）",
+      "url": "https://www.kut.org/politics/2026-10-27/gina-hinojosa-abbott-musk-emails-court-ruling-appeal",
+      "publishedAt": "2026-10-27"
     }
   ]
 }

@@ -1,0 +1,62 @@
+{
+  "date": "2026-10-28",
+  "issuedAt": "2026-10-28T11:18:21+09:00",
+  "overview": "ロイターは、イスラエルの広告技術会社がStarlink利用者を狙って大量の広告を出し、位置の特定や監視に使っていた可能性があると報じました。Starlinkはタジキスタンで新規受付を止め、同国の規制当局が説明を求めています。マスク氏はブラジル大統領選の結果に疑問を示し、テキサス州では知事室とマスク氏の企業とのメールの開示をめぐる裁判が続いています。",
+  "items": [
+    {
+      "id": "starlink-users-adtech-surveillance",
+      "importance": 3,
+      "category": "スペースX",
+      "title": "Starlink利用者、イスラエルの広告会社が監視目的で狙ったか",
+      "summary": "ロイターによると、トレンドマイクロの研究部門は、イスラエルの広告技術会社Discover-Techが100か国以上でStarlink経由の広告枠を最も多く買い、利用者の位置特定や監視を図っていた可能性が高いと結論づけた。Starlinkが禁止・制限されている国も含まれる。グーグルなどは同社を広告基盤から外した。スペースXはコメントしていない。",
+      "point": "衛星通信は紛争地や規制の厳しい国で使われることが多く、広告を通じて利用者の居場所が割り出されれば安全に関わる。Starlinkの利用者保護のあり方が問われる。",
+      "source": "ロイター（The Business Standard経由）",
+      "url": "https://www.tbsnews.net/world/alleged-israeli-spy-company-heavily-targeted-starlink-users-sources-say-1584556",
+      "publishedAt": "2026-10-27"
+    },
+    {
+      "id": "starlink-tajikistan-pause",
+      "importance": 2,
+      "category": "スペースX",
+      "title": "Starlink、タジキスタンで新規受付を停止　当局は説明要求",
+      "summary": "Starlinkはタジキスタンで新規の販売と開通を一時停止した。利用者へのメールでは、政府の規制と、使わなければならない地上網の費用の高さを理由に挙げた。同国の通信当局は、受付を禁止・制限したことはなく事前の連絡もなかったとして、詳しい説明を求めている。既存の約6000人の利用者には影響はない。",
+      "point": "各国で事業を広げるStarlinkにとって、現地の規制や地上設備の費用が足かせになりうることを示す例となった。",
+      "source": "Asia-Plus",
+      "url": "https://asiaplus.news/en/2026/10/27/starlink-stops-connecting-new-subscribers-in-tajikistan-communications-service-awaits-explanation",
+      "publishedAt": "2026-10-27"
+    },
+    {
+      "id": "vandenberg-launch-record",
+      "importance": 1,
+      "category": "スペースX",
+      "title": "カリフォルニアからの年間打ち上げ、過去最多の72回に",
+      "summary": "スペースXは日本時間10月27日、カリフォルニア州ヴァンデンバーグ宇宙軍基地からFalcon 9でStarlink衛星27機を打ち上げた。同基地からの今年72回目の打ち上げで、2025年の71回を超えた。第1段は26回目の飛行で、洋上の船への着陸に成功した。",
+      "point": "",
+      "source": "sorae",
+      "url": "https://sorae.info/ssn/20261027-starlink-g15-16.html",
+      "publishedAt": "2026-10-27"
+    },
+    {
+      "id": "musk-brazil-election",
+      "importance": 3,
+      "category": "イーロン・マスク",
+      "title": "マスク氏、ブラジル大統領選の結果に「計算が合わない」",
+      "summary": "10月25日のブラジル大統領選の決選投票で、ルラ大統領が約400万票差で勝った。マスク氏はXで繰り返し投稿し、「計算が合わない」などと結果に疑問を示した。投票日には悪天候などを理由に最高裁判事の命令で投票時間が2時間延長されたが、この間の票は4万票足らずだったと報じられている。",
+      "point": "Xで多くのフォロワーを持つマスク氏の発言は、他国の選挙をめぐる議論にも影響する。米国の中間選挙を11月3日に控えた時期でもある。",
+      "source": "Slate、Salon",
+      "url": "https://slate.com/news-and-politics/2026/10/brazil-election-results-lula-bolsonaro-far-right-maga.html",
+      "publishedAt": "2026-10-26"
+    },
+    {
+      "id": "abbott-musk-emails-court",
+      "importance": 2,
+      "category": "イーロン・マスク",
+      "title": "テキサス知事室とマスク氏企業のメール、裁判所が開示命令",
+      "summary": "テキサス州知事選の民主党候補ヒノホサ氏は、アボット知事の事務所とマスク氏のテキサスの企業とのメールを黒塗りなしで見せるよう求めて提訴していた。オースティンの州地裁は10月26日に開示を命じたが、知事室は控訴し、命令は止まっている。控訴の審理は11月2日に予定されている。",
+      "point": "マスク氏の企業と州政府との関係が、11月3日の知事選を前に争点の一つになっている。",
+      "source": "KUT（The Texas Newsroom）",
+      "url": "https://www.kut.org/politics/2026-10-27/gina-hinojosa-abbott-musk-emails-court-ruling-appeal",
+      "publishedAt": "2026-10-27"
+    }
+  ]
+}
