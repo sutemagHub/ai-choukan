@@ -1,0 +1,95 @@
+{
+  "date": "2026-10-30",
+  "issuedAt": "2026-10-30T05:46:04+09:00",
+  "overview": "けさはAnthropicが法務に続き金融アドバイザー向けの業種別パッケージを広げ、AI支出の成果を見せる報告ツールも出しました。国内ではパナソニック子会社が禁止の生成AIに33万人分の個人情報を入れていた件が公表されています。新規の大きなモデル発表は少なく、製品・政策の周辺ニュースが中心の日です。",
+  "items": [
+    {
+      "id": "claude-legal-gallery",
+      "importance": 3,
+      "category": "プロダクト",
+      "title": "Anthropic、弁護士向けClaudeに既成ツール集を追加",
+      "summary": "Claude for Legalに、契約レビューや規制動向の調査、引用チェックなどをすぐ使える既成のツール群が加わった。法務コネクタも60以上に増え、Claudeが一次確認を行い、最終判断は弁護士が下す設計とされる。",
+      "point": "汎用チャットから業種別の業務ツールへという流れが、法務でも本格化してきた。",
+      "source": "ABA Journal",
+      "url": "https://www.abajournal.com/news/article/anthropic-raises-the-bar-with-claude-for-legal-artifacts-law-specific-interactive-tools",
+      "publishedAt": "2026-10-28"
+    },
+    {
+      "id": "panasonic-genai-leak",
+      "importance": 3,
+      "category": "国内",
+      "title": "パナソニック子会社、禁止の生成AIに約33万人分の個人情報",
+      "summary": "パナソニック オペレーショナルエクセレンスは、人事システム導入プロジェクトの担当者が、利用禁止の外部生成AIへ従業員・元従業員・家族ら約33万4千人分のデータを入れたと公表した。社員番号や住所、連絡先が中心で、不正アクセスではなく社内ルール違反が原因という。",
+      "point": "学習に使われない設定でも、削除後にデータが一定期間残りうる点が論点で、社内の利用ルールの実効性が問われる。",
+      "source": "Innovatopia",
+      "url": "https://innovatopia.jp/cyber-security/cyber-security-news/119409/",
+      "publishedAt": "2026-10-29"
+    },
+    {
+      "id": "anthropic-spend-tools",
+      "importance": 2,
+      "category": "ビジネス",
+      "title": "Anthropic、AI支出の成果を可視化する企業向け報告ツール",
+      "summary": "Anthropicは、企業がトークン消費に対して何が得られたのかを確認できるレポート機能群を発表した。導入が広がる中で、費用対効果の説明を求める経営層の声に応える狙いとみられる。",
+      "point": "AI導入の焦点が「使わせる」から「元が取れているか」へ移りつつある。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/28/anthropic-just-launched-tools-to-show-companies-what-their-ai-spending-is-buying/",
+      "publishedAt": "2026-10-28"
+    },
+    {
+      "id": "claude-financial-advisors",
+      "importance": 2,
+      "category": "プロダクト",
+      "title": "Claude、ファイナンシャルアドバイザー向けにコネクタとスキルを追加",
+      "summary": "保管機関やポートフォリオ管理基盤につなぐコネクタと、業務手順のスキルをまとめた製品。BlackRock、Charles Schwab、Addepar、Envestnetなどが連携先に挙がる。",
+      "point": "法務に続き、金融の専門職向けにも業種別パッケージが広がった。",
+      "source": "Blockchain.News",
+      "url": "https://blockchain.news/news/anthropic-claude-financial-advisors-connectors-workflow-skills",
+      "publishedAt": "2026-10-27"
+    },
+    {
+      "id": "openai-science-proofs",
+      "importance": 2,
+      "category": "研究",
+      "title": "OpenAI、モデルが数学の証明を生成と主張　外部検証を進行中",
+      "summary": "OpenAIは26日、自社モデルが複数の数学問題で証明を作り、うち指数時間仮説に関する主張はLean証明系で確認したと説明した。物理分野ではDavid Gross氏らの研究グループと検証を進めているが、同グループは資料公開を遅らせている。",
+      "point": "成果の信頼性は外部検証次第で、当面は慎重な見方が必要。",
+      "source": "Fox News（ライブブログ）",
+      "url": "https://www.foxnews.com/live-news/ai-news-anthropic-claude-openai-chatgpt-10-27-26",
+      "publishedAt": "2026-10-27"
+    },
+    {
+      "id": "trump-super-intelligence-term",
+      "importance": 2,
+      "category": "政策",
+      "title": "トランプ氏、連邦文書で「AI」の語を禁じると表明　「超知能」に置換",
+      "summary": "トランプ大統領は27日、「人工知能」は不正確な名称だとして公式文書での使用を禁止すると投稿した。9月29日の大統領令が根拠で、対象は連邦政府の資料に限られ、民間企業や報道には及ばない。",
+      "point": "実質的な規制ではないが、政権の用語選択として注目される。多くの企業や海外政府は「AI」を使い続けている。",
+      "source": "The National",
+      "url": "https://www.thenationalnews.com/future/technology/2026/10/27/why-does-trump-call-it-super-intelligence-instead-of-ai/",
+      "publishedAt": "2026-10-27"
+    },
+    {
+      "id": "openai-api-credits",
+      "importance": 1,
+      "category": "開発者",
+      "title": "ChatGPT Pro・Businessに月最大500ドルのAPIクレジット",
+      "summary": "OpenAIは28日、対象のChatGPT ProとBusinessの契約者が、アプリやエージェント開発向けに月最大500ドル分のAPIクレジットを受け取れると発表した。",
+      "point": "",
+      "source": "OpenAI Developers（X）",
+      "url": "https://x.com/OpenAIDevs/status/2115583698074755078",
+      "publishedAt": "2026-10-28"
+    },
+    {
+      "id": "chatgpt-icloud-connectors",
+      "importance": 1,
+      "category": "プロダクト",
+      "title": "ChatGPT、iCloudのメールとカレンダーに接続可能に",
+      "summary": "OpenAIのリリースノートによると、27日からChatGPTがiCloudメールとカレンダーに接続できるようになった。",
+      "point": "",
+      "source": "Releasebot（OpenAIリリースノート）",
+      "url": "https://releasebot.io/updates/openai",
+      "publishedAt": "2026-10-27"
+    }
+  ]
+}
