@@ -1,0 +1,73 @@
+{
+  "date": "2026-10-31",
+  "issuedAt": "2026-10-31T05:55:00+09:00",
+  "overview": "けさはフランスのMistralが約1兆パラメータのLarge 4を重み付きで公開し、オープンモデルの選択肢が広がりました。一方、MicrosoftとGoogleがAI設備投資の見通し引き上げを見送り、Amazonも巨額投資でフリーキャッシュフローが急減するなど、投資の採算を見る目が強まっています。新しいモデル発表は少なめで、確認が取れた話題に絞った号です。",
+  "items": [
+    {
+      "id": "mistral-large-4-open-weights",
+      "importance": 3,
+      "category": "モデル",
+      "title": "Mistral、1兆パラメータ級「Large 4」の重みを公開",
+      "summary": "仏Mistralは約1兆パラメータのマルチモーダルMoEモデル「Large 4」の重みをHugging Faceで公開した。1トークンあたりの有効パラメータは約490億で、コーディングやサイバー防御向けをうたう。ライセンスは修正MITで、自由に使えるが、モデルをサービスとして提供する事業者は別途商用契約が要る。",
+      "point": "西側発の最大級のオープンウェイトで、自社運用を望む企業の選択肢になる。ただしMaaS事業者にはライセンス上の条件がある。",
+      "source": "Mistral AI",
+      "url": "https://mistral.ai/news/mistral-large-4-oss/",
+      "publishedAt": "2026-10-29"
+    },
+    {
+      "id": "bigtech-capex-hold",
+      "importance": 3,
+      "category": "ビジネス",
+      "title": "MSとGoogle、AI設備投資の見通し引き上げを見送り",
+      "summary": "CNBCによると、Microsoftは2026年の設備投資見通しを1750億ドルから1700億ドルへ引き下げ、GoogleもAlphabetの枠を1950億〜2050億ドルのまま据え置いた。MicrosoftはGPU調達先の遅れで一部の供給が2027年前半にずれ込むと説明している。Azureは48%増で、決算自体は市場に好感された。",
+      "point": "投資の拡大一辺倒から、供給制約と採算を見極める局面に入りつつあることを示す。",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/10/29/microsoft-google-ai-capex-estimates.html",
+      "publishedAt": "2026-10-29"
+    },
+    {
+      "id": "amazon-q3-ai-spending",
+      "importance": 2,
+      "category": "ビジネス",
+      "title": "Amazon、AI投資でFCFが急減　株価は時間外で下落",
+      "summary": "Amazonは7〜9月期決算で、AI関連の設備購入が大きく膨らんだ影響でフリーキャッシュフローが急減したと報じられた。ジャシーCEOは2027年にさらに投資を増やす考えを示し、株価は時間外取引で大きく下げた。",
+      "point": "巨大クラウド各社の中でも、投資負担への市場の受け止めが分かれ始めている。",
+      "source": "Axios",
+      "url": "https://www.axios.com/2026/10/29/amazon-stock-earnings-ai",
+      "publishedAt": "2026-10-29"
+    },
+    {
+      "id": "aws-bedrock-grok-47",
+      "importance": 1,
+      "category": "プロダクト",
+      "title": "AWS Bedrockに xAI の Grok 4.7 が追加",
+      "summary": "Amazonは決算に合わせた発表で、Bedrockの新モデルとしてxAI（現SpaceXAI）のGrok 4.7を加えた。AWSはMeta、NVIDIA、OpenAIなどとの新規契約にも触れている。",
+      "point": "",
+      "source": "Amazon",
+      "url": "https://www.aboutamazon.com/news/company-news/amazon-q3-2026-earnings-preview",
+      "publishedAt": "2026-10-29"
+    },
+    {
+      "id": "cohere-first-close",
+      "importance": 1,
+      "category": "ビジネス",
+      "title": "Cohere、資金調達の第1回クローズで評価額205億ドル",
+      "summary": "カナダのCohereは最新ラウンドの第1回クローズを終え、評価額は205億ドルに達したとBloombergを引用して報じられた。最終的な調達額は未公表で、CFOは大部分は埋まったと述べている。",
+      "point": "",
+      "source": "KuCoin News（Bloomberg報道の引用）",
+      "url": "https://www.kucoin.com/news/flash/cohere-completes-50b-funding-round-valuation-surpasses-20b",
+      "publishedAt": "2026-10-29"
+    },
+    {
+      "id": "gennai-domestic-llm",
+      "importance": 1,
+      "category": "国内",
+      "title": "デジタル庁「源内」、国産LLM5社の試用が進む",
+      "summary": "デジタル庁の政府職員向け生成AI環境「源内」で、国産LLM5社のモデルの試用が進んでいると伝えられている。2027年度の公募も視野に入っている。",
+      "point": "",
+      "source": "ISSOH",
+      "url": "https://www.issoh.co.jp/tech/details/11305/",
+      "publishedAt": "2026-10-30"
+    }
+  ]
+}
