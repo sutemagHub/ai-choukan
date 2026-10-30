@@ -1,62 +1,84 @@
 {
-  "date": "2026-10-29",
-  "issuedAt": "2026-10-29T11:22:52+09:00",
-  "overview": "スペースXはFAAへの意見書で、自社だけで年1万回の打ち上げを見込むと表明し、空域の運用ルールの見直しを求めました。Starshipは次の飛行に向けて機体側の燃焼試験も終え、AI部門はデータセンター周辺の住宅買い取りを提案しています。マスク氏については、プーチン大統領が「真の天才」と称賛し、中間選挙で最大の個人献金者になっていることも伝えられました。",
+  "date": "2026-10-30",
+  "issuedAt": "2026-10-30T11:18:05+09:00",
+  "overview": "スペースXでは、7〜9月期の売上の約3分の1をアンソロピック1社が占めていると報じられ、株価が下げました。FCCが衛星から携帯への通信に使える電波を広げる案を進めた一方、ウクライナでのStarlink障害の調査見送りや、ルイジアナの新発射場をめぐる提訴など、規制や手続きをめぐる話題も続いています。マスク氏については、テスラ取締役会が12月の総会での再任支持を株主に求めました。",
   "items": [
     {
-      "id": "faa-10000-launches",
+      "id": "anthropic-spacex-top-customer",
       "importance": 3,
       "category": "スペースX",
-      "title": "スペースX、自社だけで年1万回の打ち上げ見込む　FAAに意見書",
-      "summary": "スペースXは、新たな宇宙港の立地や打ち上げ用空域の優先についてFAAが募った意見に回答し、自社だけで年1万回の打ち上げを見込むと記しました。現在の航空管制の手続きが上限になっているとして、専用の打ち上げ・帰還回廊の設定を求めています。マスク氏はルイジアナ州の新拠点だけで年1万回のStarship打ち上げを支えられるとの考えも示しました。",
-      "point": "FAAは2035年に米国全体で年1万回の打ち上げ・帰還を想定しており、スペースX一社でそれに並ぶ規模を主張したことで、空域の配分をめぐる議論に影響しそうです。",
-      "source": "Wccftech（FAAへの提出書類 FAA-2026-9736）",
-      "url": "https://wccftech.com/spacex-tells-faa-it-alone-expects-10000-launches-a-year-as-it-gears-up-to-target-28-5-trillion-market-that-elon-musk-believes-is-inadequate/",
-      "publishedAt": "2026-10-28"
-    },
-    {
-      "id": "ship42-static-fire",
-      "importance": 2,
-      "category": "スペースX",
-      "title": "Starship飛行15回目へ、機体側も6基の燃焼試験",
-      "summary": "次の飛行に使うStarship 42号機が、6基のラプターエンジンすべてを使った燃焼試験を終えたとスペースXが10月28日に発表しました。前日には軌道離脱を想定した1基だけの燃焼も行っています。ブースターは25日に33基の試験を終えており、11月の打ち上げをめざしますが、両段を発射場へ戻すためのFAAの許可はまだ出ていません。",
-      "point": "飛行15回目ではブースターと機体の両方をタワーで捕まえる計画で、機体の回収に成功すれば初めてロケット全体を回収することになります。",
-      "source": "TechGenyz（スペースXの発表）",
-      "url": "https://techgenyz.com/starship-flight-engine-test/",
-      "publishedAt": "2026-10-28"
-    },
-    {
-      "id": "spacexai-southaven-buyouts",
-      "importance": 2,
-      "category": "スペースX",
-      "title": "スペースXのAI部門、データセンター近くの住宅最大418戸に買い取り提案",
-      "summary": "スペースX傘下のAI部門（旧xAI）が、ミシシッピ州サウスヘイブンのデータセンター近くの住宅地で、最大418戸を市場価格で買い取ると提案していると報じられました。条件として、発電用タービンの騒音をめぐる集団訴訟の請求を放棄することを求めています。少なくとも18人が応じたとされ、同社は騒音の主張を否定しています。",
-      "point": "AIの計算設備を急いで増やすなかで、電源や騒音をめぐる地域との摩擦が、費用や訴訟のかたちで表に出てきています。",
-      "source": "Forbes",
-      "url": "https://www.forbes.com/sites/maryroeloffs/2026/10/28/xai-offers-home-buyouts-in-mississippi-to-quash-data-center-lawsuit/",
-      "publishedAt": "2026-10-28"
-    },
-    {
-      "id": "putin-praises-musk",
-      "importance": 3,
-      "category": "イーロン・マスク",
-      "title": "プーチン大統領、マスク氏を「真の天才」と称賛",
-      "summary": "ロシアのプーチン大統領は28日、モスクワでのロシア・アフリカ首脳会議に合わせた展示会を視察した際、マスク氏を「真の天才」と評しました。同氏が5000基を超える衛星を運用する一方、ロシアの衛星網はまだ初期段階だと述べ、マスク氏を含む米側と連絡を取り、軌道上で互いに干渉しないことが大切だと語りました。",
-      "point": "ウクライナでのStarlinkやStarshieldの利用をめぐる対立が続くなかでの発言で、衛星通信が外交上の争点になっていることを示しています。",
-      "source": "AFPBB News",
-      "url": "https://www.afpbb.com/articles/-/3659832",
+      "title": "アンソロピック、スペースX最大の顧客に　7〜9月期売上の約3分の1",
+      "summary": "ブルームバーグは、スペースXが決算資料で「顧客B」とだけ記した売上の約34.5%を占める取引先がアンソロピックだと報じました。長く最大顧客だった米政府を上回ります。報道を受け、スペースX株は時間外取引で約3%下げ、140ドル前後に下落しました。",
+      "point": "AI向け計算資源の貸し出しが急成長の柱になった一方、契約には2027年初め以降に90日前の通知で解約できる条件があり、1社への依存の大きさが投資家の懸念材料になっています。",
+      "source": "Bloomberg（The Next Web、Investing.comも報道）",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-29/spacex-s-largest-revenue-source-is-a-finite-deal-with-anthropic",
       "publishedAt": "2026-10-29"
     },
     {
-      "id": "musk-top-midterm-donor",
+      "id": "fcc-d2d-482mhz",
+      "importance": 2,
+      "category": "スペースX",
+      "title": "FCC、衛星から携帯への通信に482MHz追加案を前進",
+      "summary": "米連邦通信委員会（FCC）は29日、衛星とスマートフォンを直接つなぐ通信のルール見直し案を進めることを決めました。対象の周波数帯を5つから13に広げ、合計482MHzを加える内容です。携帯大手3社は業界団体を通じ、5Gへの干渉を理由に290MHz分の除外を求めています。",
+      "point": "Starlinkの携帯向けサービスが使える電波が大きく増える可能性があります。ただし今回は提案段階で、意見募集を経て改めて採決が必要です。",
+      "source": "Tesla North",
+      "url": "https://teslanorth.com/2026/10/29/fcc-d2d-vote-starlink-mobile/",
+      "publishedAt": "2026-10-29"
+    },
+    {
+      "id": "pentagon-ig-starlink-ukraine",
+      "importance": 2,
+      "category": "スペースX",
+      "title": "国防総省の監察官、ウクライナでのStarlink障害の調査を見送り",
+      "summary": "米国防総省の監察官室は、ウクライナでStarlinkと軍用版Starshieldの利用が制限された問題について、超党派の上院議員9人が求めた調査を行わないと議員側に伝えました。空軍と宇宙軍が扱う契約上の問題だとしています。サービスは現在は通常に戻っています。",
+      "point": "民間の衛星網が戦地の通信を左右することへの監視のあり方が問われており、議員の一部は政権とスペースXの説明が食い違うとして全面的な調査を求めています。",
+      "source": "ABC News",
+      "url": "https://abcnews.com/International/pentagon-inspector-general-declines-investigate-starlink-disruptions-ukraine/story?id=137662539",
+      "publishedAt": "2026-10-29"
+    },
+    {
+      "id": "starbase-louisiana-lawsuit",
+      "importance": 2,
+      "category": "スペースX",
+      "title": "ルイジアナの新発射場、税優遇の取り消し求め住民が提訴",
+      "summary": "スペースXがルイジアナ州バーミリオン郡に計画する発射場をめぐり、住民と市民団体が郡の機関を相手に訴えを起こしました。会議の公開に関する州法に8件違反したと主張し、8月に承認された税の取り決めを無効にして公開の場でやり直すよう求めています。",
+      "point": "取り決めでは25年間で約238億ドル分の固定資産税が免除される代わりに年2500万ドルを支払う内容で、訴えが認められれば約1000億ドル規模の計画の前提が揺らぎます。",
+      "source": "WWNO（ニューオーリンズ公共ラジオ）",
+      "url": "https://www.wwno.org/politics/2026-10-26/behind-closed-doors-the-secret-spacex-deal-and-the-lawsuit-challenging-it",
+      "publishedAt": "2026-10-26"
+    },
+    {
+      "id": "falcon9-starlink-vandenberg-1030",
+      "importance": 1,
+      "category": "スペースX",
+      "title": "Falcon 9、30日夜にカリフォルニアからStarlink 27基を打ち上げ予定",
+      "summary": "スペースXは米西海岸のバンデンバーグ宇宙軍基地から、現地時間30日午後8時48分（日本時間31日午後0時48分）以降にStarlink衛星27基を打ち上げる予定です。1段目は18回目の飛行で、太平洋上の無人船に着陸させます。",
+      "point": "",
+      "source": "KEYT",
+      "url": "https://keyt.com/vandenberg-space-base/2026/10/29/falcon-9-launch-of-starlink-satellites-scheduled-for-late-friday-into-early-saturday/",
+      "publishedAt": "2026-10-29"
+    },
+    {
+      "id": "tesla-board-reelect-musk",
+      "importance": 3,
+      "category": "イーロン・マスク",
+      "title": "テスラ取締役会、12月3日の株主総会でマスク氏の再任支持を要請",
+      "summary": "テスラの取締役会は29日、株主に宛てた書簡を米証券取引委員会に提出し、12月3日の年次総会でマスク氏、デンホルム会長、ストローベル氏の3人を再任するよう求めました。任期は3年です。ロボタクシーや人型ロボット「オプティマス」の取り組みを理由に挙げています。",
+      "point": "スペースXとの統合を急ぐよう求める株主の声がある中、今回の総会に合併の議案はなく、マスク氏の経営体制そのものが問われる場になります。",
+      "source": "Tesla North（テスラのSEC提出資料）",
+      "url": "https://teslanorth.com/2026/10/29/tesla-board-urges-re-elect-musk-december-3/",
+      "publishedAt": "2026-10-29"
+    },
+    {
+      "id": "salvini-musk-fsd-eu",
       "importance": 2,
       "category": "イーロン・マスク",
-      "title": "マスク氏、中間選挙で最大の個人献金者に　約4億4600万ドル",
-      "summary": "アルジャジーラがFECのデータを集計したところ、マスク氏は2026年の中間選挙で共和党系の団体に約4億4600万ドルを献金し、個人では最大の献金者になっています。10月前半にも自身のスーパーPAC「アメリカPAC」へ約7700万ドルを拠出したことが、同PACの報告書で明らかになっています。投票日は11月3日です。",
-      "point": "投票日を前に、献金の規模がマスク氏の政治的な影響力をめぐる議論の材料になっています。",
-      "source": "Al Jazeera（FECデータ）",
-      "url": "https://www.aljazeera.com/news/2026/10/27/tracking-the-money-the-biggest-donors-in-the-2026-us-midterm-elections",
-      "publishedAt": "2026-10-27"
+      "title": "イタリアのサルビーニ副首相、マスク氏と協議　テスラの運転支援をEUで早期承認へ支持",
+      "summary": "イタリアのサルビーニ副首相兼インフラ・交通相は29日、マスク氏と話し合ったと明らかにし、内容を「非常に前向きで建設的」と述べました。そのうえで、テスラの運転支援システムをEUが速やかに承認することを支持すると表明しました。",
+      "point": "欧州での運転支援機能の承認はEU単位で進むため、加盟国の閣僚の支持はテスラにとって追い風になります。イタリア単独での承認ではありません。",
+      "source": "LaPresse",
+      "url": "https://uk.lapresse.it/politics-en/2026/10/29/transport-salvini-speaks-with-musk-eu-should-approve-teslas-driver-assistance-system/",
+      "publishedAt": "2026-10-29"
     }
   ]
 }

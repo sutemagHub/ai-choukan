@@ -1,0 +1,84 @@
+{
+  "date": "2026-10-30",
+  "issuedAt": "2026-10-30T11:18:05+09:00",
+  "overview": "スペースXでは、7〜9月期の売上の約3分の1をアンソロピック1社が占めていると報じられ、株価が下げました。FCCが衛星から携帯への通信に使える電波を広げる案を進めた一方、ウクライナでのStarlink障害の調査見送りや、ルイジアナの新発射場をめぐる提訴など、規制や手続きをめぐる話題も続いています。マスク氏については、テスラ取締役会が12月の総会での再任支持を株主に求めました。",
+  "items": [
+    {
+      "id": "anthropic-spacex-top-customer",
+      "importance": 3,
+      "category": "スペースX",
+      "title": "アンソロピック、スペースX最大の顧客に　7〜9月期売上の約3分の1",
+      "summary": "ブルームバーグは、スペースXが決算資料で「顧客B」とだけ記した売上の約34.5%を占める取引先がアンソロピックだと報じました。長く最大顧客だった米政府を上回ります。報道を受け、スペースX株は時間外取引で約3%下げ、140ドル前後に下落しました。",
+      "point": "AI向け計算資源の貸し出しが急成長の柱になった一方、契約には2027年初め以降に90日前の通知で解約できる条件があり、1社への依存の大きさが投資家の懸念材料になっています。",
+      "source": "Bloomberg（The Next Web、Investing.comも報道）",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-29/spacex-s-largest-revenue-source-is-a-finite-deal-with-anthropic",
+      "publishedAt": "2026-10-29"
+    },
+    {
+      "id": "fcc-d2d-482mhz",
+      "importance": 2,
+      "category": "スペースX",
+      "title": "FCC、衛星から携帯への通信に482MHz追加案を前進",
+      "summary": "米連邦通信委員会（FCC）は29日、衛星とスマートフォンを直接つなぐ通信のルール見直し案を進めることを決めました。対象の周波数帯を5つから13に広げ、合計482MHzを加える内容です。携帯大手3社は業界団体を通じ、5Gへの干渉を理由に290MHz分の除外を求めています。",
+      "point": "Starlinkの携帯向けサービスが使える電波が大きく増える可能性があります。ただし今回は提案段階で、意見募集を経て改めて採決が必要です。",
+      "source": "Tesla North",
+      "url": "https://teslanorth.com/2026/10/29/fcc-d2d-vote-starlink-mobile/",
+      "publishedAt": "2026-10-29"
+    },
+    {
+      "id": "pentagon-ig-starlink-ukraine",
+      "importance": 2,
+      "category": "スペースX",
+      "title": "国防総省の監察官、ウクライナでのStarlink障害の調査を見送り",
+      "summary": "米国防総省の監察官室は、ウクライナでStarlinkと軍用版Starshieldの利用が制限された問題について、超党派の上院議員9人が求めた調査を行わないと議員側に伝えました。空軍と宇宙軍が扱う契約上の問題だとしています。サービスは現在は通常に戻っています。",
+      "point": "民間の衛星網が戦地の通信を左右することへの監視のあり方が問われており、議員の一部は政権とスペースXの説明が食い違うとして全面的な調査を求めています。",
+      "source": "ABC News",
+      "url": "https://abcnews.com/International/pentagon-inspector-general-declines-investigate-starlink-disruptions-ukraine/story?id=137662539",
+      "publishedAt": "2026-10-29"
+    },
+    {
+      "id": "starbase-louisiana-lawsuit",
+      "importance": 2,
+      "category": "スペースX",
+      "title": "ルイジアナの新発射場、税優遇の取り消し求め住民が提訴",
+      "summary": "スペースXがルイジアナ州バーミリオン郡に計画する発射場をめぐり、住民と市民団体が郡の機関を相手に訴えを起こしました。会議の公開に関する州法に8件違反したと主張し、8月に承認された税の取り決めを無効にして公開の場でやり直すよう求めています。",
+      "point": "取り決めでは25年間で約238億ドル分の固定資産税が免除される代わりに年2500万ドルを支払う内容で、訴えが認められれば約1000億ドル規模の計画の前提が揺らぎます。",
+      "source": "WWNO（ニューオーリンズ公共ラジオ）",
+      "url": "https://www.wwno.org/politics/2026-10-26/behind-closed-doors-the-secret-spacex-deal-and-the-lawsuit-challenging-it",
+      "publishedAt": "2026-10-26"
+    },
+    {
+      "id": "falcon9-starlink-vandenberg-1030",
+      "importance": 1,
+      "category": "スペースX",
+      "title": "Falcon 9、30日夜にカリフォルニアからStarlink 27基を打ち上げ予定",
+      "summary": "スペースXは米西海岸のバンデンバーグ宇宙軍基地から、現地時間30日午後8時48分（日本時間31日午後0時48分）以降にStarlink衛星27基を打ち上げる予定です。1段目は18回目の飛行で、太平洋上の無人船に着陸させます。",
+      "point": "",
+      "source": "KEYT",
+      "url": "https://keyt.com/vandenberg-space-base/2026/10/29/falcon-9-launch-of-starlink-satellites-scheduled-for-late-friday-into-early-saturday/",
+      "publishedAt": "2026-10-29"
+    },
+    {
+      "id": "tesla-board-reelect-musk",
+      "importance": 3,
+      "category": "イーロン・マスク",
+      "title": "テスラ取締役会、12月3日の株主総会でマスク氏の再任支持を要請",
+      "summary": "テスラの取締役会は29日、株主に宛てた書簡を米証券取引委員会に提出し、12月3日の年次総会でマスク氏、デンホルム会長、ストローベル氏の3人を再任するよう求めました。任期は3年です。ロボタクシーや人型ロボット「オプティマス」の取り組みを理由に挙げています。",
+      "point": "スペースXとの統合を急ぐよう求める株主の声がある中、今回の総会に合併の議案はなく、マスク氏の経営体制そのものが問われる場になります。",
+      "source": "Tesla North（テスラのSEC提出資料）",
+      "url": "https://teslanorth.com/2026/10/29/tesla-board-urges-re-elect-musk-december-3/",
+      "publishedAt": "2026-10-29"
+    },
+    {
+      "id": "salvini-musk-fsd-eu",
+      "importance": 2,
+      "category": "イーロン・マスク",
+      "title": "イタリアのサルビーニ副首相、マスク氏と協議　テスラの運転支援をEUで早期承認へ支持",
+      "summary": "イタリアのサルビーニ副首相兼インフラ・交通相は29日、マスク氏と話し合ったと明らかにし、内容を「非常に前向きで建設的」と述べました。そのうえで、テスラの運転支援システムをEUが速やかに承認することを支持すると表明しました。",
+      "point": "欧州での運転支援機能の承認はEU単位で進むため、加盟国の閣僚の支持はテスラにとって追い風になります。イタリア単独での承認ではありません。",
+      "source": "LaPresse",
+      "url": "https://uk.lapresse.it/politics-en/2026/10/29/transport-salvini-speaks-with-musk-eu-should-approve-teslas-driver-assistance-system/",
+      "publishedAt": "2026-10-29"
+    }
+  ]
+}
