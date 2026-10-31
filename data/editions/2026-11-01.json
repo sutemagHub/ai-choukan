@@ -1,0 +1,106 @@
+{
+  "date": "2026-11-01",
+  "issuedAt": "2026-11-01T05:46:34+09:00",
+  "overview": "けさは国内の動きが目立ちます。政府が米AI企業と組むサイバー対策を近く発表する見通しで、AmazonのAlexa+も日本で始まりました。海外ではOpenAIが増資の評価額を下げ、モデルの行動指針を改めるなど、投資と安全の両面で見直しが続いています。",
+  "items": [
+    {
+      "id": "japan-cyber-package",
+      "importance": 3,
+      "category": "国内",
+      "title": "政府、緊急サイバー対策を11月初めに　米AI企業との連携を柱に",
+      "summary": "相次ぐ企業への不正アクセスを受け、高市首相は10月26日、追加のサイバー対策を1週間ほどでまとめると表明した。報道によると、脆弱性を見つける高性能な米国製AIモデルへの、より広いアクセスを得る連携が盛り込まれる見通しで、日経はAnthropicとOpenAIに働きかけたと伝えている。企業名や具体策は未公表。",
+      "point": "AIを守りの道具として国が取り込む動きが具体化する。案の中身は最終発表まで変わりうる。",
+      "source": "Crypto Briefing（Bloomberg報道の引用）",
+      "url": "https://cryptobriefing.com/japan-us-ai-cybersecurity-package/",
+      "publishedAt": "2026-10-30"
+    },
+    {
+      "id": "alexa-plus-japan",
+      "importance": 3,
+      "category": "国内",
+      "title": "Amazon、生成AI版「Alexa+」を日本で早期アクセス開始",
+      "summary": "Amazonは10月29日、生成AIを使った次世代アシスタント「Alexa+」の日本での早期アクセスを始めた。対応デバイスの一部の持ち主から順次案内される。早期アクセス中は無料で、終了後はプライム会員は追加料金なし、それ以外は月額3,000円とされる。",
+      "point": "家庭の音声アシスタントが生成AIに切り替わる日本での第一歩。正式版の時期は未発表。",
+      "source": "Amazon Japan",
+      "url": "https://press.aboutamazon.com/jp/2026/10/what-to-try-first-with-alexa-amazon-launches-its-next-generation-personal-assistant-in-japan",
+      "publishedAt": "2026-10-29"
+    },
+    {
+      "id": "openai-round-valuation",
+      "importance": 2,
+      "category": "ビジネス",
+      "title": "OpenAIの増資、評価額の目標を1.4兆ドルから1.25兆ドルへ",
+      "summary": "報道によると、OpenAIは新たな資金調達で提示していた評価額を1.4兆ドルから1.25兆ドル（出資前）に下げた。調達額は最大300億ドルで、UAE勢やCoatueが主導する。出資の締め切りは10月30日とされたが、最終的な規模や完了は確認できていない。",
+      "point": "巨額のAI投資に対する投資家の値踏みが厳しくなっている様子がうかがえる。",
+      "source": "Digg（Bloomberg報道の引用）",
+      "url": "https://digg.com/tech/9irienle",
+      "publishedAt": "2026-10-22"
+    },
+    {
+      "id": "gemini-connected-apps",
+      "importance": 2,
+      "category": "プロダクト",
+      "title": "Google、外部アプリをGeminiと検索に載せる「Connected Apps」基盤",
+      "summary": "Googleは10月28日ごろ、開発者が自社アプリをGeminiや検索に組み込める基盤を発表した。まず米国の開発者向けにプレビュー提供し、すでに50以上の連携アプリがあるという。",
+      "point": "チャットAIが入り口となり、外部サービスを呼び出す流れがさらに広がる。",
+      "source": "Android Authority",
+      "url": "https://www.androidauthority.com/google-gemini-search-connected-apps-developer-platform-3729015/",
+      "publishedAt": "2026-10-28"
+    },
+    {
+      "id": "openai-model-spec",
+      "importance": 2,
+      "category": "安全性",
+      "title": "OpenAI、モデルの行動指針「Model Spec」を5つの価値で再編",
+      "summary": "OpenAIは10月29日、公開しているModel Specを、人の意図への忠実さ、害の最小化、誠実さと透明性、人の主体性、配慮の5つの価値を軸に組み直した。文脈や記憶から意図を読む指針が加わり、細かい文体の規則は削られた。同社は、現行モデルはまだ十分に追いついていないとしている。",
+      "point": "AIの振る舞いを細則から原則へ寄せる方針転換。実際のモデルにどう反映されるかが焦点。",
+      "source": "Digg（各社報道の集約）",
+      "url": "https://digg.com/tech/g12j0ha2",
+      "publishedAt": "2026-10-29"
+    },
+    {
+      "id": "apple-intelligence-china",
+      "importance": 2,
+      "category": "プロダクト",
+      "title": "Apple、中国でのApple Intelligence開始を説明　iOS 27.3ベータは来週",
+      "summary": "Appleは10月30日、中国でのApple Intelligenceの提供について説明し、iOS 27.3のベータ版を来週出すと確認した。それ以前の報道では、提供は12月で、Siriの新AI機能などは含まれないとされている。",
+      "point": "中国市場での提供範囲は限定的になる見込み。詳細は正式発表を待ちたい。",
+      "source": "9to5Mac",
+      "url": "https://9to5mac.com/2026/10/30/apple-confirms-ios-27-3-beta-is-coming-next-week-with-apple-intelligence-in-china",
+      "publishedAt": "2026-10-30"
+    },
+    {
+      "id": "codex-usage-doubled",
+      "importance": 1,
+      "category": "プロダクト",
+      "title": "ChatGPTのWork・Codex、Proなどで利用枠を倍増",
+      "summary": "ChatGPT ProとBusiness Premiumで、WorkとCodexの利用上限が10月29日から倍になったと、更新情報の集約サイトが伝えている。OpenAI自身の告知では未確認。",
+      "point": "",
+      "source": "Releasebot",
+      "url": "https://releasebot.io/updates/openai",
+      "publishedAt": "2026-10-29"
+    },
+    {
+      "id": "gemini-avatars",
+      "importance": 1,
+      "category": "プロダクト",
+      "title": "Gemini、顔と声から作る「パーソナルアバター」を提供",
+      "summary": "Geminiで、自分の顔と声をもとにしたAIアバターを作って友人と共有できる機能が10月29日に出た。18歳以上の個人アカウントが対象で、英国、EEA、スイスでは使えない。",
+      "point": "",
+      "source": "ETV Bharat",
+      "url": "https://www.etvbharat.com/en/technology/google-gemini-personal-avatars-what-they-are-and-how-to-create-them-enn26103105124",
+      "publishedAt": "2026-10-29"
+    },
+    {
+      "id": "deepseek-flash-cyber",
+      "importance": 1,
+      "category": "モデル",
+      "title": "DeepSeek V4.1 Flashの派生、サイバー用途で提供広がる",
+      "summary": "Artificial Analysisの調査では、DeepSeekのV4.1 Flash 1017が公開モデルとしてサイバー指数で首位とされる。これを元に、第三者のInference.netが拒否機能を外したサイバー向け版を、審査を通った事業者に限って提供している。DeepSeek自身の発表ではない。",
+      "point": "",
+      "source": "Inference.net",
+      "url": "https://inference.net/models/deepseek-v4.1-flash-1017-cyber/",
+      "publishedAt": "2026-10-26"
+    }
+  ]
+}
