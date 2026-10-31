@@ -1,84 +1,62 @@
 {
-  "date": "2026-10-30",
-  "issuedAt": "2026-10-30T11:18:05+09:00",
-  "overview": "スペースXでは、7〜9月期の売上の約3分の1をアンソロピック1社が占めていると報じられ、株価が下げました。FCCが衛星から携帯への通信に使える電波を広げる案を進めた一方、ウクライナでのStarlink障害の調査見送りや、ルイジアナの新発射場をめぐる提訴など、規制や手続きをめぐる話題も続いています。マスク氏については、テスラ取締役会が12月の総会での再任支持を株主に求めました。",
+  "date": "2026-10-31",
+  "issuedAt": "2026-10-31T11:17:30+09:00",
+  "overview": "スペースX株は30日に6%超下げ、10月6日の高値から時価総額が5000億ドル以上減りました。Tモバイルが回線を借りる契約を改めて否定し、テスラとの合併には中国の審査リスクが指摘されています。マスク氏をめぐっては、下院民主党がトランプ大統領とGrokとの対話記録の保存を求めました。",
   "items": [
     {
-      "id": "anthropic-spacex-top-customer",
+      "id": "spacex-stock-500b",
       "importance": 3,
       "category": "スペースX",
-      "title": "アンソロピック、スペースX最大の顧客に　7〜9月期売上の約3分の1",
-      "summary": "ブルームバーグは、スペースXが決算資料で「顧客B」とだけ記した売上の約34.5%を占める取引先がアンソロピックだと報じました。長く最大顧客だった米政府を上回ります。報道を受け、スペースX株は時間外取引で約3%下げ、140ドル前後に下落しました。",
-      "point": "AI向け計算資源の貸し出しが急成長の柱になった一方、契約には2027年初め以降に90日前の通知で解約できる条件があり、1社への依存の大きさが投資家の懸念材料になっています。",
-      "source": "Bloomberg（The Next Web、Investing.comも報道）",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-29/spacex-s-largest-revenue-source-is-a-finite-deal-with-anthropic",
+      "title": "スペースX株が急落、高値から時価総額5000億ドル超減",
+      "summary": "30日の米市場でスペースX株は6%超下がり、売却制限が解けた後も保っていた140ドルを割り込んで8月20日以来の安値となった。時価総額は10月6日の2.3兆ドル超から約1.8兆ドルに縮んだ。インテルの弱い見通しをきっかけにしたハイテク株全体の売りや、ウクライナでのStarlink減速をめぐる議会の追及が重荷とされる。",
+      "point": "AI事業への期待で評価されてきた分、ハイテク株の地合いに左右されやすくなっている。次の材料は11月に見込まれるStarshipの飛行15回目。",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/markets/article/spacex-has-lost-more-than-500-billion-in-market-value-in-less-than-a-month-213855332.html",
+      "publishedAt": "2026-10-30"
+    },
+    {
+      "id": "tmobile-no-mvno",
+      "importance": 2,
+      "category": "スペースX",
+      "title": "Tモバイル、スペースXへの回線貸し出しを「余地なし」",
+      "summary": "米Tモバイルのゴパラン最高経営責任者は28日の決算説明会で、スペースXが同社の回線を借りて携帯サービスを売る契約（MVNO）について、消費者向けでも余地はないと述べた。衛星は都市部で固定無線の代わりにならないとの見方を示す一方、現在の衛星通信での提携は続ける。",
+      "point": "自前の地上網を持たないスペースXが全米で携帯事業を広げるには、別の提携先か自前の設備が必要になる。ベライゾンも同様の立場を示している。",
+      "source": "24/7 Wall St.",
+      "url": "https://247wallst.com/investing/2026/10/29/t-mobiles-ceo-says-theres-no-room-for-a-spacex-deal/",
       "publishedAt": "2026-10-29"
     },
     {
-      "id": "fcc-d2d-482mhz",
+      "id": "bofa-merger-china-risk",
       "importance": 2,
       "category": "スペースX",
-      "title": "FCC、衛星から携帯への通信に482MHz追加案を前進",
-      "summary": "米連邦通信委員会（FCC）は29日、衛星とスマートフォンを直接つなぐ通信のルール見直し案を進めることを決めました。対象の周波数帯を5つから13に広げ、合計482MHzを加える内容です。携帯大手3社は業界団体を通じ、5Gへの干渉を理由に290MHz分の除外を求めています。",
-      "point": "Starlinkの携帯向けサービスが使える電波が大きく増える可能性があります。ただし今回は提案段階で、意見募集を経て改めて採決が必要です。",
-      "source": "Tesla North",
-      "url": "https://teslanorth.com/2026/10/29/fcc-d2d-vote-starlink-mobile/",
-      "publishedAt": "2026-10-29"
+      "title": "テスラとの合併、中国の承認が最大のリスクとBofA",
+      "summary": "米バンク・オブ・アメリカは、スペースXが株式交換でテスラを買収する形が想定される合併について、中国での承認が最大の規制リスクになりうると指摘した。テスラ車の約半分を生産する上海工場が、米国の大手防衛関連企業の傘下に入ることが、安全保障上の懸念を招くおそれがあるとしている。",
+      "point": "史上最大級とされる合併の実現には、米国外の審査も大きな関門になることを示している。",
+      "source": "Stocktwits（Yahoo Finance掲載）",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/tesla-spacex-merger-could-face-175859489.html",
+      "publishedAt": "2026-10-30"
     },
     {
-      "id": "pentagon-ig-starlink-ukraine",
-      "importance": 2,
-      "category": "スペースX",
-      "title": "国防総省の監察官、ウクライナでのStarlink障害の調査を見送り",
-      "summary": "米国防総省の監察官室は、ウクライナでStarlinkと軍用版Starshieldの利用が制限された問題について、超党派の上院議員9人が求めた調査を行わないと議員側に伝えました。空軍と宇宙軍が扱う契約上の問題だとしています。サービスは現在は通常に戻っています。",
-      "point": "民間の衛星網が戦地の通信を左右することへの監視のあり方が問われており、議員の一部は政権とスペースXの説明が食い違うとして全面的な調査を求めています。",
-      "source": "ABC News",
-      "url": "https://abcnews.com/International/pentagon-inspector-general-declines-investigate-starlink-disruptions-ukraine/story?id=137662539",
-      "publishedAt": "2026-10-29"
-    },
-    {
-      "id": "starbase-louisiana-lawsuit",
-      "importance": 2,
-      "category": "スペースX",
-      "title": "ルイジアナの新発射場、税優遇の取り消し求め住民が提訴",
-      "summary": "スペースXがルイジアナ州バーミリオン郡に計画する発射場をめぐり、住民と市民団体が郡の機関を相手に訴えを起こしました。会議の公開に関する州法に8件違反したと主張し、8月に承認された税の取り決めを無効にして公開の場でやり直すよう求めています。",
-      "point": "取り決めでは25年間で約238億ドル分の固定資産税が免除される代わりに年2500万ドルを支払う内容で、訴えが認められれば約1000億ドル規模の計画の前提が揺らぎます。",
-      "source": "WWNO（ニューオーリンズ公共ラジオ）",
-      "url": "https://www.wwno.org/politics/2026-10-26/behind-closed-doors-the-secret-spacex-deal-and-the-lawsuit-challenging-it",
-      "publishedAt": "2026-10-26"
-    },
-    {
-      "id": "falcon9-starlink-vandenberg-1030",
+      "id": "starlink-spain-train-crash",
       "importance": 1,
       "category": "スペースX",
-      "title": "Falcon 9、30日夜にカリフォルニアからStarlink 27基を打ち上げ予定",
-      "summary": "スペースXは米西海岸のバンデンバーグ宇宙軍基地から、現地時間30日午後8時48分（日本時間31日午後0時48分）以降にStarlink衛星27基を打ち上げる予定です。1段目は18回目の飛行で、太平洋上の無人船に着陸させます。",
+      "title": "スペインの列車事故、Starlinkの衛星携帯を無料開放",
+      "summary": "スペイン・トレド県の高速鉄道で28日に起きた追突事故（少なくとも68人死亡）で、周辺の携帯基地局が損傷した。政府の承認のもと、オレンジとテレフォニカの利用者や救助隊がStarlinkの衛星携帯サービスを無料で使えるようになった。同国での緊急開放は7月の山火事に続き2回目。",
       "point": "",
-      "source": "KEYT",
-      "url": "https://keyt.com/vandenberg-space-base/2026/10/29/falcon-9-launch-of-starlink-satellites-scheduled-for-late-friday-into-early-saturday/",
+      "source": "El Español",
+      "url": "https://www.elespanol.com/omicrono/defensa-y-espacio/20261029/elon-musk-activa-starlink-gratis-clientes-orange-movistar-afectados-accidente-tren-toledo/1003744439161_0.html",
       "publishedAt": "2026-10-29"
     },
     {
-      "id": "tesla-board-reelect-musk",
+      "id": "grok-trump-records",
       "importance": 3,
       "category": "イーロン・マスク",
-      "title": "テスラ取締役会、12月3日の株主総会でマスク氏の再任支持を要請",
-      "summary": "テスラの取締役会は29日、株主に宛てた書簡を米証券取引委員会に提出し、12月3日の年次総会でマスク氏、デンホルム会長、ストローベル氏の3人を再任するよう求めました。任期は3年です。ロボタクシーや人型ロボット「オプティマス」の取り組みを理由に挙げています。",
-      "point": "スペースXとの統合を急ぐよう求める株主の声がある中、今回の総会に合併の議案はなく、マスク氏の経営体制そのものが問われる場になります。",
-      "source": "Tesla North（テスラのSEC提出資料）",
-      "url": "https://teslanorth.com/2026/10/29/tesla-board-urges-re-elect-musk-december-3/",
-      "publishedAt": "2026-10-29"
-    },
-    {
-      "id": "salvini-musk-fsd-eu",
-      "importance": 2,
-      "category": "イーロン・マスク",
-      "title": "イタリアのサルビーニ副首相、マスク氏と協議　テスラの運転支援をEUで早期承認へ支持",
-      "summary": "イタリアのサルビーニ副首相兼インフラ・交通相は29日、マスク氏と話し合ったと明らかにし、内容を「非常に前向きで建設的」と述べました。そのうえで、テスラの運転支援システムをEUが速やかに承認することを支持すると表明しました。",
-      "point": "欧州での運転支援機能の承認はEU単位で進むため、加盟国の閣僚の支持はテスラにとって追い風になります。イタリア単独での承認ではありません。",
-      "source": "LaPresse",
-      "url": "https://uk.lapresse.it/politics-en/2026/10/29/transport-salvini-speaks-with-musk-eu-should-approve-teslas-driver-assistance-system/",
-      "publishedAt": "2026-10-29"
+      "title": "下院民主党、トランプ氏とGrokの対話記録の保存を要求",
+      "summary": "下院の司法・監視両委員会の民主党トップ、ラスキン議員とガルシア議員は30日、トランプ大統領にAIチャットボットとの対話記録を保存するよう求める書簡を送った。TIME誌は、2025年12月の大統領執務室でのマスク氏との面会中、大統領がGrokにマドゥロ氏拘束への反応などを尋ねたと報じていた。ホワイトハウスは法に従い記録を保存していると説明している。",
+      "point": "マスク氏の企業のAIが政策判断に影響したかどうかが議会で問われ始めた。書簡は11月11日までの説明を求めている。",
+      "source": "TIME",
+      "url": "https://time.com/article/2026/10/30/house-democrats-trump-grok-ai-chats-musk/",
+      "publishedAt": "2026-10-30"
     }
   ]
 }

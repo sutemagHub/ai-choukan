@@ -1,0 +1,62 @@
+{
+  "date": "2026-10-31",
+  "issuedAt": "2026-10-31T11:17:30+09:00",
+  "overview": "スペースX株は30日に6%超下げ、10月6日の高値から時価総額が5000億ドル以上減りました。Tモバイルが回線を借りる契約を改めて否定し、テスラとの合併には中国の審査リスクが指摘されています。マスク氏をめぐっては、下院民主党がトランプ大統領とGrokとの対話記録の保存を求めました。",
+  "items": [
+    {
+      "id": "spacex-stock-500b",
+      "importance": 3,
+      "category": "スペースX",
+      "title": "スペースX株が急落、高値から時価総額5000億ドル超減",
+      "summary": "30日の米市場でスペースX株は6%超下がり、売却制限が解けた後も保っていた140ドルを割り込んで8月20日以来の安値となった。時価総額は10月6日の2.3兆ドル超から約1.8兆ドルに縮んだ。インテルの弱い見通しをきっかけにしたハイテク株全体の売りや、ウクライナでのStarlink減速をめぐる議会の追及が重荷とされる。",
+      "point": "AI事業への期待で評価されてきた分、ハイテク株の地合いに左右されやすくなっている。次の材料は11月に見込まれるStarshipの飛行15回目。",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/markets/article/spacex-has-lost-more-than-500-billion-in-market-value-in-less-than-a-month-213855332.html",
+      "publishedAt": "2026-10-30"
+    },
+    {
+      "id": "tmobile-no-mvno",
+      "importance": 2,
+      "category": "スペースX",
+      "title": "Tモバイル、スペースXへの回線貸し出しを「余地なし」",
+      "summary": "米Tモバイルのゴパラン最高経営責任者は28日の決算説明会で、スペースXが同社の回線を借りて携帯サービスを売る契約（MVNO）について、消費者向けでも余地はないと述べた。衛星は都市部で固定無線の代わりにならないとの見方を示す一方、現在の衛星通信での提携は続ける。",
+      "point": "自前の地上網を持たないスペースXが全米で携帯事業を広げるには、別の提携先か自前の設備が必要になる。ベライゾンも同様の立場を示している。",
+      "source": "24/7 Wall St.",
+      "url": "https://247wallst.com/investing/2026/10/29/t-mobiles-ceo-says-theres-no-room-for-a-spacex-deal/",
+      "publishedAt": "2026-10-29"
+    },
+    {
+      "id": "bofa-merger-china-risk",
+      "importance": 2,
+      "category": "スペースX",
+      "title": "テスラとの合併、中国の承認が最大のリスクとBofA",
+      "summary": "米バンク・オブ・アメリカは、スペースXが株式交換でテスラを買収する形が想定される合併について、中国での承認が最大の規制リスクになりうると指摘した。テスラ車の約半分を生産する上海工場が、米国の大手防衛関連企業の傘下に入ることが、安全保障上の懸念を招くおそれがあるとしている。",
+      "point": "史上最大級とされる合併の実現には、米国外の審査も大きな関門になることを示している。",
+      "source": "Stocktwits（Yahoo Finance掲載）",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/tesla-spacex-merger-could-face-175859489.html",
+      "publishedAt": "2026-10-30"
+    },
+    {
+      "id": "starlink-spain-train-crash",
+      "importance": 1,
+      "category": "スペースX",
+      "title": "スペインの列車事故、Starlinkの衛星携帯を無料開放",
+      "summary": "スペイン・トレド県の高速鉄道で28日に起きた追突事故（少なくとも68人死亡）で、周辺の携帯基地局が損傷した。政府の承認のもと、オレンジとテレフォニカの利用者や救助隊がStarlinkの衛星携帯サービスを無料で使えるようになった。同国での緊急開放は7月の山火事に続き2回目。",
+      "point": "",
+      "source": "El Español",
+      "url": "https://www.elespanol.com/omicrono/defensa-y-espacio/20261029/elon-musk-activa-starlink-gratis-clientes-orange-movistar-afectados-accidente-tren-toledo/1003744439161_0.html",
+      "publishedAt": "2026-10-29"
+    },
+    {
+      "id": "grok-trump-records",
+      "importance": 3,
+      "category": "イーロン・マスク",
+      "title": "下院民主党、トランプ氏とGrokの対話記録の保存を要求",
+      "summary": "下院の司法・監視両委員会の民主党トップ、ラスキン議員とガルシア議員は30日、トランプ大統領にAIチャットボットとの対話記録を保存するよう求める書簡を送った。TIME誌は、2025年12月の大統領執務室でのマスク氏との面会中、大統領がGrokにマドゥロ氏拘束への反応などを尋ねたと報じていた。ホワイトハウスは法に従い記録を保存していると説明している。",
+      "point": "マスク氏の企業のAIが政策判断に影響したかどうかが議会で問われ始めた。書簡は11月11日までの説明を求めている。",
+      "source": "TIME",
+      "url": "https://time.com/article/2026/10/30/house-democrats-trump-grok-ai-chats-musk/",
+      "publishedAt": "2026-10-30"
+    }
+  ]
+}
