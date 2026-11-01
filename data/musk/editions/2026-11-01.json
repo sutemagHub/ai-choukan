@@ -1,0 +1,84 @@
+{
+  "date": "2026-11-01",
+  "issuedAt": "2026-11-01T11:17:21+09:00",
+  "overview": "スペースXはAI部門の計算基盤拡大を急ぎ、マスク氏はコロッサス2に新たな2クラスターを年内に稼働させる見通しを示しました。一方でミシシッピ州の発電用タービンをめぐる訴訟は本格審理へ進み、株価は30日に公開価格を割り込みました。マスク氏本人は11月3日の中間選挙を前に、共和党への投票を強く呼びかけています。",
+  "items": [
+    {
+      "id": "colossus2-gun-range-spam",
+      "importance": 3,
+      "category": "スペースX",
+      "title": "AI計算基盤に新2拠点　マスク氏「年末に約120万基」",
+      "summary": "マスク氏は31日、X上で、スペースXのAI部門がメンフィスのコロッサス2に「ガンレンジ」と「スパム」という2つのクラスターを追加すると明らかにしました。前者は学習用で11月末、後者は推論用で12月の稼働を見込み、それぞれNVIDIAのGB300を約20万〜22万基備えるとしています。",
+      "point": "年末に合計約120万基のBlackwell系GPUという目標は、先に確保した400億ドルのGPU向け融資と合わせ、AI事業への大規模な投資が続くことを示します。数字はマスク氏の発言ベースです。",
+      "source": "TeslaNorth",
+      "url": "https://teslanorth.com/2026/10/31/spacex-spam-gun-range-clusters/",
+      "publishedAt": "2026-10-31"
+    },
+    {
+      "id": "naacp-xai-turbines-suit-proceeds",
+      "importance": 2,
+      "category": "スペースX",
+      "title": "ミシシッピのタービン訴訟、AI部門の却下申し立て退ける",
+      "summary": "米ミシシッピ州北部地区連邦地裁は30日、スペースXのAI部門（旧xAI）がサウスヘイブンの発電所で許可なくガスタービンを動かしたとして全米黒人地位向上協会（NAACP）が起こした大気浄化法訴訟について、会社側の却下申し立てを退けました。違法かどうかの判断はまだで、稼働差し止めの仮処分申請も審理中です。",
+      "point": "コロッサス2の電力を支える設備の運用に影響しうる訴訟で、近隣住宅の買い取り提案に続き、地域との対立が法廷で続くことになります。",
+      "source": "DeSoto County News",
+      "url": "https://desotocountynews.com/mississippi-news/xai-southaven-turbines-motion-denied",
+      "publishedAt": "2026-10-31"
+    },
+    {
+      "id": "falcon9-700th-launch",
+      "importance": 2,
+      "category": "スペースX",
+      "title": "Falcon 9、通算700回目の打ち上げ　Starship次回は11月中旬",
+      "summary": "スペースXは日本時間31日午後、カリフォルニア州ヴァンデンバーグ基地からFalcon 9でStarlink衛星27基を打ち上げました。Falcon 9として通算700回目、10月最後の打ち上げで、18回目の飛行となった1段目は太平洋上の無人船に着地しました。Starlinkの軌道上の衛星は1万1000基を超えています。",
+      "point": "Falcon 9の打ち上げペースは落ちつつあり、重心はStarshipに移っています。2段目の回収に挑むStarship飛行15回目は11月中旬の見込みと報じられています。",
+      "source": "Spaceflight Now / Space.com",
+      "url": "https://spaceflightnow.com/2026/10/30/live-coverage-spacex-to-close-out-october-with-halloween-eve-falcon-9-launch/",
+      "publishedAt": "2026-10-31"
+    },
+    {
+      "id": "spcx-below-ipo-price",
+      "importance": 1,
+      "category": "スペースX",
+      "title": "スペースX株、30日終値で公開価格135ドルを下回る",
+      "summary": "スペースX株は30日、前日比6.37%安の134.72ドルで取引を終え、公開価格の135ドルを下回りました。Intelの弱い業績見通しや、テスラとの合併をめぐる中国当局の審査リスクの指摘、ハイテク株全体の下落が重なったと報じられています。",
+      "point": "",
+      "source": "FinanceFeeds / The Motley Fool",
+      "url": "https://financefeeds.com/spacex-spcx-stock-134-week-ahead-closes-below-135-ipo-price-intel-guidance-bull-150-bear-120/",
+      "publishedAt": "2026-10-31"
+    },
+    {
+      "id": "musk-midterm-final-push",
+      "importance": 3,
+      "category": "イーロン・マスク",
+      "title": "マスク氏、中間選挙前に共和党への投票呼びかけ",
+      "summary": "マスク氏は30日、X上で、2028年に民主党が大統領職と上下両院を押さえれば、ワシントンDCとプエルトリコの州昇格や最高裁判事の増員などで「恒久的な一党国家」になると主張し、上院で共和党が51議席以上を確保するよう投票を呼びかけました。中間選挙の投票日は11月3日です。",
+      "point": "マスク氏は今回の中間選挙で最大の個人献金者とされ、投票直前の発信も注目されています。",
+      "source": "Business Today",
+      "url": "https://www.businesstoday.in/world/us/story/us-midterms-musk-predicts-one-party-state-under-2028-democratic-sweep-amid-low-trump-approval-564768-2026-10-30",
+      "publishedAt": "2026-10-30"
+    },
+    {
+      "id": "musk-orbital-compute-2028",
+      "importance": 2,
+      "category": "イーロン・マスク",
+      "title": "宇宙のAI計算、2028年末に地上を上回る　マスク氏が見通し",
+      "summary": "マスク氏は米西部時間30日夜、投資家シャウン・マグワイア氏が示したスペースXの売上モデルへの返信で、軌道上に毎月配備するAI計算能力が2028年末ごろに地上での配備を上回り、29年には大きく超えるだろうと述べました。具体的な規模や衛星数は示していません。",
+      "point": "宇宙データセンター構想はスペースXの成長シナリオの柱の一つで、株価評価にも関わる発言ですが、あくまで本人の予測です。",
+      "source": "TeslaNorth",
+      "url": "https://teslanorth.com/2026/10/31/elon-orbital-compute-2028/",
+      "publishedAt": "2026-10-31"
+    },
+    {
+      "id": "musk-binance-hack-post",
+      "importance": 1,
+      "category": "イーロン・マスク",
+      "title": "バイナンスの大規模ハッキングにマスク氏が投稿、創業者が苦言",
+      "summary": "暗号資産交換業者バイナンスが被害額約63億ドルとされるハッキングを受けたことについて、マスク氏はXに「毎日がゼロデイ」と投稿しました。共同創業者の趙長鵬氏は、今は茶化す時ではないと返し、同社がマスク氏の事業に出資していることにも触れました。",
+      "point": "",
+      "source": "Inc.",
+      "url": "https://www.inc.com/kit-eaton/elon-musk-mocked-binance-after-its-6-3-billion-hack-its-cofounder-had-2-words-for-him/91428482",
+      "publishedAt": "2026-10-30"
+    }
+  ]
+}
