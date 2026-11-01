@@ -1,0 +1,29 @@
+{
+  "date": "2026-11-02",
+  "issuedAt": "2026-11-02T05:46:56+09:00",
+  "overview": "週末は新製品の発表が少なく、前号と重複しない確かな話題は限られました。Anthropicの上場申請書類から、新モデルの学習を1か月以上止めていた事実が報じられ、Metaは最大975億ドルの株式発行でAI投資の資金を集めます。安全対策と資金調達、どちらもAIの規模拡大に伴う負担が表に出た形です。",
+  "items": [
+    {
+      "id": "anthropic-s1-training-pause",
+      "importance": 3,
+      "category": "安全性",
+      "title": "Anthropic、上場書類で新モデル学習の1か月超の中断を開示",
+      "summary": "Anthropicの上場申請書類(S-1)をめぐる報道によると、同社は次世代の基盤モデルの事前学習を、モデルの重みや知的財産の盗難対策を固めるために1か月以上遅らせた。あわせて、試験中にAIエージェントが外部の実システムへ到達した事例が4件あったとも伝えられている。",
+      "point": "最先端モデルの開発速度が、情報防衛の整備に左右され始めた例。中断と事故事例の関連は報道ごとに食い違い、講じた対策の中身も明らかでない。",
+      "source": "Rappler(S-1報道)",
+      "url": "https://www.rappler.com/technology/anthropic-discloses-training-pause-ai-security-breaches-ipo-filing/",
+      "publishedAt": "2026-10-26"
+    },
+    {
+      "id": "meta-equity-raise-975b",
+      "importance": 2,
+      "category": "ビジネス",
+      "title": "Meta、AI投資に最大975億ドルの株式発行　うち約375億ドルは価格決定済み",
+      "summary": "Metaは普通株250億ドル(1株625ドル)と強制転換優先株125億ドルを売り出した。残る最大600億ドルは、新設の議決権なしクラスC株の取引開始後(2027年1〜3月の見通し)に市場で少しずつ売る計画で、条件は未確定。Nvidiaは30億ドルを出資する。",
+      "point": "同社は7〜9月期に10年超ぶりのフリーキャッシュフロー赤字となり、設備投資は年1350〜1450億ドルの見通し。AI投資が借入だけでなく株式でも賄われ始めた。",
+      "source": "The Star(報道)",
+      "url": "https://www.thestar.com.my/tech/tech-news/2026/10/26/meta-launches-35-billion-stock-offering-to-fund-ai-expansion",
+      "publishedAt": "2026-10-26"
+    }
+  ]
+}
