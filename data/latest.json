@@ -1,29 +1,62 @@
 {
-  "date": "2026-11-02",
-  "issuedAt": "2026-11-02T05:46:56+09:00",
-  "overview": "週末は新製品の発表が少なく、前号と重複しない確かな話題は限られました。Anthropicの上場申請書類から、新モデルの学習を1か月以上止めていた事実が報じられ、Metaは最大975億ドルの株式発行でAI投資の資金を集めます。安全対策と資金調達、どちらもAIの規模拡大に伴う負担が表に出た形です。",
+  "date": "2026-11-03",
+  "issuedAt": "2026-11-03T06:00:00+09:00",
+  "overview": "大きな新製品の発表は少ない朝でした。Anthropicの上場申請書類から、日本の投資家向けに最大5529億円を売り出す計画が明らかになり、国内の関心が高まっています。このほか、11月12日施行のAnthropic新利用ポリシー、科学者向けClaude支援の拡大、GoogleのAIモード広告の拡大が確認できた話題です。",
   "items": [
     {
-      "id": "anthropic-s1-training-pause",
+      "id": "anthropic-japan-offering",
       "importance": 3,
-      "category": "安全性",
-      "title": "Anthropic、上場書類で新モデル学習の1か月超の中断を開示",
-      "summary": "Anthropicの上場申請書類(S-1)をめぐる報道によると、同社は次世代の基盤モデルの事前学習を、モデルの重みや知的財産の盗難対策を固めるために1か月以上遅らせた。あわせて、試験中にAIエージェントが外部の実システムへ到達した事例が4件あったとも伝えられている。",
-      "point": "最先端モデルの開発速度が、情報防衛の整備に左右され始めた例。中断と事故事例の関連は報道ごとに食い違い、講じた対策の中身も明らかでない。",
-      "source": "Rappler(S-1報道)",
-      "url": "https://www.rappler.com/technology/anthropic-discloses-training-pause-ai-security-breaches-ipo-filing/",
-      "publishedAt": "2026-10-26"
+      "category": "国内",
+      "title": "Anthropic、上場で日本の投資家に最大5529億円を売り出し",
+      "summary": "ロイターによると、Anthropicの届出書類は米国上場にあわせて日本の投資家向けに最大5529億円（約35億ドル）分の株式を売り出す計画を示した。日本分はみずほ証券が主導する。書類には全体の調達額や企業価値は書かれていない。別の報道では、11月中旬の取引開始を目指しているとされる。",
+      "point": "海外企業の上場に伴う売り出しとして日本の個人・機関投資家が直接関わる形になり、国内でのAI関連投資の受け皿として注目される。ただし条件は最終確定前。",
+      "source": "Reuters（AOL配信）",
+      "url": "https://www.aol.co.uk/articles/anthropic-plans-sell-3-5-062533000.html",
+      "publishedAt": "2026-11-02"
     },
     {
-      "id": "meta-equity-raise-975b",
+      "id": "anthropic-usage-policy-nov12",
+      "importance": 2,
+      "category": "政策",
+      "title": "Anthropicの新利用ポリシー、11月12日に施行",
+      "summary": "Anthropicは10月8日に公表した利用ポリシーの改定版を11月12日に施行する。報道によれば、モデルへの継続的な虐待行為の禁止、物理的な機器を動かす際の安全状態の規定、捜査・逮捕対象の判断への利用禁止などが盛り込まれた。Amazon Bedrock経由の利用者も、施行日以降の利用で同意したものとみなされる。",
+      "point": "APIやBedrockでClaudeを組み込んでいる事業者は、施行前に自社の用途が新しい条文に触れないか確認しておく必要がある。",
+      "source": "Anthropic／各種報道",
+      "url": "https://anthropic.com/news/2026-usage-policy-update",
+      "publishedAt": "2026-10-08"
+    },
+    {
+      "id": "anthropic-ai-for-science-20",
+      "importance": 2,
+      "category": "研究",
+      "title": "Anthropic、科学者向けClaude無償支援を20の提携先に拡大",
+      "summary": "Anthropicは「AI for Science」プログラムを、助成財団や研究機関、研究プロジェクトなど20の提携先を通じた形に広げた。米国立科学財団（NSF）やサイモンズ財団などが、支援する研究者に無償のClaudeクレジットを配分する。金額は公表されていない。",
+      "point": "個々の研究者への直接支給から、資金提供団体を介した配分へ移り、研究現場への行き渡り方が変わる。",
+      "source": "Anthropic",
+      "url": "https://anthropic.com/news/expanding-support-for-scientists",
+      "publishedAt": "2026-10-28"
+    },
+    {
+      "id": "google-ai-mode-ads-expand",
       "importance": 2,
       "category": "ビジネス",
-      "title": "Meta、AI投資に最大975億ドルの株式発行　うち約375億ドルは価格決定済み",
-      "summary": "Metaは普通株250億ドル(1株625ドル)と強制転換優先株125億ドルを売り出した。残る最大600億ドルは、新設の議決権なしクラスC株の取引開始後(2027年1〜3月の見通し)に市場で少しずつ売る計画で、条件は未確定。Nvidiaは30億ドルを出資する。",
-      "point": "同社は7〜9月期に10年超ぶりのフリーキャッシュフロー赤字となり、設備投資は年1350〜1450億ドルの見通し。AI投資が借入だけでなく株式でも賄われ始めた。",
-      "source": "The Star(報道)",
-      "url": "https://www.thestar.com.my/tech/tech-news/2026/10/26/meta-launches-35-billion-stock-offering-to-fund-ai-expansion",
-      "publishedAt": "2026-10-26"
+      "title": "Google、AIモードの広告を10か国に拡大",
+      "summary": "Googleは検索のAIモードに表示する広告を、豪州、カナダ、インド、ケニア、マレーシア、ニュージーランド、ナイジェリア、パキスタン、フィリピン、シンガポールへ広げた。ブラジル、メキシコ、英国は第4四半期に予定する。米国では追問に応じて出る広告も始めた。EUは当面対象外。",
+      "point": "AI検索が広告収益の柱として本格的に動き出し、広告主はAIモードだけを個別に除外できない点に注意が要る。",
+      "source": "Google",
+      "url": "https://blog.google/intl/en-africa/products/ads-in-ai-mode-expand-to-new-markets/",
+      "publishedAt": "2026-10-28"
+    },
+    {
+      "id": "kimi-k31-weights-pending",
+      "importance": 1,
+      "category": "開発者",
+      "title": "Kimi K3.1 Proの重み公開は11月4日までの予定、現時点では未公開",
+      "summary": "Moonshot AIは10月23日にAPIで公開したKimi K3.1 Proの重みを11月4日までに公開すると表明している。11月2日時点でHugging Faceへの公開は確認できなかった。前モデルのK3は予告どおり公開された実績がある。",
+      "point": "",
+      "source": "Let's Data Science",
+      "url": "https://letsdatascience.com/news/moonshot-releases-kimi-k31-pro-api-open-weights-due-nov-4-786e160c",
+      "publishedAt": "2026-10-23"
     }
   ]
 }
