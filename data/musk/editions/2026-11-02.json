@@ -1,0 +1,84 @@
+{
+  "date": "2026-11-02",
+  "issuedAt": "2026-11-02T11:17:52+09:00",
+  "overview": "週末は大きな発表が少なく、スペースXのショットウェル社長による子ども向け口座への株式贈与や、テキサス州の半導体工場計画をめぐる税優遇の記録開示訴訟など、周辺の動きが中心でした。マスク氏はAI向けデータセンター業界の淘汰を予想する投稿や、民主党関係者への強い反発を示しています。",
+  "items": [
+    {
+      "id": "shotwell-trump-accounts",
+      "importance": 3,
+      "category": "スペースX",
+      "title": "ショットウェル社長、200万株超を子ども向け口座へ　12月に初回分配",
+      "summary": "スペースXのグウィン・ショットウェル社長は30日、夫妻で保有する同社株200万株超を、子ども向けの「トランプ口座」に贈ると発表し、株の移管を始めたと明らかにしました。初回は12月で、所得水準の低い地域に住む11〜17歳が対象です。軍人家庭や里親家庭の子どもなどへの2回目の分配も数週間内に予定されています。",
+      "point": "マスク氏が来年、全米の子どもに1株ずつ贈ると表明したのに続く動きで、上場後のスペースX株を個人に広げる取り組みが具体化しつつあります。",
+      "source": "Teslarati",
+      "url": "https://www.teslarati.com/spacexs-gwynne-shotwell-stocks-trump-accounts/",
+      "publishedAt": "2026-10-30"
+    },
+    {
+      "id": "grimes-terafab-records-suit",
+      "importance": 2,
+      "category": "スペースX",
+      "title": "テキサス州の工場計画、税優遇の記録開示を求め住民団体が郡を提訴",
+      "summary": "テキサス州グライムズ郡の住民団体が、スペースXの半導体工場計画「Terafab」に対する税優遇の関連記録を開示するよう郡に求める訴えを起こしました。州司法長官は7月に開示を命じていましたが、郡は記録を出していないと主張しています。スペースXは記録が営業秘密にあたるとして、9月に司法長官と郡を相手に訴訟を起こしています。",
+      "point": "テスラとの半導体合弁の拠点となる計画で、優遇条件の透明性をめぐる争いが法廷に広がっています。",
+      "source": "The Cool Down（Yahoo News配信）",
+      "url": "https://yahoo.com/news/us/articles/county-withheld-spacex-tax-break-231500825.html",
+      "publishedAt": "2026-11-01"
+    },
+    {
+      "id": "grokbot-dau-growth",
+      "importance": 1,
+      "category": "スペースX",
+      "title": "Grok Botの1日利用者、約60万人に　マスク氏がデータを共有",
+      "summary": "マスク氏は、スペースXのAI部門が提供するエージェント「Grok Bot」の1日あたり利用者数が10月26日時点で約60万人になったとする調査会社シミラーウェブのデータをXで共有しました。9月上旬の約6万7000人から、50日ほどで約9倍に増えた計算です。",
+      "point": "",
+      "source": "ソウル経済新聞",
+      "url": "https://en.sedaily.com/finance/2026/10/31/grokbot-closes-in-on-muse-as-musk-targets-meta",
+      "publishedAt": "2026-10-31"
+    },
+    {
+      "id": "starship-flight15-nov12-plan",
+      "importance": 1,
+      "category": "スペースX",
+      "title": "Starship 15回目、航空管制の調整資料に「11月12日」",
+      "summary": "中南米の航空管制関係の会合資料に、Starshipの15回目の試験飛行が11月12日として記載されていたことが分かりました。スペースXは日付を公表しておらず、11月2日時点で米連邦航空局（FAA）の飛行許可も出ていません。今回は機体の上段もタワーで受け止める初の試みが予定されています。",
+      "point": "",
+      "source": "Mashup Reporter",
+      "url": "https://mashupreporter.com/starship-flight15-nov12-ship-catch",
+      "publishedAt": "2026-11-02"
+    },
+    {
+      "id": "musk-neocloud-warning",
+      "importance": 3,
+      "category": "イーロン・マスク",
+      "title": "マスク氏、AIクラウド200社超の淘汰を予想　2027年は「波乱」",
+      "summary": "マスク氏はXで、投資家チャマス・パリハピティヤ氏の「2027年はAIインフラ企業にとって波乱の年になる」との見方に同意しました。建設途中のデータセンターで使われない計算資源が多く生じ、AI向けクラウド事業者200社超の多くが経営難や統合に直面するとの考えを示しています。",
+      "point": "自らもAI計算資源の貸し出しを拡大しているスペースXのトップが、業界の過剰投資に警鐘を鳴らした形で、投資家の関心を集めています。",
+      "source": "Moneywise（Yahoo Finance配信）",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/elon-musk-warning-raises-big-132000327.html",
+      "publishedAt": "2026-11-01"
+    },
+    {
+      "id": "musk-reich-nationalize",
+      "importance": 2,
+      "category": "イーロン・マスク",
+      "title": "スペースX国有化論にマスク氏が反発　ライシュ元労働長官の発言めぐり",
+      "summary": "クリントン政権で労働長官を務めたロバート・ライシュ氏が自身のポッドキャストで、民主党が議会で多数を得ればマスク氏を調査し、スペースXとStarlinkの国有化に備えるべきだと主張しました。マスク氏はXで「企業を盗むのは重大な犯罪だ」と反発し、ライシュ氏を収監すべきだと投稿しました。",
+      "point": "中間選挙を目前に、マスク氏の事業と政府との関係が政治的な争点として取り上げられています。",
+      "source": "Fox Business",
+      "url": "https://www.foxbusiness.com/politics/defund-musk-former-clinton-cabinet-official-urges-democrats-target-spacex-founder",
+      "publishedAt": "2026-10-31"
+    },
+    {
+      "id": "abbott-musk-emails-appeal",
+      "importance": 1,
+      "category": "イーロン・マスク",
+      "title": "テキサス州知事室とマスク氏企業のメール、開示命令に知事側が控訴",
+      "summary": "テキサス州の地裁は、知事選の民主党候補ジーナ・ヒノホサ氏に、アボット知事室とマスク氏のテキサス拠点企業との通信記録を黒塗りなしで閲覧させるよう命じました。知事室はこれを不服として控訴し、命令は停止されています。控訴審の審理は現地時間11月2日に予定されています。",
+      "point": "",
+      "source": "KUT（オースティン公共ラジオ）",
+      "url": "https://www.kut.org/politics/2026-10-27/gina-hinojosa-abbott-musk-emails-court-ruling-appeal",
+      "publishedAt": "2026-10-27"
+    }
+  ]
+}
