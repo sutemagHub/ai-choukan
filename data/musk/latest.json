@@ -1,84 +1,62 @@
 {
-  "date": "2026-11-02",
-  "issuedAt": "2026-11-02T11:17:52+09:00",
-  "overview": "週末は大きな発表が少なく、スペースXのショットウェル社長による子ども向け口座への株式贈与や、テキサス州の半導体工場計画をめぐる税優遇の記録開示訴訟など、周辺の動きが中心でした。マスク氏はAI向けデータセンター業界の淘汰を予想する投稿や、民主党関係者への強い反発を示しています。",
+  "date": "2026-11-03",
+  "issuedAt": "2026-11-03T11:16:45+09:00",
+  "overview": "スペースXが独自の携帯回線網に向け、EchoStar傘下のBoost Mobileと協議していると報じられ、株価は朝方に上昇しました。AI部門ではGrok Botの利用上限が事実上引き締められ、マスク氏は提供コストの高さを理由に挙げています。米中間選挙の投票日を前に、マスク氏の政治支出が過去最大規模に達したとの報道も出ています。",
   "items": [
     {
-      "id": "shotwell-trump-accounts",
+      "id": "spacex-boost-mobile-talks",
       "importance": 3,
       "category": "スペースX",
-      "title": "ショットウェル社長、200万株超を子ども向け口座へ　12月に初回分配",
-      "summary": "スペースXのグウィン・ショットウェル社長は30日、夫妻で保有する同社株200万株超を、子ども向けの「トランプ口座」に贈ると発表し、株の移管を始めたと明らかにしました。初回は12月で、所得水準の低い地域に住む11〜17歳が対象です。軍人家庭や里親家庭の子どもなどへの2回目の分配も数週間内に予定されています。",
-      "point": "マスク氏が来年、全米の子どもに1株ずつ贈ると表明したのに続く動きで、上場後のスペースX株を個人に広げる取り組みが具体化しつつあります。",
-      "source": "Teslarati",
-      "url": "https://www.teslarati.com/spacexs-gwynne-shotwell-stocks-trump-accounts/",
-      "publishedAt": "2026-10-30"
-    },
-    {
-      "id": "grimes-terafab-records-suit",
-      "importance": 2,
-      "category": "スペースX",
-      "title": "テキサス州の工場計画、税優遇の記録開示を求め住民団体が郡を提訴",
-      "summary": "テキサス州グライムズ郡の住民団体が、スペースXの半導体工場計画「Terafab」に対する税優遇の関連記録を開示するよう郡に求める訴えを起こしました。州司法長官は7月に開示を命じていましたが、郡は記録を出していないと主張しています。スペースXは記録が営業秘密にあたるとして、9月に司法長官と郡を相手に訴訟を起こしています。",
-      "point": "テスラとの半導体合弁の拠点となる計画で、優遇条件の透明性をめぐる争いが法廷に広がっています。",
-      "source": "The Cool Down（Yahoo News配信）",
-      "url": "https://yahoo.com/news/us/articles/county-withheld-spacex-tax-break-231500825.html",
-      "publishedAt": "2026-11-01"
-    },
-    {
-      "id": "grokbot-dau-growth",
-      "importance": 1,
-      "category": "スペースX",
-      "title": "Grok Botの1日利用者、約60万人に　マスク氏がデータを共有",
-      "summary": "マスク氏は、スペースXのAI部門が提供するエージェント「Grok Bot」の1日あたり利用者数が10月26日時点で約60万人になったとする調査会社シミラーウェブのデータをXで共有しました。9月上旬の約6万7000人から、50日ほどで約9倍に増えた計算です。",
-      "point": "",
-      "source": "ソウル経済新聞",
-      "url": "https://en.sedaily.com/finance/2026/10/31/grokbot-closes-in-on-muse-as-musk-targets-meta",
-      "publishedAt": "2026-10-31"
-    },
-    {
-      "id": "starship-flight15-nov12-plan",
-      "importance": 1,
-      "category": "スペースX",
-      "title": "Starship 15回目、航空管制の調整資料に「11月12日」",
-      "summary": "中南米の航空管制関係の会合資料に、Starshipの15回目の試験飛行が11月12日として記載されていたことが分かりました。スペースXは日付を公表しておらず、11月2日時点で米連邦航空局（FAA）の飛行許可も出ていません。今回は機体の上段もタワーで受け止める初の試みが予定されています。",
-      "point": "",
-      "source": "Mashup Reporter",
-      "url": "https://mashupreporter.com/starship-flight15-nov12-ship-catch",
+      "title": "独自の携帯網へ、Boost Mobileと協議と報道",
+      "summary": "ワシントン・ポストによると、スペースXはEchoStar傘下のBoost Mobileについて、買収または回線網の利用を協議している。大手3社には提案を断られていた。合意は発表されておらず、2日のスペースX株は朝方に約4%上昇した。",
+      "point": "Boostが大手から借りている回線を使えれば、Starlinkの衛星通信と地上回線を組み合わせた携帯事業に近づく。ただしサービス開始には回線を貸す側の同意が要る可能性がある。",
+      "source": "PYMNTS（ワシントン・ポスト報道を引用）／24/7 Wall St.",
+      "url": "https://www.pymnts.com/partnerships/2026/elon-musks-spacex-turns-to-boost-to-launch-mobile-network/",
       "publishedAt": "2026-11-02"
     },
     {
-      "id": "musk-neocloud-warning",
+      "id": "grok-bot-usage-limits",
+      "importance": 2,
+      "category": "スペースX",
+      "title": "Grok Botの利用上限を引き締め　マスク氏「コストが高すぎた」",
+      "summary": "週末、Grok Botの週ごとの利用枠が急に上限に達したという利用者の報告が相次いだ。マスク氏はXでの返信で、不具合ではなく、収益に比べて提供コストが持続できないほど高かったためだと説明した。今後の上限の扱いは示していない。",
+      "point": "AIはスペースXの収益の柱になりつつあり、急増する利用と計算コストをどう釣り合わせるかが課題として表に出た。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/02/elon-musk-throttles-grok-bot-limits-due-to-unsustainably-high-costs",
+      "publishedAt": "2026-11-02"
+    },
+    {
+      "id": "starship-ship42-static-fire",
+      "importance": 1,
+      "category": "スペースX",
+      "title": "Starship 15回目へ、上段Ship 42の燃焼試験を完了",
+      "summary": "スペースXは10月26〜27日、15回目の飛行に使う上段Ship 42の地上燃焼試験を行い、6基のエンジンを規定時間燃焼させた。ブースター22も33基の燃焼試験を終えている。マスク氏は11月中の飛行と、規制当局の承認を前提に上段とブースターの両方の回収（キャッチ）を目指すとしている。",
+      "point": "",
+      "source": "Space.com",
+      "url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-fires-up-starship-upper-stage-ahead-of-landmark-flight-15-test-launch-video",
+      "publishedAt": "2026-10-29"
+    },
+    {
+      "id": "falcon9-ussf-432",
+      "importance": 1,
+      "category": "スペースX",
+      "title": "宇宙軍の機密ミッション、Falcon 9で打ち上げへ",
+      "summary": "スペースXは米宇宙軍の機密ミッションUSSF-432を、カリフォルニア州バンデンバーグ基地からFalcon 9で打ち上げる予定。発射時間帯は現地3日午後5時28分（日本時間4日午前10時28分）から4時間で、搭載物は公表されていない。",
+      "point": "",
+      "source": "Yahoo News（VC Star）",
+      "url": "https://www.yahoo.com/news/science/articles/spacex-targets-1st-california-rocket-170100125.html",
+      "publishedAt": "2026-11-02"
+    },
+    {
+      "id": "musk-midterm-spending-474m",
       "importance": 3,
       "category": "イーロン・マスク",
-      "title": "マスク氏、AIクラウド200社超の淘汰を予想　2027年は「波乱」",
-      "summary": "マスク氏はXで、投資家チャマス・パリハピティヤ氏の「2027年はAIインフラ企業にとって波乱の年になる」との見方に同意しました。建設途中のデータセンターで使われない計算資源が多く生じ、AI向けクラウド事業者200社超の多くが経営難や統合に直面するとの考えを示しています。",
-      "point": "自らもAI計算資源の貸し出しを拡大しているスペースXのトップが、業界の過剰投資に警鐘を鳴らした形で、投資家の関心を集めています。",
-      "source": "Moneywise（Yahoo Finance配信）",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/elon-musk-warning-raises-big-132000327.html",
-      "publishedAt": "2026-11-01"
-    },
-    {
-      "id": "musk-reich-nationalize",
-      "importance": 2,
-      "category": "イーロン・マスク",
-      "title": "スペースX国有化論にマスク氏が反発　ライシュ元労働長官の発言めぐり",
-      "summary": "クリントン政権で労働長官を務めたロバート・ライシュ氏が自身のポッドキャストで、民主党が議会で多数を得ればマスク氏を調査し、スペースXとStarlinkの国有化に備えるべきだと主張しました。マスク氏はXで「企業を盗むのは重大な犯罪だ」と反発し、ライシュ氏を収監すべきだと投稿しました。",
-      "point": "中間選挙を目前に、マスク氏の事業と政府との関係が政治的な争点として取り上げられています。",
-      "source": "Fox Business",
-      "url": "https://www.foxbusiness.com/politics/defund-musk-former-clinton-cabinet-official-urges-democrats-target-spacex-founder",
-      "publishedAt": "2026-10-31"
-    },
-    {
-      "id": "abbott-musk-emails-appeal",
-      "importance": 1,
-      "category": "イーロン・マスク",
-      "title": "テキサス州知事室とマスク氏企業のメール、開示命令に知事側が控訴",
-      "summary": "テキサス州の地裁は、知事選の民主党候補ジーナ・ヒノホサ氏に、アボット知事室とマスク氏のテキサス拠点企業との通信記録を黒塗りなしで閲覧させるよう命じました。知事室はこれを不服として控訴し、命令は停止されています。控訴審の審理は現地時間11月2日に予定されています。",
-      "point": "",
-      "source": "KUT（オースティン公共ラジオ）",
-      "url": "https://www.kut.org/politics/2026-10-27/gina-hinojosa-abbott-musk-emails-court-ruling-appeal",
-      "publishedAt": "2026-10-27"
+      "title": "中間選挙への政治支出、4億7400万ドルと報道",
+      "summary": "ニューヨーク・タイムズは、マスク氏が今回の選挙サイクルで共和党候補を支援するために投じた資金が4億7400万ドルに達したと報じた。10月中旬の報道時点の額から大きく増えている。米中間選挙の投票は現地3日に行われる。",
+      "point": "個人の政治支出としては記録的な規模とされ、選挙結果とともに、マスク氏の企業と政治の関係にも注目が集まる。",
+      "source": "The New York Times（The Next Web、Zeteoなどが報道）",
+      "url": "https://thenextweb.com/news/musk-midterm-donations-474m-record-new-york-times",
+      "publishedAt": "2026-11-02"
     }
   ]
 }

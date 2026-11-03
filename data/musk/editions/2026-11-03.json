@@ -1,0 +1,62 @@
+{
+  "date": "2026-11-03",
+  "issuedAt": "2026-11-03T11:16:45+09:00",
+  "overview": "スペースXが独自の携帯回線網に向け、EchoStar傘下のBoost Mobileと協議していると報じられ、株価は朝方に上昇しました。AI部門ではGrok Botの利用上限が事実上引き締められ、マスク氏は提供コストの高さを理由に挙げています。米中間選挙の投票日を前に、マスク氏の政治支出が過去最大規模に達したとの報道も出ています。",
+  "items": [
+    {
+      "id": "spacex-boost-mobile-talks",
+      "importance": 3,
+      "category": "スペースX",
+      "title": "独自の携帯網へ、Boost Mobileと協議と報道",
+      "summary": "ワシントン・ポストによると、スペースXはEchoStar傘下のBoost Mobileについて、買収または回線網の利用を協議している。大手3社には提案を断られていた。合意は発表されておらず、2日のスペースX株は朝方に約4%上昇した。",
+      "point": "Boostが大手から借りている回線を使えれば、Starlinkの衛星通信と地上回線を組み合わせた携帯事業に近づく。ただしサービス開始には回線を貸す側の同意が要る可能性がある。",
+      "source": "PYMNTS（ワシントン・ポスト報道を引用）／24/7 Wall St.",
+      "url": "https://www.pymnts.com/partnerships/2026/elon-musks-spacex-turns-to-boost-to-launch-mobile-network/",
+      "publishedAt": "2026-11-02"
+    },
+    {
+      "id": "grok-bot-usage-limits",
+      "importance": 2,
+      "category": "スペースX",
+      "title": "Grok Botの利用上限を引き締め　マスク氏「コストが高すぎた」",
+      "summary": "週末、Grok Botの週ごとの利用枠が急に上限に達したという利用者の報告が相次いだ。マスク氏はXでの返信で、不具合ではなく、収益に比べて提供コストが持続できないほど高かったためだと説明した。今後の上限の扱いは示していない。",
+      "point": "AIはスペースXの収益の柱になりつつあり、急増する利用と計算コストをどう釣り合わせるかが課題として表に出た。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/02/elon-musk-throttles-grok-bot-limits-due-to-unsustainably-high-costs",
+      "publishedAt": "2026-11-02"
+    },
+    {
+      "id": "starship-ship42-static-fire",
+      "importance": 1,
+      "category": "スペースX",
+      "title": "Starship 15回目へ、上段Ship 42の燃焼試験を完了",
+      "summary": "スペースXは10月26〜27日、15回目の飛行に使う上段Ship 42の地上燃焼試験を行い、6基のエンジンを規定時間燃焼させた。ブースター22も33基の燃焼試験を終えている。マスク氏は11月中の飛行と、規制当局の承認を前提に上段とブースターの両方の回収（キャッチ）を目指すとしている。",
+      "point": "",
+      "source": "Space.com",
+      "url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-fires-up-starship-upper-stage-ahead-of-landmark-flight-15-test-launch-video",
+      "publishedAt": "2026-10-29"
+    },
+    {
+      "id": "falcon9-ussf-432",
+      "importance": 1,
+      "category": "スペースX",
+      "title": "宇宙軍の機密ミッション、Falcon 9で打ち上げへ",
+      "summary": "スペースXは米宇宙軍の機密ミッションUSSF-432を、カリフォルニア州バンデンバーグ基地からFalcon 9で打ち上げる予定。発射時間帯は現地3日午後5時28分（日本時間4日午前10時28分）から4時間で、搭載物は公表されていない。",
+      "point": "",
+      "source": "Yahoo News（VC Star）",
+      "url": "https://www.yahoo.com/news/science/articles/spacex-targets-1st-california-rocket-170100125.html",
+      "publishedAt": "2026-11-02"
+    },
+    {
+      "id": "musk-midterm-spending-474m",
+      "importance": 3,
+      "category": "イーロン・マスク",
+      "title": "中間選挙への政治支出、4億7400万ドルと報道",
+      "summary": "ニューヨーク・タイムズは、マスク氏が今回の選挙サイクルで共和党候補を支援するために投じた資金が4億7400万ドルに達したと報じた。10月中旬の報道時点の額から大きく増えている。米中間選挙の投票は現地3日に行われる。",
+      "point": "個人の政治支出としては記録的な規模とされ、選挙結果とともに、マスク氏の企業と政治の関係にも注目が集まる。",
+      "source": "The New York Times（The Next Web、Zeteoなどが報道）",
+      "url": "https://thenextweb.com/news/musk-midterm-donations-474m-record-new-york-times",
+      "publishedAt": "2026-11-02"
+    }
+  ]
+}
