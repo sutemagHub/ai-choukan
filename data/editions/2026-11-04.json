@@ -1,0 +1,40 @@
+{
+  "date": "2026-11-04",
+  "issuedAt": "2026-11-04T06:00:00+09:00",
+  "overview": "新モデルの大きな発表は見当たらない静かな朝でした。確認できた中心の話題は、OpenAIがアブダビで結んだ複数の合意と、Anthropicが文章の透かし機能を旧モデルへ広げるとされる動きです。今回は信頼できる一次情報へ届かなかった話題が多く、確認できたものだけを載せています。",
+  "items": [
+    {
+      "id": "openai-abu-dhabi-deals",
+      "importance": 3,
+      "category": "ビジネス",
+      "title": "OpenAI、アブダビでエネルギー・政府・投資の4合意",
+      "summary": "CNBCによると、OpenAIはアブダビでエネルギー、政府、投資にまたがる4件の合意を結んだ。サム・アルトマンCEOが現地の首脳級と会談した。同社は最大200億ドルの新規資金調達を進めており、UAEの投資家が共同で主導するという。合意の細かな条件は確認できていない。",
+      "point": "資金調達の目標引き下げが報じられるなか、湾岸の資金と計算基盤への依存が一段と強まる可能性を示す動きです。",
+      "source": "CNBC",
+      "url": "https://cnbc.com/2026/11/02/openai-abu-dhabi-ai-deals.html",
+      "publishedAt": "2026-11-02"
+    },
+    {
+      "id": "claude-watermark-older-models",
+      "importance": 2,
+      "category": "安全性",
+      "title": "Claudeの文章透かし、旧モデルにも11月3日から拡大か",
+      "summary": "Claudeが書いた文章に統計的な目印を埋め込む透かし機能が、11月3日からMythos 5、Opus 4.7、Opus 4.6、Sonnet 4.6にも適用されると報じられた。API経由で、Amazon Bedrockはやや遅れる見込み。利用者が無効にする手段はないとされる。Anthropic自身の発表は確認できていない。",
+      "point": "AI生成文の判別手段を、新旧のモデルをまたいで揃える動きです。API利用者は出力への影響を自分で確かめておく必要があります。",
+      "source": "pasqualepillitteri.it（Anthropicのメールを引用）",
+      "url": "https://pasqualepillitteri.it/en/news/27785/claude-watermark-november-3-opus-4-7-sonnet-4-6",
+      "publishedAt": "2026-11-03"
+    },
+    {
+      "id": "ios-27-3-china-qwen",
+      "importance": 1,
+      "category": "プロダクト",
+      "title": "iOS 27.3の初回ベータ、中国向けApple Intelligenceを一部有効化へ",
+      "summary": "Appleは、iOS 27.3の最初の開発者ベータで中国向けのApple Intelligenceの一部機能が使えるようになると説明した。配信は11月4日との報道があり、一般公開は12月の予定。テキスト処理はAlibabaのQwenが担うとされ、Siri AIは対象外。",
+      "point": "",
+      "source": "MacRumors ほか",
+      "url": "https://macrumors.com/2026/10/30/apple-says-ios-27-3-beta-coming-next-week/",
+      "publishedAt": "2026-10-30"
+    }
+  ]
+}

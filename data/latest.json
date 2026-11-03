@@ -1,62 +1,40 @@
 {
-  "date": "2026-11-03",
-  "issuedAt": "2026-11-03T06:00:00+09:00",
-  "overview": "大きな新製品の発表は少ない朝でした。Anthropicの上場申請書類から、日本の投資家向けに最大5529億円を売り出す計画が明らかになり、国内の関心が高まっています。このほか、11月12日施行のAnthropic新利用ポリシー、科学者向けClaude支援の拡大、GoogleのAIモード広告の拡大が確認できた話題です。",
+  "date": "2026-11-04",
+  "issuedAt": "2026-11-04T06:00:00+09:00",
+  "overview": "新モデルの大きな発表は見当たらない静かな朝でした。確認できた中心の話題は、OpenAIがアブダビで結んだ複数の合意と、Anthropicが文章の透かし機能を旧モデルへ広げるとされる動きです。今回は信頼できる一次情報へ届かなかった話題が多く、確認できたものだけを載せています。",
   "items": [
     {
-      "id": "anthropic-japan-offering",
+      "id": "openai-abu-dhabi-deals",
       "importance": 3,
-      "category": "国内",
-      "title": "Anthropic、上場で日本の投資家に最大5529億円を売り出し",
-      "summary": "ロイターによると、Anthropicの届出書類は米国上場にあわせて日本の投資家向けに最大5529億円（約35億ドル）分の株式を売り出す計画を示した。日本分はみずほ証券が主導する。書類には全体の調達額や企業価値は書かれていない。別の報道では、11月中旬の取引開始を目指しているとされる。",
-      "point": "海外企業の上場に伴う売り出しとして日本の個人・機関投資家が直接関わる形になり、国内でのAI関連投資の受け皿として注目される。ただし条件は最終確定前。",
-      "source": "Reuters（AOL配信）",
-      "url": "https://www.aol.co.uk/articles/anthropic-plans-sell-3-5-062533000.html",
+      "category": "ビジネス",
+      "title": "OpenAI、アブダビでエネルギー・政府・投資の4合意",
+      "summary": "CNBCによると、OpenAIはアブダビでエネルギー、政府、投資にまたがる4件の合意を結んだ。サム・アルトマンCEOが現地の首脳級と会談した。同社は最大200億ドルの新規資金調達を進めており、UAEの投資家が共同で主導するという。合意の細かな条件は確認できていない。",
+      "point": "資金調達の目標引き下げが報じられるなか、湾岸の資金と計算基盤への依存が一段と強まる可能性を示す動きです。",
+      "source": "CNBC",
+      "url": "https://cnbc.com/2026/11/02/openai-abu-dhabi-ai-deals.html",
       "publishedAt": "2026-11-02"
     },
     {
-      "id": "anthropic-usage-policy-nov12",
+      "id": "claude-watermark-older-models",
       "importance": 2,
-      "category": "政策",
-      "title": "Anthropicの新利用ポリシー、11月12日に施行",
-      "summary": "Anthropicは10月8日に公表した利用ポリシーの改定版を11月12日に施行する。報道によれば、モデルへの継続的な虐待行為の禁止、物理的な機器を動かす際の安全状態の規定、捜査・逮捕対象の判断への利用禁止などが盛り込まれた。Amazon Bedrock経由の利用者も、施行日以降の利用で同意したものとみなされる。",
-      "point": "APIやBedrockでClaudeを組み込んでいる事業者は、施行前に自社の用途が新しい条文に触れないか確認しておく必要がある。",
-      "source": "Anthropic／各種報道",
-      "url": "https://anthropic.com/news/2026-usage-policy-update",
-      "publishedAt": "2026-10-08"
+      "category": "安全性",
+      "title": "Claudeの文章透かし、旧モデルにも11月3日から拡大か",
+      "summary": "Claudeが書いた文章に統計的な目印を埋め込む透かし機能が、11月3日からMythos 5、Opus 4.7、Opus 4.6、Sonnet 4.6にも適用されると報じられた。API経由で、Amazon Bedrockはやや遅れる見込み。利用者が無効にする手段はないとされる。Anthropic自身の発表は確認できていない。",
+      "point": "AI生成文の判別手段を、新旧のモデルをまたいで揃える動きです。API利用者は出力への影響を自分で確かめておく必要があります。",
+      "source": "pasqualepillitteri.it（Anthropicのメールを引用）",
+      "url": "https://pasqualepillitteri.it/en/news/27785/claude-watermark-november-3-opus-4-7-sonnet-4-6",
+      "publishedAt": "2026-11-03"
     },
     {
-      "id": "anthropic-ai-for-science-20",
-      "importance": 2,
-      "category": "研究",
-      "title": "Anthropic、科学者向けClaude無償支援を20の提携先に拡大",
-      "summary": "Anthropicは「AI for Science」プログラムを、助成財団や研究機関、研究プロジェクトなど20の提携先を通じた形に広げた。米国立科学財団（NSF）やサイモンズ財団などが、支援する研究者に無償のClaudeクレジットを配分する。金額は公表されていない。",
-      "point": "個々の研究者への直接支給から、資金提供団体を介した配分へ移り、研究現場への行き渡り方が変わる。",
-      "source": "Anthropic",
-      "url": "https://anthropic.com/news/expanding-support-for-scientists",
-      "publishedAt": "2026-10-28"
-    },
-    {
-      "id": "google-ai-mode-ads-expand",
-      "importance": 2,
-      "category": "ビジネス",
-      "title": "Google、AIモードの広告を10か国に拡大",
-      "summary": "Googleは検索のAIモードに表示する広告を、豪州、カナダ、インド、ケニア、マレーシア、ニュージーランド、ナイジェリア、パキスタン、フィリピン、シンガポールへ広げた。ブラジル、メキシコ、英国は第4四半期に予定する。米国では追問に応じて出る広告も始めた。EUは当面対象外。",
-      "point": "AI検索が広告収益の柱として本格的に動き出し、広告主はAIモードだけを個別に除外できない点に注意が要る。",
-      "source": "Google",
-      "url": "https://blog.google/intl/en-africa/products/ads-in-ai-mode-expand-to-new-markets/",
-      "publishedAt": "2026-10-28"
-    },
-    {
-      "id": "kimi-k31-weights-pending",
+      "id": "ios-27-3-china-qwen",
       "importance": 1,
-      "category": "開発者",
-      "title": "Kimi K3.1 Proの重み公開は11月4日までの予定、現時点では未公開",
-      "summary": "Moonshot AIは10月23日にAPIで公開したKimi K3.1 Proの重みを11月4日までに公開すると表明している。11月2日時点でHugging Faceへの公開は確認できなかった。前モデルのK3は予告どおり公開された実績がある。",
+      "category": "プロダクト",
+      "title": "iOS 27.3の初回ベータ、中国向けApple Intelligenceを一部有効化へ",
+      "summary": "Appleは、iOS 27.3の最初の開発者ベータで中国向けのApple Intelligenceの一部機能が使えるようになると説明した。配信は11月4日との報道があり、一般公開は12月の予定。テキスト処理はAlibabaのQwenが担うとされ、Siri AIは対象外。",
       "point": "",
-      "source": "Let's Data Science",
-      "url": "https://letsdatascience.com/news/moonshot-releases-kimi-k31-pro-api-open-weights-due-nov-4-786e160c",
-      "publishedAt": "2026-10-23"
+      "source": "MacRumors ほか",
+      "url": "https://macrumors.com/2026/10/30/apple-says-ios-27-3-beta-coming-next-week/",
+      "publishedAt": "2026-10-30"
     }
   ]
 }
