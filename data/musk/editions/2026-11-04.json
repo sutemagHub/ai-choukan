@@ -1,0 +1,73 @@
+{
+  "date": "2026-11-04",
+  "issuedAt": "2026-11-04T11:17:22+09:00",
+  "overview": "米中間選挙の投票日に、マスク氏はXで共和党への投票を改めて呼びかけ、トランプ大統領はマスク氏への恩赦に言及しました。スペースXでは宇宙軍の機密ミッションが延期となった一方、Starshipを使う微小重力サービス「Starfall」の詳細が伝わり、株価は公開価格を回復しました。",
+  "items": [
+    {
+      "id": "ussf-432-delay",
+      "importance": 3,
+      "category": "スペースX",
+      "title": "宇宙軍の機密ミッション、11月6日に延期",
+      "summary": "カリフォルニア州ヴァンデンバーグ宇宙軍基地から11月2日（現地時間）に予定されていたFalcon 9による米宇宙軍の機密ミッション「USSF-432」について、基地が打ち上げを11月6日に再設定したと地元メディアが報じました。延期の理由は明らかにされていません。",
+      "point": "国家安全保障分野の打ち上げはスペースXの安定収入源で、日程の推移は今後の政府案件の消化ペースを示します。",
+      "source": "Edhat（ヴァンデンバーグ宇宙軍基地の発表に基づく）",
+      "url": "https://www.edhat.com/news/ussf-432-spacex-falcon-9-launch-postponed-vandenberg-space-force-base/",
+      "publishedAt": "2026-11-03"
+    },
+    {
+      "id": "starfall-microgravity",
+      "importance": 2,
+      "category": "スペースX",
+      "title": "Starshipで微小重力実験、「Starfall」の仕様が明らかに",
+      "summary": "スペースXは、Starshipで最大1,000kgの搭載物を数週間軌道上に置き、医薬品の結晶化や半導体材料の研究などに使える微小重力サービス「Starfall」を案内しています。電力1kW、Starlinkによる常時通信を備え、すでに商業ミッション3件を契約済みとしています。価格や初飛行日は示されていません。",
+      "point": "Starshipを打ち上げ手段だけでなく軌道上の製造・研究の場として売り込む動きで、新たな収益源になり得ます。",
+      "source": "スペースX（Tesla North報道）",
+      "url": "https://teslanorth.com/2026/11/02/spacex-starfall-1000kg-drug-chip/",
+      "publishedAt": "2026-11-02"
+    },
+    {
+      "id": "spcx-above-ipo-price",
+      "importance": 1,
+      "category": "スペースX",
+      "title": "スペースX株、2日終値136.37ドル　公開価格を回復",
+      "summary": "スペースX株は11月2日、前日比1.2%高の136.37ドルで取引を終え、10月30日に割り込んだ公開価格135ドルを上回りました。同日のナスダック総合指数は1%超下落しており、Boost Mobile買収協議の報道が材料視されたとみられます。",
+      "point": "",
+      "source": "Gotrade News",
+      "url": "https://www.heygotrade.com/en/news/spacex-spcx-stock-news-november-3-2026/",
+      "publishedAt": "2026-11-03"
+    },
+    {
+      "id": "starlink-app-users",
+      "importance": 1,
+      "category": "スペースX",
+      "title": "Starlinkアプリの月間利用者、3年で332%増",
+      "summary": "調査会社Similarwebによると、Starlinkのスマートフォンアプリの月間アクティブ利用者は2023年9月から2026年9月にかけて332%増え、月間ダウンロード数も316%増えました。利用者数の実数は公表されていません。",
+      "point": "",
+      "source": "Similarweb（Tesla North報道）",
+      "url": "https://teslanorth.com/2026/11/03/starlink-app-monthly-users-332-percent",
+      "publishedAt": "2026-11-03"
+    },
+    {
+      "id": "musk-election-day-post",
+      "importance": 3,
+      "category": "イーロン・マスク",
+      "title": "投票日にマスク氏「きょうは共和党に投票を」",
+      "summary": "米中間選挙の投票日となった11月3日、マスク氏はXで共和党への投票を呼びかける投稿をしました。直前には、民主党が大勝すれば米国の民主主義が終わるとの趣旨の投稿もしていました。マスク氏は今回の選挙サイクルで最大級の献金者とされています。",
+      "point": "多額の資金を投じたマスク氏にとって、選挙結果は政権との関係や自社への規制・調査の行方に直結します。",
+      "source": "American Bazaar",
+      "url": "https://americanbazaaronline.com/2026/11/03/elon-musk-urges-americans-to-vote-red-pours-446-million-into-2026-midterms-491398/",
+      "publishedAt": "2026-11-03"
+    },
+    {
+      "id": "trump-pardon-musk",
+      "importance": 2,
+      "category": "イーロン・マスク",
+      "title": "トランプ氏、民主党勝利ならマスク氏らに恩赦も",
+      "summary": "トランプ大統領はニューヨーク・ポストのインタビューで、中間選挙で民主党が勝ち、マスク氏ら近しい人物が標的にされた場合には、事前の恩赦も含めて守る考えを示しました。民主党がスペースXを国有化するとの見方は退けました。マスク氏側はこの発言に直接コメントしていません。",
+      "point": "民主党側の調査をめぐる議論に大統領自ら踏み込んだ形で、選挙後のマスク氏の立場を左右する要素になります。",
+      "source": "Moneywise（Yahoo Finance掲載）",
+      "url": "https://finance.yahoo.com/economy/policy/articles/trump-vows-pardon-elon-musk-143500039.html",
+      "publishedAt": "2026-11-03"
+    }
+  ]
+}
