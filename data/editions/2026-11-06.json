@@ -1,0 +1,29 @@
+{
+  "date": "2026-11-06",
+  "issuedAt": "2026-11-06T06:10:00+09:00",
+  "overview": "けさは、一次情報まで確認できた新しい話題が少ない日でした。裏取りできた2本だけを載せています。AIの電力設備をめぐる訴訟が前に進んだことと、AIによる脆弱性発見が実際のオフィスソフトに及んだことが目立ちます。",
+  "items": [
+    {
+      "id": "xai-turbine-suit-proceeds",
+      "importance": 2,
+      "category": "政策",
+      "title": "xAIのガスタービン訴訟、棄却請求が退けられ審理続行",
+      "summary": "米ミシシッピ州の連邦地裁は、xAIの巨大データセンター「Colossus 2」を動かすガスタービンをめぐり、NAACPが起こした大気浄化法違反の訴えを退けてほしいというxAI側の申し立てを認めなかった。タービンは「移動式発生源」にあたるというxAIの主張も通らなかった。日付や台数は報道によって異なるが、10月末の判断とされる。",
+      "point": "違法かどうかの判断ではなく審理が続くという段階。ただ、AI向け電源を一時設備として扱う手法に歯止めがかかる流れで、データセンター建設に影響しうる。",
+      "source": "The Next Web ほか",
+      "url": "https://thenextweb.com/news/xai-naacp-lawsuit-gas-turbines-motion-to-dismiss-denied",
+      "publishedAt": "2026-10-31"
+    },
+    {
+      "id": "claude-libreoffice-cve",
+      "importance": 1,
+      "category": "安全性",
+      "title": "LibreOffice Calcの脆弱性、Claudeによる発見として公表",
+      "summary": "LibreOffice Calcで、表計算ファイルを開くと数式の処理中にヒープバッファオーバーフローが起きる脆弱性（CVE-2026-8357）が公表された。Anthropicの脆弱性開示ページは、これをClaude Sonnet 4.6が見つけたものとして載せている。深刻度の評価は関係者の間で分かれている。",
+      "point": "",
+      "source": "Wiz Vulnerability Database",
+      "url": "https://www.wiz.io/vulnerability-database/cve/cve-2026-8357",
+      "publishedAt": "2026-11-05"
+    }
+  ]
+}

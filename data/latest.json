@@ -1,84 +1,29 @@
 {
-  "date": "2026-11-05",
-  "issuedAt": "2026-11-05T05:50:00+09:00",
-  "overview": "AIの「お金」と「安全」をめぐる動きが目立つ朝です。Anthropicの修正S-1で成長鈍化と巨額の調達コミットが明らかになり、CrowdStrikeはAIエージェント向けセキュリティ企業2社を買収、米中間選挙では民主党勝利でAI規制論議が強まる見通しです。",
+  "date": "2026-11-06",
+  "issuedAt": "2026-11-06T06:10:00+09:00",
+  "overview": "けさは、一次情報まで確認できた新しい話題が少ない日でした。裏取りできた2本だけを載せています。AIの電力設備をめぐる訴訟が前に進んだことと、AIによる脆弱性発見が実際のオフィスソフトに及んだことが目立ちます。",
   "items": [
     {
-      "id": "anthropic-amended-s1-q3",
-      "importance": 3,
-      "category": "ビジネス",
-      "title": "Anthropic修正S-1、Q3売上約170億ドルも成長は鈍化",
-      "summary": "11月2日に出た修正S-1によると、7〜9月期の売上は約170億ドルで前期比47%増。4〜6月期の144%増から大きく減速した。新モデルの値下げや契約割引が約6億ドルの押し下げ要因となり、会計上の営業損益は5.67億ドルの赤字に転じた。購入コミットメントは8954億ドルに上る。",
-      "point": "上場を目前に、急成長の持続性と巨額の計算資源契約という負担が投資家の判断材料として前面に出てきた。",
-      "source": "CNBC / Fortune",
-      "url": "https://www.cnbc.com/2026/11/02/anthropic-ant-s-1-quarter-financials.html",
-      "publishedAt": "2026-11-02"
-    },
-    {
-      "id": "crowdstrike-fiddler-dreadnode",
-      "importance": 3,
-      "category": "安全性",
-      "title": "CrowdStrike、AIエージェント監視のFiddlerなど2社を買収へ",
-      "summary": "CrowdStrikeは11月3日、欧州イベントでAIの挙動を可視化するFiddler AIと、AIへの攻撃的テストを手がけるDreadnodeの買収を発表した。価格は非公表だが、報道ではFiddlerが約4億ドル、Dreadnodeが約9500万ドルとされる。Fiddlerは同社基盤に組み込まれる予定で、完了は2027年1月期の第4四半期を見込む。",
-      "point": "企業へのAIエージェント導入が進むなか、運用中のエージェントを監視・制御する市場が大手セキュリティ企業の買収対象になってきた。",
-      "source": "TechCrunch / CyberScoop",
-      "url": "https://techcrunch.com/2026/11/03/crowdstrike-to-shell-out-nearly-500m-for-2-ai-security-startups-as-the-market-for-securing-agents-takes-off/",
-      "publishedAt": "2026-11-03"
-    },
-    {
-      "id": "us-midterms-ai-regulation",
+      "id": "xai-turbine-suit-proceeds",
       "importance": 2,
       "category": "政策",
-      "title": "米中間選挙で民主党が優勢、AI規制の公聴会に前向き",
-      "summary": "11月3日の米中間選挙で、民主党が上下両院で多数を握ったと報じられている。テッド・リュー下院議員は、公聴会の開催やAIのガードレール整備、データセンターの精査を進める考えを示した。連邦レベルの包括的な先取り立法はまだ成立しておらず、州レベルのAI法案は1000件超が進行中とされる。",
-      "point": "議会の力関係の変化で、データセンター関連の規制論議や州法との調整が今後の焦点になりそうだ。",
-      "source": "Irish Times",
-      "url": "https://irishtimes.com/world/us/2026/11/04/us-midterm-elections-results-democrats-take-control-of-house-and-senate",
-      "publishedAt": "2026-11-04"
+      "title": "xAIのガスタービン訴訟、棄却請求が退けられ審理続行",
+      "summary": "米ミシシッピ州の連邦地裁は、xAIの巨大データセンター「Colossus 2」を動かすガスタービンをめぐり、NAACPが起こした大気浄化法違反の訴えを退けてほしいというxAI側の申し立てを認めなかった。タービンは「移動式発生源」にあたるというxAIの主張も通らなかった。日付や台数は報道によって異なるが、10月末の判断とされる。",
+      "point": "違法かどうかの判断ではなく審理が続くという段階。ただ、AI向け電源を一時設備として扱う手法に歯止めがかかる流れで、データセンター建設に影響しうる。",
+      "source": "The Next Web ほか",
+      "url": "https://thenextweb.com/news/xai-naacp-lawsuit-gas-turbines-motion-to-dismiss-denied",
+      "publishedAt": "2026-10-31"
     },
     {
-      "id": "openai-acquires-pierre",
-      "importance": 2,
-      "category": "開発者",
-      "title": "OpenAI、開発者向けのPierreを買収へ　Codexに統合",
-      "summary": "OpenAIはコード保管や差分表示の機能を手がけるPierre Computer Companyの買収を発表した。TreesとDiffsの機能はすでにCodexで動いており、Code StorageもCodexに組み込む計画だ。買収額と完了時期は公表されていない。Pierreのオープンソースは公開が続き、既存顧客も利用を続けられる。",
-      "point": "OpenAIがAIコーディング関連のスタートアップを取り込み、Codexの開発基盤を厚くする動きが続いている。",
-      "source": "Benzinga",
-      "url": "https://benzinga.com/markets/private-markets/26/11/62880116/openai-just-bought-another-ai-coding-startup-heres-what-it-wants-to-build",
-      "publishedAt": "2026-11-04"
-    },
-    {
-      "id": "google-workspace-slides-gemini",
+      "id": "claude-libreoffice-cve",
       "importance": 1,
-      "category": "プロダクト",
-      "title": "Googleスライド、Geminiで複数枚を一括編集可能に",
-      "summary": "Google Workspaceの更新情報によると、GoogleスライドでGeminiがプレゼン全体、または複数のスライドをまとめて編集できるようになった。10月末の更新まとめで案内されている。",
+      "category": "安全性",
+      "title": "LibreOffice Calcの脆弱性、Claudeによる発見として公表",
+      "summary": "LibreOffice Calcで、表計算ファイルを開くと数式の処理中にヒープバッファオーバーフローが起きる脆弱性（CVE-2026-8357）が公表された。Anthropicの脆弱性開示ページは、これをClaude Sonnet 4.6が見つけたものとして載せている。深刻度の評価は関係者の間で分かれている。",
       "point": "",
-      "source": "Google Workspace Updates",
-      "url": "https://workspaceupdates.googleblog.com/2026/",
-      "publishedAt": "2026-10-30"
-    },
-    {
-      "id": "kimi-k31-pro-weights-pending",
-      "importance": 1,
-      "category": "モデル",
-      "title": "Kimi K3.1 Pro、重み公開は期限の4日も確認取れず",
-      "summary": "MoonshotはKimi K3.1 ProをAPIで10月23日に提供開始し、重みは11月4日までに公開すると予告していた。公開済みとの二次的な報道もあるが、Hugging Faceなど一次情報での確認はできていない。",
-      "point": "",
-      "source": "Let's Data Science ほか",
-      "url": "https://letsdatascience.com/news/moonshot-releases-kimi-k31-pro-api-open-weights-due-nov-4-786e160c",
-      "publishedAt": "2026-11-04"
-    },
-    {
-      "id": "pfn-tenstorrent-nedo-chiplet",
-      "importance": 1,
-      "category": "国内",
-      "title": "PFNとTenstorrent、NEDO事業で生成AI向けチップを共同開発",
-      "summary": "PFNとTenstorrentはNEDOの委託研究で、光電融合と先端パッケージングを使った生成AI向けプロセッサを共同開発する。PFNは3次元メモリ実装の高帯域AIチップレット、Tenstorrentは機密計算対応のCPUチップレットを担当し、研究は2031年度まで続く。発表日は今回確認できていない。",
-      "point": "",
-      "source": "XenoSpectrum",
-      "url": "https://xenospectrum.com/pfn-tenstorrent-photonics-ai-chiplet-nedo/",
-      "publishedAt": "2026-11-04"
+      "source": "Wiz Vulnerability Database",
+      "url": "https://www.wiz.io/vulnerability-database/cve/cve-2026-8357",
+      "publishedAt": "2026-11-05"
     }
   ]
 }
