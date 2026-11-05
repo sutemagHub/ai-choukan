@@ -1,73 +1,73 @@
 {
-  "date": "2026-11-04",
-  "issuedAt": "2026-11-04T11:17:22+09:00",
-  "overview": "米中間選挙の投票日に、マスク氏はXで共和党への投票を改めて呼びかけ、トランプ大統領はマスク氏への恩赦に言及しました。スペースXでは宇宙軍の機密ミッションが延期となった一方、Starshipを使う微小重力サービス「Starfall」の詳細が伝わり、株価は公開価格を回復しました。",
+  "date": "2026-11-05",
+  "issuedAt": "2026-11-05T11:21:29+09:00",
+  "overview": "米中間選挙で民主党が上下両院を制し、共和党を大規模に支援したマスク氏の陣営は大きく後退しました。スペースXとテスラの株価は規制強化への警戒から下落する一方、スペースXはクアルコムと地上5G網の大型契約を結び、携帯事業への布石を進めています。",
   "items": [
     {
-      "id": "ussf-432-delay",
+      "id": "qualcomm-starlink-mobile",
       "importance": 3,
       "category": "スペースX",
-      "title": "宇宙軍の機密ミッション、11月6日に延期",
-      "summary": "カリフォルニア州ヴァンデンバーグ宇宙軍基地から11月2日（現地時間）に予定されていたFalcon 9による米宇宙軍の機密ミッション「USSF-432」について、基地が打ち上げを11月6日に再設定したと地元メディアが報じました。延期の理由は明らかにされていません。",
-      "point": "国家安全保障分野の打ち上げはスペースXの安定収入源で、日程の推移は今後の政府案件の消化ペースを示します。",
-      "source": "Edhat（ヴァンデンバーグ宇宙軍基地の発表に基づく）",
-      "url": "https://www.edhat.com/news/ussf-432-spacex-falcon-9-launch-postponed-vandenberg-space-force-base/",
-      "publishedAt": "2026-11-03"
+      "title": "クアルコムと複数年契約、Starlink Mobileの地上5G網を構築へ",
+      "summary": "クアルコムは、スペースXが計画する全米規模の地上5G網「Starlink Mobile」向けに、無線機器や基地局の処理装置、ソフトウェアを供給する複数年契約を結んだと発表した。米国で2027年から数万カ所の基地局に順次導入する計画で、金額は非公表。クアルコムは同社最大の5G案件だとしている。",
+      "point": "衛星だけでなく地上の基地局まで自前で持つ構想が具体化し、スペースXが本格的な携帯通信事業者を目指す動きが鮮明になった。",
+      "source": "ロイター（Investing.com掲載）",
+      "url": "https://www.investing.com/news/stock-market-news/qualcomm-signs-major-5g-infrastructure-deal-with-spacex-for-starlink-mobile-network-4999443",
+      "publishedAt": "2026-11-04"
     },
     {
-      "id": "starfall-microgravity",
+      "id": "spcx-falls-midterms",
       "importance": 2,
       "category": "スペースX",
-      "title": "Starshipで微小重力実験、「Starfall」の仕様が明らかに",
-      "summary": "スペースXは、Starshipで最大1,000kgの搭載物を数週間軌道上に置き、医薬品の結晶化や半導体材料の研究などに使える微小重力サービス「Starfall」を案内しています。電力1kW、Starlinkによる常時通信を備え、すでに商業ミッション3件を契約済みとしています。価格や初飛行日は示されていません。",
-      "point": "Starshipを打ち上げ手段だけでなく軌道上の製造・研究の場として売り込む動きで、新たな収益源になり得ます。",
-      "source": "スペースX（Tesla North報道）",
-      "url": "https://teslanorth.com/2026/11/02/spacex-starfall-1000kg-drug-chip/",
-      "publishedAt": "2026-11-02"
+      "title": "スペースX株が約4.5%安、中間選挙の結果受け",
+      "summary": "民主党が上下両院で勝利した4日、スペースX株は取引時間中に134.97ドルと約4.5%下落し、テスラ株も2%余り下げた。市場全体が落ち着く中での下げで、テキサス州での許認可や連邦政府の監視強化などへの警戒が背景にあるとみられている。",
+      "point": "前日にEchoStarとの協議報道で上昇した分を打ち消す形となり、マスク氏の政治的立場が株価の材料になりつつある。",
+      "source": "Teslarati",
+      "url": "https://www.teslarati.com/musk-tesla-tsla-spacex-spcx-decline-after-democratic-midterm-sweep/",
+      "publishedAt": "2026-11-04"
     },
     {
-      "id": "spcx-above-ipo-price",
+      "id": "echostar-talks-stock",
       "importance": 1,
       "category": "スペースX",
-      "title": "スペースX株、2日終値136.37ドル　公開価格を回復",
-      "summary": "スペースX株は11月2日、前日比1.2%高の136.37ドルで取引を終え、10月30日に割り込んだ公開価格135ドルを上回りました。同日のナスダック総合指数は1%超下落しており、Boost Mobile買収協議の報道が材料視されたとみられます。",
+      "title": "EchoStarとの協議報道で3日は3.6%高",
+      "summary": "スペースXがEchoStarと、傘下のBoost Mobileの買収または回線利用について協議していると報じられ、3日の株価は141.31ドルと前日比3.6%上昇した。報道ではマスク氏が10月にEchoStarのアーゲン会長と会ったとされるが、両社とも合意は確認していない。",
       "point": "",
-      "source": "Gotrade News",
-      "url": "https://www.heygotrade.com/en/news/spacex-spcx-stock-news-november-3-2026/",
-      "publishedAt": "2026-11-03"
+      "source": "Gotrade（ワシントン・ポスト報道などを引用）",
+      "url": "https://www.heygotrade.com/en/news/spacex-spcx-stock-news-november-4-2026/",
+      "publishedAt": "2026-11-04"
     },
     {
-      "id": "starlink-app-users",
-      "importance": 1,
-      "category": "スペースX",
-      "title": "Starlinkアプリの月間利用者、3年で332%増",
-      "summary": "調査会社Similarwebによると、Starlinkのスマートフォンアプリの月間アクティブ利用者は2023年9月から2026年9月にかけて332%増え、月間ダウンロード数も316%増えました。利用者数の実数は公表されていません。",
-      "point": "",
-      "source": "Similarweb（Tesla North報道）",
-      "url": "https://teslanorth.com/2026/11/03/starlink-app-monthly-users-332-percent",
-      "publishedAt": "2026-11-03"
-    },
-    {
-      "id": "musk-election-day-post",
+      "id": "musk-midterm-spending-result",
       "importance": 3,
       "category": "イーロン・マスク",
-      "title": "投票日にマスク氏「きょうは共和党に投票を」",
-      "summary": "米中間選挙の投票日となった11月3日、マスク氏はXで共和党への投票を呼びかける投稿をしました。直前には、民主党が大勝すれば米国の民主主義が終わるとの趣旨の投稿もしていました。マスク氏は今回の選挙サイクルで最大級の献金者とされています。",
-      "point": "多額の資金を投じたマスク氏にとって、選挙結果は政権との関係や自社への規制・調査の行方に直結します。",
-      "source": "American Bazaar",
-      "url": "https://americanbazaaronline.com/2026/11/03/elon-musk-urges-americans-to-vote-red-pours-446-million-into-2026-midterms-491398/",
-      "publishedAt": "2026-11-03"
+      "title": "約5億ドル投じた共和党支援、中間選挙で実らず",
+      "summary": "マスク氏は今回の中間選挙で共和党側に4億5000万〜4億7400万ドル規模（報道により幅あり）を投じたとされるが、民主党が上下両院を制した。テキサス州には約2億2400万ドルを投じ、多くは上院選のパクストン氏陣営向けだったが、同氏は民主党のタラリコ氏に敗れた。",
+      "point": "一個人として過去最大級とされる政治支出が結果に結びつかず、今後の議会や州政府とマスク氏の企業との関係に影響する可能性がある。",
+      "source": "財経新聞（International Business Times、ニューヨーク・タイムズ報道を引用）",
+      "url": "https://www.zaikei.co.jp/article/20261105/876226.html",
+      "publishedAt": "2026-11-05"
     },
     {
-      "id": "trump-pardon-musk",
+      "id": "musk-space-lasers-post",
       "importance": 2,
       "category": "イーロン・マスク",
-      "title": "トランプ氏、民主党勝利ならマスク氏らに恩赦も",
-      "summary": "トランプ大統領はニューヨーク・ポストのインタビューで、中間選挙で民主党が勝ち、マスク氏ら近しい人物が標的にされた場合には、事前の恩赦も含めて守る考えを示しました。民主党がスペースXを国有化するとの見方は退けました。マスク氏側はこの発言に直接コメントしていません。",
-      "point": "民主党側の調査をめぐる議論に大統領自ら踏み込んだ形で、選挙後のマスク氏の立場を左右する要素になります。",
-      "source": "Moneywise（Yahoo Finance掲載）",
-      "url": "https://finance.yahoo.com/economy/policy/articles/trump-vows-pardon-elon-musk-143500039.html",
-      "publishedAt": "2026-11-03"
+      "title": "マスク氏、「宇宙レーザーは効かなかった」と投稿",
+      "summary": "マスク氏は開票が進んだ4日未明、Xに「選挙に介入する宇宙レーザーは今回は効かなかったようだ」と投稿した。2024年の大統領選に同氏が介入したと主張するドキュメンタリーを受けたもので、同氏の弁護士はStarlinkは開票集計につながっていないとし、監督を提訴する構えを示している。",
+      "point": "選挙結果への反応であると同時に、Starlinkをめぐる疑惑への反論を皮肉の形で示した投稿として注目された。",
+      "source": "The National News Desk（News4SA掲載）",
+      "url": "https://news4sanantonio.com/news/nation-world/elon-musk-jokes-that-his-election-interference-space-lasers-didnt-work-for-the-midterms-starlink-gop-democrats",
+      "publishedAt": "2026-11-04"
+    },
+    {
+      "id": "texas-datacenter-freeze",
+      "importance": 2,
+      "category": "イーロン・マスク",
+      "title": "テキサス次期知事、データセンター建設の凍結を提起",
+      "summary": "テキサス州知事選で勝利した民主党のイノホサ氏は、州議会が開かれて説明責任のルールが整うまで、州内のデータセンター建設を凍結するよう求めた。上院選で勝ったタラリコ氏もAI関連施設への税優遇の見直しを掲げており、同州に本社を置くテスラやスペースXへの影響が取り沙汰されている。",
+      "point": "マスク氏の企業が拠点を集めるテキサスで、AI計算基盤や税制をめぐる環境が変わる可能性がある。",
+      "source": "財経新聞（International Business Times）",
+      "url": "https://www.zaikei.co.jp/article/20261105/876226.html",
+      "publishedAt": "2026-11-05"
     }
   ]
 }
