@@ -1,0 +1,84 @@
+{
+  "date": "2026-11-06",
+  "issuedAt": "2026-11-06T11:16:42+09:00",
+  "overview": "中間選挙で民主党が勝ったあとの売りが続き、スペースX株は5日に約9%下げて公開価格を割り込みました。Starship 15回目は11月13日が目標と伝えられ、AI学習をめぐる著作権訴訟も新たに3件起こされました。マスク氏は共和党への投票を呼びかけた投稿を消したとみられています。",
+  "items": [
+    {
+      "id": "spcx-falls-below-ipo",
+      "importance": 3,
+      "category": "スペースX",
+      "title": "スペースX株が約9%安、2日続落で公開価格を下回る",
+      "summary": "5日の米市場でスペースX株は前日比12.30ドル安の123.62ドルで取引を終え、下落率は約9%でした。2日連続の下げで、6月の上場時の公開価格を再び下回り、時価総額はおよそ1.85兆ドルになりました。民主党が議会を握ることで、AIやデータセンターへの規制が強まるとの見方が広がっています。",
+      "point": "AIインフラ事業への期待が株価を支えてきただけに、政策面の逆風がそのまま評価に響いています。",
+      "source": "The Motley Fool",
+      "url": "https://www.fool.com/investing/2026/11/05/why-spacex-stock-is-still-going-down/",
+      "publishedAt": "2026-11-05"
+    },
+    {
+      "id": "starship-flight15-nov13",
+      "importance": 2,
+      "category": "スペースX",
+      "title": "Starship 15回目、11月13日の打ち上げを目標に",
+      "summary": "スペースXの打ち上げ担当副社長キコ・ドンチェフ氏が、Starshipの15回目の飛行試験を11月13日（金）に目指していると講演で話しました。これまで航空管制の資料から12日が取りざたされていました。打ち上げ時刻や飛行計画の詳細は、まだ公式に発表されていません。",
+      "point": "今回は上段（Ship）を初めて発射塔で受け止める試みになるとみられ、再使用化の大きな節目です。",
+      "source": "TeslaNorth（Ars Technica の報道を引用）",
+      "url": "https://teslanorth.com/2026/11/05/starship-flight-15-nov-13/",
+      "publishedAt": "2026-11-05"
+    },
+    {
+      "id": "copyright-suits-three",
+      "importance": 2,
+      "category": "スペースX",
+      "title": "AI学習に書籍を無断利用と、著作権訴訟が新たに3件",
+      "summary": "法律事務所Stris & Maherが、スペースXのAI部門（SpaceX Superintelligence）を相手取り、著作権侵害の訴訟を3件起こしました。原告は出版社のCognellaやChicken Soup for the Soulなどです。買った本をスキャンしてAIの学習に使うことは「公正な利用」に当たらないと主張しています。",
+      "point": "xAIを抱えるスペースXが、AI学習データをめぐる訴訟の当事者として本格的に扱われ始めています。",
+      "source": "ChatGPT Is Eating the World",
+      "url": "https://chatgptiseatingtheworld.com/2026/11/05/stris-maher-takes-lead-in-filing-ai-copyright-suits-with-3-new-suits-v-elon-musks-company-spacex-superintelligence/",
+      "publishedAt": "2026-11-05"
+    },
+    {
+      "id": "texas-ag-starlink-grants",
+      "importance": 1,
+      "category": "スペースX",
+      "title": "テキサス次期司法長官、Starlinkの補助金を調べる意向と報道",
+      "summary": "テキサス州の次期司法長官に決まった民主党のネイサン・ジョンソン氏が、地方のブロードバンド補助金がStarlinkに不当に配分されていなかったかを調べる考えだと報じられました。同じ日、ロケットラボやAST SpaceMobileなど宇宙関連株も13%前後下げました。",
+      "point": "",
+      "source": "24/7 Wall St.",
+      "url": "https://247wallst.com/investing/2026/11/05/spacex-and-tesla-sink-9-as-texas-election-fallout-threatens-musks-data-center-plans-rocket-lab-and-ast-spacemobile-tumble-13/",
+      "publishedAt": "2026-11-05"
+    },
+    {
+      "id": "musk-deletes-vote-posts",
+      "importance": 3,
+      "category": "イーロン・マスク",
+      "title": "マスク氏、共和党への投票を呼びかけた投稿を削除か",
+      "summary": "マスク氏が中間選挙前に投稿した「共和党に投票を」という呼びかけが、X上から消えているとフォーブスが報じました。10月29日に固定表示していた投稿も含まれるとしています。XのAI「Grok」も、削除したかとの問いに「その通り」と答えました。マスク氏はコメントしていません。",
+      "point": "巨額を投じた選挙で支援候補の多くが敗れたあと、マスク氏の政治への関わり方がどう変わるかが注目されます。",
+      "source": "Forbes",
+      "url": "https://www.forbes.com/sites/maryroeloffs/2026/11/04/did-musk-delete-his-vote-red-today-post-grok-says-yes-after-major-republican-losses/",
+      "publishedAt": "2026-11-04"
+    },
+    {
+      "id": "musk-texas-225m",
+      "importance": 2,
+      "category": "イーロン・マスク",
+      "title": "テキサスに2億2500万ドル超、州下院も民主党が奪還",
+      "summary": "マスク氏は今回の中間選挙で、少なくとも2億2500万ドルをテキサス州に投じていたと報じられました。それでも知事選と上院選で民主党が勝ち、州下院も2002年以来初めて民主党が過半数を取りました。次期知事のイノホサ氏は、データセンター承認の一時停止を公約しています。",
+      "point": "テキサスはスペースXやテスラの拠点で、半導体工場「Terafab」への税優遇も州の判断に左右されます。",
+      "source": "Fortune",
+      "url": "https://fortune.com/2026/11/05/elon-musk-texas-democrats-hinojosa-terafab/",
+      "publishedAt": "2026-11-05"
+    },
+    {
+      "id": "musk-space-datacenters-post",
+      "importance": 1,
+      "category": "イーロン・マスク",
+      "title": "マスク氏「宇宙のデータセンターが魅力的に見えてきた」",
+      "summary": "テキサス州の次期知事がデータセンター建設の凍結を掲げるなか、マスク氏は4日、Xで「宇宙のデータセンターがとても魅力的に見えてきた」と書き込みました。スペースXのAIインフラ部門は第3四半期に76億ドルを売り上げたと伝えられています。",
+      "point": "",
+      "source": "24/7 Wall St.",
+      "url": "https://247wallst.com/investing/2026/11/05/spacex-and-tesla-sink-9-as-texas-election-fallout-threatens-musks-data-center-plans-rocket-lab-and-ast-spacemobile-tumble-13/",
+      "publishedAt": "2026-11-05"
+    }
+  ]
+}
