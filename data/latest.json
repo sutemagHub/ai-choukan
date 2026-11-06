@@ -1,28 +1,94 @@
 {
-  "date": "2026-11-06",
-  "issuedAt": "2026-11-06T06:10:00+09:00",
-  "overview": "けさは、一次情報まで確認できた新しい話題が少ない日でした。裏取りできた2本だけを載せています。AIの電力設備をめぐる訴訟が前に進んだことと、AIによる脆弱性発見が実際のオフィスソフトに及んだことが目立ちます。",
+  "date": "2026-11-07",
+  "issuedAt": "2026-11-07T06:30:00+09:00",
+  "overview": "けさはセキュリティとプライバシーの話題が目立ちます。OpenAIが未公開モデルでLinuxの脆弱性948件を突いた研究を公表し、AnthropicはClaudeに銀行口座の読み取り連携を加えました。米国では司法省がAI執行の専任チームを置き、選挙に向けた事業者の対策も動いています。",
   "items": [
     {
-      "id": "xai-turbine-suit-proceeds",
-      "importance": 2,
-      "category": "政策",
-      "title": "xAIのガスタービン訴訟、棄却請求が退けられ審理続行",
-      "summary": "米ミシシッピ州の連邦地裁は、xAIの巨大データセンター「Colossus 2」を動かすガスタービンをめぐり、NAACPが起こした大気浄化法違反の訴えを退けてほしいというxAI側の申し立てを認めなかった。タービンは「移動式発生源」にあたるというxAIの主張も通らなかった。日付や台数は報道によって異なるが、10月末の判断とされる。",
-      "point": "違法かどうかの判断ではなく審理が続くという段階。ただ、AI向け電源を一時設備として扱う手法に歯止めがかかる流れで、データセンター建設に影響しうる。",
-      "source": "The Next Web ほか",
-      "url": "https://thenextweb.com/news/xai-naacp-lawsuit-gas-turbines-motion-to-dismiss-denied",
-      "publishedAt": "2026-10-31"
+      "id": "openai-linux-948",
+      "importance": 3,
+      "category": "安全性",
+      "title": "OpenAIの未公開サイバーモデル、Linuxカーネルの脆弱性948件で権限昇格を実証",
+      "summary": "OpenAIは、未公開のサイバー向けモデルを使った自動パイプラインが、1回の実行でLinuxカーネルの脆弱性948件について動作する権限昇格コードとパッチ案を作ったと発表した。API費用は約121万ドルで、1件あたり約1,300ドル。公開時点で一部は上流で修正済みと報じられている。",
+      "point": "脆弱性の発見から悪用、修正案までをAIが大規模に自動化できることを示す一方、人間による検証がなお必要な点も明かした。",
+      "source": "SecurityWeek",
+      "url": "https://www.securityweek.com/ai-agents-got-root-on-linux-via-948-kernel-flaws-in-openai-research/",
+      "publishedAt": "2026-11-05"
     },
     {
-      "id": "claude-libreoffice-cve",
-      "importance": 1,
+      "id": "claude-personal-finance",
+      "importance": 3,
+      "category": "プロダクト",
+      "title": "Claudeに家計管理機能、銀行口座・カードの読み取り連携が米国で開始",
+      "summary": "Anthropicは、Claudeに個人の家計を扱う機能をベータ提供し始めた。米国のPro・Max・Ultra契約者が、Plaid経由で銀行やカードを読み取り専用で連携でき、残高や最大2年分の取引履歴を分析に使える。送金や投資の実行はできない。",
+      "point": "チャットAIが個人の金融データを直接扱う段階に入った。プライバシー設計と利用者の受け止めが焦点になる。",
+      "source": "9to5Mac",
+      "url": "https://9to5mac.com/2026/11/05/anthropic-upgrades-claude-with-new-personal-finance-feature/",
+      "publishedAt": "2026-11-05"
+    },
+    {
+      "id": "doj-super-intelligence-task-force",
+      "importance": 2,
+      "category": "政策",
+      "title": "米司法省、AI関連の取締りを束ねる「スーパーインテリジェンス」タスクフォース設置",
+      "summary": "米司法省は11月5日、AIが絡む刑事・民事の執行活動を調整する専任のタスクフォースを設けた。複数部署や各地の検事局の捜査を調整し、優先順位を提言する役割を持つ。新たな罪を作るものではなく、省内の体制整備にとどまる。",
+      "point": "AI規制が法律の新設より、既存法の執行体制の整備という形で進んでいることを示す。",
+      "source": "Tech Times",
+      "url": "https://www.techtimes.com/articles/330168/20261106/doj-super-intelligence-task-force-launches-no-new-offense-hacking-law-needs-human-intent.htm",
+      "publishedAt": "2026-11-06"
+    },
+    {
+      "id": "openai-images-26",
+      "importance": 2,
+      "category": "プロダクト",
+      "title": "OpenAI、画像生成「Images 2.6」を公開 生成が速くなりGIFにも対応",
+      "summary": "OpenAIは11月4日、画像生成の新版をChatGPT、Codex、APIで使えるようにした。生成速度は従来より約50%向上し、GIFアニメの出力に対応。APIには高速なドラフト向けと編集の一貫性重視の2モデルが加わったと、複数の解説が伝えている。",
+      "point": "画像生成が静止画から動きのある素材へ広がり、開発者向けにも用途別のモデルが選べるようになった。",
+      "source": "Apidog（API解説）",
+      "url": "https://apidog.com/blog/gpt-image-2-6-api/",
+      "publishedAt": "2026-11-04"
+    },
+    {
+      "id": "ai-election-safeguards",
+      "importance": 2,
       "category": "安全性",
-      "title": "LibreOffice Calcの脆弱性、Claudeによる発見として公表",
-      "summary": "LibreOffice Calcで、表計算ファイルを開くと数式の処理中にヒープバッファオーバーフローが起きる脆弱性（CVE-2026-8357）が公表された。Anthropicの脆弱性開示ページは、これをClaude Sonnet 4.6が見つけたものとして載せている。深刻度の評価は関係者の間で分かれている。",
+      "title": "米中間選挙に向けOpenAIが「選挙対応センター」 Anthropicも対策",
+      "summary": "OpenAIは開票完了まで稼働する選挙運用センターを立ち上げ、誤情報や悪用の監視を強化した。AP通信やDemocracy Worksと連携し、投票者への妨害を写実的に描く画像は漫画調に変換するという。Anthropicは投票関連の質問で超党派の情報サイトへ誘導するバナーを出す。",
+      "point": "生成AIが選挙情報の入り口になりつつあり、事業者の自主的な対策が問われている。",
+      "source": "Politico報道の転載（米地方局）",
+      "url": "https://www.wdbo.com/news/trending/election-2026-openai-launches-election-war-room/3BMDG4V4CNGIHOPWECJTIGNMFI/?outputType=amp",
+      "publishedAt": "2026-11-05"
+    },
+    {
+      "id": "pfn-translation-llm",
+      "importance": 2,
+      "category": "国内",
+      "title": "PFN、翻訳特化LLMをオープン化 0.8B〜31Bの4サイズ",
+      "summary": "Preferred Networksは11月5日、翻訳向けに開発した大規模言語モデルを公開した。パラメータ数は0.8Bから31Bまで4つのサイズがあり、用途や計算資源に合わせて選べる。詳細な性能や利用条件はITmedia AI＋の記事で確認してほしい。",
+      "point": "国産モデルの公開が、汎用型だけでなく用途特化型にも広がっている。",
+      "source": "ITmedia AI＋（新着欄）",
+      "url": "https://www.itmedia.co.jp/aiplus/",
+      "publishedAt": "2026-11-05"
+    },
+    {
+      "id": "google-schools-gemini",
+      "importance": 1,
+      "category": "プロダクト",
+      "title": "Google、学校向けでGeminiを初期オフに 「ガイド付き学習」を標準化",
+      "summary": "Googleは学校管理下の児童生徒アカウントで、Geminiなどを学校が有効にするまで使えない設定にする。AI機能を全て切ると検索も使えなくなる仕組みで、議員から批判が出ている。",
       "point": "",
-      "source": "Wiz Vulnerability Database",
-      "url": "https://www.wiz.io/vulnerability-database/cve/cve-2026-8357",
+      "source": "Chalkbeat",
+      "url": "https://www.chalkbeat.org/2026/11/03/google-pushes-gemini-guided-learning-amid-ai-backlash/",
+      "publishedAt": "2026-11-03"
+    },
+    {
+      "id": "fujitv-ai-drama",
+      "importance": 1,
+      "category": "国内",
+      "title": "フジテレビ、2027年10月めどに全ドラマでAI活用できる体制へ",
+      "summary": "フジテレビが、2027年10月をめどに全てのドラマ制作でAIを活用できる体制を整える方針だと、ITmedia AI＋が11月5日に報じた。",
+      "point": "",
+      "source": "ITmedia AI＋（新着欄）",
+      "url": "https://www.itmedia.co.jp/aiplus/",
       "publishedAt": "2026-11-05"
     }
   ]
