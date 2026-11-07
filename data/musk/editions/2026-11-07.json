@@ -1,0 +1,73 @@
+{
+  "date": "2026-11-07",
+  "issuedAt": "2026-11-07T11:17:19+09:00",
+  "overview": "マスク氏が投資家向けイベントでスペースXの売上高について強気の見通しを示し、中間選挙後に続落していた株価は金曜に反発しました。マスク氏は政府向け売上の比率が下がるとも説明しています。テスラではCybertruckの生産を2027年半ばに縮小する方針が明らかになりました。",
+  "items": [
+    {
+      "id": "spacex-arr-500b-forecast",
+      "importance": 3,
+      "category": "スペースX",
+      "title": "マスク氏、年換算売上高が来年末に5000億ドル超と予想",
+      "summary": "マスク氏は11月6日、Baron Capitalの投資家会議にオンラインで登壇し、スペースXの年換算売上高（ARR）が2027年12月に5000億ドルを超える可能性が高いと述べました。「約束ではなく最善の見立て」と付け加えています。第4四半期の売上高は約70%伸びるとの見通しも示しました。",
+      "point": "アナリスト予想の平均を大きく上回る見通しで、株価の評価に影響しそうです。ただ、年換算の数字と通年の売上予想は単純には比べられません。",
+      "source": "Billionaires.Africa、TeslaNorth（Baron投資会議の報道）",
+      "url": "https://www.billionaires.africa/2026/11/06/american-billionaire-elon-musk-says-spacex-revenue-could-pass-500-billion-by-2027/",
+      "publishedAt": "2026-11-06"
+    },
+    {
+      "id": "spacex-stock-rebound-1106",
+      "importance": 2,
+      "category": "スペースX",
+      "title": "スペースX株が反発、なお公開価格を下回る",
+      "summary": "中間選挙後の2日間で時価総額の約12.5%を失ったスペースX株は、6日に反発しました。取引開始直後には6.2%高の131.15ドルをつけましたが、公開価格の135ドルにはまだ届いていません。",
+      "point": "選挙結果を受けた売りが一服したかどうかを示す動きです。議会の構成が変わり、AI規制などの影響を気にする見方も残っています。",
+      "source": "The Motley Fool",
+      "url": "https://www.fool.com/investing/2026/11/06/why-spacex-stock-popped-on-friday/",
+      "publishedAt": "2026-11-06"
+    },
+    {
+      "id": "spacex-gov-revenue-share",
+      "importance": 2,
+      "category": "スペースX",
+      "title": "政府向け売上は次の四半期に1割未満とマスク氏",
+      "summary": "マスク氏はXで、政府との契約による売上は次の四半期にスペースXの売上全体の10%未満になり、今後1年で約5%まで下がるとの見方を示しました。前の四半期の比率は16.6%で、NASAや国防総省の仕事が中心でした。",
+      "point": "民主党が議会の多数を握ることになり、政府契約への依存度に関心が集まる中での発言です。",
+      "source": "Gizmodo",
+      "url": "https://gizmodo.com/musk-says-spacex-government-revenue-will-shrivel-next-year-2000836451",
+      "publishedAt": "2026-11-06"
+    },
+    {
+      "id": "ussf-432-launch",
+      "importance": 2,
+      "category": "スペースX",
+      "title": "宇宙軍の機密ミッションUSSF-432を打ち上げ",
+      "summary": "延期されていた米宇宙軍の機密ミッションUSSF-432が、日本時間7日朝にカリフォルニア州のヴァンデンバーグ基地からFalcon 9で打ち上げられました。1段目は8回目の飛行で、洋上の無人船に着地しました。スペースXの今年125回目の打ち上げです。",
+      "point": "今年14回目の国家安全保障向けFalcon 9の飛行で、軍事分野での存在感の大きさを示しています。",
+      "source": "Space.com",
+      "url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-launches-classified-mission-space-force-ussf-432",
+      "publishedAt": "2026-11-07"
+    },
+    {
+      "id": "cybertruck-wind-down",
+      "importance": 3,
+      "category": "イーロン・マスク",
+      "title": "マスク氏、Cybertruckの生産を来年半ばに縮小と表明",
+      "summary": "マスク氏はXで、テキサス工場でのCybertruckの生産を2027年半ばごろに縮小し、自動運転車Cybercabの生産を増やすと明らかにしました。米国での販売は2024年の約3万9000台から2025年は約2万台に減っていました。",
+      "point": "マスク氏が「最高の製品」と呼んだ車の縮小で、テスラがロボタクシーに軸足を移す姿勢がよりはっきりしました。",
+      "source": "Fortune、Electrek",
+      "url": "https://fortune.com/2026/11/06/elon-musk-tesla-cybertruck-production-wind-down-2027-sales-decline-cybercab-robotaxi-future-electric-vehicle/",
+      "publishedAt": "2026-11-06"
+    },
+    {
+      "id": "musk-net-worth-midterm-drop",
+      "importance": 2,
+      "category": "イーロン・マスク",
+      "title": "選挙後の株安で資産が2日間に約1130億ドル減少",
+      "summary": "Bloombergの富豪指数によると、中間選挙後のテスラとスペースXの株安で、マスク氏の資産は2日間で約1130億ドル減りました。両社の時価総額の合計は約4560億ドル減っています。次期下院監視委員長はDOGEでの役割を調べる考えを示し、上院議員はStarlinkについて書簡を送りました。",
+      "point": "議会の多数派が代わり、マスク氏と関連企業への調査の動きが出てきています。",
+      "source": "Fortune",
+      "url": "https://fortune.com/2026/11/06/elon-musk-midterms-spacex-tesla-stock-drop/",
+      "publishedAt": "2026-11-06"
+    }
+  ]
+}
