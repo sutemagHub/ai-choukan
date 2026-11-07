@@ -1,0 +1,95 @@
+{
+  "date": "2026-11-08",
+  "issuedAt": "2026-11-08T06:00:00+09:00",
+  "overview": "Anthropicの上場準備が、中間選挙で表面化したデータセンター反発という逆風に直面しています。選挙後のAI株の乱高下も、AI投資が政治の影響を受けやすくなったことを映しました。ほかに、画像・動画生成基盤falの大型調達や、Anthropicによるモデル証明技術の公開がありました。新モデルの大きな発表は少ない一日です。",
+  "items": [
+    {
+      "id": "anthropic-ipo-backlash",
+      "importance": 3,
+      "category": "ビジネス",
+      "title": "Anthropicの上場準備、データセンター反発の逆風に",
+      "summary": "CNBCは、米中間選挙でデータセンター関連の住民投票の大半が反対多数になったと報じ、上場を控えるAnthropicに逆風だと伝えました。同社の修正目論見書には、約8954億ドルの計算・インフラ契約が記載されているとされ、上場は11月中旬が有力と見られています。",
+      "point": "AIの設備投資が政治問題になり、巨額の計算資源契約を抱える企業の上場判断に影響し始めています。",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/07/anthropic-ipo-ai-data-center-backlash.html",
+      "publishedAt": "2026-11-07"
+    },
+    {
+      "id": "ai-stocks-post-midterm",
+      "importance": 2,
+      "category": "ビジネス",
+      "title": "中間選挙後にAI株が急落、7日は反発",
+      "summary": "ニュースウィークによると、NVIDIAは木曜に約9%下げ、金曜に3%前後戻しました。ロイターは売りの背景に、民主党の議席増でAI規制が強まり建設が遅れるとの懸念があったと伝えています。トランプ氏はデータセンター推進の姿勢を崩していません。",
+      "point": "AI投資の熱気は政治と規制の見通しに左右されやすくなっています。",
+      "source": "Newsweek",
+      "url": "https://newsweek.com/ai-stocks-rebound-trump-data-centers-12680473",
+      "publishedAt": "2026-11-07"
+    },
+    {
+      "id": "fal-series-f",
+      "importance": 2,
+      "category": "ビジネス",
+      "title": "画像・動画生成の基盤fal、13億ドル調達で評価額160億ドルに",
+      "summary": "AI推論基盤のfalが、Bessemer主導のシリーズFで13億ドルを調達したと発表しました。評価額は4月の80億ドルから倍になり、NVIDIAやT. Rowe Priceも参加しています。シリーズEと合わせた調達額は16.5億ドルで、資金は計算資源の増強と採用に充てます。",
+      "point": "画像・動画・音声モデルを動かす推論の需要が、基盤企業の評価額を押し上げています。",
+      "source": "Let's Data Science（Bloomberg報道）",
+      "url": "https://letsdatascience.com/news/fal-raises-13-billion-at-16-billion-valuation-led-by-besseme-b387c590",
+      "publishedAt": "2026-11-03"
+    },
+    {
+      "id": "anthropic-flashprove",
+      "importance": 2,
+      "category": "研究",
+      "title": "Anthropic、回答を出したモデルを暗号で証明する「FlashProve」を公開",
+      "summary": "Anthropicは、事業者がモデルの重みを公開せずに、ある回答が特定のモデルから出たと証明できるzkSNARK方式の研究試作をオープンソースで公開しました。MetaのLlama 4 Maverickで試し、H100 1枚で毎秒約110トークンの証明を作れたといいます。Claudeへの導入予定は発表されていません。",
+      "point": "別のモデルが身元を偽って使われる問題への技術的な対策の一歩ですが、計算コストはまだ非常に大きいです。",
+      "source": "Let's Data Science",
+      "url": "https://letsdatascience.com/news/anthropic-open-sources-flashprove-a-zksnark-prototype-for-pr-70e97488",
+      "publishedAt": "2026-11-03"
+    },
+    {
+      "id": "shared-ai-robots-optout",
+      "importance": 2,
+      "category": "政策",
+      "title": "Google・OpenAI・Anthropic・Microsoftが共通のAI学習拒否シグナルで合意",
+      "summary": "4社は、サイト運営者がrobots.txtでAI学習へのクロールを拒否できる共通の指示に合意したと報じられています。Anthropicはすでに対応を始め、Microsoftは2027年2月1日、Googleは2027年初め、OpenAIは今後数か月内に対応する見通しです。",
+      "point": "コンテンツ提供者が学習利用を管理しやすくなる一方、各社の対応時期にはずれがあります。",
+      "source": "Engadget",
+      "url": "https://www.engadget.com/2303225/google-openai-anthropic-ai-crawling-controls/",
+      "publishedAt": "2026-11-03"
+    },
+    {
+      "id": "gemini-api-deprecations",
+      "importance": 1,
+      "category": "開発者",
+      "title": "Gemini API、埋め込みモデルの切替とプレビュー版の停止予定",
+      "summary": "Gemini APIでは11月6日から、gemini-embedding-2-previewへのリクエストが正式版のgemini-embedding-2に振り分けられます。gemini-3.1-flash-live-previewなど一部のプレビューは11月17日に終了し、後継のgemini-3.8-liveへの移行が必要です。",
+      "point": "",
+      "source": "Google AI for Developers",
+      "url": "https://ai.google.dev/gemini-api/docs/deprecations",
+      "publishedAt": "2026-11-06"
+    },
+    {
+      "id": "ai-festival-2026",
+      "importance": 1,
+      "category": "国内",
+      "title": "「AIフェスティバル 2026」が渋谷で開催、入場無料",
+      "summary": "国内最大級をうたうAIイベント「AIフェスティバル 2026」が11月7日に開かれました。今年は会場を秋葉原から渋谷に移し、入場は無料です。",
+      "point": "",
+      "source": "窓の杜",
+      "url": "https://forest.watch.impress.co.jp/docs/news/2154555.html",
+      "publishedAt": "2026-11-07"
+    },
+    {
+      "id": "sakurai-genai",
+      "importance": 1,
+      "category": "国内",
+      "title": "桜井政博氏「生成AIは今のところ使っていない」　搾取になってはいけない",
+      "summary": "ゲームクリエイターの桜井政博氏は、ファミ通40周年フェスで生成AIについて、いまのところ使っていないと述べました。どこかへの搾取になってはならないとの考えを示す一方、現在のゲーム開発が大変すぎることへの懸念にも触れています。",
+      "point": "",
+      "source": "ファミ通.com",
+      "url": "https://www.famitsu.com/article/202611/93352",
+      "publishedAt": "2026-11-07"
+    }
+  ]
+}
