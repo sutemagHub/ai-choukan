@@ -1,0 +1,62 @@
+{
+  "date": "2026-11-08",
+  "issuedAt": "2026-11-08T11:18:14+09:00",
+  "overview": "スペースXでは、グーグル出身の独立取締役ドナルド・ハリソン氏が退任したことが届け出で明らかになりました。ロシアはStarlinkへの対抗策として自前の衛星網の拡大を急ぐ方針を示しています。マスク氏は、民主党が問題視する政府契約について「不要なら解約する」と応じました。",
+  "items": [
+    {
+      "id": "harrison-leaves-board",
+      "importance": 3,
+      "category": "スペースX",
+      "title": "グーグル出身のハリソン取締役が退任",
+      "summary": "スペースXは6日の届け出で、2015年のグーグル出資に伴って就任した独立取締役ドナルド・ハリソン氏が4日付で退任したと明らかにした。会社との意見の対立によるものではないとしている。マスク氏はXで、アルファベットとの利益相反が多すぎるためだと説明した。後任は示されていない。",
+      "point": "アルファベットはマスク氏に次ぐ大株主。テスラとの統合を検討する特別委員会が動くなか、独立取締役の顔ぶれが変わる。",
+      "source": "Bloomberg（Business Standard掲載）",
+      "url": "https://www.business-standard.com/world-news/spacex-director-donald-harrison-resigns-from-board-a-day-after-us-election-126110700173_1.html",
+      "publishedAt": "2026-11-07"
+    },
+    {
+      "id": "russia-starlink-rival",
+      "importance": 2,
+      "category": "スペースX",
+      "title": "ロシア、Starlink対抗の衛星網拡大を急ぐ方針",
+      "summary": "ロシア安全保障会議の専門家会合は6日、低軌道通信網「ラスベット」の衛星と端末の量産を急ぐべきだとする声明を出した。StarlinkやOneWebなど西側の衛星サービスは国家を不安定にするおそれがあると指摘した。ラスベットの衛星は30基余りで、Starlinkは1万基を超える。",
+      "point": "Starlinkが安全保障上の論点として各国の通信政策に影響していることを示す動き。",
+      "source": "Reuters（The Moscow Times掲載）",
+      "url": "https://www.themoscowtimes.com/2026/11/06/russian-security-council-calls-for-rapid-deployment-of-starlink-rival-satellites-a94196",
+      "publishedAt": "2026-11-06"
+    },
+    {
+      "id": "starlink-india-approvals",
+      "importance": 1,
+      "category": "スペースX",
+      "title": "Starlinkのインド開始、承認待ちで遅れと報道",
+      "summary": "Starlinkは2025年6月にインドで免許を得たが、安全保障上の審査や周波数の割り当てなどの承認が済まず、商用サービスを始められていないとIANSが報じた。政府は周波数価格の決定は近いとしている。",
+      "point": "",
+      "source": "IANS（The Hans India掲載）",
+      "url": "https://www.thehansindia.com/news/international/starlink-india-delay-driven-by-approval-bottlenecks-not-corporate-pushback-report-1139565",
+      "publishedAt": "2026-11-05"
+    },
+    {
+      "id": "musk-offers-cancel-contracts",
+      "importance": 3,
+      "category": "イーロン・マスク",
+      "title": "マスク氏、政府契約「不要なら解約する」と投稿",
+      "summary": "マスク氏は6日、民主党がスペースXとの契約を洗い出すべきだとする投稿に応じ、政府が望まない契約は喜んで解約すると書き込んだ。政府向け売上は今四半期に1割未満、1年後には5%未満になる見通しだとした。具体的な契約名や解約の発表はない。",
+      "point": "議会の多数派が変わり、マスク氏の企業と政府の契約が監視の対象になるとみられるなかでの発言。",
+      "source": "Dallas Express（Yahoo Finance掲載）",
+      "url": "https://finance.yahoo.com/economy/policy/articles/just-word-musk-offers-cancel-190029171.html",
+      "publishedAt": "2026-11-06"
+    },
+    {
+      "id": "musk-baron-terafab",
+      "importance": 2,
+      "category": "イーロン・マスク",
+      "title": "マスク氏、テキサスの大型半導体工場構想を語る",
+      "summary": "マスク氏は6日、バロン投資会議のオンライン対談で、年間1テラワット分のAI半導体を作る「Terafab」構想を説明した。テキサス州オースティンに研究用、グライムズ郡に量産用の工場を建てるという。米国の半導体生産は少なく、台湾に偏るリスクがあるとも述べた。",
+      "point": "AI計算資源を自前でそろえる戦略の具体像で、巨額の設備投資につながる可能性がある。",
+      "source": "TeslaNorth（バロン投資会議の書き起こし）",
+      "url": "https://teslanorth.com/2026/11/07/elon-musks-full-ron-baron-interview-2026-tesla-spacex-starship-ai-and-more/",
+      "publishedAt": "2026-11-07"
+    }
+  ]
+}
