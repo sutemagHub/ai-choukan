@@ -1,0 +1,62 @@
+{
+  "date": "2026-11-09",
+  "issuedAt": "2026-11-09T11:17:05+09:00",
+  "overview": "スペースXは、Starship 15回目の打ち上げを11月13日以降とすることを公式に確認し、ブースターと船体の両方を発射塔で受け止める初の試みに臨みます。アルファベットの届け出では、同社がスペースX株を買い増していたことがわかりました。マスク氏をめぐっては、中間選挙で多数派となる民主党から調査を求める声が出ています。",
+  "items": [
+    {
+      "id": "starship-flight15-nov13-confirmed",
+      "importance": 3,
+      "category": "スペースX",
+      "title": "Starship 15回目、13日以降の打ち上げを公式に確認",
+      "summary": "スペースXは11月7日、Starshipの15回目の飛行試験を11月13日以降に行うと明らかにしました。ブースター（Booster 22）と船体（Ship 42）の両方を発射塔のアームで受け止める初の試みとなります。FAAの打ち上げ許可はまだ出ておらず、予備日は19日まで設けられています。",
+      "point": "船体の回収に成功すれば、機体を丸ごと再使用する計画が大きく前進します。日程はFAAの許可次第で動く可能性があります。",
+      "source": "Tesla Oracle",
+      "url": "https://www.teslaoracle.com/2026/11/07/flight-15-starship-double-catch-to-happen-net-friday-the-13th-confirmed/",
+      "publishedAt": "2026-11-07"
+    },
+    {
+      "id": "alphabet-spacex-stake-q3",
+      "importance": 2,
+      "category": "スペースX",
+      "title": "アルファベット、スペースX株を約385万株買い増し",
+      "summary": "グーグルの親会社アルファベットが11月6日に米証券取引委員会へ出した届け出によると、9月末時点で同社はスペースX株を約5億5504万株保有し、評価額は約837億ドルでした。6月末から約385万株増えた一方、株価下落で評価額は約104億ドル減っています。",
+      "point": "大株主の一角であるアルファベットが上場後も持ち分を増やしていたことがわかり、両社の関係に改めて関心が集まっています。",
+      "source": "Tesla North（米SEC提出書類）",
+      "url": "https://teslanorth.com/2026/11/07/alphabet-spacex-stake-q3-2026/",
+      "publishedAt": "2026-11-07"
+    },
+    {
+      "id": "starlink-router4-wifi7",
+      "importance": 1,
+      "category": "スペースX",
+      "title": "Starlink、Wi-Fi 7対応の新ルーターを出荷開始",
+      "summary": "Starlinkは11月6日、Wi-Fi 7対応チップを使った「Router 4」の出荷を始めました。米国とカナダで対象の家庭向けプランに新規加入した人に提供されます。同時に接続できる機器は510台と、従来機の2倍以上になりました。",
+      "point": "",
+      "source": "The Gadgeteer",
+      "url": "https://the-gadgeteer.com/2026/11/08/starlink-router-4-wi-fi-7-residential-kits",
+      "publishedAt": "2026-11-08"
+    },
+    {
+      "id": "democrats-musk-probe-plans",
+      "importance": 3,
+      "category": "イーロン・マスク",
+      "title": "民主党、DOGEやマスク氏の企業を調べる構え",
+      "summary": "中間選挙で議会多数派を握る民主党の議員から、マスク氏が率いた政府効率化省（DOGE）を調べるべきだとの声が出ています。ラスキン下院議員は少なくとも一つの委員会が調査するとの見方を示しました。一方、イリノイ州のプリツカー知事は、一人に的を絞ることには慎重な姿勢を示しています。",
+      "point": "マスク氏の企業の政府契約も調査対象に挙がっており、スペースXなどの事業に影響が及ぶかが注目されます。",
+      "source": "Fox News（Yahoo掲載）",
+      "url": "https://www.yahoo.com/news/articles/democrats-set-sights-elon-musk-090043169.html",
+      "publishedAt": "2026-11-07"
+    },
+    {
+      "id": "grok-bot-usage-limits",
+      "importance": 2,
+      "category": "イーロン・マスク",
+      "title": "Grok Botの利用上限に不満、マスク氏「きょう調べる」",
+      "summary": "xAIのAIエージェント「Grok Bot」の有料利用者から、使える量が急に減ったとの不満が出ています。マスク氏は11月8日、X上で「きょう調べる」と応じ、効率と賢さを高める修正を進めていると投稿しました。修正の時期や中身、料金の変更については触れていません。",
+      "point": "マスク氏は1日に提供コストが高すぎると説明しており、AI事業の採算と利用者の満足をどう両立させるかが問われています。",
+      "source": "Tesla North",
+      "url": "https://teslanorth.com/2026/11/08/grok-bot-usage-limits-musk/",
+      "publishedAt": "2026-11-08"
+    }
+  ]
+}
