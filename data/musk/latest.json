@@ -1,62 +1,84 @@
 {
-  "date": "2026-11-09",
-  "issuedAt": "2026-11-09T11:17:05+09:00",
-  "overview": "スペースXは、Starship 15回目の打ち上げを11月13日以降とすることを公式に確認し、ブースターと船体の両方を発射塔で受け止める初の試みに臨みます。アルファベットの届け出では、同社がスペースX株を買い増していたことがわかりました。マスク氏をめぐっては、中間選挙で多数派となる民主党から調査を求める声が出ています。",
+  "date": "2026-11-10",
+  "issuedAt": "2026-11-10T11:26:13+09:00",
+  "overview": "スペースXがテキサス州のStarbaseに、ガス火力発電所とスーパーコンピューター施設を合わせて約240億ドルで建てる計画が明らかになりました。NASAの月面輸送の新契約枠にも選ばれ、株価は週明けも上昇しました。マスク氏は、州立公園の土地売却を止めたテキサス州の次期知事を念頭に、州政府を批判する投稿をしています。",
   "items": [
     {
-      "id": "starship-flight15-nov13-confirmed",
+      "id": "starbase-gas-plant-datacenter",
       "importance": 3,
       "category": "スペースX",
-      "title": "Starship 15回目、13日以降の打ち上げを公式に確認",
-      "summary": "スペースXは11月7日、Starshipの15回目の飛行試験を11月13日以降に行うと明らかにしました。ブースター（Booster 22）と船体（Ship 42）の両方を発射塔のアームで受け止める初の試みとなります。FAAの打ち上げ許可はまだ出ておらず、予備日は19日まで設けられています。",
-      "point": "船体の回収に成功すれば、機体を丸ごと再使用する計画が大きく前進します。日程はFAAの許可次第で動く可能性があります。",
-      "source": "Tesla Oracle",
-      "url": "https://www.teslaoracle.com/2026/11/07/flight-15-starship-double-catch-to-happen-net-friday-the-13th-confirmed/",
-      "publishedAt": "2026-11-07"
+      "title": "Starbaseにガス火力と計算施設、約240億ドル",
+      "summary": "公聴会の告知によると、スペースXはテキサス州Starbaseにガス火力発電所とスーパーコンピューター施設を建てる計画で、初期段階の投資額は約240億ドルと見込まれます。固定資産税の減免を申請しており、市議会が12月9日に審議します。発電能力や計算施設の規模は示されていません。",
+      "point": "自前の発電所を持てば州の送電網への接続待ちを避けられ、AI計算事業の拡大を急ぐ同社の姿勢がうかがえます。",
+      "source": "Reuters（Investing.com掲載）、Bloomberg",
+      "url": "https://www.investing.com/news/stock-market-news/spacex-plans-24-billion-gas-power-plant-data-center-project-in-texas-5013083",
+      "publishedAt": "2026-11-09"
     },
     {
-      "id": "alphabet-spacex-stake-q3",
+      "id": "nasa-clps2-selection",
       "importance": 2,
       "category": "スペースX",
-      "title": "アルファベット、スペースX株を約385万株買い増し",
-      "summary": "グーグルの親会社アルファベットが11月6日に米証券取引委員会へ出した届け出によると、9月末時点で同社はスペースX株を約5億5504万株保有し、評価額は約837億ドルでした。6月末から約385万株増えた一方、株価下落で評価額は約104億ドル減っています。",
-      "point": "大株主の一角であるアルファベットが上場後も持ち分を増やしていたことがわかり、両社の関係に改めて関心が集まっています。",
-      "source": "Tesla North（米SEC提出書類）",
-      "url": "https://teslanorth.com/2026/11/07/alphabet-spacex-stake-q3-2026/",
+      "title": "NASAの月面輸送契約「CLPS 2」の8社に選出",
+      "summary": "NASAは月面への物資輸送を担う新契約の事業者として、スペースXやブルーオリジンなど8社を選びました。期間は10年で、全体の上限額は100億ドルです。スペースXは別に、2028年にStarshipで通信衛星を月周辺の空間へ運ぶ発注も受けました。",
+      "point": "月面基地づくりに向けた輸送の担い手として、Starshipの役割が広がります。",
+      "source": "NASA",
+      "url": "https://www.nasa.gov/news-release/nasa-awards-moon-base-transportation-technology-science-projects/",
       "publishedAt": "2026-11-07"
     },
     {
-      "id": "starlink-router4-wifi7",
+      "id": "spcx-stock-monday-rise",
+      "importance": 2,
+      "category": "スペースX",
+      "title": "スペースX株、週明けも上昇　約6%高の場面",
+      "summary": "スペースX株は9日、前週末に続いて上がり、一時6%近く高い140ドル台をつけました。Stifelのアナリストは「買い」の評価と目標株価190ドルを維持しました。今週は13日にStarship 15回目の打ち上げが予定されています。",
+      "point": "中間選挙後の下落から持ち直しつつあり、データセンター計画やNASA契約が材料になっています。",
+      "source": "The Motley Fool、GuruFocus",
+      "url": "https://www.fool.com/investing/2026/11/09/why-spacex-stock-popped-on-monday/",
+      "publishedAt": "2026-11-09"
+    },
+    {
+      "id": "starlink-dynamic-pricing",
+      "importance": 2,
+      "category": "スペースX",
+      "title": "Starlink、混雑に応じた料金を全米とカナダへ拡大",
+      "summary": "Starlinkは家庭向けプランで、地域の利用状況に応じて料金を変える仕組みを米国の多くの地域とカナダに広げました。混んでいる地域では月額が最大2割上がり、回線に余裕がある地域では3割前後の値引きが出ています。",
+      "point": "利用者の増加で回線容量の配分が課題になっていることを示し、地域によって負担が変わります。",
+      "source": "Drive Tesla",
+      "url": "https://driveteslacanada.ca/news/spacex-expands-dynamic-starlink-pricing-nationwide",
+      "publishedAt": "2026-11-09"
+    },
+    {
+      "id": "starship-flight15-window",
       "importance": 1,
       "category": "スペースX",
-      "title": "Starlink、Wi-Fi 7対応の新ルーターを出荷開始",
-      "summary": "Starlinkは11月6日、Wi-Fi 7対応チップを使った「Router 4」の出荷を始めました。米国とカナダで対象の家庭向けプランに新規加入した人に提供されます。同時に接続できる機器は510台と、従来機の2倍以上になりました。",
+      "title": "Starship 15回目、打ち上げ枠は日本時間14日朝",
+      "summary": "13日の打ち上げ枠は米東部時間午後5時45分（日本時間14日午前7時45分）から75分間です。船体は約14周回、22時間以上飛行し、Starlink V3衛星26基を放出する予定です。",
       "point": "",
-      "source": "The Gadgeteer",
-      "url": "https://the-gadgeteer.com/2026/11/08/starlink-router-4-wi-fi-7-residential-kits",
-      "publishedAt": "2026-11-08"
+      "source": "Space.com",
+      "url": "https://space.com/space-exploration/launches-spacecraft/spacex-will-launch-epic-double-catch-starship-flight-15-test-mission-on-nov-13",
+      "publishedAt": "2026-11-09"
     },
     {
-      "id": "democrats-musk-probe-plans",
+      "id": "boca-chica-park-oppressive",
       "importance": 3,
       "category": "イーロン・マスク",
-      "title": "民主党、DOGEやマスク氏の企業を調べる構え",
-      "summary": "中間選挙で議会多数派を握る民主党の議員から、マスク氏が率いた政府効率化省（DOGE）を調べるべきだとの声が出ています。ラスキン下院議員は少なくとも一つの委員会が調査するとの見方を示しました。一方、イリノイ州のプリツカー知事は、一人に的を絞ることには慎重な姿勢を示しています。",
-      "point": "マスク氏の企業の政府契約も調査対象に挙がっており、スペースXなどの事業に影響が及ぶかが注目されます。",
-      "source": "Fox News（Yahoo掲載）",
-      "url": "https://www.yahoo.com/news/articles/democrats-set-sights-elon-musk-090043169.html",
-      "publishedAt": "2026-11-07"
+      "title": "州立公園の売却が保留に、マスク氏は州政府を批判",
+      "summary": "テキサス州の次期知事ヒノホサ氏は、Starbaseに隣接する約1300エーカーのボカチカ州立公園をスペースXへ売る件について、自身の就任まで手続きを進めないよう州の公園当局に求め、議題は取り下げられました。マスク氏はXで、スペースXとテスラがテキサスで成長できたのは抑圧的な州政府の下になかったからだと投稿しました。",
+      "point": "州の政権交代で、スペースXのテキサスでの事業拡大の進め方が変わる可能性があります。",
+      "source": "New York Post（Yahoo News掲載）",
+      "url": "https://www.yahoo.com/news/politics/articles/elon-musk-warns-oppressive-government-174840705.html",
+      "publishedAt": "2026-11-09"
     },
     {
-      "id": "grok-bot-usage-limits",
+      "id": "cybertruck-deposit-refund",
       "importance": 2,
       "category": "イーロン・マスク",
-      "title": "Grok Botの利用上限に不満、マスク氏「きょう調べる」",
-      "summary": "xAIのAIエージェント「Grok Bot」の有料利用者から、使える量が急に減ったとの不満が出ています。マスク氏は11月8日、X上で「きょう調べる」と応じ、効率と賢さを高める修正を進めていると投稿しました。修正の時期や中身、料金の変更については触れていません。",
-      "point": "マスク氏は1日に提供コストが高すぎると説明しており、AI事業の採算と利用者の満足をどう両立させるかが問われています。",
-      "source": "Tesla North",
-      "url": "https://teslanorth.com/2026/11/08/grok-bot-usage-limits-musk/",
-      "publishedAt": "2026-11-08"
+      "title": "Cybertruck、多くの予約者に手付金を返金へ",
+      "summary": "マスク氏はXで、Cybertruckの注文が生産能力を大きく上回っているとし、約8か月後に生産ラインを止めるまでにできるだけ作るものの、多くの人に手付金を返すことになると述べました。理由は自動運転車Cybercabへの重点移動だとし、採算が悪いからではないと説明しました。",
+      "point": "生産終了の時期が具体的になり、テスラの重心が自動運転車へ移ることがはっきりしました。",
+      "source": "Fast Company",
+      "url": "https://www.fastcompany.com/91638660/elon-musk-says-tesla-will-refund-many-cybertruck-orders-for-this-unconventional-reason",
+      "publishedAt": "2026-11-09"
     }
   ]
 }
