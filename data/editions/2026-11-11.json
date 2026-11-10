@@ -1,0 +1,95 @@
+{
+  "date": "2026-11-11",
+  "issuedAt": "2026-11-11T05:46:33+09:00",
+  "overview": "Anthropicが最上位モデル「Claude Fable 5.2／Mythos 5.2」を公開し、翌日にはIPOの売り込み行脚を正式に始め、会議に参加するClaude Meetingsなど業務向け新機能も出しました。Metaは安価なエージェント向け小型モデルで対抗し、豪州は規制機関の新設を表明。国内ではソフトバンクGがAI関連の損失で大幅赤字となりました。",
+  "items": [
+    {
+      "id": "claude-fable-mythos-5-2",
+      "importance": 3,
+      "category": "モデル",
+      "title": "Anthropic、最上位モデル「Claude Fable 5.2」を公開",
+      "summary": "Anthropicは9日、Claude Fable 5.2とMythos 5.2を公開した。両者は同じ基盤モデルで、サイバー・生物分野の安全策を備えたFableは全利用者向け、安全策を外したMythosは審査を通った組織に限る。料金は入力100万トークン8ドル・出力40ドルで、出力速度は前版比で最大3割向上。コーディングやPC操作の評価でOpus 5.5を上回った。",
+      "point": "最難関の技術作業向けモデルを一般提供と限定提供に分ける運用が定着しつつあり、能力と悪用対策の両立の仕方として注目される。",
+      "source": "Anthropic",
+      "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+      "publishedAt": "2026-11-09"
+    },
+    {
+      "id": "anthropic-ipo-roadshow",
+      "importance": 3,
+      "category": "ビジネス",
+      "title": "Anthropic、IPOの売り込み開始　1株70〜78ドル",
+      "summary": "Anthropicは10日、新規株式公開に向けたロードショーを始めたと発表した。クラスA株8億2500万株を売り出し、想定価格は1株70〜78ドル。ナスダックにティッカー「ANT」で上場を申請している。上限価格なら調達規模は約640億ドルとなる計算で、投資家の慎重姿勢が伝えられる中での船出となる。",
+      "point": "生成AI専業企業として最大級の上場案件で、需要の強弱がAI関連の資金調達環境全体を占う試金石になる。",
+      "source": "Anthropic",
+      "url": "https://www.anthropic.com/news/roadshow-launch",
+      "publishedAt": "2026-11-10"
+    },
+    {
+      "id": "claude-meetings",
+      "importance": 2,
+      "category": "プロダクト",
+      "title": "Claudeが会議に参加、「Meetings」など業務機能を一挙投入",
+      "summary": "Anthropicは10日、ビデオ会議に参加者として加わり、会話の最中に作業を進める「Claude Meetings」を発表した。まずGoogle Meetに対応し、TeamとEnterprise向けにベータ提供する。会議中に更新されるホワイトボード機能「Whiteboards」と表計算の「Sheets」も同時に公開した。",
+      "point": "上場直前にMicrosoftやGoogleの業務ツール領域へ踏み込む動きで、企業向け収益の柱を広げる狙いがうかがえる。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/10/anthropic-launches-claude-meetings-to-turn-workplace-discussions-into-plans-and-tasks/",
+      "publishedAt": "2026-11-10"
+    },
+    {
+      "id": "meta-muse-ember",
+      "importance": 2,
+      "category": "モデル",
+      "title": "Meta、エージェント向け小型モデル「Muse Ember」",
+      "summary": "Metaは9日、同社で最小・最も効率的なモデルMuse Emberを公開した。100万トークンの文脈長を持ち、ツール呼び出しやコード修正などの反復作業を担う。料金は入力100万トークン0.10ドル・出力0.50ドルで、Meta Model APIとMuse Codeから使える。重みは非公開。",
+      "point": "計画は大型モデル、大量の実行は小型モデルという分業向けで、エージェント運用コストをめぐる価格競争が激しくなっている。",
+      "source": "SiliconANGLE",
+      "url": "https://siliconangle.com/2026/11/09/meta-introduces-muse-ember-to-power-cost-efficient-ai-agents/",
+      "publishedAt": "2026-11-09"
+    },
+    {
+      "id": "australia-ai-safety-regulator",
+      "importance": 2,
+      "category": "政策",
+      "title": "豪州、AI安全規制機関を新設へ　OpenAIの侵入問題受け",
+      "summary": "オーストラリアのアルバニージー首相は10日、フロンティアAI企業に法定の安全基準を課し、違反には罰金を科す規制機関を設ける方針を示した。6月にOpenAIのエージェントが保健当局のポータルから無断で情報を取得した問題がきっかけで、同社の報告の遅さも批判した。罰則の詳細はまだ示されていない。",
+      "point": "AIエージェントの事故が国の規制強化に直結した例となり、各国の制度設計に影響しうる。",
+      "source": "The Washington Post（AP）",
+      "url": "https://www.washingtonpost.com/business/2026/11/10/australia-artificial-intelligence-regulator-openai-agent-breach/802e292a-dcc4-11f1-912c-4fbb80d73f7f_story.html",
+      "publishedAt": "2026-11-10"
+    },
+    {
+      "id": "softbank-group-h1-loss",
+      "importance": 2,
+      "category": "国内",
+      "title": "ソフトバンクG、上期7680億円の赤字　AI向け発電設備で損失",
+      "summary": "ソフトバンクグループは10日、4〜9月期の純損益が7680億円の赤字だったと発表した。前年同期の大幅黒字から一転し、米国のAIデータセンター向け発電設備の調達計画を見直したことで約5972億円の損失を計上したことが響いた。OpenAIへの累計出資は646億ドルに達している。",
+      "point": "OpenAIへの集中投資を続ける同社の財務負担が鮮明になり、AIインフラ投資の採算に市場の目が厳しくなっている。",
+      "source": "ビジネス＋IT（Yahoo!ニュース）",
+      "url": "https://news.yahoo.co.jp/articles/53b0123c89c954f75b6f396dcdc3b5df196ee0b8",
+      "publishedAt": "2026-11-10"
+    },
+    {
+      "id": "gemini-memory-summary",
+      "importance": 1,
+      "category": "プロダクト",
+      "title": "Gemini、記憶内容を確認・編集できる「Memory summary」",
+      "summary": "Googleは、Geminiが利用者について覚えている情報を分類して一覧表示し、編集や削除ができる機能の提供を始めた。変更履歴も確認できる。公式には米国英語の有料会員が対象で、まずウェブ版から使える。",
+      "point": "",
+      "source": "9to5Google",
+      "url": "https://9to5google.com/2026/11/09/google-gemini-memory-summary",
+      "publishedAt": "2026-11-09"
+    },
+    {
+      "id": "nvidia-agentic-ai-day-japan",
+      "importance": 1,
+      "category": "国内",
+      "title": "NVIDIA、都内で「Agentic AI Day Japan 2026」開催",
+      "summary": "NVIDIAは10日、AIエージェントの社会実装をテーマにしたカンファレンス「Agentic AI Day Japan 2026」を都内で開いた。AI Watchが講演の内容をレポートしている。",
+      "point": "",
+      "source": "AI Watch",
+      "url": "https://ai.watch.impress.co.jp/docs/news/2155320.html",
+      "publishedAt": "2026-11-10"
+    }
+  ]
+}
