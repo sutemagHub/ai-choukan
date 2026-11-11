@@ -1,0 +1,84 @@
+{
+  "date": "2026-11-11",
+  "issuedAt": "2026-11-11T11:16:26+09:00",
+  "overview": "スペースXは日本時間14日朝に予定するStarship 15回目に向け、ブースターを発射台へ移しました。Starlinkでは電池内蔵の新型携帯端末が発表される一方、英BTはウクライナでの通信制限をめぐる批判を受けて提携サービスの開始を先送りしています。マスク氏はGrok 4.8の作り直しを明かし、Cybertruckの受注も大きく絞られました。",
+  "items": [
+    {
+      "id": "starship-flight15-booster-pad",
+      "importance": 3,
+      "category": "スペースX",
+      "title": "Starship 15回目、ブースターを発射台へ移動",
+      "summary": "スペースXは10日、Starship 15回目の飛行に使うSuper Heavyブースター22号機をテキサス州スターベースの発射台へ移した。打ち上げは日本時間14日午前6時45分を予定し、新型Starlink V3衛星26基を軌道へ運ぶ。",
+      "point": "機体とブースターの両方を回収する初の試みで、成功すれば軌道級ロケットの完全再使用へ大きく前進する。",
+      "source": "Space.com",
+      "url": "https://www.space.com/news/live/spacex-starship-flight-15-live-updates-nov-10-2026-starship-first-double-landing-attempt",
+      "publishedAt": "2026-11-10"
+    },
+    {
+      "id": "starlink-mini-2",
+      "importance": 2,
+      "category": "スペースX",
+      "title": "電池内蔵の携帯端末「Starlink Mini 2」を発表",
+      "summary": "スペースXは持ち運び型の新端末Starlink Mini 2を発表した。取り外し式の71Whバッテリーで最大4.5時間動き、Wi-Fi 6と防水防塵のIP67に対応する。米国で12月に発売し、導入価格は999ドル。",
+      "point": "電源のない屋外や移動中でも使える製品をそろえ、個人向けの持ち運び需要を取り込む狙いがある。",
+      "source": "Tesla Oracle（スペースX発表）",
+      "url": "https://www.teslaoracle.com/2026/11/10/spacex-unveils-starlink-mini-2-satellite-broadband-terminal-with-built-in-battery-and-wi-fi-support",
+      "publishedAt": "2026-11-10"
+    },
+    {
+      "id": "bt-delays-starlink",
+      "importance": 2,
+      "category": "スペースX",
+      "title": "英BT、Starlinkとの家庭向けサービス開始を延期",
+      "summary": "英通信大手BTは、Starlinkを使った家庭向け衛星インターネットの開始を先送りした。英フィナンシャル・タイムズによると、BTの経営トップはサービスの準備はできているが、10月にウクライナで起きた通信制限の問題を受け、Starlinkの受け止められ方に慎重になっていると説明した。",
+      "point": "ウクライナでの軍用端末の制限が、欧州での提携事業にも影響し始めたことを示している。",
+      "source": "AIN.UA（フィナンシャル・タイムズの報道を引用）",
+      "url": "https://en.ain.ua/2026/11/10/british-company-bt-delays-starlink-internet-launch-amid-outages-affecting-ukrainian-military/",
+      "publishedAt": "2026-11-10"
+    },
+    {
+      "id": "starbase-datacenter-moratorium",
+      "importance": 1,
+      "category": "スペースX",
+      "title": "240億ドルの計算施設、ブラウンズビルの規制外に",
+      "summary": "テキサス・トリビューンによると、スペースXが計画する計算施設とガス火力発電所の用地は、同社の求めでブラウンズビル市から外され、スターベース市に編入されていた。市のデータセンター建設一時停止の対象外となり、税優遇の公聴会は12月に開かれる。",
+      "point": "",
+      "source": "テキサス・トリビューン",
+      "url": "https://www.texastribune.org/2026/11/10/texas-spacex-data-center-power-plant/",
+      "publishedAt": "2026-11-10"
+    },
+    {
+      "id": "spcx-ark-stifel",
+      "importance": 1,
+      "category": "スペースX",
+      "title": "アーク・インベストがスペースX株を約9600万ドル購入",
+      "summary": "スペースX株は10日朝に小幅に上昇した。アーク・インベストは9日に3つのETFで計約9600万ドル分を購入し、スティーフェルは買い推奨と目標株価190ドルを維持した。",
+      "point": "",
+      "source": "Investing.com",
+      "url": "https://ca.investing.com/news/stock-market-news/why-is-space-exploration-technologies-stock-gaining-today-93CH-4947230",
+      "publishedAt": "2026-11-10"
+    },
+    {
+      "id": "grok-48-rebuild",
+      "importance": 3,
+      "category": "イーロン・マスク",
+      "title": "マスク氏、Grok 4.8を作り直し今週一部公開へ",
+      "summary": "マスク氏はXへの投稿で、xAIのGrok 4.8は事前学習を終えて強化学習の段階にあり、今週後半にBot利用者へ限定公開すると明らかにした。学習と推論の仕組みをC/C++で一から書き直したという。AnthropicのOpus 5.5には「まだ及ばない」とし、Grok 5は2〜3か月で上回るとの見方を示した。",
+      "point": "マスク氏が自社AIの出遅れを公に認めたうえで、基盤の作り直しで巻き返す方針を示した。",
+      "source": "Tesla North（マスク氏のX投稿）",
+      "url": "https://teslanorth.com/2026/11/10/grok-4-8-coming-this-week-rebuild/",
+      "publishedAt": "2026-11-10"
+    },
+    {
+      "id": "cybertruck-orders-halt",
+      "importance": 2,
+      "category": "イーロン・マスク",
+      "title": "Cybertruck受注、最上位以外を停止し値上げ",
+      "summary": "テスラはCybertruckの受注を最上位のCyberbeastを除いて止め、Cyberbeastの価格を7500ドル上げて10万9990ドルにした。マスク氏はXで、注文が生産能力を大きく上回り、生産ラインは約8か月後にCybercab増産のため閉じると説明した。",
+      "point": "マスク氏が先週示した生産縮小の方針が、受注停止という形で具体化した。",
+      "source": "Tesla Oracle（マスク氏のX投稿）",
+      "url": "https://www.teslaoracle.com/2026/11/10/tesla-stops-taking-orders-for-cybertruck-except-for-the-cyberbeast-increases-price-by-7500",
+      "publishedAt": "2026-11-10"
+    }
+  ]
+}
