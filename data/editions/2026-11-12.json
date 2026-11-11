@@ -1,0 +1,117 @@
+{
+  "date": "2026-11-12",
+  "issuedAt": "2026-11-12T05:46:18+09:00",
+  "overview": "けさはAIの安全面の話題が目立つ。Claude Codeの設定ファイルからの秘密情報流出と、Notion AIの会話記録流出が相次いで明らかになった。経営面ではOpenAIの赤字拡大が報じられる一方、CoreWeaveは強い需要を示し、AI投資をめぐる明暗が分かれた。",
+  "items": [
+    {
+      "id": "claude-code-secrets-leak",
+      "importance": 3,
+      "category": "安全性",
+      "title": "Claude Codeの許可設定から秘密情報がGitHubに流出",
+      "summary": "セキュリティ企業Apiiroは、Claude Codeで「今後は確認しない」を選ぶと承認したコマンドがプロジェクト内の設定ファイルに保存され、そこに含まれたパスワードやAPIキーが公開リポジトリに出回っていると報告した。同社の集計では約10万件のファイルのうち1122件から1379件の秘密情報が見つかった。",
+      "point": "AIエージェントの便利機能が新たな漏えい経路になった例。該当ファイルの公開有無を確認し、鍵の再発行が推奨されている。",
+      "source": "The Hacker News（Apiiro調査）",
+      "url": "https://thehackernews.com/2026/11/claude-codes-dont-ask-again-file.html",
+      "publishedAt": "2026-11-10"
+    },
+    {
+      "id": "openai-q3-loss",
+      "importance": 3,
+      "category": "ビジネス",
+      "title": "OpenAI、7〜9月期の売上高100億ドル　営業赤字は109億ドル",
+      "summary": "米WSJが投資家向け資料をもとに報じたところでは、OpenAIの7〜9月期の売上高は前四半期から約5割増の約100億ドルに達した。一方、調整後の営業赤字は約101億ドルから約109億ドルに膨らんだ。売上高に対する赤字の比率は改善している。",
+      "point": "売上は急伸しても計算資源への支出が赤字を押し広げる構図が続く。Anthropic上場を控え、AI企業の収益性への視線が一段と厳しくなりそうだ。",
+      "source": "Forbes（WSJ報道を引用）",
+      "url": "https://www.forbes.com/sites/gabrielalinzainescu/2026/11/11/openai-revenue-hits-10-billion-as-losses-reach-109-billion/",
+      "publishedAt": "2026-11-11"
+    },
+    {
+      "id": "notion-fireworks-breach",
+      "importance": 2,
+      "category": "安全性",
+      "title": "Notion AIの会話記録、委託先Fireworks AIへの侵入で流出",
+      "summary": "Notionは、AI推論基盤を委託していたFireworks AIのセキュリティ事故により、Notion AIのチャット記録の一部が外部に漏れたと明らかにした。影響はワークスペース全体の1%未満で、多くは作成者が特定できない形式という。Notionは連携を停止し、入力した認証情報の変更を呼びかけている。",
+      "point": "AIサービスの裏側にある推論委託先が攻撃の的になっている。利用企業にとっては委託先管理の重要性を示す事案だ。",
+      "source": "eSecurity Planet",
+      "url": "https://www.esecurityplanet.com/threats/news-fireworks-ai-second-breach-notion-chat-transcripts/",
+      "publishedAt": "2026-11-10"
+    },
+    {
+      "id": "gemini-for-healthcare",
+      "importance": 2,
+      "category": "プロダクト",
+      "title": "Google Cloud、病院・保険向け「Gemini for Healthcare」",
+      "summary": "Google Cloudは、医療機関や保険会社向けのAI製品を発表した。電子カルテなど複数のシステムから患者情報を一つの要約にまとめ、事前承認の書類準備や保険適用の確認、患者負担額の見積もりなどを手伝う。カルテの書き換えはできない設計で、Northwell Healthなどと先行提供を始めた。",
+      "point": "医療の事務負担とコストという大きな課題に生成AIを直接当てる試み。規制の厳しい業界での本格導入の試金石になる。",
+      "source": "Dataconomy",
+      "url": "https://dataconomy.com/2026/11/11/google-launches-gemini-for-healthcare-to-tackle-medical/",
+      "publishedAt": "2026-11-11"
+    },
+    {
+      "id": "eu-digital-fairness-act",
+      "importance": 2,
+      "category": "政策",
+      "title": "EUの「デジタル公正法」案、恋人型AIチャットに規制",
+      "summary": "欧州委員会が11日に示す予定の「デジタル公正法」の草案で、利用者を引き留めるために人間関係を装うAIチャット機能を、成人が自分でオフにできるよう求める内容が含まれると報じられた。顧客が人間の窓口に連絡できる権利なども盛り込み、違反には世界売上高の最大6%の罰金を科せる。",
+      "point": "AI法とは別の消費者保護の枠組みで対話AIの設計に踏み込む。成立には欧州議会と加盟国の合意が必要で、時間がかかる見通し。",
+      "source": "Investing.com（報道を引用）",
+      "url": "https://www.investing.com/news/stock-market-news/eu-drafts-curbs-targeting-addictive-social-media-features-and-ai-chatbots--report-5012845",
+      "publishedAt": "2026-11-10"
+    },
+    {
+      "id": "coreweave-q3",
+      "importance": 2,
+      "category": "ビジネス",
+      "title": "CoreWeave、売上168%増で通期見通し上げ　受注残1325億ドル",
+      "summary": "AI向けクラウドのCoreWeaveが発表した7〜9月期決算は、売上高が前年同期比168%増の36億6000万ドルと予想を上回った。受注残高は6月時点の約1040億ドルから約1325億ドルへ拡大し、2026年通期の売上見通しを130億〜133億ドルに引き上げた。最終損益は7億900万ドルの赤字。",
+      "point": "AI投資の減速懸念が広がるなか、計算資源の需要がなお強いことを示した。巨額の設備投資と借入依存は引き続き注目点。",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/10/coreweave-crwv-q3-earnings-report-2026.html",
+      "publishedAt": "2026-11-10"
+    },
+    {
+      "id": "ntt-physical-ai-world-model",
+      "importance": 2,
+      "category": "国内",
+      "title": "NTT、動く前に結果を予測するロボット向けAIを開発",
+      "summary": "NTTは、ロボットが動作する前に複数の行動候補の結果を予測し、荷崩れや落下を避けるAI技術を発表した。物体の動きを予測する「NTTワールドモデル」を土台とし、小型ロボットで荷物を棚に積む実験では成功率が73.1%から92.3%に上がった。空港の手荷物の積み降ろしなどへの応用を見込む。",
+      "point": "通信大手各社が力を入れる「フィジカルAI」で、国内発の世界モデル技術の具体的な成果が示された。",
+      "source": "Impress Watch",
+      "url": "https://www.watch.impress.co.jp/docs/news/2155271.html",
+      "publishedAt": "2026-11-11"
+    },
+    {
+      "id": "gemini-4-carbon-ga",
+      "importance": 1,
+      "category": "モデル",
+      "title": "Gemini 4 Carbonが一般提供に、11月末まで割引価格",
+      "summary": "Googleは10月に発表したGemini 4 Carbonを、有料のGemini APIとAI Ultra向けGeminiアプリで一般提供した。APIは11月30日まで100万トークンあたり入力2ドル・出力10ドルの導入価格で、その後は4ドル・20ドルになる。",
+      "point": "",
+      "source": "Google",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available",
+      "publishedAt": "2026-11-10"
+    },
+    {
+      "id": "anthropic-ipo-lambda",
+      "importance": 1,
+      "category": "ビジネス",
+      "title": "Anthropic、上場は19日の見込み　データセンター契約に解除余地",
+      "summary": "CNBCによると、Anthropicは19日の取引開始を目指している。10日提出の修正届出書では、Lambdaとの349億ドルのデータセンター契約が、Lambdaの期限未達によりどちらからも解除できる状態にあると開示した。Anthropicは契約を続ける方針としている。",
+      "point": "",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/10/anthropic-sets-price-range-of-70-to-78-in-upcoming-ipo.html",
+      "publishedAt": "2026-11-10"
+    },
+    {
+      "id": "mbzuai-pan-2",
+      "importance": 1,
+      "category": "研究",
+      "title": "MBZUAI、ロボット向け世界モデル「PAN 2」をオープン公開",
+      "summary": "UAEのMBZUAI傘下の研究所IFMは、物理世界の変化を予測する290億パラメーターの世界モデル「PAN 2」を、Apache 2.0ライセンスで公開した。拡散モデルと計画を担う言語モデルを組み合わせた構成という。",
+      "point": "",
+      "source": "MarkTechPost",
+      "url": "https://marktechpost.com/2026/11/10/ifm-pan-2-open-world-model",
+      "publishedAt": "2026-11-10"
+    }
+  ]
+}
