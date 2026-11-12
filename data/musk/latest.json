@@ -1,84 +1,73 @@
 {
-  "date": "2026-11-11",
-  "issuedAt": "2026-11-11T11:16:26+09:00",
-  "overview": "スペースXは日本時間14日朝に予定するStarship 15回目に向け、ブースターを発射台へ移しました。Starlinkでは電池内蔵の新型携帯端末が発表される一方、英BTはウクライナでの通信制限をめぐる批判を受けて提携サービスの開始を先送りしています。マスク氏はGrok 4.8の作り直しを明かし、Cybertruckの受注も大きく絞られました。",
+  "date": "2026-11-12",
+  "issuedAt": "2026-11-12T11:16:25+09:00",
+  "overview": "スペースXが携帯電話向けに買う800MHz帯の周波数について、米FCCが審査の受け付けを始めました。日本時間14日朝のStarship 15回目を前に株価は小幅に下げています。マスク氏関連では、2018年の「資金確保済み」投稿をめぐる投資家への補償が完了し、SECが基金の終了を裁判所に求めました。",
   "items": [
     {
-      "id": "starship-flight15-booster-pad",
+      "id": "fcc-800mhz-accepted",
       "importance": 3,
       "category": "スペースX",
-      "title": "Starship 15回目、ブースターを発射台へ移動",
-      "summary": "スペースXは10日、Starship 15回目の飛行に使うSuper Heavyブースター22号機をテキサス州スターベースの発射台へ移した。打ち上げは日本時間14日午前6時45分を予定し、新型Starlink V3衛星26基を軌道へ運ぶ。",
-      "point": "機体とブースターの両方を回収する初の試みで、成功すれば軌道級ロケットの完全再使用へ大きく前進する。",
+      "title": "800MHz帯の買収、FCCが審査受け付け",
+      "summary": "米連邦通信委員会（FCC）は、スペースXがグレイン・マネジメントから800MHz帯の免許を買い取る申請を受理し、意見募集を始めました。対象は全米人口のほぼ100%をカバーする546組の免許で、意見の締め切りは12月1日です。受理は承認ではなく、ここから審査が進みます。",
+      "point": "Starlinkのスマートフォン直接通信を自前の周波数で広げる計画の要となる案件で、マスク氏は「全米で完全な電話サービスを提供するための最後の重要なピース」と位置づけています。",
+      "source": "Total Telecom",
+      "url": "https://totaltele.com/fcc-accepts-spacex-application-to-acquire-800mhz-spectrum/",
+      "publishedAt": "2026-11-11"
+    },
+    {
+      "id": "starship-flight15-timeline",
+      "importance": 2,
+      "category": "スペースX",
+      "title": "Starship 15回目、日本時間14日7時45分に打ち上げ予定",
+      "summary": "Starship 15回目は米東部時間13日午後5時45分（日本時間14日午前7時45分）から75分間の枠で打ち上げる予定です。ブースターは約6分半後に発射塔へ戻り、船体はStarlink V3衛星26基を放出したうえで、約22時間半後にStarbaseへ戻る計画です。",
+      "point": "ブースターと船体の両方を回収できれば、軌道級ロケットを丸ごと再使用する道が開けます。前回14回目は安全のため予定より早く飛行を打ち切っており、その改善も問われます。",
       "source": "Space.com",
-      "url": "https://www.space.com/news/live/spacex-starship-flight-15-live-updates-nov-10-2026-starship-first-double-landing-attempt",
-      "publishedAt": "2026-11-10"
+      "url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-starship-flight-15-1st-booster-ship-double-catch-full-recovery-what-time",
+      "publishedAt": "2026-11-11"
     },
     {
-      "id": "starlink-mini-2",
+      "id": "spcx-shares-slip",
       "importance": 2,
       "category": "スペースX",
-      "title": "電池内蔵の携帯端末「Starlink Mini 2」を発表",
-      "summary": "スペースXは持ち運び型の新端末Starlink Mini 2を発表した。取り外し式の71Whバッテリーで最大4.5時間動き、Wi-Fi 6と防水防塵のIP67に対応する。米国で12月に発売し、導入価格は999ドル。",
-      "point": "電源のない屋外や移動中でも使える製品をそろえ、個人向けの持ち運び需要を取り込む狙いがある。",
-      "source": "Tesla Oracle（スペースX発表）",
-      "url": "https://www.teslaoracle.com/2026/11/10/spacex-unveils-starlink-mini-2-satellite-broadband-terminal-with-built-in-battery-and-wi-fi-support",
-      "publishedAt": "2026-11-10"
+      "title": "スペースX株、2.3%安で取引終える",
+      "summary": "11日の米市場でスペースX株は、FCCの周波数申請受理を受けて朝方は上げたものの、終値は前日比2.33%安の139.75ドルでした。市場の関心はStarshipの試験飛行に移っており、12月8日には上場時の売却制限（ロックアップ）の期限が来ます。",
+      "point": "ロックアップ解除で売りに出せる株が増えるため、試験飛行の結果とあわせて年末にかけての株価の材料になります。",
+      "source": "The Motley Fool",
+      "url": "https://www.fool.com/coverage/stock-market-today/2026/11/11/stock-market-today-nov-11-spacex-shares-slip-amid-upcoming-starship-test-flight-jitters/",
+      "publishedAt": "2026-11-11"
     },
     {
-      "id": "bt-delays-starlink",
-      "importance": 2,
-      "category": "スペースX",
-      "title": "英BT、Starlinkとの家庭向けサービス開始を延期",
-      "summary": "英通信大手BTは、Starlinkを使った家庭向け衛星インターネットの開始を先送りした。英フィナンシャル・タイムズによると、BTの経営トップはサービスの準備はできているが、10月にウクライナで起きた通信制限の問題を受け、Starlinkの受け止められ方に慎重になっていると説明した。",
-      "point": "ウクライナでの軍用端末の制限が、欧州での提携事業にも影響し始めたことを示している。",
-      "source": "AIN.UA（フィナンシャル・タイムズの報道を引用）",
-      "url": "https://en.ain.ua/2026/11/10/british-company-bt-delays-starlink-internet-launch-amid-outages-affecting-ukrainian-military/",
-      "publishedAt": "2026-11-10"
-    },
-    {
-      "id": "starbase-datacenter-moratorium",
+      "id": "hjt-solar-singulus",
       "importance": 1,
       "category": "スペースX",
-      "title": "240億ドルの計算施設、ブラウンズビルの規制外に",
-      "summary": "テキサス・トリビューンによると、スペースXが計画する計算施設とガス火力発電所の用地は、同社の求めでブラウンズビル市から外され、スターベース市に編入されていた。市のデータセンター建設一時停止の対象外となり、税優遇の公聴会は12月に開かれる。",
+      "title": "衛星用の太陽電池設備を独社に発注",
+      "summary": "独SINGULUSは、スペースX向けにヘテロ接合型（HJT）太陽電池の製造ラインを納める契約を発表しました。最初のラインは6000万ユーロ超で、2027年前半に納入予定です。マスク氏はXで、テキサス州バストロップ向けに年100GW規模の設備を発注したと投稿しています。",
       "point": "",
-      "source": "テキサス・トリビューン",
-      "url": "https://www.texastribune.org/2026/11/10/texas-spacex-data-center-power-plant/",
-      "publishedAt": "2026-11-10"
+      "source": "TradingKey（SINGULUS発表）",
+      "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262300738-spacex-musk-ipo-us-hjt-starmind-singulus-tradingkey",
+      "publishedAt": "2026-11-11"
     },
     {
-      "id": "spcx-ark-stifel",
-      "importance": 1,
-      "category": "スペースX",
-      "title": "アーク・インベストがスペースX株を約9600万ドル購入",
-      "summary": "スペースX株は10日朝に小幅に上昇した。アーク・インベストは9日に3つのETFで計約9600万ドル分を購入し、スティーフェルは買い推奨と目標株価190ドルを維持した。",
-      "point": "",
-      "source": "Investing.com",
-      "url": "https://ca.investing.com/news/stock-market-news/why-is-space-exploration-technologies-stock-gaining-today-93CH-4947230",
-      "publishedAt": "2026-11-10"
-    },
-    {
-      "id": "grok-48-rebuild",
+      "id": "sec-fair-fund-close",
       "importance": 3,
       "category": "イーロン・マスク",
-      "title": "マスク氏、Grok 4.8を作り直し今週一部公開へ",
-      "summary": "マスク氏はXへの投稿で、xAIのGrok 4.8は事前学習を終えて強化学習の段階にあり、今週後半にBot利用者へ限定公開すると明らかにした。学習と推論の仕組みをC/C++で一から書き直したという。AnthropicのOpus 5.5には「まだ及ばない」とし、Grok 5は2〜3か月で上回るとの見方を示した。",
-      "point": "マスク氏が自社AIの出遅れを公に認めたうえで、基盤の作り直しで巻き返す方針を示した。",
-      "source": "Tesla North（マスク氏のX投稿）",
-      "url": "https://teslanorth.com/2026/11/10/grok-4-8-coming-this-week-rebuild/",
+      "title": "「資金確保済み」投稿の補償完了、SECが基金終了を申請",
+      "summary": "米証券取引委員会（SEC）は、マスク氏とテスラが2018年の非公開化をめぐる投稿で支払った罰金を原資とする基金について、配分が終わったとして終了をニューヨークの連邦地裁に求めました。約4153万ドルが3350人の投資家に支払われ、残る約45万ドルは国庫に入ります。",
+      "point": "8年前の投稿をめぐる問題に区切りがつく一方、Twitter株取得の開示をめぐる別件ではマスク氏側が150万ドルを支払う和解が7月に認められています。",
+      "source": "ロイター（102.7 WBOW掲載）",
+      "url": "https://1027wbow.com/2026/11/10/us-sec-seeks-to-close-musk-tesla-settlement-fund/",
       "publishedAt": "2026-11-10"
     },
     {
-      "id": "cybertruck-orders-halt",
+      "id": "hinojosa-musk-terms",
       "importance": 2,
       "category": "イーロン・マスク",
-      "title": "Cybertruck受注、最上位以外を停止し値上げ",
-      "summary": "テスラはCybertruckの受注を最上位のCyberbeastを除いて止め、Cyberbeastの価格を7500ドル上げて10万9990ドルにした。マスク氏はXで、注文が生産能力を大きく上回り、生産ラインは約8か月後にCybercab増産のため閉じると説明した。",
-      "point": "マスク氏が先週示した生産縮小の方針が、受注停止という形で具体化した。",
-      "source": "Tesla Oracle（マスク氏のX投稿）",
-      "url": "https://www.teslaoracle.com/2026/11/10/tesla-stops-taking-orders-for-cybertruck-except-for-the-cyberbeast-increases-price-by-7500",
-      "publishedAt": "2026-11-10"
+      "title": "テキサス次期知事、マスク氏の企業と「協力関係を」",
+      "summary": "テキサス州知事選に勝った民主党のジーナ・イノホサ氏は、マスク氏の企業と「強い協力関係」を築けるとしつつ、「こちらの条件で」と述べました。選挙中は州立公園の土地をスペースXに売る案に反対しており、政権移行中は手続きを進めないよう求めています。",
+      "point": "Starbase周辺の土地や大型投資の行方は州政府の判断に左右されるため、マスク氏が州政府を批判する投稿をした直後の発言として注目されます。",
+      "source": "Fox News",
+      "url": "https://www.foxnews.com/politics/texas-governor-strikes-conciliatory-tone-toward-musk-after-campaigning-against-spacex-deal",
+      "publishedAt": "2026-11-11"
     }
   ]
 }
