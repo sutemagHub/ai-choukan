@@ -1,0 +1,117 @@
+{
+  "date": "2026-11-13",
+  "issuedAt": "2026-11-13T05:46:52+09:00",
+  "overview": "NVIDIAのジェンスン・ファンCEOが突然辞任し、AI半導体の盟主のかじ取りに大きな空白が生まれた。Googleは低価格の主力モデル「Gemini 4 Hydrogen」を投入し、米国ではAI大手5社に開発停止を求める訴訟も起きた。国内ではNotion AIの会話記録流出の影響が企業に広がっている。",
+  "items": [
+    {
+      "id": "nvidia-huang-resigns",
+      "importance": 3,
+      "category": "ビジネス",
+      "title": "NVIDIAのファンCEOが辞任、CFOのクレス氏が暫定CEOに",
+      "summary": "NVIDIA取締役会は11日、ジェンスン・ファン氏のCEO・取締役辞任を受け入れたと発表した。最高財務責任者のコレット・クレス氏がCFOを兼ねたまま暫定CEOに就き、後任は社内外から探す。報道では、中国のスパイと疑われる人物との私的関係をめぐる問題が辞任の背景とされ、株価も急落した。",
+      "point": "AI向け半導体で圧倒的な地位を築いた創業者が突然去り、GPU供給や対中輸出をめぐる同社の戦略、ひいてはAI投資全体の先行きに不透明感が広がる。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/12/nvidias-jensen-huang-resigns-chipmaker-names-cfo-colette-kress-as-interim-ceo/",
+      "publishedAt": "2026-11-12"
+    },
+    {
+      "id": "gemini-4-hydrogen",
+      "importance": 3,
+      "category": "モデル",
+      "title": "Google、高速・低価格の「Gemini 4 Hydrogen」を公開",
+      "summary": "Googleは新モデル「Gemini 4 Hydrogen」を発表し、Geminiアプリ、Google検索、AI Studioで提供を始めた。従来の「Flash」に当たる価格帯で、API料金は入力100万トークンあたり1.5ドル、出力7.5ドル、文脈長は100万トークン。初期設定での処理速度向上と、事実と異なる記述の削減をうたう。",
+      "point": "上位モデルArgonに迫る性能を安価に出すとされ、エージェントや日常の開発で使う「主力モデル」の価格競争が一段と激しくなる。",
+      "source": "9to5Google",
+      "url": "https://9to5google.com/2026/11/12/gemini-4-hydrogen-launch/",
+      "publishedAt": "2026-11-12"
+    },
+    {
+      "id": "nonprofits-sue-to-freeze-models",
+      "importance": 2,
+      "category": "安全性",
+      "title": "米非営利団体、AI大手5社に新モデル開発の差し止めを求め提訴",
+      "summary": "Public Citizenなど4つの非営利団体が、Anthropic、Google、Meta、OpenAI、SpaceXSIの5社を相手取り、サンフランシスコの州裁判所に提訴した。カリフォルニア州の不正競争防止法を根拠に、公衆衛生を危険にさらしているとして新モデルの開発・公開の停止を求めている。各社はすぐにはコメントしていない。",
+      "point": "連邦議会でAI規制法が成立しない中、司法を通じて開発そのものを止めようとする異例の試みで、判断次第で業界全体に影響しうる。",
+      "source": "AP（The Philadelphia Inquirer掲載）",
+      "url": "https://www.inquirer.com/business/ai-lawsuit-anthropic-meta-openai-google-spacex-advocacy-disaster-catatrophic-harm-20261112.html",
+      "publishedAt": "2026-11-12"
+    },
+    {
+      "id": "openai-15b-round",
+      "importance": 2,
+      "category": "ビジネス",
+      "title": "OpenAI、評価額1.25兆ドルで150億ドルを調達と報道",
+      "summary": "CNBCによると、OpenAIは最新の資金調達で150億ドルを集め、評価額は1.25兆ドルとなった。当初は1.5兆ドル規模の評価額と300億ドル以上の調達を目指していたとされ、目標には届かなかった形。ラウンドは今後数週間で正式に締め切られる見通し。",
+      "point": "来週に上場を控えるAnthropicとの比較で、AI企業の企業価値がどこまで市場に受け入れられるかを測る材料になる。",
+      "source": "Benzinga（CNBC報道を引用）",
+      "url": "https://www.benzinga.com/markets/private-markets/26/11/63213967/openai-raises-15b-at-1-25t-valuation-in-latest-funding-round-amid-ipo-plans",
+      "publishedAt": "2026-11-12"
+    },
+    {
+      "id": "anthropic-amd-port-3-days",
+      "importance": 2,
+      "category": "開発者",
+      "title": "Anthropic、AIがClaudeをAMD製GPUへ約3日で移植",
+      "summary": "Anthropicは上場説明の場で、同社のモデル「Claude Mythos」がClaudeをAMDのMI355X上で動かす作業をおよそ3日でこなしたと明らかにした。対象は推論の一部工程の立ち上げで、カーネルの大半をAIが移植・作成したという。従来は半年から1年かかる作業だとしている。",
+      "point": "NVIDIAのCUDAが持つ「乗り換えにくさ」という強みが、AIによるソフト移植で薄れる可能性を示した。ただし独立した検証はまだない。",
+      "source": "The Decoder",
+      "url": "https://the-decoder.com/anthropic-says-ai-is-eroding-nvidias-cuda-lead-cutting-an-amd-chip-switch-from-months-to-three-days/",
+      "publishedAt": "2026-11-11"
+    },
+    {
+      "id": "notion-leak-japan-firms",
+      "importance": 2,
+      "category": "国内",
+      "title": "Notion AI流出、国内企業の報告相次ぐ　最大約2300件の例も",
+      "summary": "委託先Fireworks AIへの侵入でNotion AIの会話記録が漏れた恐れがある問題で、LRM、フェイガー、SecureNaviなど国内企業が相次いで影響を公表した。打ち合わせ内容や取引先担当者名が含まれた可能性を挙げる企業もあり、ワンキャリアは最大約2300件の個人情報が対象になりうるとしている。",
+      "point": "業務でAIに入力した情報が、利用企業から見えない委託先経由で漏れるリスクが現実になった。社内のAI利用ルールの見直しが迫られる。",
+      "source": "ITmedia AI＋",
+      "url": "https://www.itmedia.co.jp/aiplus/article/2611/12/2000003140/",
+      "publishedAt": "2026-11-12"
+    },
+    {
+      "id": "gemini-robotics-2-5",
+      "importance": 2,
+      "category": "研究",
+      "title": "DeepMind、ロボット向け「Gemini Robotics 2.5」を提供開始",
+      "summary": "Google DeepMindは、視覚と言語から動作を生成するロボット向けモデル「Gemini Robotics 2.5」を発表した。Apptronik、Boston Dynamicsなどのパートナー経由で提供する。メルセデス・ベンツの工場での実証では、自動車部品の梱包作業で96%の成功率を示したという。",
+      "point": "研究段階だったロボット基盤モデルが、工場の実作業で成果を示す段階に入りつつある。",
+      "source": "Google DeepMind",
+      "url": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/",
+      "publishedAt": "2026-11-10"
+    },
+    {
+      "id": "alphagenome-2",
+      "importance": 1,
+      "category": "研究",
+      "title": "DeepMind、遺伝子変異の影響を予測する「AlphaGenome 2」",
+      "summary": "DNAの変異が細胞の種類や状態ごとにどう働くかを予測するモデルの新版。遺伝子の発現を変える変異を旧版の約2倍見つけられるとする。非商用研究向けにAPIで提供し、商用利用は限定プレビュー。臨床・診断用途には承認されていない。",
+      "point": "",
+      "source": "Dataconomy",
+      "url": "https://dataconomy.com/2026/11/12/google-deepmind-releases-alphagenome-2-to-study-disease/",
+      "publishedAt": "2026-11-12"
+    },
+    {
+      "id": "mercor-series-d",
+      "importance": 1,
+      "category": "ビジネス",
+      "title": "AI学習データのMercor、評価額200億ドルで7.5億ドル調達",
+      "summary": "専門家を集めてAIの学習・評価データを作るMercorが、シリーズDで7億5000万ドルを調達した。評価額は200億ドルで、1年前の約2倍。BenchmarkやNVIDIAなどが出資した。",
+      "point": "",
+      "source": "Mercor",
+      "url": "https://www.mercor.com/blog/series-d/",
+      "publishedAt": "2026-11-10"
+    },
+    {
+      "id": "docomo-fake-info-survey",
+      "importance": 1,
+      "category": "国内",
+      "title": "AI製の偽情報「見抜ける自信」が大幅低下　ドコモ調査",
+      "summary": "NTTドコモ モバイル社会研究所の調査で、生成AIを知る人のうちAIが作った偽情報を見抜く自信がある人の割合が、前年より文章で15.7ポイント、画像で14.0ポイント、動画で13.3ポイント下がった。自信がある人は3割前後にとどまる。",
+      "point": "",
+      "source": "CNET Japan（Yahoo!ニュース掲載）",
+      "url": "https://news.yahoo.co.jp/articles/497cbd1e7dace69cc30673775cc54d533a9519c0",
+      "publishedAt": "2026-11-12"
+    }
+  ]
+}
