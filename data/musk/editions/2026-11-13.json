@@ -1,0 +1,62 @@
+{
+  "date": "2026-11-13",
+  "issuedAt": "2026-11-13T11:21:56+09:00",
+  "overview": "スペースXとテスラの合併協議が進み、早ければ12月にも発表される可能性があると報じられました。スペースXは日本時間14日朝にStarship 15回目の打ち上げを予定し、初めて機体の上下2段を発射場で回収する試みに挑みます。株価はエヌビディアCEO辞任をめぐる話題で一時上昇したものの、終値はほぼ横ばいでした。",
+  "items": [
+    {
+      "id": "starship-flight15-double-catch",
+      "importance": 3,
+      "category": "スペースX",
+      "title": "Starship 15回目、上下2段の同時回収に初挑戦へ",
+      "summary": "スペースXは米東部時間13日午後5時45分（日本時間14日午前7時45分）から75分間の枠でStarship 15回目を打ち上げる計画。ブースターを約6分半後に発射塔で捕まえ、上段の機体も約22時間・14周の飛行後に発射場へ戻して捕獲を試みる。上段はStarlink V3衛星26基を放出する。",
+      "point": "上段まで回収できれば機体全体の再使用に大きく近づく。異常があれば捕獲を中止し海上へ降ろす計画で、成否は今後の運用ペースを左右する。",
+      "source": "Space.com",
+      "url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-will-launch-epic-double-catch-starship-flight-15-test-mission-on-nov-13",
+      "publishedAt": "2026-11-09"
+    },
+    {
+      "id": "ussf-627-launch",
+      "importance": 2,
+      "category": "スペースX",
+      "title": "米宇宙軍の機密ミッションUSSF-627を打ち上げ",
+      "summary": "Falcon 9がカリフォルニア州バンデンバーグ基地から米宇宙軍の機密ミッションUSSF-627を打ち上げた（日本時間12日午後1時36分）。6日に続き6日間で2回目の宇宙軍向け打ち上げ。ブースターは7回目の飛行で、洋上の無人船に着地した。",
+      "point": "Falcon 9の今年120回目、国家安全保障向けでは15回目の打ち上げで、軍需での存在感の大きさを示す。積み荷の詳細は公表されていない。",
+      "source": "Space.com",
+      "url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-launches-2nd-mystery-mission-for-us-space-force-in-6-day-span-photos",
+      "publishedAt": "2026-11-12"
+    },
+    {
+      "id": "starlink-southwest-inflight-gaming",
+      "importance": 1,
+      "category": "スペースX",
+      "title": "サウスウエスト機内でStarlink使いゲーム配信",
+      "summary": "TwitchConに向かうサウスウエスト航空のチャーター便（オースティン発サンディエゴ行き）で、配信者4人がStarlinkの機内Wi-Fiを使いゲームの生配信を行った。Starlinkの公式アカウントも紹介した。同社は2027年秋までに全機へStarlink搭載を見込む。",
+      "point": "",
+      "source": "TeslaNorth",
+      "url": "https://teslanorth.com/2026/11/12/starlink-southwest-inflight-gaming-twitchcon",
+      "publishedAt": "2026-11-12"
+    },
+    {
+      "id": "spacex-tesla-merger-talks",
+      "importance": 3,
+      "category": "イーロン・マスク",
+      "title": "スペースXとテスラの合併協議進む、12月にも発表か",
+      "summary": "ブルームバーグは関係者の話として、スペースXとテスラの合併協議が進展し、早ければ12月に発表される可能性があると報じた。発表が2027年初めにずれ込む案も検討されているという。両社は独立取締役による特別委員会を設けており、テスラ株は12日に約2%上昇した。",
+      "point": "時価総額は合計で約3.5兆ドルと過去最大級の統合になり得る。スペースXの国防契約とテスラの中国依存の扱いが、規制面の大きな課題とされる。",
+      "source": "ロイター（ブルームバーグ報道を引用）",
+      "url": "https://www.aol.com/articles/spacex-tesla-merger-talks-progress-202203000.html",
+      "publishedAt": "2026-11-12"
+    },
+    {
+      "id": "spacex-stock-huang-reply",
+      "importance": 2,
+      "category": "イーロン・マスク",
+      "title": "エヌビディアCEO辞任で、マスク氏の返信に株価反応",
+      "summary": "エヌビディアのジェンスン・フアンCEOが辞任を表明した翌12日、フアン氏のスペースX入りを勧める投稿にマスク氏が「光栄だ」と返信したと報じられた。スペースX株は一時約5%上昇したが、終値はほぼ横ばいの約140ドルだった。",
+      "point": "具体的な人事の話は確認されていない。AI計算資源を拡大するスペースXに対し、市場がマスク氏の発言一つに敏感に反応している様子がうかがえる。",
+      "source": "モトリーフール／Stocktwits",
+      "url": "https://www.fool.com/investing/2026/11/12/why-spacex-stock-popped-after-nvidia-s-ceo-news/",
+      "publishedAt": "2026-11-12"
+    }
+  ]
+}

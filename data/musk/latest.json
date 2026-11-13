@@ -1,73 +1,62 @@
 {
-  "date": "2026-11-12",
-  "issuedAt": "2026-11-12T11:16:25+09:00",
-  "overview": "スペースXが携帯電話向けに買う800MHz帯の周波数について、米FCCが審査の受け付けを始めました。日本時間14日朝のStarship 15回目を前に株価は小幅に下げています。マスク氏関連では、2018年の「資金確保済み」投稿をめぐる投資家への補償が完了し、SECが基金の終了を裁判所に求めました。",
+  "date": "2026-11-13",
+  "issuedAt": "2026-11-13T11:21:56+09:00",
+  "overview": "スペースXとテスラの合併協議が進み、早ければ12月にも発表される可能性があると報じられました。スペースXは日本時間14日朝にStarship 15回目の打ち上げを予定し、初めて機体の上下2段を発射場で回収する試みに挑みます。株価はエヌビディアCEO辞任をめぐる話題で一時上昇したものの、終値はほぼ横ばいでした。",
   "items": [
     {
-      "id": "fcc-800mhz-accepted",
+      "id": "starship-flight15-double-catch",
       "importance": 3,
       "category": "スペースX",
-      "title": "800MHz帯の買収、FCCが審査受け付け",
-      "summary": "米連邦通信委員会（FCC）は、スペースXがグレイン・マネジメントから800MHz帯の免許を買い取る申請を受理し、意見募集を始めました。対象は全米人口のほぼ100%をカバーする546組の免許で、意見の締め切りは12月1日です。受理は承認ではなく、ここから審査が進みます。",
-      "point": "Starlinkのスマートフォン直接通信を自前の周波数で広げる計画の要となる案件で、マスク氏は「全米で完全な電話サービスを提供するための最後の重要なピース」と位置づけています。",
-      "source": "Total Telecom",
-      "url": "https://totaltele.com/fcc-accepts-spacex-application-to-acquire-800mhz-spectrum/",
-      "publishedAt": "2026-11-11"
-    },
-    {
-      "id": "starship-flight15-timeline",
-      "importance": 2,
-      "category": "スペースX",
-      "title": "Starship 15回目、日本時間14日7時45分に打ち上げ予定",
-      "summary": "Starship 15回目は米東部時間13日午後5時45分（日本時間14日午前7時45分）から75分間の枠で打ち上げる予定です。ブースターは約6分半後に発射塔へ戻り、船体はStarlink V3衛星26基を放出したうえで、約22時間半後にStarbaseへ戻る計画です。",
-      "point": "ブースターと船体の両方を回収できれば、軌道級ロケットを丸ごと再使用する道が開けます。前回14回目は安全のため予定より早く飛行を打ち切っており、その改善も問われます。",
+      "title": "Starship 15回目、上下2段の同時回収に初挑戦へ",
+      "summary": "スペースXは米東部時間13日午後5時45分（日本時間14日午前7時45分）から75分間の枠でStarship 15回目を打ち上げる計画。ブースターを約6分半後に発射塔で捕まえ、上段の機体も約22時間・14周の飛行後に発射場へ戻して捕獲を試みる。上段はStarlink V3衛星26基を放出する。",
+      "point": "上段まで回収できれば機体全体の再使用に大きく近づく。異常があれば捕獲を中止し海上へ降ろす計画で、成否は今後の運用ペースを左右する。",
       "source": "Space.com",
-      "url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-starship-flight-15-1st-booster-ship-double-catch-full-recovery-what-time",
-      "publishedAt": "2026-11-11"
+      "url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-will-launch-epic-double-catch-starship-flight-15-test-mission-on-nov-13",
+      "publishedAt": "2026-11-09"
     },
     {
-      "id": "spcx-shares-slip",
+      "id": "ussf-627-launch",
       "importance": 2,
       "category": "スペースX",
-      "title": "スペースX株、2.3%安で取引終える",
-      "summary": "11日の米市場でスペースX株は、FCCの周波数申請受理を受けて朝方は上げたものの、終値は前日比2.33%安の139.75ドルでした。市場の関心はStarshipの試験飛行に移っており、12月8日には上場時の売却制限（ロックアップ）の期限が来ます。",
-      "point": "ロックアップ解除で売りに出せる株が増えるため、試験飛行の結果とあわせて年末にかけての株価の材料になります。",
-      "source": "The Motley Fool",
-      "url": "https://www.fool.com/coverage/stock-market-today/2026/11/11/stock-market-today-nov-11-spacex-shares-slip-amid-upcoming-starship-test-flight-jitters/",
-      "publishedAt": "2026-11-11"
+      "title": "米宇宙軍の機密ミッションUSSF-627を打ち上げ",
+      "summary": "Falcon 9がカリフォルニア州バンデンバーグ基地から米宇宙軍の機密ミッションUSSF-627を打ち上げた（日本時間12日午後1時36分）。6日に続き6日間で2回目の宇宙軍向け打ち上げ。ブースターは7回目の飛行で、洋上の無人船に着地した。",
+      "point": "Falcon 9の今年120回目、国家安全保障向けでは15回目の打ち上げで、軍需での存在感の大きさを示す。積み荷の詳細は公表されていない。",
+      "source": "Space.com",
+      "url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-launches-2nd-mystery-mission-for-us-space-force-in-6-day-span-photos",
+      "publishedAt": "2026-11-12"
     },
     {
-      "id": "hjt-solar-singulus",
+      "id": "starlink-southwest-inflight-gaming",
       "importance": 1,
       "category": "スペースX",
-      "title": "衛星用の太陽電池設備を独社に発注",
-      "summary": "独SINGULUSは、スペースX向けにヘテロ接合型（HJT）太陽電池の製造ラインを納める契約を発表しました。最初のラインは6000万ユーロ超で、2027年前半に納入予定です。マスク氏はXで、テキサス州バストロップ向けに年100GW規模の設備を発注したと投稿しています。",
+      "title": "サウスウエスト機内でStarlink使いゲーム配信",
+      "summary": "TwitchConに向かうサウスウエスト航空のチャーター便（オースティン発サンディエゴ行き）で、配信者4人がStarlinkの機内Wi-Fiを使いゲームの生配信を行った。Starlinkの公式アカウントも紹介した。同社は2027年秋までに全機へStarlink搭載を見込む。",
       "point": "",
-      "source": "TradingKey（SINGULUS発表）",
-      "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262300738-spacex-musk-ipo-us-hjt-starmind-singulus-tradingkey",
-      "publishedAt": "2026-11-11"
+      "source": "TeslaNorth",
+      "url": "https://teslanorth.com/2026/11/12/starlink-southwest-inflight-gaming-twitchcon",
+      "publishedAt": "2026-11-12"
     },
     {
-      "id": "sec-fair-fund-close",
+      "id": "spacex-tesla-merger-talks",
       "importance": 3,
       "category": "イーロン・マスク",
-      "title": "「資金確保済み」投稿の補償完了、SECが基金終了を申請",
-      "summary": "米証券取引委員会（SEC）は、マスク氏とテスラが2018年の非公開化をめぐる投稿で支払った罰金を原資とする基金について、配分が終わったとして終了をニューヨークの連邦地裁に求めました。約4153万ドルが3350人の投資家に支払われ、残る約45万ドルは国庫に入ります。",
-      "point": "8年前の投稿をめぐる問題に区切りがつく一方、Twitter株取得の開示をめぐる別件ではマスク氏側が150万ドルを支払う和解が7月に認められています。",
-      "source": "ロイター（102.7 WBOW掲載）",
-      "url": "https://1027wbow.com/2026/11/10/us-sec-seeks-to-close-musk-tesla-settlement-fund/",
-      "publishedAt": "2026-11-10"
+      "title": "スペースXとテスラの合併協議進む、12月にも発表か",
+      "summary": "ブルームバーグは関係者の話として、スペースXとテスラの合併協議が進展し、早ければ12月に発表される可能性があると報じた。発表が2027年初めにずれ込む案も検討されているという。両社は独立取締役による特別委員会を設けており、テスラ株は12日に約2%上昇した。",
+      "point": "時価総額は合計で約3.5兆ドルと過去最大級の統合になり得る。スペースXの国防契約とテスラの中国依存の扱いが、規制面の大きな課題とされる。",
+      "source": "ロイター（ブルームバーグ報道を引用）",
+      "url": "https://www.aol.com/articles/spacex-tesla-merger-talks-progress-202203000.html",
+      "publishedAt": "2026-11-12"
     },
     {
-      "id": "hinojosa-musk-terms",
+      "id": "spacex-stock-huang-reply",
       "importance": 2,
       "category": "イーロン・マスク",
-      "title": "テキサス次期知事、マスク氏の企業と「協力関係を」",
-      "summary": "テキサス州知事選に勝った民主党のジーナ・イノホサ氏は、マスク氏の企業と「強い協力関係」を築けるとしつつ、「こちらの条件で」と述べました。選挙中は州立公園の土地をスペースXに売る案に反対しており、政権移行中は手続きを進めないよう求めています。",
-      "point": "Starbase周辺の土地や大型投資の行方は州政府の判断に左右されるため、マスク氏が州政府を批判する投稿をした直後の発言として注目されます。",
-      "source": "Fox News",
-      "url": "https://www.foxnews.com/politics/texas-governor-strikes-conciliatory-tone-toward-musk-after-campaigning-against-spacex-deal",
-      "publishedAt": "2026-11-11"
+      "title": "エヌビディアCEO辞任で、マスク氏の返信に株価反応",
+      "summary": "エヌビディアのジェンスン・フアンCEOが辞任を表明した翌12日、フアン氏のスペースX入りを勧める投稿にマスク氏が「光栄だ」と返信したと報じられた。スペースX株は一時約5%上昇したが、終値はほぼ横ばいの約140ドルだった。",
+      "point": "具体的な人事の話は確認されていない。AI計算資源を拡大するスペースXに対し、市場がマスク氏の発言一つに敏感に反応している様子がうかがえる。",
+      "source": "モトリーフール／Stocktwits",
+      "url": "https://www.fool.com/investing/2026/11/12/why-spacex-stock-popped-after-nvidia-s-ceo-news/",
+      "publishedAt": "2026-11-12"
     }
   ]
 }
