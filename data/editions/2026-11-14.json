@@ -1,0 +1,117 @@
+{
+  "date": "2026-11-14",
+  "issuedAt": "2026-11-14T05:46:53+09:00",
+  "overview": "OpenAIがAIエージェントに支払いを任せる「ChatGPT Wallet」を発表する一方、ユナイテッド航空はAIによる予約を約款で禁じ、エージェントの買い物をめぐる攻防が始まった。NVIDIAのファン氏辞任は米議会の証言要請に発展し、対中輸出規制の議論が再燃している。Microsoft 365の障害がChatGPTやClaudeの連携に波及した点も目を引く。",
+  "items": [
+    {
+      "id": "chatgpt-wallet",
+      "importance": 3,
+      "category": "プロダクト",
+      "title": "OpenAI、AIエージェントが支払う「ChatGPT Wallet」",
+      "summary": "OpenAIは13日、ChatGPTのエージェント機能「dots」が利用者に代わって買い物の決済まで行える「ChatGPT Wallet」を発表した。Visa、Mastercard、American Expressと組み、カード番号をエージェントにも店にも渡さないトークン方式を採用。購入ごとに内容を確認し生体認証などで承認する。まずは米国のPro契約者が対象。",
+      "point": "AIが調べるだけでなく支払いまで担う段階に入った。利用上限の設定や完全な委任は今後の予定で、責任の所在を含め普及の条件が試される。",
+      "source": "OpenAI / TechCrunch",
+      "url": "https://openai.com/index/introducing-chatgpt-wallet/",
+      "publishedAt": "2026-11-13"
+    },
+    {
+      "id": "nvidia-senate-summons",
+      "importance": 3,
+      "category": "政策",
+      "title": "米上院銀行委、ファン氏と商務長官に証言要請　NVIDIA問題",
+      "summary": "NVIDIAのファン前CEOの辞任をめぐり、米上院銀行委員会のスコット委員長はファン氏に12月3日、ラトニック商務長官に同10日の証言を求めた。応じなければ召喚状も辞さない構えで、長官側は自発的に出席する意向を示したと報じられている。下院の委員会も別途出席を求めており、同社株は13日も下げ、時価総額が一時4兆ドルを割った。",
+      "point": "経営者個人の問題が、対中半導体輸出という国家安全保障の議論に広がった。AI向けGPUの輸出規制が一段と厳しくなる可能性がある。",
+      "source": "Fortune / CNBC",
+      "url": "https://fortune.com/2026/11/13/senate-banking-committee-nvidia-jensen-huang-howard-lutnick/",
+      "publishedAt": "2026-11-13"
+    },
+    {
+      "id": "m365-outage-ai-connectors",
+      "importance": 2,
+      "category": "プロダクト",
+      "title": "Microsoft 365の大規模障害、ChatGPTやClaudeの連携にも波及",
+      "summary": "12日に始まったMicrosoft 365の世界的な障害で、OutlookやTeamsに加えCopilotも使いにくい状態が続いた。影響はChatGPTとClaudeのMicrosoft 365コネクタにも及び、Anthropicはメールや予定表、検索のほとんどの要求が動かないと報告した。Microsoftはサイバー攻撃の兆候はないとし、サーバーを順次復旧させている。",
+      "point": "AIアシスタントが社内のメールや文書につながるほど、基盤クラウドの障害が業務全体を止めやすくなることを示した。",
+      "source": "ITmedia AI＋",
+      "url": "https://www.itmedia.co.jp/aiplus/article/2611/13/2000003164/",
+      "publishedAt": "2026-11-13"
+    },
+    {
+      "id": "united-bans-ai-agents",
+      "importance": 2,
+      "category": "ビジネス",
+      "title": "ユナイテッド航空、AIエージェントによる予約・変更を禁止",
+      "summary": "米ユナイテッド航空は11日付で運送約款を改め、外部のAIエージェントが航空券の予約や変更、手続きを行うことを禁じた。人が各段階を承認していても対象で、該当する予約は予告なく取り消せるとしている。ログイン情報の流出や意図しない購入などを理由に挙げた。運航情報や価格を調べる用途は引き続き認められる。",
+      "point": "AIに決済まで任せる動きが広がる一方、受け入れ側の企業が拒む例が出た。エージェント経済の普及には事業者との合意づくりが欠かせない。",
+      "source": "BetaNews",
+      "url": "https://betanews.com/article/united-airlines-bans-ai-agents-booking-tickets/",
+      "publishedAt": "2026-11-12"
+    },
+    {
+      "id": "china-restricted-nvidia-projects",
+      "importance": 2,
+      "category": "政策",
+      "title": "中国で規制対象NVIDIA製品を前提のAI計画、30億ドル超",
+      "summary": "ロイターは13日、中国各地の入札資料などを調べた結果、米国の輸出規制の対象であるNVIDIA製GPUの利用を掲げる計算拠点の計画が合計30億ドルを超えると報じた。福建省ではH100を明記した約62億元の計画があり、甘粛省でもH100やH200を約3000基導入する計画が見つかった。金額は計画の規模で、実際の納入を確認したものではない。",
+      "point": "輸出規制の実効性に改めて疑問を投げかける内容で、ファン氏辞任後の議会での追及材料になりそうだ。",
+      "source": "Reuters",
+      "url": "https://malaysia.news.yahoo.com/chinas-3-billion-plus-pipeline-092758838.html",
+      "publishedAt": "2026-11-13"
+    },
+    {
+      "id": "ntt-small-data-llm-tuning",
+      "importance": 2,
+      "category": "国内",
+      "title": "NTT、少量の社内文書から専門LLMを育てる新技術",
+      "summary": "NTTは12日、業務マニュアルなど少量の社内文書から、特定業務の知識をLLMに定着させるチューニング技術を開発したと発表した。LLM自身が元の文書からFAQ形式や表、対話形式など多様な教材を作って学ぶ仕組みで、自社のtsuzumi 2での検証では正答率が学習前の65.3%から83.1%に上がったという。グループ各社に導入する予定。",
+      "point": "データが少ない現場でも自社専用のAIを作りやすくなる。検索で文書を引く方式を補う選択肢として注目される。",
+      "source": "NTT / INTERNET Watch",
+      "url": "https://internet.watch.impress.co.jp/docs/news/2155928.html",
+      "publishedAt": "2026-11-12"
+    },
+    {
+      "id": "applied-materials-q4",
+      "importance": 2,
+      "category": "ビジネス",
+      "title": "アプライド、売上高53%増で過去最高　AI向け装置が好調",
+      "summary": "半導体製造装置大手の米アプライド・マテリアルズが12日に発表した8〜10月期決算は、売上高が前年同期比53%増の約104億ドルと過去最高になり、市場予想を上回った。先端ロジックやDRAM、先進パッケージ向けの需要が強く、次の四半期の売上高も約111億ドルと予想を上回る見通しを示した。",
+      "point": "NVIDIAをめぐる混乱の中でも、AIデータセンター向けの設備投資そのものは衰えていないことを裏づける数字だ。",
+      "source": "Quartz",
+      "url": "https://qz.com/applied-materials-record-revenue-ai-chip-demand-111326",
+      "publishedAt": "2026-11-13"
+    },
+    {
+      "id": "notion-zero-retention-gap",
+      "importance": 1,
+      "category": "安全性",
+      "title": "Notion流出、委託先で「データ非保持」の対象外だった",
+      "summary": "Notion AIの会話記録流出で、Notionは漏れたデータが分析機能「Insights」のために委託先Fireworks AIへ送られ保存されていたものだと説明した。データを残さない約束は応答生成の処理が対象で、この機能は含まれていなかったという。同機能を停止し、主要な委託先の保持状況を監査する。",
+      "point": "",
+      "source": "ITmedia AI＋ / ComplexDiscovery",
+      "url": "https://complexdiscovery.com/notion-ai-chats-surface-in-fireworks-breach-testing-what-zero-retention-covers/",
+      "publishedAt": "2026-11-13"
+    },
+    {
+      "id": "eu-us-congress-ai-governance",
+      "importance": 1,
+      "category": "政策",
+      "title": "EU、AIの国際ルールで米議会との対話を希望",
+      "summary": "欧州委員会のフォンデアライエン委員長は13日、ダブリンでのEU首脳の非公式会合後、AIの国際的なガバナンスについて米議会と協議したい考えを示した。現時点では意向の表明で、具体的な枠組みは決まっていない。",
+      "point": "",
+      "source": "MLex",
+      "url": "https://www.mlex.com/mlex/artificial-intelligence/articles/2550061",
+      "publishedAt": "2026-11-13"
+    },
+    {
+      "id": "japan-ai-award-2026",
+      "importance": 1,
+      "category": "国内",
+      "title": "初の「日本AI大賞」、応募126件から16組が受賞",
+      "summary": "日本デジタルトランスフォーメーション推進協会は、AI活用の優れた取り組みを表彰する「日本AI大賞2026」の受賞16組を発表した。応募は126件で、組織の部の大賞には、社員の発案でAIアプリを開発した博報堂DYグループの子会社が選ばれた。",
+      "point": "",
+      "source": "AI Watch",
+      "url": "https://ai.watch.impress.co.jp/docs/news/2156302.html",
+      "publishedAt": "2026-11-13"
+    }
+  ]
+}
