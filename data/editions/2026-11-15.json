@@ -1,0 +1,51 @@
+{
+  "date": "2026-11-15",
+  "issuedAt": "2026-11-15T05:46:47+09:00",
+  "overview": "土曜の朝は大きな新製品発表が少なく、Anthropicの上場条件とOpenAIの音声機能の切り替えなど、すでに動いている話の具体像が見えてきました。国内では、生成AIによる声や肖像の無断利用を不正競争防止法で規制する案が示されたと報じられています。けさは確認できた記事だけに絞った小さめの号です。",
+  "items": [
+    {
+      "id": "anthropic-ipo-valuation",
+      "importance": 3,
+      "category": "ビジネス",
+      "title": "Anthropic上場、価格帯70〜78ドルで評価額は最大1.4兆ドル規模",
+      "summary": "Anthropicは修正された目論見書で、Class A株8億2500万株を1株70〜78ドルで売り出し、Nasdaqにティッカー「ANT」で上場する条件を示しました。基本株数ベースの評価額は約9160億〜1兆200億ドル、希薄化後では最大約1.41兆ドルと報じられています。別に260億ドルの私募増資も組まれ、価格決定は18日、取引開始は19日とされています。",
+      "point": "評価額は株数の数え方で大きく変わります。一部報道が伝えた「約8億6700万株・70〜80ドル」という条件は、同社が不正確だと説明しています。",
+      "source": "The Motley Fool ほか",
+      "url": "https://www.fool.com/investing/2026/11/13/anthropic-set-its-ipo-price-range-at-70-to-78-valuing-it-at-up-to-1405-trillion/",
+      "publishedAt": "2026-11-13"
+    },
+    {
+      "id": "chatgpt-voice-retire",
+      "importance": 2,
+      "category": "プロダクト",
+      "title": "ChatGPT、旧音声モードを12月11日に終了　GPT-Liveに一本化",
+      "summary": "OpenAIは、ChatGPTの「Advanced Voice」と「Standard Voice」を12月11日に終了し、7月に始めた新しい音声モデルGPT-Liveを標準にすると案内しました。11月10日から利用者への通知が始まっています。過去の会話履歴は残り、テキストでも音声でも続けられます。",
+      "point": "動画や画面共有を伴う音声は、GPT-Liveが未対応のため当面は旧方式のままです。切り替え時期は示されていません。",
+      "source": "OpenAI ヘルプセンター",
+      "url": "https://help.openai.com/en/articles/20001638",
+      "publishedAt": "2026-11-10"
+    },
+    {
+      "id": "meti-voice-likeness",
+      "importance": 2,
+      "category": "国内",
+      "title": "生成AIによる声や肖像の無断利用、不正競争防止法での規制案",
+      "summary": "読売新聞の報道によると、経済産業省は13日、生成AIで他人の声や肖像を無断で使う行為を防ぐため、不正競争防止法で新たに規制する行為の具体案を有識者会議に示しました。AIで本人そっくりの声を作って歌わせる投稿などが問題になっています。",
+      "point": "私は報道の要旨のみを確認しており、規制対象の細かな範囲や施行時期は確認できていません。",
+      "source": "読売新聞（Yahoo!ニュース）",
+      "url": "https://news.yahoo.co.jp/pickup/6602494",
+      "publishedAt": "2026-11-13"
+    },
+    {
+      "id": "nvidia-8k-chair",
+      "importance": 1,
+      "category": "ビジネス",
+      "title": "NVIDIA、フアン氏辞任の届け出で初の取締役会議長を指名",
+      "summary": "NVIDIAが米SECに出した11月12日付の届け出書によると、フアン氏は社長・CEO・取締役を即時退任し、CFOのクレス氏が暫定CEOを兼務します。ハーベイ・ジョーンズ氏が同社初の取締役会議長となり、取締役会は社内外から後任CEOを探します。",
+      "point": "",
+      "source": "SEC（NVIDIA 8-K）",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000082/nvidiaannouncesceotransiti.htm",
+      "publishedAt": "2026-11-12"
+    }
+  ]
+}
