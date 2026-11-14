@@ -1,0 +1,62 @@
+{
+  "date": "2026-11-14",
+  "issuedAt": "2026-11-14T11:16:33+09:00",
+  "overview": "スペースXはStarship 15回目の打ち上げで2回目の軌道到達とStarlink V3衛星26基の展開に成功しましたが、ブースターの発射塔回収は見送りとなり、船体の回収は日本時間15日朝に予定されています。マスク氏関連では、テスラとの合併協議にテキサス州の次期司法長官が厳しく審査する姿勢を示し、スペースXのAI部門を含むAI大手5社に開発差し止めを求める訴訟も起こされました。",
+  "items": [
+    {
+      "id": "starship-flight15-orbit",
+      "importance": 3,
+      "category": "スペースX",
+      "title": "Starship 15回目、軌道到達もブースター回収は見送り",
+      "summary": "Starshipは米中部時間13日午後4時47分（日本時間14日7時47分）に打ち上げられ、2回目の軌道到達とStarlink V3衛星26基の展開に成功した。一方、ブースターは発射塔での回収をやめてメキシコ湾に着水し、理由はまだ説明されていない。船体は約22時間半の飛行後、日本時間15日朝に発射塔での回収に挑む予定。",
+      "point": "船体の回収に成功すれば、上下2段を回収・再使用する完全再使用に向けた大きな節目になる。ブースター回収を見送った原因も今後の焦点。",
+      "source": "StockTitan（スペースXの発表をもとに報道）",
+      "url": "https://www.stocktitan.net/articles/spacex-starship-flight-15-super-heavy-gulf-splashdown-2026",
+      "publishedAt": "2026-11-13"
+    },
+    {
+      "id": "ai-safety-lawsuit-spacex-ai",
+      "importance": 2,
+      "category": "スペースX",
+      "title": "AI大手5社に開発差し止め求める訴訟、スペースXのAI部門も",
+      "summary": "米国の非営利団体パブリック・シチズンなどが12日、サンフランシスコの裁判所でOpenAI、Anthropic、グーグル、メタ、スペースXのAI部門を提訴した。カリフォルニア州の不正競争防止法などを根拠に、最先端AIモデルの開発停止を命じるよう求めている。訴状ではマスク氏らのAIの危険性に関する発言も取り上げている。",
+      "point": "スペースXがAI事業を抱える企業として、ほかのAI大手と同じ法的リスクを負い始めたことを示す。",
+      "source": "Claims Journal（ロイター配信）",
+      "url": "https://www.claimsjournal.com/news/national/2026/11/13/341283.htm",
+      "publishedAt": "2026-11-13"
+    },
+    {
+      "id": "spcx-after-hours-starship",
+      "importance": 1,
+      "category": "スペースX",
+      "title": "スペースX株、打ち上げ後の時間外で1.3%安",
+      "summary": "スペースX株は13日の通常取引を139.11ドルで終えた。Starship打ち上げ後の時間外取引ではブースターの着水が伝わった直後に一時136ドル台まで下げ、137.24ドル（1.3%安）で取引された。時間外の出来高は少なかった。",
+      "point": "",
+      "source": "StockTitan",
+      "url": "https://www.stocktitan.net/articles/spacex-starship-flight-15-super-heavy-gulf-splashdown-2026",
+      "publishedAt": "2026-11-13"
+    },
+    {
+      "id": "texas-ag-merger-scrutiny",
+      "importance": 3,
+      "category": "イーロン・マスク",
+      "title": "テキサス次期司法長官、テスラとの合併を「厳しく審査」",
+      "summary": "来年1月に就任するテキサス州のネイサン・ジョンソン次期司法長官（民主党）はブルームバーグの取材に、スペースXとテスラの合併は「非常に厳しい審査に値する」と述べた。マスク氏の事業が一線を越える恐れがあるとも話し、マスク氏が対話を望むなら応じるとした。両社はコメントの求めに応じていない。",
+      "point": "12月にも発表と報じられる合併に、両社の本拠地である州の規制当局が独占禁止の観点から関与する可能性が出てきた。",
+      "source": "Insurance Journal（ブルームバーグ配信）",
+      "url": "https://www.insurancejournal.com/news/southcentral/2026/11/13/892594.htm",
+      "publishedAt": "2026-11-13"
+    },
+    {
+      "id": "musk-huang-petition",
+      "importance": 1,
+      "category": "イーロン・マスク",
+      "title": "マスク氏、フアン氏のエヌビディア復帰を求める署名に賛同",
+      "summary": "エヌビディアのCEOを退いたジェンスン・フアン氏について、マスク氏は13日、Xで復帰を求める署名活動に自分も署名すると投稿した。12日には、フアン氏を雇ってはどうかという投稿に「光栄だ」と返信していた。",
+      "point": "",
+      "source": "SoapCentral（AOL配信）",
+      "url": "https://www.aol.com/articles/m-signing-too-elon-musk-232845000.html",
+      "publishedAt": "2026-11-13"
+    }
+  ]
+}
