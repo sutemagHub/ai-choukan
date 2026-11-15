@@ -1,62 +1,73 @@
 {
-  "date": "2026-11-14",
-  "issuedAt": "2026-11-14T11:16:33+09:00",
-  "overview": "スペースXはStarship 15回目の打ち上げで2回目の軌道到達とStarlink V3衛星26基の展開に成功しましたが、ブースターの発射塔回収は見送りとなり、船体の回収は日本時間15日朝に予定されています。マスク氏関連では、テスラとの合併協議にテキサス州の次期司法長官が厳しく審査する姿勢を示し、スペースXのAI部門を含むAI大手5社に開発差し止めを求める訴訟も起こされました。",
+  "date": "2026-11-15",
+  "issuedAt": "2026-11-15T11:16:22+09:00",
+  "overview": "スペースXは日本時間15日朝、軌道から戻ったStarshipの船体を発射塔のアームで捕まえることに初めて成功し、完全再使用に向けて大きく前進しました。一方、ブースターは帰還中にエンジンが早く止まり回収できず、原因を調べています。ほかにウクライナでのStarshield速度制限をめぐる問題や、大株主ファウンダーズ・ファンドの保有株の減少も伝えられました。",
   "items": [
     {
-      "id": "starship-flight15-orbit",
+      "id": "starship-ship-catch-first",
       "importance": 3,
       "category": "スペースX",
-      "title": "Starship 15回目、軌道到達もブースター回収は見送り",
-      "summary": "Starshipは米中部時間13日午後4時47分（日本時間14日7時47分）に打ち上げられ、2回目の軌道到達とStarlink V3衛星26基の展開に成功した。一方、ブースターは発射塔での回収をやめてメキシコ湾に着水し、理由はまだ説明されていない。船体は約22時間半の飛行後、日本時間15日朝に発射塔での回収に挑む予定。",
-      "point": "船体の回収に成功すれば、上下2段を回収・再使用する完全再使用に向けた大きな節目になる。ブースター回収を見送った原因も今後の焦点。",
-      "source": "StockTitan（スペースXの発表をもとに報道）",
-      "url": "https://www.stocktitan.net/articles/spacex-starship-flight-15-super-heavy-gulf-splashdown-2026",
-      "publishedAt": "2026-11-13"
+      "title": "Starship船体、軌道から戻り発射塔で初キャッチ",
+      "summary": "Starship 15回目の飛行で、船体（Ship 42）が約22時間半かけて地球を14周したのち、米東部時間14日午後4時20分（日本時間15日6時20分）にテキサス州スターベースの発射塔のアームで捕まえられた。軌道から戻った船体の回収は初めて。熱シールドなどの機体の状態も良好だったという。",
+      "point": "上段を発射場で回収できたことで、上下2段とも使い回す完全再使用が現実味を帯びた。打ち上げコストの大幅な引き下げや月・火星計画の前提となる技術。",
+      "source": "SpacePolicyOnline",
+      "url": "https://spacepolicyonline.com/news/spacex-catches-a-starship/",
+      "publishedAt": "2026-11-14"
     },
     {
-      "id": "ai-safety-lawsuit-spacex-ai",
+      "id": "booster-engine-cutoff",
       "importance": 2,
       "category": "スペースX",
-      "title": "AI大手5社に開発差し止め求める訴訟、スペースXのAI部門も",
-      "summary": "米国の非営利団体パブリック・シチズンなどが12日、サンフランシスコの裁判所でOpenAI、Anthropic、グーグル、メタ、スペースXのAI部門を提訴した。カリフォルニア州の不正競争防止法などを根拠に、最先端AIモデルの開発停止を命じるよう求めている。訴状ではマスク氏らのAIの危険性に関する発言も取り上げている。",
-      "point": "スペースXがAI事業を抱える企業として、ほかのAI大手と同じ法的リスクを負い始めたことを示す。",
-      "source": "Claims Journal（ロイター配信）",
-      "url": "https://www.claimsjournal.com/news/national/2026/11/13/341283.htm",
-      "publishedAt": "2026-11-13"
+      "title": "ブースター回収断念、帰還中にエンジンが早期停止",
+      "summary": "13日の打ち上げ後、ブースター（Super Heavy）は発射塔での回収ができなかった。スペースXの担当者は、帰還の途中でエンジンが予定より早く止まったと説明し、誘導システムが自動で行き先をメキシコ湾に切り替えたとしている。根本原因は調査中。",
+      "point": "上下2段の同時回収はかなわず、ブースター側の原因究明が次の飛行の時期を左右しうる。",
+      "source": "アルジャジーラ（AP・ロイター配信）",
+      "url": "https://www.aljazeera.com/news/2026/11/15/spacexs-starship-captured-by-launchpad-arms-in-dramatic-first",
+      "publishedAt": "2026-11-15"
     },
     {
-      "id": "spcx-after-hours-starship",
+      "id": "starshield-ukraine-limits",
+      "importance": 2,
+      "category": "スペースX",
+      "title": "ウクライナ、Starshieldの速度制限が再発と訴え",
+      "summary": "ゼレンスキー大統領は12日、軍用版スターリンクのStarshieldで、利用中の移動速度を時速約160キロに抑える制限が再び始まり、ロシアの無人機の迎撃に支障が出ていると述べた。10月にも同様の制限があり、その後解除されていた。マスク氏はXで、Starshieldは米政府が所有・管理していると投稿している。",
+      "point": "米政府・スペースXのどちらも責任を認めておらず、契約の扱いや議会の調査などに発展する可能性がある。",
+      "source": "ユーロニュース",
+      "url": "https://www.euronews.com/2026/11/12/zelenskyy-starlink-again-facing-restrictions-in-ukraine-hampering-russian-drone-intercepti",
+      "publishedAt": "2026-11-12"
+    },
+    {
+      "id": "founders-fund-stake-down",
+      "importance": 2,
+      "category": "スペースX",
+      "title": "ファウンダーズ・ファンドのスペースX株、約1.1億株減少",
+      "summary": "13日夜に提出された届け出によると、ピーター・ティール氏と同氏のファウンダーズ・ファンドが持つスペースXのクラスA株は、6月末から9月末までに約1億1300万株減り、約3億1400万株になった。9月末の株価で約170億ドル相当。売却か出資者への分配かは示されていない。",
+      "point": "上場前からの大株主が持ち分を大きく減らしたことが分かり、株価への影響が注目される。",
+      "source": "24/7 Wall St.（Yahoo!ファイナンス配信）",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/17-billion-spacex-stock-left-145347985.html",
+      "publishedAt": "2026-11-14"
+    },
+    {
+      "id": "united-starlink-half",
       "importance": 1,
       "category": "スペースX",
-      "title": "スペースX株、打ち上げ後の時間外で1.3%安",
-      "summary": "スペースX株は13日の通常取引を139.11ドルで終えた。Starship打ち上げ後の時間外取引ではブースターの着水が伝わった直後に一時136ドル台まで下げ、137.24ドル（1.3%安）で取引された。時間外の出来高は少なかった。",
+      "title": "ユナイテッド航空、毎日の便の半数超でStarlink Wi-Fi",
+      "summary": "ユナイテッド航空は12日、スターリンクの機内Wi-Fiが1日の便の半数以上で使えるようになったと発表した。年末には約64%に広げ、2027年末までに全機への搭載を終える計画。会員は無料で使える。",
       "point": "",
-      "source": "StockTitan",
-      "url": "https://www.stocktitan.net/articles/spacex-starship-flight-15-super-heavy-gulf-splashdown-2026",
-      "publishedAt": "2026-11-13"
+      "source": "Travelers Today",
+      "url": "https://www.travelerstoday.com/articles/61258/20261114/united-says-starlink-wi-fi-now-reaches-more-half-its-daily-flights-ahead-thanksgiving-travel-rush.htm",
+      "publishedAt": "2026-11-14"
     },
     {
-      "id": "texas-ag-merger-scrutiny",
-      "importance": 3,
+      "id": "musk-v4-undersea-cables",
+      "importance": 2,
       "category": "イーロン・マスク",
-      "title": "テキサス次期司法長官、テスラとの合併を「厳しく審査」",
-      "summary": "来年1月に就任するテキサス州のネイサン・ジョンソン次期司法長官（民主党）はブルームバーグの取材に、スペースXとテスラの合併は「非常に厳しい審査に値する」と述べた。マスク氏の事業が一線を越える恐れがあるとも話し、マスク氏が対話を望むなら応じるとした。両社はコメントの求めに応じていない。",
-      "point": "12月にも発表と報じられる合併に、両社の本拠地である州の規制当局が独占禁止の観点から関与する可能性が出てきた。",
-      "source": "Insurance Journal（ブルームバーグ配信）",
-      "url": "https://www.insurancejournal.com/news/southcentral/2026/11/13/892594.htm",
-      "publishedAt": "2026-11-13"
-    },
-    {
-      "id": "musk-huang-petition",
-      "importance": 1,
-      "category": "イーロン・マスク",
-      "title": "マスク氏、フアン氏のエヌビディア復帰を求める署名に賛同",
-      "summary": "エヌビディアのCEOを退いたジェンスン・フアン氏について、マスク氏は13日、Xで復帰を求める署名活動に自分も署名すると投稿した。12日には、フアン氏を雇ってはどうかという投稿に「光栄だ」と返信していた。",
-      "point": "",
-      "source": "SoapCentral（AOL配信）",
-      "url": "https://www.aol.com/articles/m-signing-too-elon-musk-232845000.html",
-      "publishedAt": "2026-11-13"
+      "title": "マスク氏、衛星10万基で海底ケーブルに対抗と発言",
+      "summary": "マスク氏はXで、将来のスターリンクV4衛星を約10万基打ち上げれば、国際通信を担う海底ケーブルと競争できるとの見方を示した。今回のStarshipで加わった容量は全体から見ればまだ小さいとも述べ、衛星の大半は次世代型になるとした。",
+      "point": "スターリンクを家庭向け通信から国際通信の基幹網へ広げる構想で、Starshipの量産打ち上げが前提になる。",
+      "source": "Wccftech（マスク氏のX投稿をもとに報道）",
+      "url": "https://wccftech.com/elon-musk-believes-spacexs-100000-v4-starlink-satellites-are-enough-to-outcompete-undersea-cables-as-iran-linked-ships-seen-lingering-over-such-cables-in-the-gulf-of-oman/",
+      "publishedAt": "2026-11-14"
     }
   ]
 }
