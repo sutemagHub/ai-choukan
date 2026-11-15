@@ -1,51 +1,51 @@
 {
-  "date": "2026-11-15",
-  "issuedAt": "2026-11-15T05:46:47+09:00",
-  "overview": "土曜の朝は大きな新製品発表が少なく、Anthropicの上場条件とOpenAIの音声機能の切り替えなど、すでに動いている話の具体像が見えてきました。国内では、生成AIによる声や肖像の無断利用を不正競争防止法で規制する案が示されたと報じられています。けさは確認できた記事だけに絞った小さめの号です。",
+  "date": "2026-11-16",
+  "issuedAt": "2026-11-16T05:55:00+09:00",
+  "overview": "日曜から月曜にかけては大きな新製品の発表が見当たらず、Anthropicの上場の段取りと、日本政府による高性能AI規制の検討という、制度やお金の話が中心です。裏取りできた記事だけに絞った小さめの号で、前日までに載せた話題は省いています。",
   "items": [
     {
-      "id": "anthropic-ipo-valuation",
+      "id": "anthropic-ipo-schedule",
       "importance": 3,
       "category": "ビジネス",
-      "title": "Anthropic上場、価格帯70〜78ドルで評価額は最大1.4兆ドル規模",
-      "summary": "Anthropicは修正された目論見書で、Class A株8億2500万株を1株70〜78ドルで売り出し、Nasdaqにティッカー「ANT」で上場する条件を示しました。基本株数ベースの評価額は約9160億〜1兆200億ドル、希薄化後では最大約1.41兆ドルと報じられています。別に260億ドルの私募増資も組まれ、価格決定は18日、取引開始は19日とされています。",
-      "point": "評価額は株数の数え方で大きく変わります。一部報道が伝えた「約8億6700万株・70〜80ドル」という条件は、同社が不正確だと説明しています。",
-      "source": "The Motley Fool ほか",
-      "url": "https://www.fool.com/investing/2026/11/13/anthropic-set-its-ipo-price-range-at-70-to-78-valuing-it-at-up-to-1405-trillion/",
-      "publishedAt": "2026-11-13"
-    },
-    {
-      "id": "chatgpt-voice-retire",
-      "importance": 2,
-      "category": "プロダクト",
-      "title": "ChatGPT、旧音声モードを12月11日に終了　GPT-Liveに一本化",
-      "summary": "OpenAIは、ChatGPTの「Advanced Voice」と「Standard Voice」を12月11日に終了し、7月に始めた新しい音声モデルGPT-Liveを標準にすると案内しました。11月10日から利用者への通知が始まっています。過去の会話履歴は残り、テキストでも音声でも続けられます。",
-      "point": "動画や画面共有を伴う音声は、GPT-Liveが未対応のため当面は旧方式のままです。切り替え時期は示されていません。",
-      "source": "OpenAI ヘルプセンター",
-      "url": "https://help.openai.com/en/articles/20001638",
+      "title": "Anthropic上場、18日に価格決定・19日取引開始の見通し",
+      "summary": "Anthropicは11月10日の修正届出書で、Class A株8億2500万株を70〜78ドルで売り出す計画を示しました。これとは別に、チップやクラウドの供給元向けに約260億ドルのClass N株を公募価格で割り当てる枠も出ています。報道では、価格決定は18日、Nasdaqでの取引開始は19日（ティッカーはANT）とされ、最終価格は未確定です。",
+      "point": "AI専業企業としては前例のない規模の上場で、供給元が株主にも回る構図が見えてきました。日程は報道ベースなので、確定情報を待つ必要があります。",
+      "source": "Let's Data Science ほか",
+      "url": "https://letsdatascience.com/news/anthropic-sets-ipo-range-and-adds-26-billion-private-placeme-f6c67619",
       "publishedAt": "2026-11-10"
     },
     {
-      "id": "meti-voice-likeness",
-      "importance": 2,
+      "id": "japan-high-risk-ai-penalties",
+      "importance": 3,
       "category": "国内",
-      "title": "生成AIによる声や肖像の無断利用、不正競争防止法での規制案",
-      "summary": "読売新聞の報道によると、経済産業省は13日、生成AIで他人の声や肖像を無断で使う行為を防ぐため、不正競争防止法で新たに規制する行為の具体案を有識者会議に示しました。AIで本人そっくりの声を作って歌わせる投稿などが問題になっています。",
-      "point": "私は報道の要旨のみを確認しており、規制対象の細かな範囲や施行時期は確認できていません。",
-      "source": "読売新聞（Yahoo!ニュース）",
-      "url": "https://news.yahoo.co.jp/pickup/6602494",
-      "publishedAt": "2026-11-13"
+      "title": "政府、高性能AIの安全確保を義務化し罰則新設へ検討",
+      "summary": "共同通信などによると、政府は高性能AIが起こしうるサイバー攻撃への悪用や暴走に備え、関連事業者に安全確保を義務づけ、罰則を新設する方向で検討に入りました。協議に応じない悪質な事業者には、国が強制力のある命令を出す想定で、罰則は高性能AIの事案に絞る方向です。年内に法改正の全体像を示し、早ければ2027年の通常国会への法案提出を目指すとされます。",
+      "point": "2025年に成立したAI推進法には罰則がありませんでした。対象となる事業者の範囲はこれから詰める段階で、内容は変わる可能性があります。",
+      "source": "共同通信系報道",
+      "url": "https://www.kanaloco.jp/news/economy/article-1315521.html",
+      "publishedAt": "2026-11-11"
     },
     {
-      "id": "nvidia-8k-chair",
+      "id": "openai-business-hub",
+      "importance": 2,
+      "category": "プロダクト",
+      "title": "ChatGPTに企業向け「Business Hub」、ベータ開始",
+      "summary": "OpenAIは11月10日、企業がChatGPT上で自社のプロフィールを管理できるベータ機能を始めました。企業は商品データの接続や利用状況の集計の確認、顧客向けの「Business Agent」の作成ができます。13日に発表した、AIエージェントが代わりに買い物をするChatGPT Walletと並び、ChatGPTを商取引の入口にする動きが続いています。",
+      "point": "検索や広告に代わる、AI経由の集客窓口としての位置づけが強まっています。",
+      "source": "OpenAI ChatGPTリリースノート",
+      "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+      "publishedAt": "2026-11-10"
+    },
+    {
+      "id": "sakana-ai-own-model",
       "importance": 1,
-      "category": "ビジネス",
-      "title": "NVIDIA、フアン氏辞任の届け出で初の取締役会議長を指名",
-      "summary": "NVIDIAが米SECに出した11月12日付の届け出書によると、フアン氏は社長・CEO・取締役を即時退任し、CFOのクレス氏が暫定CEOを兼務します。ハーベイ・ジョーンズ氏が同社初の取締役会議長となり、取締役会は社内外から後任CEOを探します。",
+      "category": "国内",
+      "title": "サカナAI、事前学習から手がける国産モデルの開発に着手",
+      "summary": "日本経済新聞によると、サカナAIは自社で事前学習から行う生成AIモデルの開発に着手しました。防衛やサイバー防御での利用を見込み、米中への依存リスクを避ける狙いです。小規模モデルを2027年春に公開する計画とされています。",
       "point": "",
-      "source": "SEC（NVIDIA 8-K）",
-      "url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000082/nvidiaannouncesceotransiti.htm",
-      "publishedAt": "2026-11-12"
+      "source": "日本経済新聞",
+      "url": "https://www.nikkei.com/article/DGXZQOUC261H80W6A021C2000000/",
+      "publishedAt": "2026-10-26"
     }
   ]
 }
