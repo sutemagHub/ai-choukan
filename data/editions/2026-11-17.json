@@ -1,0 +1,95 @@
+{
+  "date": "2026-11-17",
+  "issuedAt": "2026-11-17T05:46:47+09:00",
+  "overview": "週明けは米国の動きが中心です。商務省が海外データセンター経由の先端AIチップ利用を規制し、政権はNVIDIAやOpenAIなどをAI輸出の「国家代表企業」に指定する計画と報じられました。NVIDIAではフアン氏の復帰をめぐる駆け引きが続き、OpenAIは児童保護のための検出AIを業界に開放しています。",
+  "items": [
+    {
+      "id": "us-chip-remote-access-rule",
+      "importance": 3,
+      "category": "政策",
+      "title": "米商務省、海外データセンター経由のAIチップ利用に規制",
+      "summary": "米商務省産業安全保障局（BIS）は16日、中国企業などが第三国のデータセンターを通じて米国製の先端AIチップの計算能力を使う「抜け道」をふさぐ暫定最終規則を出した。シンガポール、マレーシア、タイ、インドネシア、ブラジルの5か国向けの先端半導体の輸出・再輸出に許可を求める。米国に本社を置く企業向けは報告を条件に対象外で、施行は90日後。",
+      "point": "NVIDIAをめぐる不祥事を受けた措置で、東南アジアで急増するAIデータセンター投資やクラウド事業者の顧客選別に直接響く。",
+      "source": "Euronews / Bloomberg",
+      "url": "https://www.euronews.com/2026/11/16/us-clamps-down-on-chip-loophole-in-foreign-access-to-advanced-ai-chips",
+      "publishedAt": "2026-11-16"
+    },
+    {
+      "id": "us-ai-national-champions",
+      "importance": 2,
+      "category": "政策",
+      "title": "米政権、NVIDIAやOpenAIなどをAI「国家代表企業」に指定へ",
+      "summary": "米ウォール・ストリート・ジャーナルによると、トランプ政権はNVIDIA、OpenAI、Anthropic、Microsoft、Amazonなど20社超をAIの「ナショナル・チャンピオン」に指定する計画。米国製のチップやモデルを束ねて海外に売り込む輸出振興策の一環で、輸出許可の迅速化や政府融資などの支援が受けられる。ラトニック商務長官が近く発表する見通しだが、時期は変わりうる。",
+      "point": "中国勢との海外市場競争を国が後押しする枠組みで、不祥事渦中のNVIDIAが含まれる点にも注目が集まる。",
+      "source": "Forbes（WSJ報道を引用）",
+      "url": "https://www.forbes.com/sites/siladityaray/2026/11/16/scandal-hit-nvidia-among-trumps-planned-ai-national-champions-report-says/",
+      "publishedAt": "2026-11-16"
+    },
+    {
+      "id": "nvidia-board-huang-return",
+      "importance": 2,
+      "category": "ビジネス",
+      "title": "NVIDIA取締役会、フアン氏のCEO復帰は検討せず",
+      "summary": "CNBCは関係者の話として、NVIDIAの取締役会がジェンスン・フアン氏のCEO復帰を検討していないと報じた。一方でトランプ大統領は復帰しても「構わない」と述べ、国家安全保障上の問題はなかったとの認識を示した。復帰を求める署名は16万件を超え、大株主も幅広い選択肢の検討を求めている。",
+      "point": "AI半導体の最大手の経営体制が定まらない状態が続き、株式市場やAI投資全体の不透明感につながっている。",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/16/nvidia-ceo-jensen-huang.html",
+      "publishedAt": "2026-11-16"
+    },
+    {
+      "id": "openai-csam-classifier",
+      "importance": 2,
+      "category": "安全性",
+      "title": "OpenAI、児童性的虐待画像の検出AIを無償提供",
+      "summary": "OpenAIは米国の行方不明・被搾取児童センター（NCMEC）と共同で開発した、児童性的虐待画像を見つける画像分類器を発表した。審査を通った組織にAPI経由で無料で提供し、AI生成画像の疑いも別の指標で示す。あわせてChatGPTで子どもを性的に扱う内容を作ろうとする利用者への警告や一時停止も導入する。",
+      "point": "生成AIによる虐待画像の増加が社会問題になる中、大手が検出技術を業界に開放する動きとして意味がある。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/16/openai-releases-a-new-image-classifier-and-chatgpt-warnings-to-combat-csam/",
+      "publishedAt": "2026-11-16"
+    },
+    {
+      "id": "noeri-110m",
+      "importance": 2,
+      "category": "ビジネス",
+      "title": "スタンフォード教授らの新AI企業Noeri、1.1億ドル調達",
+      "summary": "スタンフォード大のイェジン・チェ教授とカルロス・ゲストリン教授が創業したNoeriが、Menlo Ventures主導で1億1000万ドルを調達して始動した。NVIDIA、Cisco、Snowflakeも出資。導入後も実際の業務や失敗から学び続け、企業が自前で持てるAIの構築を支援するという。評価額は非公表。",
+      "point": "少数の大手がモデルを握る構図に対し、企業ごとに「自分のAI」を育てる方向に大型の資金が集まっている。",
+      "source": "GeekWire",
+      "url": "https://www.geekwire.com/2026/former-uw-ai-researchers-yejin-choi-and-carlos-guestrin-raise-110m-for-ai-startup-noeri/",
+      "publishedAt": "2026-11-16"
+    },
+    {
+      "id": "adachi-assembly-ai-guard",
+      "importance": 2,
+      "category": "国内",
+      "title": "足立区の議会答弁AI、自信がなければ「分かりません」",
+      "summary": "東京都足立区が富士通Japanとの実証で開発した議会答弁AIについて、ITmediaが詳しく伝えた。参照する情報を最新のものに絞り、推測では答えさせず、確度が低いときは「分かりません」と返す制約をかけている。出力は職員が確かめるたたき台にとどめ、そのまま外部には出さない運用だ。",
+      "point": "誤った情報が住民の生活に響く行政で、もっともらしい誤答をどう防ぐかの具体例として参考になる。",
+      "source": "ITmedia AI＋",
+      "url": "https://www.itmedia.co.jp/aiplus/article/2611/16/2000003196/",
+      "publishedAt": "2026-11-16"
+    },
+    {
+      "id": "wh-ai-incident-liability",
+      "importance": 1,
+      "category": "政策",
+      "title": "米政権のAI作業部会、事故報告した企業の責任軽減を提言",
+      "summary": "ホワイトハウスのAI作業部会は、AIに関わるサイバー事故を自主的に報告した企業について、各省庁が少なくとも12か月は規制上の責任を緩めるよう提言した。報告を促すねらいで、拘束力はまだない。",
+      "point": "",
+      "source": "Carrier Management",
+      "url": "https://www.carriermanagement.com/news/2026/11/16/294174.htm",
+      "publishedAt": "2026-11-16"
+    },
+    {
+      "id": "ai-counterintelligence-hiring",
+      "importance": 1,
+      "category": "安全性",
+      "title": "AI企業で防諜人材の採用が急増、Anthropicは33人",
+      "summary": "Fortuneによると、技術流出への警戒からAI企業がカウンターインテリジェンス（防諜）人材の採用を増やしている。Revelio Labsのデータでは、Anthropicは2026年に33人と前年の14人から倍増し、OpenAIも22人に増えた。",
+      "point": "",
+      "source": "Fortune",
+      "url": "https://fortune.com/2026/11/14/ai-industrial-espionage-counterintelligence-jobs-china-spying-nvidia-jensen-huang-pentagon-economic-warfare/",
+      "publishedAt": "2026-11-14"
+    }
+  ]
+}
