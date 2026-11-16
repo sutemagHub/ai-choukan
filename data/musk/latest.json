@@ -1,73 +1,51 @@
 {
-  "date": "2026-11-15",
-  "issuedAt": "2026-11-15T11:16:22+09:00",
-  "overview": "スペースXは日本時間15日朝、軌道から戻ったStarshipの船体を発射塔のアームで捕まえることに初めて成功し、完全再使用に向けて大きく前進しました。一方、ブースターは帰還中にエンジンが早く止まり回収できず、原因を調べています。ほかにウクライナでのStarshield速度制限をめぐる問題や、大株主ファウンダーズ・ファンドの保有株の減少も伝えられました。",
+  "date": "2026-11-16",
+  "issuedAt": "2026-11-16T11:16:20+09:00",
+  "overview": "Starshipの船体キャッチ成功を受け、スペースXは上下2段の同時回収を運用の標準にする方針で、次は軌道上での推進剤移送が焦点になります。競合のアマゾンは打ち上げ異常で衛星40基を失いました。マスク氏には、ウクライナでのStarlink制限をめぐり米上院議員が記録保全を求めています。",
   "items": [
     {
-      "id": "starship-ship-catch-first",
+      "id": "starship-double-catch-plan",
       "importance": 3,
       "category": "スペースX",
-      "title": "Starship船体、軌道から戻り発射塔で初キャッチ",
-      "summary": "Starship 15回目の飛行で、船体（Ship 42）が約22時間半かけて地球を14周したのち、米東部時間14日午後4時20分（日本時間15日6時20分）にテキサス州スターベースの発射塔のアームで捕まえられた。軌道から戻った船体の回収は初めて。熱シールドなどの機体の状態も良好だったという。",
-      "point": "上段を発射場で回収できたことで、上下2段とも使い回す完全再使用が現実味を帯びた。打ち上げコストの大幅な引き下げや月・火星計画の前提となる技術。",
-      "source": "SpacePolicyOnline",
-      "url": "https://spacepolicyonline.com/news/spacex-catches-a-starship/",
-      "publishedAt": "2026-11-14"
-    },
-    {
-      "id": "booster-engine-cutoff",
-      "importance": 2,
-      "category": "スペースX",
-      "title": "ブースター回収断念、帰還中にエンジンが早期停止",
-      "summary": "13日の打ち上げ後、ブースター（Super Heavy）は発射塔での回収ができなかった。スペースXの担当者は、帰還の途中でエンジンが予定より早く止まったと説明し、誘導システムが自動で行き先をメキシコ湾に切り替えたとしている。根本原因は調査中。",
-      "point": "上下2段の同時回収はかなわず、ブースター側の原因究明が次の飛行の時期を左右しうる。",
-      "source": "アルジャジーラ（AP・ロイター配信）",
-      "url": "https://www.aljazeera.com/news/2026/11/15/spacexs-starship-captured-by-launchpad-arms-in-dramatic-first",
+      "title": "Starship、上下2段の回収を運用の標準に",
+      "summary": "船体の初キャッチを受け、スペースXは今後の運用ミッションでブースターと船体の両方を発射塔で回収し、点検・整備して再飛行させる方針を示しました。次回試験では2段同時の回収に挑む見通しです。一方、船体はまだ再飛行の実績がなく、ブースターは過去に2機が再使用されています。",
+      "point": "両段の完全再使用が実現すれば打ち上げ費用が大きく下がり、マスク氏が掲げる年間1万回規模の打ち上げ構想の前提になります。",
+      "source": "Space.com",
+      "url": "https://www.space.com/space-exploration/launches-spacecraft/whats-next-for-spacexs-starship-after-epic-flight-15-chopsticks-catch",
       "publishedAt": "2026-11-15"
     },
     {
-      "id": "starshield-ukraine-limits",
+      "id": "amazon-leo-vulcan-loss",
       "importance": 2,
       "category": "スペースX",
-      "title": "ウクライナ、Starshieldの速度制限が再発と訴え",
-      "summary": "ゼレンスキー大統領は12日、軍用版スターリンクのStarshieldで、利用中の移動速度を時速約160キロに抑える制限が再び始まり、ロシアの無人機の迎撃に支障が出ていると述べた。10月にも同様の制限があり、その後解除されていた。マスク氏はXで、Starshieldは米政府が所有・管理していると投稿している。",
-      "point": "米政府・スペースXのどちらも責任を認めておらず、契約の扱いや議会の調査などに発展する可能性がある。",
-      "source": "ユーロニュース",
-      "url": "https://www.euronews.com/2026/11/12/zelenskyy-starlink-again-facing-restrictions-in-ukraine-hampering-russian-drone-intercepti",
-      "publishedAt": "2026-11-12"
+      "title": "競合アマゾン、打ち上げ異常で衛星40基を失う",
+      "summary": "ULAのVulcanロケットが15日にフロリダから打ち上げられましたが、離昇から約10分後に異常が起き、アマゾンの衛星通信サービス「Amazon Leo」の衛星40基を軌道に投入できませんでした。同社にとって過去最大の一括打ち上げでした。原因は明らかになっていません。",
+      "point": "もう一つの打ち上げ手段であるブルーオリジンのNew Glennも5月の爆発以来止まっており、Starlinkを追うアマゾンの衛星網の整備がさらに遅れる可能性があります。",
+      "source": "AFP（AFPBB News）",
+      "url": "https://www.afpbb.com/articles/-/3662509",
+      "publishedAt": "2026-11-16"
     },
     {
-      "id": "founders-fund-stake-down",
-      "importance": 2,
-      "category": "スペースX",
-      "title": "ファウンダーズ・ファンドのスペースX株、約1.1億株減少",
-      "summary": "13日夜に提出された届け出によると、ピーター・ティール氏と同氏のファウンダーズ・ファンドが持つスペースXのクラスA株は、6月末から9月末までに約1億1300万株減り、約3億1400万株になった。9月末の株価で約170億ドル相当。売却か出資者への分配かは示されていない。",
-      "point": "上場前からの大株主が持ち分を大きく減らしたことが分かり、株価への影響が注目される。",
-      "source": "24/7 Wall St.（Yahoo!ファイナンス配信）",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/17-billion-spacex-stock-left-145347985.html",
-      "publishedAt": "2026-11-14"
-    },
-    {
-      "id": "united-starlink-half",
+      "id": "starship-refueling-artemis",
       "importance": 1,
       "category": "スペースX",
-      "title": "ユナイテッド航空、毎日の便の半数超でStarlink Wi-Fi",
-      "summary": "ユナイテッド航空は12日、スターリンクの機内Wi-Fiが1日の便の半数以上で使えるようになったと発表した。年末には約64%に広げ、2027年末までに全機への搭載を終える計画。会員は無料で使える。",
+      "title": "次の焦点は推進剤移送、月着陸船の居住区試作も",
+      "summary": "月や深宇宙に向かうには、地球周回軌道でタンカー役の船体から燃料を補給する必要がありますが、まだ実証されていません。最初の補給試験は近く行われる見通しです。NASAの資料では、有人月着陸船の地上試作居住区「Cabin 1」は2026年末までに完成する予定です。",
       "point": "",
-      "source": "Travelers Today",
-      "url": "https://www.travelerstoday.com/articles/61258/20261114/united-says-starlink-wi-fi-now-reaches-more-half-its-daily-flights-ahead-thanksgiving-travel-rush.htm",
-      "publishedAt": "2026-11-14"
+      "source": "Space.com",
+      "url": "https://www.space.com/space-exploration/launches-spacecraft/whats-next-for-spacexs-starship-after-epic-flight-15-chopsticks-catch",
+      "publishedAt": "2026-11-15"
     },
     {
-      "id": "musk-v4-undersea-cables",
-      "importance": 2,
+      "id": "senators-starlink-ukraine-records",
+      "importance": 3,
       "category": "イーロン・マスク",
-      "title": "マスク氏、衛星10万基で海底ケーブルに対抗と発言",
-      "summary": "マスク氏はXで、将来のスターリンクV4衛星を約10万基打ち上げれば、国際通信を担う海底ケーブルと競争できるとの見方を示した。今回のStarshipで加わった容量は全体から見ればまだ小さいとも述べ、衛星の大半は次世代型になるとした。",
-      "point": "スターリンクを家庭向け通信から国際通信の基幹網へ広げる構想で、Starshipの量産打ち上げが前提になる。",
-      "source": "Wccftech（マスク氏のX投稿をもとに報道）",
-      "url": "https://wccftech.com/elon-musk-believes-spacexs-100000-v4-starlink-satellites-are-enough-to-outcompete-undersea-cables-as-iran-linked-ships-seen-lingering-over-such-cables-in-the-gulf-of-oman/",
-      "publishedAt": "2026-11-14"
+      "title": "米上院議員2人、マスク氏にウクライナ関連記録の保全要求",
+      "summary": "上院外交委員会のシャヒーン筆頭理事とクーンズ議員は、ウクライナでのStarlinkとStarshieldの利用制限について、9月以降の契約、ネットワーク記録、ホワイトハウスや国防総省とのやり取りなどを保全するようマスク氏に書簡で求めました。10月13〜24日と11月12日の障害も挙げ、誰が制限を承認したかなどを11月30日までに答えるよう求めています。",
+      "point": "民主党議員による調査の前段とみられ、スペースXの通信サービスの運用判断に議会の監視が及ぶ可能性があります。",
+      "source": "米上院外交委員会（民主党）",
+      "url": "https://www.foreign.senate.gov/press/dem/release/ranking-member-shaheen-senator-coons-demand-elon-musk-preserve-documents-regarding-ukraines-access-to-starlink-and-starshield",
+      "publishedAt": "2026-11-13"
     }
   ]
 }

@@ -1,0 +1,51 @@
+{
+  "date": "2026-11-16",
+  "issuedAt": "2026-11-16T11:16:20+09:00",
+  "overview": "Starshipの船体キャッチ成功を受け、スペースXは上下2段の同時回収を運用の標準にする方針で、次は軌道上での推進剤移送が焦点になります。競合のアマゾンは打ち上げ異常で衛星40基を失いました。マスク氏には、ウクライナでのStarlink制限をめぐり米上院議員が記録保全を求めています。",
+  "items": [
+    {
+      "id": "starship-double-catch-plan",
+      "importance": 3,
+      "category": "スペースX",
+      "title": "Starship、上下2段の回収を運用の標準に",
+      "summary": "船体の初キャッチを受け、スペースXは今後の運用ミッションでブースターと船体の両方を発射塔で回収し、点検・整備して再飛行させる方針を示しました。次回試験では2段同時の回収に挑む見通しです。一方、船体はまだ再飛行の実績がなく、ブースターは過去に2機が再使用されています。",
+      "point": "両段の完全再使用が実現すれば打ち上げ費用が大きく下がり、マスク氏が掲げる年間1万回規模の打ち上げ構想の前提になります。",
+      "source": "Space.com",
+      "url": "https://www.space.com/space-exploration/launches-spacecraft/whats-next-for-spacexs-starship-after-epic-flight-15-chopsticks-catch",
+      "publishedAt": "2026-11-15"
+    },
+    {
+      "id": "amazon-leo-vulcan-loss",
+      "importance": 2,
+      "category": "スペースX",
+      "title": "競合アマゾン、打ち上げ異常で衛星40基を失う",
+      "summary": "ULAのVulcanロケットが15日にフロリダから打ち上げられましたが、離昇から約10分後に異常が起き、アマゾンの衛星通信サービス「Amazon Leo」の衛星40基を軌道に投入できませんでした。同社にとって過去最大の一括打ち上げでした。原因は明らかになっていません。",
+      "point": "もう一つの打ち上げ手段であるブルーオリジンのNew Glennも5月の爆発以来止まっており、Starlinkを追うアマゾンの衛星網の整備がさらに遅れる可能性があります。",
+      "source": "AFP（AFPBB News）",
+      "url": "https://www.afpbb.com/articles/-/3662509",
+      "publishedAt": "2026-11-16"
+    },
+    {
+      "id": "starship-refueling-artemis",
+      "importance": 1,
+      "category": "スペースX",
+      "title": "次の焦点は推進剤移送、月着陸船の居住区試作も",
+      "summary": "月や深宇宙に向かうには、地球周回軌道でタンカー役の船体から燃料を補給する必要がありますが、まだ実証されていません。最初の補給試験は近く行われる見通しです。NASAの資料では、有人月着陸船の地上試作居住区「Cabin 1」は2026年末までに完成する予定です。",
+      "point": "",
+      "source": "Space.com",
+      "url": "https://www.space.com/space-exploration/launches-spacecraft/whats-next-for-spacexs-starship-after-epic-flight-15-chopsticks-catch",
+      "publishedAt": "2026-11-15"
+    },
+    {
+      "id": "senators-starlink-ukraine-records",
+      "importance": 3,
+      "category": "イーロン・マスク",
+      "title": "米上院議員2人、マスク氏にウクライナ関連記録の保全要求",
+      "summary": "上院外交委員会のシャヒーン筆頭理事とクーンズ議員は、ウクライナでのStarlinkとStarshieldの利用制限について、9月以降の契約、ネットワーク記録、ホワイトハウスや国防総省とのやり取りなどを保全するようマスク氏に書簡で求めました。10月13〜24日と11月12日の障害も挙げ、誰が制限を承認したかなどを11月30日までに答えるよう求めています。",
+      "point": "民主党議員による調査の前段とみられ、スペースXの通信サービスの運用判断に議会の監視が及ぶ可能性があります。",
+      "source": "米上院外交委員会（民主党）",
+      "url": "https://www.foreign.senate.gov/press/dem/release/ranking-member-shaheen-senator-coons-demand-elon-musk-preserve-documents-regarding-ukraines-access-to-starlink-and-starshield",
+      "publishedAt": "2026-11-13"
+    }
+  ]
+}
