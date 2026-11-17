@@ -1,0 +1,62 @@
+{
+  "date": "2026-11-17",
+  "issuedAt": "2026-11-17T11:16:02+09:00",
+  "overview": "Starship船体キャッチ成功から一夜明けた週明けの市場では、シティが目標株価を引き上げた一方でスペースX株は小幅安となりました。ウクライナでのStarshield速度制限について、スペースXは「技術的な問題」と説明したと伝えられています。マスク氏関連では、テスラとの合併をめぐり個人投資家の見方が割れています。",
+  "items": [
+    {
+      "id": "citi-target-280",
+      "importance": 3,
+      "category": "スペースX",
+      "title": "シティ、目標株価280ドルに上げ　株価は小幅安",
+      "summary": "シティはStarship船体の発射塔キャッチ成功を受け、スペースXの目標株価を240ドルから280ドルに引き上げました。ただし16日の株価は一時1.9%安の136ドル台で推移しました。エバコアISIのアナリストは、同社は本質的にロケットメーカーだと指摘しています。",
+      "point": "上場後の株価は伸び悩んでおり、技術的な成果がどこまで評価に結びつくかが注目されます。",
+      "source": "FinanceFeeds / Yahoo Finance",
+      "url": "https://financefeeds.com/spacex-stock-falls-1-9-as-citi-raises-target-to-280-after-starship-catch/",
+      "publishedAt": "2026-11-16"
+    },
+    {
+      "id": "starshield-technical-issue",
+      "importance": 2,
+      "category": "スペースX",
+      "title": "Starshield速度制限、スペースXは「技術的な問題」と説明",
+      "summary": "在米ウクライナ大使館の代理大使によると、スペースXは5日間続くStarshieldの速度制限を技術的な問題によるものと説明しましたが、詳しい説明はないということです。ゼレンスキー大統領は、迎撃用ドローンが時速161キロを超えると通信が切れるとして、米国とマスク氏に制限の解除を求めました。",
+      "point": "10月に続く制限で、軍事利用される民間衛星網のあり方が改めて問われています。",
+      "source": "Meduza / Euronews",
+      "url": "https://meduza.io/en/news/2026/11/16/spacex-blames-technical-issue-for-starlink-speed-restrictions-in-ukraine",
+      "publishedAt": "2026-11-16"
+    },
+    {
+      "id": "ninth-circuit-arbitration",
+      "importance": 1,
+      "category": "スペースX",
+      "title": "元社員の報復解雇訴訟、仲裁でなく裁判で審理へ",
+      "summary": "米連邦第9巡回控訴裁判所は10日、セクハラを告発した後に解雇されたと訴える元社員8人について、仲裁を求めたスペースXの申し立てを2対1で退けた一審判断を支持しました。元社員側は、マスク氏のSNS投稿が社内の不適切な言動を助長したと主張しています。",
+      "point": "",
+      "source": "HR Dive",
+      "url": "https://www.hrdive.com/news/spacex-cant-force-retaliation-claim-into-arbitration-9th-circuit-holds/874759/",
+      "publishedAt": "2026-11-16"
+    },
+    {
+      "id": "merger-retail-split",
+      "importance": 3,
+      "category": "イーロン・マスク",
+      "title": "テスラとの合併、個人投資家の見方割れる",
+      "summary": "合併協議を受け、16日の時間外取引ではテスラ株が下げ、スペースX株は上げるなど値動きが分かれました。バークレイズはスペースXがテスラを株式交換で買収する形が有力とみています。マスク氏は協議を独立取締役が主導しており、テスラ発行済み株式の50%の賛成が必要だと説明しています。",
+      "point": "実現すれば時価総額約3.5兆ドルの企業となり、S&P500の組み入れなど市場への影響も大きくなります。",
+      "source": "Stocktwits（Yahoo Finance掲載）",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/tsla-spcx-diverge-overnight-retail-083147590.html",
+      "publishedAt": "2026-11-16"
+    },
+    {
+      "id": "musk-snl-sketch",
+      "importance": 1,
+      "category": "イーロン・マスク",
+      "title": "マスク氏、SNLの風刺コントに反応",
+      "summary": "米番組「サタデー・ナイト・ライブ」の冒頭コントでマスク氏らIT企業トップが風刺され、マスク氏はXで、面白いコントはごく一部だとする図を投稿しました。自身のものまねの出来は10点中5点程度と評価しています。",
+      "point": "",
+      "source": "Futurism",
+      "url": "https://futurism.com/future-society/elon-musk-snl-mad",
+      "publishedAt": "2026-11-16"
+    }
+  ]
+}

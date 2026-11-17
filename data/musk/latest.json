@@ -1,51 +1,62 @@
 {
-  "date": "2026-11-16",
-  "issuedAt": "2026-11-16T11:16:20+09:00",
-  "overview": "Starshipの船体キャッチ成功を受け、スペースXは上下2段の同時回収を運用の標準にする方針で、次は軌道上での推進剤移送が焦点になります。競合のアマゾンは打ち上げ異常で衛星40基を失いました。マスク氏には、ウクライナでのStarlink制限をめぐり米上院議員が記録保全を求めています。",
+  "date": "2026-11-17",
+  "issuedAt": "2026-11-17T11:16:02+09:00",
+  "overview": "Starship船体キャッチ成功から一夜明けた週明けの市場では、シティが目標株価を引き上げた一方でスペースX株は小幅安となりました。ウクライナでのStarshield速度制限について、スペースXは「技術的な問題」と説明したと伝えられています。マスク氏関連では、テスラとの合併をめぐり個人投資家の見方が割れています。",
   "items": [
     {
-      "id": "starship-double-catch-plan",
+      "id": "citi-target-280",
       "importance": 3,
       "category": "スペースX",
-      "title": "Starship、上下2段の回収を運用の標準に",
-      "summary": "船体の初キャッチを受け、スペースXは今後の運用ミッションでブースターと船体の両方を発射塔で回収し、点検・整備して再飛行させる方針を示しました。次回試験では2段同時の回収に挑む見通しです。一方、船体はまだ再飛行の実績がなく、ブースターは過去に2機が再使用されています。",
-      "point": "両段の完全再使用が実現すれば打ち上げ費用が大きく下がり、マスク氏が掲げる年間1万回規模の打ち上げ構想の前提になります。",
-      "source": "Space.com",
-      "url": "https://www.space.com/space-exploration/launches-spacecraft/whats-next-for-spacexs-starship-after-epic-flight-15-chopsticks-catch",
-      "publishedAt": "2026-11-15"
-    },
-    {
-      "id": "amazon-leo-vulcan-loss",
-      "importance": 2,
-      "category": "スペースX",
-      "title": "競合アマゾン、打ち上げ異常で衛星40基を失う",
-      "summary": "ULAのVulcanロケットが15日にフロリダから打ち上げられましたが、離昇から約10分後に異常が起き、アマゾンの衛星通信サービス「Amazon Leo」の衛星40基を軌道に投入できませんでした。同社にとって過去最大の一括打ち上げでした。原因は明らかになっていません。",
-      "point": "もう一つの打ち上げ手段であるブルーオリジンのNew Glennも5月の爆発以来止まっており、Starlinkを追うアマゾンの衛星網の整備がさらに遅れる可能性があります。",
-      "source": "AFP（AFPBB News）",
-      "url": "https://www.afpbb.com/articles/-/3662509",
+      "title": "シティ、目標株価280ドルに上げ　株価は小幅安",
+      "summary": "シティはStarship船体の発射塔キャッチ成功を受け、スペースXの目標株価を240ドルから280ドルに引き上げました。ただし16日の株価は一時1.9%安の136ドル台で推移しました。エバコアISIのアナリストは、同社は本質的にロケットメーカーだと指摘しています。",
+      "point": "上場後の株価は伸び悩んでおり、技術的な成果がどこまで評価に結びつくかが注目されます。",
+      "source": "FinanceFeeds / Yahoo Finance",
+      "url": "https://financefeeds.com/spacex-stock-falls-1-9-as-citi-raises-target-to-280-after-starship-catch/",
       "publishedAt": "2026-11-16"
     },
     {
-      "id": "starship-refueling-artemis",
-      "importance": 1,
+      "id": "starshield-technical-issue",
+      "importance": 2,
       "category": "スペースX",
-      "title": "次の焦点は推進剤移送、月着陸船の居住区試作も",
-      "summary": "月や深宇宙に向かうには、地球周回軌道でタンカー役の船体から燃料を補給する必要がありますが、まだ実証されていません。最初の補給試験は近く行われる見通しです。NASAの資料では、有人月着陸船の地上試作居住区「Cabin 1」は2026年末までに完成する予定です。",
-      "point": "",
-      "source": "Space.com",
-      "url": "https://www.space.com/space-exploration/launches-spacecraft/whats-next-for-spacexs-starship-after-epic-flight-15-chopsticks-catch",
-      "publishedAt": "2026-11-15"
+      "title": "Starshield速度制限、スペースXは「技術的な問題」と説明",
+      "summary": "在米ウクライナ大使館の代理大使によると、スペースXは5日間続くStarshieldの速度制限を技術的な問題によるものと説明しましたが、詳しい説明はないということです。ゼレンスキー大統領は、迎撃用ドローンが時速161キロを超えると通信が切れるとして、米国とマスク氏に制限の解除を求めました。",
+      "point": "10月に続く制限で、軍事利用される民間衛星網のあり方が改めて問われています。",
+      "source": "Meduza / Euronews",
+      "url": "https://meduza.io/en/news/2026/11/16/spacex-blames-technical-issue-for-starlink-speed-restrictions-in-ukraine",
+      "publishedAt": "2026-11-16"
     },
     {
-      "id": "senators-starlink-ukraine-records",
+      "id": "ninth-circuit-arbitration",
+      "importance": 1,
+      "category": "スペースX",
+      "title": "元社員の報復解雇訴訟、仲裁でなく裁判で審理へ",
+      "summary": "米連邦第9巡回控訴裁判所は10日、セクハラを告発した後に解雇されたと訴える元社員8人について、仲裁を求めたスペースXの申し立てを2対1で退けた一審判断を支持しました。元社員側は、マスク氏のSNS投稿が社内の不適切な言動を助長したと主張しています。",
+      "point": "",
+      "source": "HR Dive",
+      "url": "https://www.hrdive.com/news/spacex-cant-force-retaliation-claim-into-arbitration-9th-circuit-holds/874759/",
+      "publishedAt": "2026-11-16"
+    },
+    {
+      "id": "merger-retail-split",
       "importance": 3,
       "category": "イーロン・マスク",
-      "title": "米上院議員2人、マスク氏にウクライナ関連記録の保全要求",
-      "summary": "上院外交委員会のシャヒーン筆頭理事とクーンズ議員は、ウクライナでのStarlinkとStarshieldの利用制限について、9月以降の契約、ネットワーク記録、ホワイトハウスや国防総省とのやり取りなどを保全するようマスク氏に書簡で求めました。10月13〜24日と11月12日の障害も挙げ、誰が制限を承認したかなどを11月30日までに答えるよう求めています。",
-      "point": "民主党議員による調査の前段とみられ、スペースXの通信サービスの運用判断に議会の監視が及ぶ可能性があります。",
-      "source": "米上院外交委員会（民主党）",
-      "url": "https://www.foreign.senate.gov/press/dem/release/ranking-member-shaheen-senator-coons-demand-elon-musk-preserve-documents-regarding-ukraines-access-to-starlink-and-starshield",
-      "publishedAt": "2026-11-13"
+      "title": "テスラとの合併、個人投資家の見方割れる",
+      "summary": "合併協議を受け、16日の時間外取引ではテスラ株が下げ、スペースX株は上げるなど値動きが分かれました。バークレイズはスペースXがテスラを株式交換で買収する形が有力とみています。マスク氏は協議を独立取締役が主導しており、テスラ発行済み株式の50%の賛成が必要だと説明しています。",
+      "point": "実現すれば時価総額約3.5兆ドルの企業となり、S&P500の組み入れなど市場への影響も大きくなります。",
+      "source": "Stocktwits（Yahoo Finance掲載）",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/tsla-spcx-diverge-overnight-retail-083147590.html",
+      "publishedAt": "2026-11-16"
+    },
+    {
+      "id": "musk-snl-sketch",
+      "importance": 1,
+      "category": "イーロン・マスク",
+      "title": "マスク氏、SNLの風刺コントに反応",
+      "summary": "米番組「サタデー・ナイト・ライブ」の冒頭コントでマスク氏らIT企業トップが風刺され、マスク氏はXで、面白いコントはごく一部だとする図を投稿しました。自身のものまねの出来は10点中5点程度と評価しています。",
+      "point": "",
+      "source": "Futurism",
+      "url": "https://futurism.com/future-society/elon-musk-snl-mad",
+      "publishedAt": "2026-11-16"
     }
   ]
 }
