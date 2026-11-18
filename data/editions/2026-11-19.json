@@ -1,0 +1,62 @@
+{
+  "date": "2026-11-19",
+  "issuedAt": "2026-11-19T06:30:00+09:00",
+  "overview": "NVIDIAの決算は売上が前年の約2倍となり、AI投資の勢いを改めて示した。きょうはAnthropicがNasdaqに上場する予定で、需要過熱による増額の検討も伝えられている。Googleは電話や購入を代行するエージェント機能を広げた。（本日は確認できた記事が少なめの5本）",
+  "items": [
+    {
+      "id": "nvidia-q3-fy27",
+      "importance": 3,
+      "category": "ビジネス",
+      "title": "NVIDIA、7〜9月期売上は1158億ドルで2倍超に",
+      "summary": "NVIDIAが2027会計年度第3四半期の決算を公表した。売上高は1158億ドルで前年同期の約2倍、データセンター部門は約1076億ドルだった。次期の売上見通しは1300億ドル前後で、中国向けデータセンター売上は織り込んでいない。",
+      "point": "AI向け投資の勢いが続く一方、見通しから中国市場が外れ、輸出規制の影響が数字に表れ始めている。",
+      "source": "NVIDIA（プレスリリース）",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-third-quarter-fiscal-2027",
+      "publishedAt": "2026-11-17"
+    },
+    {
+      "id": "anthropic-ipo-upsize",
+      "importance": 3,
+      "category": "ビジネス",
+      "title": "Anthropic上場、需要過熱で売り出し増額を検討",
+      "summary": "Anthropicは825百万株を70〜78ドルで売り出す計画だが、投資家の需要が強く、増額を検討していると関係者の話として報じられた。価格は米国時間18日の取引終了後に決まり、19日にNasdaqで「ANT」として取引が始まる予定。ほかにGoogleやNVIDIAなど7社が260億ドル分の非議決権株を購入することで合意している。",
+      "point": "評価額が最大1.4兆ドル規模となる上場で、AI企業の資金調達の規模感を示す節目になる。",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/11/18/anthropic-ipo-ai-offering-price.html",
+      "publishedAt": "2026-11-18"
+    },
+    {
+      "id": "gemini-tasks-expand",
+      "importance": 2,
+      "category": "プロダクト",
+      "title": "Google、通話や購入を代行するGemini Tasksを拡大",
+      "summary": "Googleは、事業者への電話や予約、Google Payでの購入までAIが代行するGemini Tasksの提供範囲を広げた。新モデルGemini 4 Hydrogenを使う多数のユーザーに無料で開放するとTechCrunchが報じている。",
+      "point": "チャットで答えるだけでなく、実際の手続きまで任せるAIエージェントが一般向けに広がり始めている。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/17/google-expands-access-to-gemini-tasks-which-can-help-with-calls-purchases",
+      "publishedAt": "2026-11-17"
+    },
+    {
+      "id": "elevenlabs-kotoba",
+      "importance": 2,
+      "category": "国内",
+      "title": "ElevenLabs、日本語音声AIのKotobaを買収へ",
+      "summary": "音声AI大手のElevenLabsが、日本語音声に強いKotoba Technologiesの買収で合意した。日本での初の買収で、従業員15人が合流する。完了は2026年第4四半期中の見込み。買収額は1億ドル超と報じられているが、公式には確認できていない。",
+      "point": "日本語の音声認識・合成・同時通訳の技術が海外大手に取り込まれる動きとして注目される。",
+      "source": "ElevenLabs（公式ブログ）",
+      "url": "https://elevenlabs.io/blog/kotoba",
+      "publishedAt": "2026-11-16"
+    },
+    {
+      "id": "california-ai-safety-next",
+      "importance": 1,
+      "category": "政策",
+      "title": "カリフォルニア州、AI安全基準の次の段階を公表",
+      "summary": "ニューサム知事の事務所は、州のAI安全枠組みを強化する次の措置として、義務的な安全基準と監督の進め方を発表した。詳細は公式ページで確認が必要。",
+      "point": "",
+      "source": "カリフォルニア州知事室",
+      "url": "https://www.gov.ca.gov/2026/11/18/governor-newsoms-nation-leading-ai-safety-framework-is-getting-even-stronger-as-california-releases-next-steps-on-mandatory-safety-standards-and-oversight/",
+      "publishedAt": "2026-11-18"
+    }
+  ]
+}
