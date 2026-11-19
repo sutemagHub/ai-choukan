@@ -1,62 +1,62 @@
 {
-  "date": "2026-11-18",
-  "issuedAt": "2026-11-18T11:16:02+09:00",
-  "overview": "スペースXはAI計算基盤の資金調達で社債発行が近いと報じられ、株価が反発しました。大口投資家の保有報告ではエヌビディアが最大の株主級に。マスク氏は訪中を明らかにし、FAAの大規模障害をめぐって無償Starlinkの申し出を断られていたと投稿しました。",
+  "date": "2026-11-19",
+  "issuedAt": "2026-11-19T11:21:02+09:00",
+  "overview": "スペースXのジョンセンCFOが、2027年にも世界有数のAI計算基盤の事業者になり得ると語り、株価は上場時の価格を上回る水準を保ちました。マスク氏はDealBookサミットでエヌビディアのフアン前CEOの解任を批判し、APEC首脳会議が開かれる深圳に米代表団の一員として入りました。",
   "items": [
     {
-      "id": "spacex-4b-bond-ai-chips",
+      "id": "cfo-ai-infrastructure-2027",
       "importance": 3,
       "category": "スペースX",
-      "title": "AI半導体向けに40億ドルの社債発行へと報道、株価3%高",
-      "summary": "ブルームバーグによると、スペースXは今週にも約40億ドルの社債を売り出す見通し。10月に発表した、エヌビディアの次世代チップ購入に充てる総額400億ドルの資金調達計画の一部とされる。報道を受け17日の株価は約3%上昇した。会社側はコメントしていない。",
-      "point": "チップは特別目的会社が購入して5年間リースする仕組みとされ、AI計算基盤の拡大を負債を抱えずに進められるかが焦点になる。",
-      "source": "24/7 Wall St.（ブルームバーグ報道を引用）",
-      "url": "https://247wallst.com/investing/2026/11/17/spacex-rises-3-on-report-of-4-billion-bond-sale-to-fund-nvidia-chips-rocket-lab-falls-3-ast-spacemobile-slides-2/",
+      "title": "CFO、2027年にもAI計算基盤の大手にと発言",
+      "summary": "ブレット・ジョンセンCFOは17日、オースティンでの会合で、Starshipで打ち上げる太陽光発電の計算衛星を2027年に初投入し、2029年に本格的な能力を持たせる構想を説明した。資金の多くは事業収益でまかなえるとし、計算契約の多くは1年以内に投資を回収できると述べた。同日の株価は約3.2%高の141.70ドルで引けた。",
+      "point": "巨額の設備投資を借り入れに頼りすぎずに進められるかが、上場後の投資家の最大の関心事になっている。",
+      "source": "Gotrade（BeInCrypto・Stocktwitsの報道を引用）",
+      "url": "https://www.heygotrade.com/en/news/spacex-spcx-stock-news-november-18-2026/",
+      "publishedAt": "2026-11-18"
+    },
+    {
+      "id": "q4-capex-customer-concentration",
+      "importance": 2,
+      "category": "スペースX",
+      "title": "10〜12月の設備投資は350億〜400億ドル見込み",
+      "summary": "報道によると、スペースXは10〜12月期の設備投資を350億〜400億ドルと見込む。最新の開示書類では、匿名の「顧客B」が7〜9月期売上高の34.5%（約50億ドル）を占めた。ブルームバーグはこの顧客をアンソロピックと報じたが、会社は正式に認めていない。CFOは計算契約の多くが90日前の通知で解約できると説明した。",
+      "point": "AI計算事業の売上が特定の顧客に集中しており、契約条件と合わせてリスク要因として注目される。",
+      "source": "Gotrade（BeInCrypto報道を引用）",
+      "url": "https://www.heygotrade.com/en/news/spacex-spcx-stock-news-november-18-2026/",
+      "publishedAt": "2026-11-18"
+    },
+    {
+      "id": "nssl-contract-modifications",
+      "importance": 1,
+      "category": "スペースX",
+      "title": "米宇宙軍の打ち上げ契約、3社で上限9.85億ドルに変更",
+      "summary": "米宇宙軍の宇宙システム軍団は、国家安全保障打ち上げ（NSSL）フェーズ3レーン2の契約を、スペースX、ULA、ブルーオリジンの3社分あわせて上限9億8500万ドルに変更した。金額は支払い額ではなく上限で、作業は2033年4月まで続く。",
+      "point": "",
+      "source": "Gotrade（ClearanceJobs報道を引用）",
+      "url": "https://www.heygotrade.com/en/news/spacex-spcx-stock-news-november-18-2026/",
       "publishedAt": "2026-11-17"
     },
     {
-      "id": "nvidia-largest-holding-13f",
-      "importance": 2,
-      "category": "スペースX",
-      "title": "エヌビディアの最大保有銘柄に　著名投資家も買い増し",
-      "summary": "7〜9月期の保有報告（13F）で、エヌビディアのスペースX株は約1億3047万株に増え、インテルを抜いて最大の保有銘柄になった。テッパー氏のアパルーサは保有を約17倍に、ドラッケンミラー氏のデュケーヌは新たに購入した。一方シタデルは保有の95%を売却した。",
-      "point": "上場後初の四半期報告で、大口投資家の評価が分かれていることが数字で示された。",
-      "source": "Stocktwits（米SEC提出の13Fに基づく）",
-      "url": "https://stocktwits.com/news-articles/markets/equity/spcx-stock-dethrones-intel-nvidia-biggest-holding-druckenmiller-buys-in-tepper-ups-stake/cNba0UWR9gq",
-      "publishedAt": "2026-11-16"
-    },
-    {
-      "id": "ship42-reflight-weeks",
-      "importance": 2,
-      "category": "スペースX",
-      "title": "回収した船体、数週間の整備で再飛行可能とマスク氏",
-      "summary": "スペースXは発射塔で捕まえたStarship船体（Ship 42）の画像を公開した。16日に機体を確認したマスク氏はXで、耐熱シールドとエンジンの状態は良好で、数週間の整備で再飛行できそうだと述べた。即座の再使用には細かな改修が多く必要だとも付け加えた。",
-      "point": "機体の再使用は打ち上げ費用を大きく下げる前提条件で、実際にどこまで短期間で再飛行できるかが次の検証点になる。",
-      "source": "Tesla Oracle（スペースX公開画像・マスク氏のX投稿）",
-      "url": "https://www.teslaoracle.com/2026/11/17/spacex-releases-stunning-imagery-of-flight-15-starship-catch-musk-updates-on-ship-42-reusability-status-more/",
-      "publishedAt": "2026-11-17"
-    },
-    {
-      "id": "musk-china-visit-dealbook",
+      "id": "musk-dealbook-huang",
       "importance": 3,
       "category": "イーロン・マスク",
-      "title": "マスク氏が訪中へ、DealBookはリモート参加",
-      "summary": "マスク氏はXで中国に滞在すると明かし、18日のニューヨーク・タイムズ主催DealBookサミットにはリモートで登場すると述べた。米当局者によると、マニラでトランプ大統領の大統領専用機に合流し深圳に向かうが、米中ロ首脳の3者会談には同席しない。具体的な日程は示されていない。",
-      "point": "テスラの中国販売が落ち込み、運転支援機能の本格展開も止まる中での訪中で、現地での接触先が注目される。",
-      "source": "CnEVPost／Fox News（米当局者の説明）",
-      "url": "https://cnevpost.com/2026/11/17/elon-musk-visit-china-renewing-hopes-fsd/",
-      "publishedAt": "2026-11-17"
+      "title": "フアン氏解任は「賢明でない」とマスク氏",
+      "summary": "マスク氏は18日のDealBookサミットで、エヌビディア取締役会が創業者ジェンスン・フアン氏をCEOから外した判断について、賢明とは思えず株主にも良くないと述べた。フアン氏を「全盛期のマイケル・ジョーダン」にたとえ、米国への忠誠を疑っていないとも語った。復帰を求める請願にも署名したが、取締役会は復帰させる予定はないとしている。",
+      "point": "AI半導体の最大手とマスク氏の各事業は深く結びついており、経営トップを巡る混乱への発言として注目された。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/18/elon-musk-says-ousting-jensen-huang-is-like-kicking-michael-jordan-off-your-team/",
+      "publishedAt": "2026-11-18"
     },
     {
-      "id": "musk-faa-free-starlink",
+      "id": "musk-shenzhen-apec",
       "importance": 2,
       "category": "イーロン・マスク",
-      "title": "FAAが無償Starlinkを断っていたとマスク氏",
-      "summary": "マスク氏はXで、FAA向けにStarlink端末を無償提供すると申し出たが、ダフィー運輸長官に不要と言われたと投稿した。13日には通信障害で全米の出発便が止まっており、長官は請負業者が設置中だったルーターが原因と説明している。FAAはコメントしていない。",
-      "point": "老朽化した航空管制の通信網を誰がどう更新するかをめぐり、政府とマスク氏の間で見解の違いが表面化した。",
-      "source": "Benzinga（Yahoo Finance掲載）",
-      "url": "https://finance.yahoo.com/technology/articles/elon-musk-says-sean-duffy-014354751.html",
-      "publishedAt": "2026-11-16"
+      "title": "マスク氏、米代表団の一員として深圳入り",
+      "summary": "APEC首脳会議が開かれる深圳で18日、マスク氏が米代表団とともに到着する姿が確認された。トランプ大統領の到着後、代表団と同じバスで宿泊先のホテルに向かったという。報道では大統領専用機には乗らず、自家用機でマニラを経由して合流した。本人の発言は伝えられていない。",
+      "point": "米当局者は、マスク氏が大統領の助言役を務める可能性に触れており、現地での動きが注目される。",
+      "source": "The Standard（香港、ロイターの映像を引用）",
+      "url": "https://www.thestandard.com.hk/china/article/348942/Trump-and-Putin-seated-beside-Xi-at-Shenzhen-APEC-banquet-as-Elon-Musk-joins-US-delegation",
+      "publishedAt": "2026-11-18"
     }
   ]
 }
