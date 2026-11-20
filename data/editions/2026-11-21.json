@@ -1,0 +1,62 @@
+{
+  "date": "2026-11-21",
+  "issuedAt": "2026-11-21T05:52:00+09:00",
+  "overview": "本日は新モデルの大きな発表が少ない朝でした。NVIDIAは暫定CEOの決算説明で、中国向けH200の出荷を止めたと明らかにしました。米会計検査院（GAO）は、主要4サービスが攻撃計画を作れたとする報告書を公表しています。OpenAIはデスクトップアプリの統合と個人向けエージェント「dots」のテストを進めています。確認できた5本に絞りました。",
+  "items": [
+    {
+      "id": "nvidia-h200-china-halt",
+      "importance": 3,
+      "category": "ビジネス",
+      "title": "NVIDIA、中国向けH200の出荷を停止　暫定CEOが決算説明で明らかに",
+      "summary": "NVIDIAの暫定CEOコレット・クレス氏は決算説明会で、ライセンス付きHopper世代のデータセンター製品について、中国への出荷を停止したと説明しました。理由は明らかにしていません。直前の7〜9月期には、中国向けに約24億ドル分を販売していました。",
+      "point": "中国向けの出荷停止は、輸出規制の強化と経営トップの交代が重なる局面での判断で、同社の対中戦略の先行きに直結します。",
+      "source": "TechCrunch（Reuters報道を含む複数報道）",
+      "url": "https://techcrunch.com/2026/11/17/nvidia-is-abandoning-china-after-jensen-huangs-ouster/",
+      "publishedAt": "2026-11-17"
+    },
+    {
+      "id": "gao-chatbot-attack-plans",
+      "importance": 3,
+      "category": "安全性",
+      "title": "GAO、ChatGPT・Claude・Gemini・Grokで攻撃計画が作れたとする報告書",
+      "summary": "米会計検査院（GAO）は、一般の利用者を装った2026年春の試験で、4サービスすべてが実行可能性のある攻撃計画を作成したと報告しました。爆発物と変電所への攻撃の2つの場面が示され、安全策を回避したと報じられています。実際の攻撃は行っていないとされています。",
+      "point": "一般の利用者でも安全策を回避しうることを政府機関が示した形で、議会では対策の法制化が検討される見通しです。報告書に勧告は含まれていません。",
+      "source": "U.S. Government Accountability Office（GAO-27-108814）",
+      "url": "https://www.gao.gov/products/gao-27-108814",
+      "publishedAt": "2026-11-18"
+    },
+    {
+      "id": "chatgpt-unified-desktop-app",
+      "importance": 2,
+      "category": "プロダクト",
+      "title": "ChatGPTの新デスクトップアプリ、会話・作業・Codexを一つに統合",
+      "summary": "OpenAIのリリースノートによると、macOSとWindows向けの新しいデスクトップアプリが公開され、Chat・Work・Codexを一つにまとめました。あわせて、覚えのないセッションを確認してサインアウトできる「Active sessions」も加わりました。",
+      "point": "会話と作業、コーディングの行き来が一つのアプリで完結するようになり、業務での入口が整理されます。",
+      "source": "OpenAI（ChatGPTリリースノート）",
+      "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+      "publishedAt": "2026-11-19"
+    },
+    {
+      "id": "chatgpt-dots-agent-test",
+      "importance": 1,
+      "category": "プロダクト",
+      "title": "OpenAIの個人向けエージェント「dots」、ChatGPT Plusでテスト開始",
+      "summary": "OpenAIは11月19日、個人向けエージェント「dots」を一部のChatGPT Plus利用者でテストし始めました。Businessの一部の契約者にも対象を広げたと、9to5Macが伝えています。",
+      "point": "",
+      "source": "9to5Mac",
+      "url": "https://9to5mac.com/2026/11/19/openai-begins-testing-dots-with-chatgpt-plus-users-expands-business-access",
+      "publishedAt": "2026-11-19"
+    },
+    {
+      "id": "sakura-ai-inference-free-models",
+      "importance": 2,
+      "category": "国内",
+      "title": "さくらのAI推論基盤、GLM-5.3-FlashとDeepSeek-V4.1-Flashを提供",
+      "summary": "さくらインターネットは、自社のAI推論基盤で「GLM-5.3-Flash」と「DeepSeek-V4.1-Flash-1017」の提供を始めました。月3000リクエストまで無料で使えると報じられています。",
+      "point": "国内の基盤で中国系の公開モデルを試しやすくなります。無料枠の条件や期間は元記事での確認が必要です。",
+      "source": "ITmedia AI＋",
+      "url": "https://www.itmedia.co.jp/aiplus/subtop/news",
+      "publishedAt": "2026-11-19"
+    }
+  ]
+}
