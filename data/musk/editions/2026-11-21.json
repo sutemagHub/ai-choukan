@@ -1,0 +1,62 @@
+{
+  "date": "2026-11-21",
+  "issuedAt": "2026-11-21T11:16:09+09:00",
+  "overview": "スペースXのAI半導体向け資金調達は、アポロとゴールドマン・サックスが約440億ドルの債券の条件を決め、GPU向けとして過去最大規模になりました。一方でテキサスとアリゾナのデータセンター計画には地元から逆風が吹き、株価は6%ほど下げました。マスク氏はテスラとの統合について「どちらの道もあり得る」と述べ、判断は株主に委ねる考えを示しました。",
+  "items": [
+    {
+      "id": "gpu-debt-44b",
+      "importance": 3,
+      "category": "スペースX",
+      "title": "AI半導体向け440億ドルの債券、条件決定　GPU向けで過去最大",
+      "summary": "アポロとゴールドマン・サックスは20日、スペースXが使うGPUなどの購入資金として、約440億ドルの優先・劣後債の条件を決めたと発表した。需要が募集額を上回り、規模を増やした。資金はエヌビディアの次世代チップ「ヴェラ・ルービン」の調達に充て、2027年前半の納入から賃貸が始まる見通し。",
+      "point": "前日に報じられた300億ドル超の計画が、さらに大きな規模で確定した。地上のAI計算基盤への投資が借り入れで一気に進む一方、20日の株価は約6%下がった。",
+      "source": "ロイター（MarketScreener掲載）",
+      "url": "https://www.marketscreener.com/news/apollo-goldman-lead-44-billion-spacex-gpu-debt-financing-ce785ed3dd8bf12c",
+      "publishedAt": "2026-11-20"
+    },
+    {
+      "id": "datacenter-local-pushback",
+      "importance": 2,
+      "category": "スペースX",
+      "title": "データセンター計画、テキサスとアリゾナで逆風",
+      "summary": "テキサス州キャメロン郡の委員会は17日、240億ドル規模のデータセンター計画への10年間の減税について、公聴会を開く案を3対2で否決した。アリゾナ州では州司法長官が、電力網と水への懸念から、500億ドル規模の計画に関するコチース郡の12月9日の採決を延期するよう求めた。",
+      "point": "AI計算基盤の拡大には土地・電力・税制面で地元の協力が欠かせず、計画の進み方や費用に影響し得る。",
+      "source": "TipRanks（ブルームバーグ報道などを引用）",
+      "url": "https://www.tipranks.com/news/why-spacex-stock-spcx-is-falling-today-november-20-2026",
+      "publishedAt": "2026-11-20"
+    },
+    {
+      "id": "rooftop-micro-cell",
+      "importance": 2,
+      "category": "スペースX",
+      "title": "屋根に置く小型基地局、設計完了とマスク氏",
+      "summary": "マスク氏はDealBookサミットで、屋内の圏外を解消するため、Starlinkのアンテナのように屋根に設置する小型の携帯基地局の設計を終えたと語った。量産は2027年の見込み。来年は通信容量を40倍に高める次世代の衛星直接通信（Direct-to-Cell V2）衛星の打ち上げも予定している。",
+      "point": "周波数の取得に続き、衛星だけでは届きにくい屋内まで自社網で補う構想で、携帯通信事業への本格参入の度合いを示す。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/19/elon-musk-says-spacex-has-a-plan-to-eliminate-cell-phone-dead-zones/",
+      "publishedAt": "2026-11-19"
+    },
+    {
+      "id": "musk-spacex-tesla-merger",
+      "importance": 3,
+      "category": "イーロン・マスク",
+      "title": "テスラとの統合「どちらの道もあり得る」とマスク氏",
+      "summary": "マスク氏はDealBookサミットで、スペースXとテスラは統合も別々のままもあり得ると述べた。テスラは現実世界のAIと人型ロボット、スペースXは大規模AIと宇宙での計算を担うと整理しつつ、統合には双方の株主の承認が必要で、他の株主を代表する立場として訴訟の対象にもなり得ると語った。",
+      "point": "両社の統合観測が続く中、マスク氏自身が可能性を否定せず、判断を株主に委ねる姿勢を示した。",
+      "source": "Benzinga（Yahoo!ファイナンス掲載）",
+      "url": "https://finance.yahoo.com/technology/ai/articles/elon-musk-says-spacex-tesla-143007086.html",
+      "publishedAt": "2026-11-20"
+    },
+    {
+      "id": "musk-not-maga",
+      "importance": 1,
+      "category": "イーロン・マスク",
+      "title": "「自分はMAGAではない」とマスク氏",
+      "summary": "マスク氏はDealBookサミットで、自身を「MAGAではない」と述べ、考え方は穏健だと語った。中間選挙では共和党系の候補を支援するため多額の資金を投じたが、民主党が上下両院で多数を得た。民主党のガジェゴ上院議員はXで、召喚状は変わらず出すと応じた。",
+      "point": "",
+      "source": "AP通信（PBS掲載）",
+      "url": "https://www.pbs.org/newshour/politics/im-not-maga-elon-musk-says-after-republicans-midterm-thrashing",
+      "publishedAt": "2026-11-19"
+    }
+  ]
+}
