@@ -1,0 +1,51 @@
+{
+  "date": "2026-11-22",
+  "issuedAt": "2026-11-22T05:45:38+09:00",
+  "overview": "新しく確認できた話題は少ない朝でした。中心は、AnthropicのIPO初日の終値と、OpenAIの音声APIで待機時の料金が下がったことです。国内の新しい発表は今回の検索では確認できなかったため、載せていません。",
+  "items": [
+    {
+      "id": "anthropic-ipo-first-close",
+      "importance": 3,
+      "category": "ビジネス",
+      "title": "Anthropic株、初日終値は公開価格より約17%高い97.17ドル",
+      "summary": "Anthropicの株は19日にNasdaqで取引が始まり、寄り付きは111.50ドルでした。その後は上げ幅を縮め、終値は公開価格83ドルより約17%高い97.17ドルでした。株式市場全体が下げるなかでの上昇だったと報じられています。調達額は報道によって差があり、確定した数字ではありません。",
+      "point": "AI企業の大型上場が初日に買われたことは、AI関連投資への市場の強さを示す材料です。ただし初日の値動きで、その後の株価は別に判断する必要があります。",
+      "source": "CBS News ほか（Forbes、CNNの報道を参照）",
+      "url": "https://www.cbsnews.com/news/anthropic-ipo-nasdaq-debut-claude-ai/",
+      "publishedAt": "2026-11-19"
+    },
+    {
+      "id": "gpt-live-11-standby-price",
+      "importance": 2,
+      "category": "開発者",
+      "title": "GPT-Live-1.1がAPIに、待機中の音声料金は分あたり0.02ドルに",
+      "summary": "OpenAIの音声モデルGPT-Live-1.1がAPIで使えるようになりました。音声セッションが待機している時間の料金は、1分あたり0.05ドルから0.02ドルに下がったと報じられています。通話の多くが待ち時間である業務では、月額の音声費用が半分ほどになる試算も出ています。",
+      "point": "音声エージェントのコストは、話している時間より待機時間の割合で大きく変わります。料金は二次報道に基づくもので、OpenAIの公式告知は今回確認できていません。",
+      "source": "The Neuron ほか（二次報道）",
+      "url": "https://developers.openai.com/api/docs/models/gpt-live-1.1",
+      "publishedAt": "2026-11-19"
+    },
+    {
+      "id": "openai-performance-factory",
+      "importance": 2,
+      "category": "開発者",
+      "title": "OpenAI、Codexのエージェントで ChatGPTの速度低下の原因を自動調査",
+      "summary": "OpenAIは、Codexのエージェントが ChatGPTの動作が遅くなる原因を調べ、修正案を出す社内の仕組み「Performance Factory」を紹介しました。約3か月で1700件超の自動調査と、600件超の根本原因の特定が行われたとされます。",
+      "point": "AIエージェントを自社の運用改善に使う具体例です。人手の調査を減らし、障害の原因を早く見つける狙いがうかがえます。",
+      "source": "The Neuron（OpenAIの投稿を引用する二次報道）",
+      "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-friday-november-20-2026/",
+      "publishedAt": "2026-11-19"
+    },
+    {
+      "id": "uc-openai-expansion",
+      "importance": 1,
+      "category": "ビジネス",
+      "title": "カリフォルニア大学、OpenAIとの契約を拡大",
+      "summary": "カリフォルニア大学（UC）システムは19日、OpenAIとの契約を広げ、学生と教職員がChatGPTとCodexを無料で使えるようにしました。大学全体で生成AIを使う取り組みの一例です。大学側の発表は今回確認できていません。",
+      "point": "",
+      "source": "AI Weekly（二次報道）",
+      "url": "https://aiweekly.co/ai-news-today/edition/2026-11-20",
+      "publishedAt": "2026-11-19"
+    }
+  ]
+}
