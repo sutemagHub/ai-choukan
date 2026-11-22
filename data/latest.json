@@ -1,51 +1,62 @@
 {
-  "date": "2026-11-22",
-  "issuedAt": "2026-11-22T05:45:38+09:00",
-  "overview": "新しく確認できた話題は少ない朝でした。中心は、AnthropicのIPO初日の終値と、OpenAIの音声APIで待機時の料金が下がったことです。国内の新しい発表は今回の検索では確認できなかったため、載せていません。",
+  "date": "2026-11-23",
+  "issuedAt": "2026-11-23T05:50:00+09:00",
+  "overview": "新しく確認できた話題は多くない朝でした。中心は、Anthropicの新規株式公開（IPO）が20日に完了し、引受の追加分と大口の私募を含めた調達総額が報じられたことです。国内では、ElevenLabsによる日本の音声AI企業Kotobaの買収計画が続報として注目されています。",
   "items": [
     {
-      "id": "anthropic-ipo-first-close",
+      "id": "anthropic-ipo-close",
       "importance": 3,
       "category": "ビジネス",
-      "title": "Anthropic株、初日終値は公開価格より約17%高い97.17ドル",
-      "summary": "Anthropicの株は19日にNasdaqで取引が始まり、寄り付きは111.50ドルでした。その後は上げ幅を縮め、終値は公開価格83ドルより約17%高い97.17ドルでした。株式市場全体が下げるなかでの上昇だったと報じられています。調達額は報道によって差があり、確定した数字ではありません。",
-      "point": "AI企業の大型上場が初日に買われたことは、AI関連投資への市場の強さを示す材料です。ただし初日の値動きで、その後の株価は別に判断する必要があります。",
-      "source": "CBS News ほか（Forbes、CNNの報道を参照）",
-      "url": "https://www.cbsnews.com/news/anthropic-ipo-nasdaq-debut-claude-ai/",
-      "publishedAt": "2026-11-19"
+      "title": "Anthropic、IPOを完了　調達総額は約1195億ドル",
+      "summary": "Anthropicは20日、ナスダックでの新規株式公開（IPO）の完了を発表しました。引受会社が追加株の購入権を全額行使し、発行価格は1株83ドルです。IPOの調達総額は約935億ドルで、このうちAnthropicの取り分は約916億ドルです。同時に行った私募では、AMDやNVIDIA、Google、Microsoftなどが約260億ドル分を買いました。合計は手数料などを差し引く前で約1195億ドルです。",
+      "point": "AIの計算基盤を支える半導体・クラウド企業が私募に加わったことで、Anthropicの成長に必要な資金の調達先が広がりました。",
+      "source": "Anthropic（公式発表）",
+      "url": "https://www.anthropic.com/news/ipo-close",
+      "publishedAt": "2026-11-20"
     },
     {
-      "id": "gpt-live-11-standby-price",
+      "id": "elevenlabs-kotoba",
       "importance": 2,
-      "category": "開発者",
-      "title": "GPT-Live-1.1がAPIに、待機中の音声料金は分あたり0.02ドルに",
-      "summary": "OpenAIの音声モデルGPT-Live-1.1がAPIで使えるようになりました。音声セッションが待機している時間の料金は、1分あたり0.05ドルから0.02ドルに下がったと報じられています。通話の多くが待ち時間である業務では、月額の音声費用が半分ほどになる試算も出ています。",
-      "point": "音声エージェントのコストは、話している時間より待機時間の割合で大きく変わります。料金は二次報道に基づくもので、OpenAIの公式告知は今回確認できていません。",
-      "source": "The Neuron ほか（二次報道）",
-      "url": "https://developers.openai.com/api/docs/models/gpt-live-1.1",
-      "publishedAt": "2026-11-19"
+      "category": "国内",
+      "title": "ElevenLabs、日本の音声AI企業Kotobaの買収で合意",
+      "summary": "音声AI大手のElevenLabsは16日、日本の音声AI企業Kotoba Technologiesを買収することで合意したと発表しました。Kotobaの全株式を取得し、完全子会社にする計画です。社員15人は全員ElevenLabsに移ります。買収額は公表されていませんが、約1億ドルとの報道があります。取引は規制当局の承認などを経て、2026年第4四半期中に完了する見込みとしています。",
+      "point": "海外の大手音声AI企業が日本語音声の研究チームを取り込むことで、日本語の音声サービスの競争が強まりそうです。",
+      "source": "ElevenLabs（公式ブログ）、各紙報道",
+      "url": "https://elevenlabs.io/blog/kotoba",
+      "publishedAt": "2026-11-16"
     },
     {
-      "id": "openai-performance-factory",
+      "id": "thinking-machines-inkling-2-mini",
       "importance": 2,
-      "category": "開発者",
-      "title": "OpenAI、Codexのエージェントで ChatGPTの速度低下の原因を自動調査",
-      "summary": "OpenAIは、Codexのエージェントが ChatGPTの動作が遅くなる原因を調べ、修正案を出す社内の仕組み「Performance Factory」を紹介しました。約3か月で1700件超の自動調査と、600件超の根本原因の特定が行われたとされます。",
-      "point": "AIエージェントを自社の運用改善に使う具体例です。人手の調査を減らし、障害の原因を早く見つける狙いがうかがえます。",
-      "source": "The Neuron（OpenAIの投稿を引用する二次報道）",
-      "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-friday-november-20-2026/",
-      "publishedAt": "2026-11-19"
+      "category": "モデル",
+      "title": "Thinking Machines、オープンウェイトのInkling 2 Miniを公開",
+      "summary": "AI研究所のThinking Machines Labは20日、Inkling 2 Miniを公開したと報じられています。総パラメータは約264億、1トークンごとに使われるのは約34億で、重みは誰でも使える形で公開されました。小型でも動かしやすい構成を狙ったモデルとみられます。性能の数字は各社の発表や二次報道に基づくもので、第三者の検証は確認できていません。",
+      "point": "重みを公開するモデルが増え、自社で動かせる選択肢が広がります。ただし性能は今後の検証待ちです。",
+      "source": "AI News Today（21日の二次報道まとめ）",
+      "url": "https://aitoolsrecap.com/Blog/ai-news-november-21-2026",
+      "publishedAt": "2026-11-20"
     },
     {
-      "id": "uc-openai-expansion",
+      "id": "claude-mobile-computer-use",
       "importance": 1,
-      "category": "ビジネス",
-      "title": "カリフォルニア大学、OpenAIとの契約を拡大",
-      "summary": "カリフォルニア大学（UC）システムは19日、OpenAIとの契約を広げ、学生と教職員がChatGPTとCodexを無料で使えるようにしました。大学全体で生成AIを使う取り組みの一例です。大学側の発表は今回確認できていません。",
+      "category": "プロダクト",
+      "title": "Claudeのモバイル画面を刷新、Team・Enterpriseでコンピュータ操作をベータ提供",
+      "summary": "Anthropicは20日、Claudeのモバイル画面を刷新したと発表しました。まずiOSから順次展開されます。あわせて、TeamとEnterpriseの契約者向けに、コンピュータ操作機能のベータ版が段階的に提供されています。",
       "point": "",
-      "source": "AI Weekly（二次報道）",
-      "url": "https://aiweekly.co/ai-news-today/edition/2026-11-20",
-      "publishedAt": "2026-11-19"
+      "source": "Releasebot（Anthropicのリリース情報）",
+      "url": "https://releasebot.io/updates/anthropic/claude",
+      "publishedAt": "2026-11-20"
+    },
+    {
+      "id": "apple-ai-agent-delay",
+      "importance": 1,
+      "category": "プロダクト",
+      "title": "Appleの個人向けAIエージェント、登場は2027年末以降の見通し",
+      "summary": "Bloombergのマーク・ガーマン記者は22日、Appleが開発を進めるAIエージェントについて、早くても2027年末までは登場しないと見ているとの見方を示しました。Appleは名称や発表時期、価格を公表していません。",
+      "point": "",
+      "source": "FourWeekMBA（Bloombergの記者の見解を引用）",
+      "url": "https://fourweekmba.com/ai-gurman-sees-apples-ai-agent-no-sooner-than-late-2027",
+      "publishedAt": "2026-11-22"
     }
   ]
 }
