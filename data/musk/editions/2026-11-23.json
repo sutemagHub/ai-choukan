@@ -1,0 +1,73 @@
+{
+  "date": "2026-11-23",
+  "issuedAt": "2026-11-23T11:16:06+09:00",
+  "overview": "スペースXは21日のUSSF-317に続き、22日に偵察衛星NROL-136を打ち上げ、西海岸からの安全保障ミッションが続いています。南アフリカではXと同社AI部門が競争当局との和解に応じました。マスク氏については、ウィスコンシン州の選挙をめぐる民事訴訟が退けられ、本人はテスラ車とGrokの連携構想を投稿しました。",
+  "items": [
+    {
+      "id": "nrol-136-launch",
+      "importance": 3,
+      "category": "スペースX",
+      "title": "偵察衛星「NROL-136」を打ち上げ、約32時間で2件目の機密任務",
+      "summary": "スペースXは11月22日（UTC）、米国家偵察局（NRO）の偵察衛星群NROL-136をファルコン9でカリフォルニア州ヴァンデンバーグから打ち上げた。前日のUSSF-317に続く機密ミッションで、第1段ブースターB1097は発射場近くに着地した。NROとノースロップ・グラマンと進める衛星網の15回目の打ち上げにあたる。",
+      "point": "米政府の安全保障分野での打ち上げをほぼ一手に担う構図が続いており、議会の監視が強まるなかでも政府事業の比重の大きさを示している。",
+      "source": "Orbital Radar",
+      "url": "https://orbitalradar.com/launch/falcon-9-nrol-136",
+      "publishedAt": "2026-11-22"
+    },
+    {
+      "id": "x-ai-south-africa-settlement",
+      "importance": 2,
+      "category": "スペースX",
+      "title": "XとAI部門、南アの競争当局と和解　報道機関への支払いはなし",
+      "summary": "南アフリカ競争委員会は、XとスペースXのAI部門（旧xAI）がデジタル市場調査の是正措置をめぐる不服申し立てを取り下げたと発表した。Xは6か月以内に報道機関向けの収益化支援を始め、AI部門はGrokの設定などに関する研修を2年間行う。グーグルやメタと違い、金銭の支払いは含まれない。",
+      "point": "AIによる報道コンテンツ利用への対価をめぐる各国の議論で、支払いを伴わない形の決着となった。",
+      "source": "Billionaires.Africa（南ア競争委員会の発表に基づく）",
+      "url": "https://www.billionaires.africa/2026/11/22/elon-musks-x-settles-south-africa-news-inquiry-without-paying-publishers/",
+      "publishedAt": "2026-11-22"
+    },
+    {
+      "id": "west-coast-nss-launches",
+      "importance": 1,
+      "category": "スペースX",
+      "title": "西海岸から安全保障ミッション続く　24日にUSSF-266",
+      "summary": "スペースXはヴァンデンバーグからの米宇宙軍ミッションを続け、11月24日にUSSF-266、29日にUSSF-380の打ち上げを予定している。今後2週間で複数の安全保障ミッションが並ぶ。",
+      "point": "",
+      "source": "KeepTrack（Week in Review）",
+      "url": "https://keeptrack.space/week-in-review/week-in-review-2026-11-22",
+      "publishedAt": "2026-11-22"
+    },
+    {
+      "id": "starlink-count",
+      "importance": 1,
+      "category": "スペースX",
+      "title": "Starlink、軌道上の衛星は1万1203基に",
+      "summary": "天文学者ジョナサン・マクダウェル氏の集計では、11月22日時点でStarlink衛星は累計1万3122基が打ち上げられ、1万1203基が軌道上にあり、このうち1万1189基が稼働している。直近1週間はStarlinkの打ち上げはなかった。",
+      "point": "",
+      "source": "KeepTrack（ジョナサン・マクダウェル氏の集計）",
+      "url": "https://keeptrack.space/week-in-review/week-in-review-2026-11-22",
+      "publishedAt": "2026-11-22"
+    },
+    {
+      "id": "wisconsin-suit-dismissed",
+      "importance": 3,
+      "category": "イーロン・マスク",
+      "title": "ウィスコンシン州最高裁選めぐる買収訴訟、裁判所が却下",
+      "summary": "ウィスコンシン州ブラウン郡の裁判所は、2025年の州最高裁判事選挙でのマスク氏側による署名や有権者への現金提供が選挙買収にあたるとした民事訴訟を、原告に訴える資格がないとして退けた。判断は11月18日付。被告はマスク氏と政治団体アメリカPACなど。",
+      "point": "8月の刑事訴追見送りに続き、民事でもマスク氏の責任は問われない結果となった。選挙での資金提供の手法をめぐる議論は続いている。",
+      "source": "WBAY",
+      "url": "https://www.wbay.com/2026/11/20/judge-dismisses-lawsuit-against-elon-musk-tied-2025-wisconsin-supreme-court-election/",
+      "publishedAt": "2026-11-20"
+    },
+    {
+      "id": "tesla-grok-traffic",
+      "importance": 2,
+      "category": "イーロン・マスク",
+      "title": "テスラ車の交通情報とGrokを連携へ、マスク氏が投稿",
+      "summary": "マスク氏は21日、X上で、テスラ車が集めた交通情報と、GrokがXから拾う目的地のリアルタイム情報を組み合わせる考えを示した。運転者に目的地の状況を事前に知らせる狙いだが、表示方法や対象車種、時期は明らかにしていない。",
+      "point": "マスク氏が率いるテスラ、X、AI部門の事業をまたぐ連携の具体例で、両社の統合が検討されるなかでの発言となる。",
+      "source": "TeslaNorth（マスク氏のX投稿）",
+      "url": "https://teslanorth.com/2026/11/21/tesla-grok-live-traffic-destination-updates/",
+      "publishedAt": "2026-11-21"
+    }
+  ]
+}
