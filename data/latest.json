@@ -1,62 +1,84 @@
 {
-  "date": "2026-11-23",
-  "issuedAt": "2026-11-23T05:50:00+09:00",
-  "overview": "新しく確認できた話題は多くない朝でした。中心は、Anthropicの新規株式公開（IPO）が20日に完了し、引受の追加分と大口の私募を含めた調達総額が報じられたことです。国内では、ElevenLabsによる日本の音声AI企業Kotobaの買収計画が続報として注目されています。",
+  "date": "2026-11-24",
+  "issuedAt": "2026-11-24T06:00:00+09:00",
+  "overview": "NVIDIAのCEO交代が今朝の最大の動きです。製品面では、OpenAIのセキュリティ特化モデル、Googleの低価格・高速モデル、AnthropicのAI出力検証の研究が続いています。国内では、企業の生成AI利用に関する調査結果が公表されました。",
   "items": [
     {
-      "id": "anthropic-ipo-close",
+      "id": "nvidia-ceo-steps-down",
       "importance": 3,
       "category": "ビジネス",
-      "title": "Anthropic、IPOを完了　調達総額は約1195億ドル",
-      "summary": "Anthropicは20日、ナスダックでの新規株式公開（IPO）の完了を発表しました。引受会社が追加株の購入権を全額行使し、発行価格は1株83ドルです。IPOの調達総額は約935億ドルで、このうちAnthropicの取り分は約916億ドルです。同時に行った私募では、AMDやNVIDIA、Google、Microsoftなどが約260億ドル分を買いました。合計は手数料などを差し引く前で約1195億ドルです。",
-      "point": "AIの計算基盤を支える半導体・クラウド企業が私募に加わったことで、Anthropicの成長に必要な資金の調達先が広がりました。",
-      "source": "Anthropic（公式発表）",
-      "url": "https://www.anthropic.com/news/ipo-close",
-      "publishedAt": "2026-11-20"
+      "title": "NVIDIAのJensen Huang CEOが退任、CFOが暫定CEOに",
+      "summary": "NVIDIAは11日付で創業者のJensen Huang氏がCEOと取締役を退任したと、SECへの提出書類（8-K）で明らかにしました。後任は未定で、CFOのColette Kress氏が暫定CEOを兼務します。取締役会はHarvey C. Jones氏を同社初の取締役会長に任命しました。",
+      "point": "AI半導体で圧倒的な地位を持つ企業のトップ交代で、今後の製品戦略や投資方針への影響が注目されます。取引開始前の時間帯では株価が10%超下落したと報じられています。",
+      "source": "NVIDIA（SEC提出書類 Form 8-K）、各紙報道",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000082/nvidiaannouncesceotransiti.htm",
+      "publishedAt": "2026-11-12"
     },
     {
-      "id": "elevenlabs-kotoba",
-      "importance": 2,
-      "category": "国内",
-      "title": "ElevenLabs、日本の音声AI企業Kotobaの買収で合意",
-      "summary": "音声AI大手のElevenLabsは16日、日本の音声AI企業Kotoba Technologiesを買収することで合意したと発表しました。Kotobaの全株式を取得し、完全子会社にする計画です。社員15人は全員ElevenLabsに移ります。買収額は公表されていませんが、約1億ドルとの報道があります。取引は規制当局の承認などを経て、2026年第4四半期中に完了する見込みとしています。",
-      "point": "海外の大手音声AI企業が日本語音声の研究チームを取り込むことで、日本語の音声サービスの競争が強まりそうです。",
-      "source": "ElevenLabs（公式ブログ）、各紙報道",
-      "url": "https://elevenlabs.io/blog/kotoba",
-      "publishedAt": "2026-11-16"
+      "id": "gpt-6-cyber",
+      "importance": 3,
+      "category": "モデル",
+      "title": "OpenAI、セキュリティ特化の「GPT-6 Cyber」を限定公開",
+      "summary": "OpenAIは5日、セキュリティ業務向けの特化モデル「GPT-6 Cyber」を発表しました。認可された脆弱性の発見や侵入テストなどに使われ、まずは承認された顧客だけが「Daybreak Red」の枠でAPIとCodexから利用できます。自社発表では、攻撃的な検証を測るExploitGymで48.5%と、前世代の32.1%を上回ったとされています。",
+      "point": "防御側がAIで脆弱性を先に見つけられるかが焦点になります。悪用をどう防ぐかという利用制限の設計も注目点です。",
+      "source": "OpenAI（発表ページ）、The New Stack ほか",
+      "url": "https://openai.com/index/introducing-gpt-6-cyber/",
+      "publishedAt": "2026-11-05"
     },
     {
-      "id": "thinking-machines-inkling-2-mini",
+      "id": "gemini-4-hydrogen",
       "importance": 2,
       "category": "モデル",
-      "title": "Thinking Machines、オープンウェイトのInkling 2 Miniを公開",
-      "summary": "AI研究所のThinking Machines Labは20日、Inkling 2 Miniを公開したと報じられています。総パラメータは約264億、1トークンごとに使われるのは約34億で、重みは誰でも使える形で公開されました。小型でも動かしやすい構成を狙ったモデルとみられます。性能の数字は各社の発表や二次報道に基づくもので、第三者の検証は確認できていません。",
-      "point": "重みを公開するモデルが増え、自社で動かせる選択肢が広がります。ただし性能は今後の検証待ちです。",
-      "source": "AI News Today（21日の二次報道まとめ）",
-      "url": "https://aitoolsrecap.com/Blog/ai-news-november-21-2026",
-      "publishedAt": "2026-11-20"
+      "title": "Google、高速・低価格の「Gemini 4 Hydrogen」を公開",
+      "summary": "Googleは12日、日常的なコーディングやエージェント作業向けの新モデル「Gemini 4 Hydrogen」を発表しました。Googleは前世代のGemini 3.8 Flashと比べ、標準設定で2.5倍速く、事実に反する主張は5分の1以下に減ったとしています。Geminiアプリや検索、API、Antigravityなどで提供されます。",
+      "point": "上位の Carbon と Argon が深い推論を担い、Hydrogen は速さと安さで日々の作業を回すという役割分担がはっきりしました。数値はGoogleの自社評価です。",
+      "source": "Google（公式ブログ）、9to5Google ほか",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
+      "publishedAt": "2026-11-12"
     },
     {
-      "id": "claude-mobile-computer-use",
-      "importance": 1,
-      "category": "プロダクト",
-      "title": "Claudeのモバイル画面を刷新、Team・Enterpriseでコンピュータ操作をベータ提供",
-      "summary": "Anthropicは20日、Claudeのモバイル画面を刷新したと発表しました。まずiOSから順次展開されます。あわせて、TeamとEnterpriseの契約者向けに、コンピュータ操作機能のベータ版が段階的に提供されています。",
-      "point": "",
-      "source": "Releasebot（Anthropicのリリース情報）",
-      "url": "https://releasebot.io/updates/anthropic/claude",
-      "publishedAt": "2026-11-20"
+      "id": "anthropic-flashprove",
+      "importance": 2,
+      "category": "安全性",
+      "title": "Anthropic、AIの出力が特定モデル由来かを証明する研究ツール「FlashProve」",
+      "summary": "Anthropicは2日、モデルの出力がその重みから生成されたことを暗号学的に証明する研究用ツール「FlashProve」を公開しました。ゼロ知識証明（zkSNARK）を使い、モデルの重みを明かさずに検証できるのが特徴です。ただし現時点は研究用のプロトタイプで、Claude APIの機能としては提供されていません。",
+      "point": "提供元が本当にそのモデルを使ったかを外部から確かめられれば、AIサービスの透明性や信頼性の議論が変わる可能性があります。",
+      "source": "Anthropic（研究ページ）、Crypto Briefing ほか",
+      "url": "https://anthropic.com/research/provable-inference",
+      "publishedAt": "2026-11-02"
     },
     {
-      "id": "apple-ai-agent-delay",
-      "importance": 1,
+      "id": "claude-meetings-beta",
+      "importance": 2,
       "category": "プロダクト",
-      "title": "Appleの個人向けAIエージェント、登場は2027年末以降の見通し",
-      "summary": "Bloombergのマーク・ガーマン記者は22日、Appleが開発を進めるAIエージェントについて、早くても2027年末までは登場しないと見ているとの見方を示しました。Appleは名称や発表時期、価格を公表していません。",
+      "title": "ClaudeがGoogle Meetの会議に参加するベータ版「Claude Meetings」",
+      "summary": "Anthropicは11月中旬、Claudeが Google Meet の通話に参加し、議事メモや文書、ホワイトボードを会議中に作成できるベータ版を公開しました。対象はTeamとEnterpriseのプランです。Zoomや Microsoft Teams など他の会議ツールへの対応は「近日中」とされていますが、時期は示されていません。",
+      "point": "会議の記録や資料作成をAIに任せる働き方が、企業向けツールとして広がるかが焦点です。",
+      "source": "VentureBeat、TechCrunch、Computerworld ほか",
+      "url": "https://venturebeat.com/ai/anthropic-brings-claude-into-google-meet-to-draft-documents-and-whiteboards-during-your-meetings/",
+      "publishedAt": "2026-11-12"
+    },
+    {
+      "id": "chatgpt-wallet",
+      "importance": 2,
+      "category": "プロダクト",
+      "title": "ChatGPT Wallet公開、AIエージェントが代理で買い物",
+      "summary": "OpenAIは13日、AIエージェント「dots」が利用者に代わって購入できる「ChatGPT Wallet」を公開しました。現時点では米国のChatGPT Pro会員で、対象の米国発行カードが必要です。カード番号はエージェントや店舗に渡らず決済用トークンに置き換えられ、購入時には生体認証の確認が入ります。",
+      "point": "AIが実際にお金を使う段階に入るため、決済の安全性や誤購入時の責任の所在が今後の論点になります。",
+      "source": "OpenAI、Digital Trends ほか",
+      "url": "https://openai.com/index/introducing-chatgpt-wallet/",
+      "publishedAt": "2026-11-13"
+    },
+    {
+      "id": "jp-enterprise-genai-survey",
+      "importance": 1,
+      "category": "国内",
+      "title": "国内企業の66.2%が生成AIを本格利用、全社方針の未策定は53.8%",
+      "summary": "JAPAN AIが公表した「企業の生成AI活用とガバナンス実態調査」によると、回答者の66.2%が勤務先で生成AIを全社または一部部門で本格利用していると答えました。一方で、全社方針やガイドラインが未策定、または状況が不明だとする回答は53.8%でした。",
       "point": "",
-      "source": "FourWeekMBA（Bloombergの記者の見解を引用）",
-      "url": "https://fourweekmba.com/ai-gurman-sees-apples-ai-agent-no-sooner-than-late-2027",
-      "publishedAt": "2026-11-22"
+      "source": "JAPAN AI（プレスリリース）",
+      "url": "https://japan-ai.co.jp/news/press/2026/11/261106/",
+      "publishedAt": "2026-11-06"
     }
   ]
 }
