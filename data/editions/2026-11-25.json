@@ -1,0 +1,29 @@
+{
+  "date": "2026-11-25",
+  "issuedAt": "2026-11-25T05:50:00+09:00",
+  "overview": "けさは新しく確認できた話題が少なく、2本のみです。前日までの号で扱ったNVIDIAのCEO交代やAnthropicの上場などは省いています。検索で確認できた情報は11月23〜24日ごろまでのため、今日の動きを取りこぼしている可能性があります。",
+  "items": [
+    {
+      "id": "sonnet-45-retirement",
+      "importance": 2,
+      "category": "開発者",
+      "title": "Claude Sonnet 4.5のAPIは11月30日に終了予定　後継はSonnet 5.5",
+      "summary": "複数の二次報道によると、Claude Sonnet 4.5は9月30日に非推奨となり、APIは11月30日に終了する予定です。後継としてSonnet 5.5への移行が勧められています。Anthropicの公式の廃止案内は今回確認できていません。",
+      "point": "終了日まで5日しかないため、Sonnet 4.5を呼び出している既存のアプリは早めに移行先を確認する必要があります。",
+      "source": "Lilach Bullock（二次情報）",
+      "url": "https://www.lilachbullock.com/ai-news-this-week-for-small-business-8-november-2026/",
+      "publishedAt": "2026-11-08"
+    },
+    {
+      "id": "deepmind-quantum-lean",
+      "importance": 2,
+      "category": "研究",
+      "title": "DeepMindのAIエージェント、形式検証つきの量子アルゴリズムを設計",
+      "summary": "Google DeepMindとGoogle Quantum AIは、Gemini 4のエージェントが量子プログラムを作り、定理証明系Leanで正しさと計算コストを機械的に証明する研究を公開しました。特定の課題では資源量が従来の290分の1を超えて減ったと報告されています。ただし査読前の論文で、比較は著者らの計算に基づきます。",
+      "point": "AIの出した結果を人が一つずつ確かめなくても、信頼できる形で示せるかどうかが研究の進め方を変えうる点で注目されます。",
+      "source": "Google DeepMind／Google Quantum AI（arXiv論文 2611.09822）",
+      "url": "https://arxiv.org/abs/2611.09822",
+      "publishedAt": "2026-11-06"
+    }
+  ]
+}

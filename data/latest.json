@@ -1,83 +1,28 @@
 {
-  "date": "2026-11-24",
-  "issuedAt": "2026-11-24T06:00:00+09:00",
-  "overview": "NVIDIAのCEO交代が今朝の最大の動きです。製品面では、OpenAIのセキュリティ特化モデル、Googleの低価格・高速モデル、AnthropicのAI出力検証の研究が続いています。国内では、企業の生成AI利用に関する調査結果が公表されました。",
+  "date": "2026-11-25",
+  "issuedAt": "2026-11-25T05:50:00+09:00",
+  "overview": "けさは新しく確認できた話題が少なく、2本のみです。前日までの号で扱ったNVIDIAのCEO交代やAnthropicの上場などは省いています。検索で確認できた情報は11月23〜24日ごろまでのため、今日の動きを取りこぼしている可能性があります。",
   "items": [
     {
-      "id": "nvidia-ceo-steps-down",
-      "importance": 3,
-      "category": "ビジネス",
-      "title": "NVIDIAのJensen Huang CEOが退任、CFOが暫定CEOに",
-      "summary": "NVIDIAは11日付で創業者のJensen Huang氏がCEOと取締役を退任したと、SECへの提出書類（8-K）で明らかにしました。後任は未定で、CFOのColette Kress氏が暫定CEOを兼務します。取締役会はHarvey C. Jones氏を同社初の取締役会長に任命しました。",
-      "point": "AI半導体で圧倒的な地位を持つ企業のトップ交代で、今後の製品戦略や投資方針への影響が注目されます。取引開始前の時間帯では株価が10%超下落したと報じられています。",
-      "source": "NVIDIA（SEC提出書類 Form 8-K）、各紙報道",
-      "url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000082/nvidiaannouncesceotransiti.htm",
-      "publishedAt": "2026-11-12"
-    },
-    {
-      "id": "gpt-6-cyber",
-      "importance": 3,
-      "category": "モデル",
-      "title": "OpenAI、セキュリティ特化の「GPT-6 Cyber」を限定公開",
-      "summary": "OpenAIは5日、セキュリティ業務向けの特化モデル「GPT-6 Cyber」を発表しました。認可された脆弱性の発見や侵入テストなどに使われ、まずは承認された顧客だけが「Daybreak Red」の枠でAPIとCodexから利用できます。自社発表では、攻撃的な検証を測るExploitGymで48.5%と、前世代の32.1%を上回ったとされています。",
-      "point": "防御側がAIで脆弱性を先に見つけられるかが焦点になります。悪用をどう防ぐかという利用制限の設計も注目点です。",
-      "source": "OpenAI（発表ページ）、The New Stack ほか",
-      "url": "https://openai.com/index/introducing-gpt-6-cyber/",
-      "publishedAt": "2026-11-05"
-    },
-    {
-      "id": "gemini-4-hydrogen",
+      "id": "sonnet-45-retirement",
       "importance": 2,
-      "category": "モデル",
-      "title": "Google、高速・低価格の「Gemini 4 Hydrogen」を公開",
-      "summary": "Googleは12日、日常的なコーディングやエージェント作業向けの新モデル「Gemini 4 Hydrogen」を発表しました。Googleは前世代のGemini 3.8 Flashと比べ、標準設定で2.5倍速く、事実に反する主張は5分の1以下に減ったとしています。Geminiアプリや検索、API、Antigravityなどで提供されます。",
-      "point": "上位の Carbon と Argon が深い推論を担い、Hydrogen は速さと安さで日々の作業を回すという役割分担がはっきりしました。数値はGoogleの自社評価です。",
-      "source": "Google（公式ブログ）、9to5Google ほか",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
-      "publishedAt": "2026-11-12"
+      "category": "開発者",
+      "title": "Claude Sonnet 4.5のAPIは11月30日に終了予定　後継はSonnet 5.5",
+      "summary": "複数の二次報道によると、Claude Sonnet 4.5は9月30日に非推奨となり、APIは11月30日に終了する予定です。後継としてSonnet 5.5への移行が勧められています。Anthropicの公式の廃止案内は今回確認できていません。",
+      "point": "終了日まで5日しかないため、Sonnet 4.5を呼び出している既存のアプリは早めに移行先を確認する必要があります。",
+      "source": "Lilach Bullock（二次情報）",
+      "url": "https://www.lilachbullock.com/ai-news-this-week-for-small-business-8-november-2026/",
+      "publishedAt": "2026-11-08"
     },
     {
-      "id": "anthropic-flashprove",
+      "id": "deepmind-quantum-lean",
       "importance": 2,
-      "category": "安全性",
-      "title": "Anthropic、AIの出力が特定モデル由来かを証明する研究ツール「FlashProve」",
-      "summary": "Anthropicは2日、モデルの出力がその重みから生成されたことを暗号学的に証明する研究用ツール「FlashProve」を公開しました。ゼロ知識証明（zkSNARK）を使い、モデルの重みを明かさずに検証できるのが特徴です。ただし現時点は研究用のプロトタイプで、Claude APIの機能としては提供されていません。",
-      "point": "提供元が本当にそのモデルを使ったかを外部から確かめられれば、AIサービスの透明性や信頼性の議論が変わる可能性があります。",
-      "source": "Anthropic（研究ページ）、Crypto Briefing ほか",
-      "url": "https://anthropic.com/research/provable-inference",
-      "publishedAt": "2026-11-02"
-    },
-    {
-      "id": "claude-meetings-beta",
-      "importance": 2,
-      "category": "プロダクト",
-      "title": "ClaudeがGoogle Meetの会議に参加するベータ版「Claude Meetings」",
-      "summary": "Anthropicは11月中旬、Claudeが Google Meet の通話に参加し、議事メモや文書、ホワイトボードを会議中に作成できるベータ版を公開しました。対象はTeamとEnterpriseのプランです。Zoomや Microsoft Teams など他の会議ツールへの対応は「近日中」とされていますが、時期は示されていません。",
-      "point": "会議の記録や資料作成をAIに任せる働き方が、企業向けツールとして広がるかが焦点です。",
-      "source": "VentureBeat、TechCrunch、Computerworld ほか",
-      "url": "https://venturebeat.com/ai/anthropic-brings-claude-into-google-meet-to-draft-documents-and-whiteboards-during-your-meetings/",
-      "publishedAt": "2026-11-12"
-    },
-    {
-      "id": "chatgpt-wallet",
-      "importance": 2,
-      "category": "プロダクト",
-      "title": "ChatGPT Wallet公開、AIエージェントが代理で買い物",
-      "summary": "OpenAIは13日、AIエージェント「dots」が利用者に代わって購入できる「ChatGPT Wallet」を公開しました。現時点では米国のChatGPT Pro会員で、対象の米国発行カードが必要です。カード番号はエージェントや店舗に渡らず決済用トークンに置き換えられ、購入時には生体認証の確認が入ります。",
-      "point": "AIが実際にお金を使う段階に入るため、決済の安全性や誤購入時の責任の所在が今後の論点になります。",
-      "source": "OpenAI、Digital Trends ほか",
-      "url": "https://openai.com/index/introducing-chatgpt-wallet/",
-      "publishedAt": "2026-11-13"
-    },
-    {
-      "id": "jp-enterprise-genai-survey",
-      "importance": 1,
-      "category": "国内",
-      "title": "国内企業の66.2%が生成AIを本格利用、全社方針の未策定は53.8%",
-      "summary": "JAPAN AIが公表した「企業の生成AI活用とガバナンス実態調査」によると、回答者の66.2%が勤務先で生成AIを全社または一部部門で本格利用していると答えました。一方で、全社方針やガイドラインが未策定、または状況が不明だとする回答は53.8%でした。",
-      "point": "",
-      "source": "JAPAN AI（プレスリリース）",
-      "url": "https://japan-ai.co.jp/news/press/2026/11/261106/",
+      "category": "研究",
+      "title": "DeepMindのAIエージェント、形式検証つきの量子アルゴリズムを設計",
+      "summary": "Google DeepMindとGoogle Quantum AIは、Gemini 4のエージェントが量子プログラムを作り、定理証明系Leanで正しさと計算コストを機械的に証明する研究を公開しました。特定の課題では資源量が従来の290分の1を超えて減ったと報告されています。ただし査読前の論文で、比較は著者らの計算に基づきます。",
+      "point": "AIの出した結果を人が一つずつ確かめなくても、信頼できる形で示せるかどうかが研究の進め方を変えうる点で注目されます。",
+      "source": "Google DeepMind／Google Quantum AI（arXiv論文 2611.09822）",
+      "url": "https://arxiv.org/abs/2611.09822",
       "publishedAt": "2026-11-06"
     }
   ]
