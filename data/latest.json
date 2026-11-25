@@ -1,29 +1,40 @@
 {
-  "date": "2026-11-25",
-  "issuedAt": "2026-11-25T05:50:00+09:00",
-  "overview": "けさは新しく確認できた話題が少なく、2本のみです。前日までの号で扱ったNVIDIAのCEO交代やAnthropicの上場などは省いています。検索で確認できた情報は11月23〜24日ごろまでのため、今日の動きを取りこぼしている可能性があります。",
+  "date": "2026-11-26",
+  "issuedAt": "2026-11-26T05:50:00+09:00",
+  "overview": "新しく裏取りできた話題が少ない朝でした。新規株式公開したAnthropicの株価が公開価格を下回ったことが最大のニュースです。AIエージェントによるコードレビューの新機能と、数学分野でのAIの成果をめぐる主張も続きました。国内では今回確認できた話題がありませんでした。",
   "items": [
     {
-      "id": "sonnet-45-retirement",
-      "importance": 2,
-      "category": "開発者",
-      "title": "Claude Sonnet 4.5のAPIは11月30日に終了予定　後継はSonnet 5.5",
-      "summary": "複数の二次報道によると、Claude Sonnet 4.5は9月30日に非推奨となり、APIは11月30日に終了する予定です。後継としてSonnet 5.5への移行が勧められています。Anthropicの公式の廃止案内は今回確認できていません。",
-      "point": "終了日まで5日しかないため、Sonnet 4.5を呼び出している既存のアプリは早めに移行先を確認する必要があります。",
-      "source": "Lilach Bullock（二次情報）",
-      "url": "https://www.lilachbullock.com/ai-news-this-week-for-small-business-8-november-2026/",
-      "publishedAt": "2026-11-08"
+      "id": "anthropic-ipo-below-offer",
+      "importance": 3,
+      "category": "ビジネス",
+      "title": "Anthropic株、上場後初めて公開価格83ドルを下回る",
+      "summary": "Anthropicの株価が、新規株式公開（IPO）の公開価格83ドルを下回りました。ブルームバーグによると、24日の終値は前日比6.5%安の81.91ドルでした。その後も下げが続き、一部の報道では75ドル台まで下げたとされています。",
+      "point": "初日の高値からの調整が続くかどうかは、AI関連株全体への市場の評価を映す材料になります。報道ごとに数字がずれているため、確定した終値は取引所の公表で確認が必要です。",
+      "source": "CNBC、Bloomberg",
+      "url": "https://www.cnbc.com/2026/11/24/anthropic-stock-ipo-price.html",
+      "publishedAt": "2026-11-24"
     },
     {
-      "id": "deepmind-quantum-lean",
+      "id": "claude-ship-pr-agents",
+      "importance": 2,
+      "category": "開発者",
+      "title": "Anthropic、PRのレビューや修正、承認をAIエージェントが担う「Claude Ship」",
+      "summary": "Anthropicは、GitHub上のプルリクエストを扱う3つのエージェントをまとめた「Claude Ship」を公開しました。コードレビューは一般提供、PR Stewardと承認機能のClaude Approvalsはベータです。TeamとEnterpriseの組織が対象で、定めたポリシーに沿った変更を承認する仕組みも含まれます。",
+      "point": "コードの確認や修正が人の手から離れるほど、レビューは速くなります。一方で承認権限の設定を誤ると影響が大きいため、報道では最初は観察のみのモードで使うことが勧められています。",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/",
+      "publishedAt": "2026-11-23"
+    },
+    {
+      "id": "openai-matrix-nine-fourths",
       "importance": 2,
       "category": "研究",
-      "title": "DeepMindのAIエージェント、形式検証つきの量子アルゴリズムを設計",
-      "summary": "Google DeepMindとGoogle Quantum AIは、Gemini 4のエージェントが量子プログラムを作り、定理証明系Leanで正しさと計算コストを機械的に証明する研究を公開しました。特定の課題では資源量が従来の290分の1を超えて減ったと報告されています。ただし査読前の論文で、比較は著者らの計算に基づきます。",
-      "point": "AIの出した結果を人が一つずつ確かめなくても、信頼できる形で示せるかどうかが研究の進め方を変えうる点で注目されます。",
-      "source": "Google DeepMind／Google Quantum AI（arXiv論文 2611.09822）",
-      "url": "https://arxiv.org/abs/2611.09822",
-      "publishedAt": "2026-11-06"
+      "title": "OpenAI、行列積の指数は9/4とするプレプリントを公開と報道",
+      "summary": "OpenAIが、正方行列の掛け算に必要な計算量を表す「行列積の指数」は、あらゆる体で9/4になるとするプレプリント（査読前の論文）を公開したと報じられています。従来の上限は約2.37とされていました。解説では、形式検証が主張の一部にとどまるとも指摘されています。",
+      "point": "理論計算機科学の基本的な数値に関わる主張で、正しければ分野の知見が更新されます。ただし未査読で、専門家による検証を待つ必要があります。",
+      "source": "AI Weekly（プレプリントの報道・解説）",
+      "url": "https://aiweekly.co/alerts/openai-claims-matrix-multiplication-exponent-is-exactly-94",
+      "publishedAt": "2026-11-24"
     }
   ]
 }
