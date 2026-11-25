@@ -1,0 +1,62 @@
+{
+  "date": "2026-11-25",
+  "issuedAt": "2026-11-25T11:15:54+09:00",
+  "overview": "テスラとスペースXの統合交渉は、両社の特別委員会が年内の合意を目指していると英フィナンシャル・タイムズが報じ、スペースX株は24日に5％前後下げました。宇宙では米宇宙軍の機密ミッションUSSF-266を打ち上げ、安全保障分野の打ち上げが続いています。マスク氏はツイッター株主による詐欺訴訟の評決を覆すよう控訴裁判所に求めました。",
+  "items": [
+    {
+      "id": "tesla-spacex-merger-yearend",
+      "importance": 3,
+      "category": "スペースX",
+      "title": "テスラとの統合、年内合意を目指すと英紙報道",
+      "summary": "英フィナンシャル・タイムズによると、テスラとスペースXは株式交換による統合で12月31日までの署名を目指している。両社の独立取締役計5人が特別委員会をつくり、テスラ側はデンホルム会長が率いる。統合後の企業価値は約3.5兆ドルとされるが、交渉はまだ合意に近くないとも伝えられた。",
+      "point": "新議会の招集（1月3日）前の合意を狙うとされ、実現すればマスク氏の主要2社が一体になる。テスラ側は株主投票で発行済み議決権の過半数が必要になる。",
+      "source": "Electrek（英フィナンシャル・タイムズの報道を引用）",
+      "url": "https://electrek.co/2026/11/24/tesla-spacex-merger-year-end-deadline-new-congress/",
+      "publishedAt": "2026-11-24"
+    },
+    {
+      "id": "spcx-falls-compute-rental",
+      "importance": 2,
+      "category": "スペースX",
+      "title": "株価5％前後下落、計算資源の貸し出し事業に注目",
+      "summary": "スペースX株は24日、前日の4.4％高から一転して5％前後下げ、一時127ドル台とIPO価格の135ドルを下回った。米紙ニューヨーク・タイムズは、AI企業のアンソロピックが月約31億ドル、アルファベットが月約8億ドルを計算資源の利用料として支払っていると報じた。",
+      "point": "統合交渉をにらんだ売買に加え、AI向け計算資源の貸し出しが収益の柱になりつつある点が投資家の判断材料になっている。",
+      "source": "The Motley Fool（ニューヨーク・タイムズの報道を引用）",
+      "url": "https://www.fool.com/investing/2026/11/24/why-spacex-dropped-again-today/",
+      "publishedAt": "2026-11-24"
+    },
+    {
+      "id": "ussf-266-launch",
+      "importance": 2,
+      "category": "スペースX",
+      "title": "米宇宙軍の機密ミッション「USSF-266」を打ち上げ",
+      "summary": "スペースXは日本時間25日未明、カリフォルニア州のバンデンバーグ宇宙軍基地からファルコン9でUSSF-266を打ち上げた。搭載物は公表されていない。第1段ブースターは29回目の飛行で、約8分半後に洋上の無人船に着地した。",
+      "point": "21日のUSSF-317、22日のNROL-136に続く西海岸からの安全保障ミッションで、国防分野での依存の大きさを示している。",
+      "source": "Space.com",
+      "url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-launches-secretive-spy-satellites-from-california-for-us-space-force-video",
+      "publishedAt": "2026-11-24"
+    },
+    {
+      "id": "musk-appeals-twitter-fraud-verdict",
+      "importance": 3,
+      "category": "イーロン・マスク",
+      "title": "ツイッター株主の詐欺訴訟、マスク氏が評決取り消しを控訴",
+      "summary": "マスク氏は23日、ツイッター買収をめぐり株主をだましたとする陪審評決の取り消しを第9巡回区控訴裁判所に求めた。2022年5月に買収の「一時保留」を投稿した後の株価下落との因果関係が証明されていないなどと主張している。原告側弁護士は、賠償額が利息を除き約26億ドルになり得るとしている。",
+      "point": "一審の連邦地裁は7月に評決を支持しており、控訴審の判断次第でマスク氏個人の巨額の賠償責任が確定するかが決まる。",
+      "source": "ロイター（The Star掲載）",
+      "url": "https://www.thestar.com.my/tech/tech-news/2026/11/25/elon-musk-asks-us-appeals-court-to-throw-out-twitter-fraud-verdict",
+      "publishedAt": "2026-11-24"
+    },
+    {
+      "id": "musk-starlink-in-tesla-2027",
+      "importance": 1,
+      "category": "イーロン・マスク",
+      "title": "テスラ車へのStarlink搭載、2027年末を目指すとマスク氏",
+      "summary": "マスク氏はXへの投稿で、テスラ車にStarlinkを組み込む機能について、2027年の終わりごろに提供できればとの見通しを示した。Starlinkが認められていない中国は対象外になるという。",
+      "point": "",
+      "source": "Not a Tesla App（マスク氏のX投稿）",
+      "url": "https://www.notateslaapp.com/news/5067/tesla-is-looking-to-add-starlink-to-its-vehicles-next-year",
+      "publishedAt": "2026-11-23"
+    }
+  ]
+}

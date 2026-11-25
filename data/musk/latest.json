@@ -1,84 +1,62 @@
 {
-  "date": "2026-11-24",
-  "issuedAt": "2026-11-24T11:16:20+09:00",
-  "overview": "米国の2州が、生成AI「Grok」で性的画像が大量に作られたとしてスペースXやXなどを提訴しました。株式市場ではジェフリーズの買い推奨を受けてスペースX株が急反発する一方、12月8日には大量の株式がロックアップ解除を迎えます。メキシコでは11月13日の試験飛行のものとみられる残骸の回収を求める声が上がっています。",
+  "date": "2026-11-25",
+  "issuedAt": "2026-11-25T11:15:54+09:00",
+  "overview": "テスラとスペースXの統合交渉は、両社の特別委員会が年内の合意を目指していると英フィナンシャル・タイムズが報じ、スペースX株は24日に5％前後下げました。宇宙では米宇宙軍の機密ミッションUSSF-266を打ち上げ、安全保障分野の打ち上げが続いています。マスク氏はツイッター株主による詐欺訴訟の評決を覆すよう控訴裁判所に求めました。",
   "items": [
     {
-      "id": "grok-states-lawsuit",
+      "id": "tesla-spacex-merger-yearend",
       "importance": 3,
       "category": "スペースX",
-      "title": "Grokの性的画像めぐり2州が提訴、スペースXやXが被告",
-      "summary": "バージニア州とオレゴン州の司法長官が23日、AI「Grok」で性的な画像が大量に作られたのは安全対策を偽ったためだとして、スペースX、X、AI子会社SpaceXSIを州の消費者保護法違反で提訴した。差し止めや不当利益の返還などを求めている。SpaceXSIは対策を強化してきたと説明している。",
-      "point": "旧xAIを取り込んだスペースXのAI事業が、州から法的責任を問われる事態になった。ほかの州が追随するかが焦点。",
-      "source": "AP（BNN Bloomberg掲載）",
-      "url": "https://bnnbloomberg.ca/business/company-news/2026/11/23/us-states-sue-musk-companies-over-flood-of-sexualized-images-made-with-ai-chatbot-grok",
-      "publishedAt": "2026-11-23"
+      "title": "テスラとの統合、年内合意を目指すと英紙報道",
+      "summary": "英フィナンシャル・タイムズによると、テスラとスペースXは株式交換による統合で12月31日までの署名を目指している。両社の独立取締役計5人が特別委員会をつくり、テスラ側はデンホルム会長が率いる。統合後の企業価値は約3.5兆ドルとされるが、交渉はまだ合意に近くないとも伝えられた。",
+      "point": "新議会の招集（1月3日）前の合意を狙うとされ、実現すればマスク氏の主要2社が一体になる。テスラ側は株主投票で発行済み議決権の過半数が必要になる。",
+      "source": "Electrek（英フィナンシャル・タイムズの報道を引用）",
+      "url": "https://electrek.co/2026/11/24/tesla-spacex-merger-year-end-deadline-new-congress/",
+      "publishedAt": "2026-11-24"
     },
     {
-      "id": "jefferies-buy-rebound",
+      "id": "spcx-falls-compute-rental",
       "importance": 2,
       "category": "スペースX",
-      "title": "ジェフリーズが「買い」で調査開始、株価は急反発",
-      "summary": "米証券ジェフリーズがスペースX株の調査を「買い」で開始し、目標株価を210ドルとした。打ち上げでの優位とAI事業の成長余地を評価している。23日の取引開始直後に株価は9%超上昇し、前週末に7.7%下げて127.79ドルとなった水準から持ち直した。",
-      "point": "株価は公開価格135ドルを下回っていただけに、大手証券の強気評価が投資家心理の支えになるかが注目される。",
-      "source": "Investing.com／The Motley Fool",
-      "url": "https://www.investing.com/news/stock-market-news/jefferies-initiates-spacex-at-buy-sees-rare-combination-to-gain-ai-share-5045466",
-      "publishedAt": "2026-11-23"
+      "title": "株価5％前後下落、計算資源の貸し出し事業に注目",
+      "summary": "スペースX株は24日、前日の4.4％高から一転して5％前後下げ、一時127ドル台とIPO価格の135ドルを下回った。米紙ニューヨーク・タイムズは、AI企業のアンソロピックが月約31億ドル、アルファベットが月約8億ドルを計算資源の利用料として支払っていると報じた。",
+      "point": "統合交渉をにらんだ売買に加え、AI向け計算資源の貸し出しが収益の柱になりつつある点が投資家の判断材料になっている。",
+      "source": "The Motley Fool（ニューヨーク・タイムズの報道を引用）",
+      "url": "https://www.fool.com/investing/2026/11/24/why-spacex-dropped-again-today/",
+      "publishedAt": "2026-11-24"
     },
     {
-      "id": "mexico-debris-cleanup",
+      "id": "ussf-266-launch",
       "importance": 2,
       "category": "スペースX",
-      "title": "メキシコ、Starshipのものとみられる残骸の回収を要求",
-      "summary": "メキシコ北東部タマウリパス州のバグダッド海岸に、11月13日の試験飛行で爆発したStarshipブースターのものとみられる破片が漂着している。環境保護当局ProfepaはスペースXに責任を持って回収するよう求め、住民には破片に触れず通報するよう呼びかけた。",
-      "point": "国境近くでの打ち上げをめぐるメキシコとの摩擦が再燃しており、今後の試験飛行の環境面の議論にも影響しうる。",
-      "source": "Texas Tribune",
-      "url": "https://www.texastribune.org/2026/11/23/spacex-rocket-debris-beach-texas-mexico/",
-      "publishedAt": "2026-11-23"
+      "title": "米宇宙軍の機密ミッション「USSF-266」を打ち上げ",
+      "summary": "スペースXは日本時間25日未明、カリフォルニア州のバンデンバーグ宇宙軍基地からファルコン9でUSSF-266を打ち上げた。搭載物は公表されていない。第1段ブースターは29回目の飛行で、約8分半後に洋上の無人船に着地した。",
+      "point": "21日のUSSF-317、22日のNROL-136に続く西海岸からの安全保障ミッションで、国防分野での依存の大きさを示している。",
+      "source": "Space.com",
+      "url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-launches-secretive-spy-satellites-from-california-for-us-space-force-video",
+      "publishedAt": "2026-11-24"
     },
     {
-      "id": "lockup-dec8",
-      "importance": 1,
-      "category": "スペースX",
-      "title": "12月8日に約8億株のロックアップ解除",
-      "summary": "上場時の通常の売却制限期間（180日）の最後の分として、約7億9760万株が12月8日に売却可能になる。流通株は約17.6%増える見込み。マスク氏ら一部の初期投資家は来年夏まで制限が延長されている。",
-      "point": "",
-      "source": "The Motley Fool",
-      "url": "https://www.fool.com/investing/2026/11/23/hundreds-of-millions-of-spacex-shares-become-eligible-for-sale-on-dec-8-should-you-buy-before-then/",
-      "publishedAt": "2026-11-23"
-    },
-    {
-      "id": "ussf-266-window",
-      "importance": 1,
-      "category": "スペースX",
-      "title": "USSF-266、日本時間25日0時55分に打ち上げ予定",
-      "summary": "米宇宙軍の機密ミッションUSSF-266を、ファルコン9でバンデンバーグ基地から打ち上げる予定。窓は米西部時間24日午前7時55分（日本時間25日0時55分）に開く。第1段ブースターは29回目の飛行で、洋上での回収を予定している。",
-      "point": "",
-      "source": "Spaceflight Now",
-      "url": "https://spaceflightnow.com/2026/11/23/live-coverage-spacex-to-launch-classified-payload-for-the-u-s-space-force-3/",
-      "publishedAt": "2026-11-23"
-    },
-    {
-      "id": "cta-lawsuit-musk",
+      "id": "musk-appeals-twitter-fraud-verdict",
       "importance": 3,
       "category": "イーロン・マスク",
-      "title": "企業の実質所有者開示ルール撤回めぐり提訴、訴状にマスク氏の言及",
-      "summary": "ミネソタ州とアリゾナ州の郡検事が、企業の実質所有者の届け出を求める「企業透明化法」の運用撤回は違法だとして、財務省などを連邦地裁に提訴した。訴状は、マスク氏が2025年3月にこのルールについて「調べてみる」と投稿した翌日に、財務省が罰則を適用しない方針を示したと指摘している。マスク氏は被告ではない。",
-      "point": "政府効率化省（DOGE）時代のマスク氏の影響力が、政策の決まり方をめぐる訴訟で取り上げられた形になる。",
-      "source": "CBS News",
-      "url": "https://www.cbsnews.com/news/elon-musk-corporate-disclosure-lawsuit/",
-      "publishedAt": "2026-11-20"
+      "title": "ツイッター株主の詐欺訴訟、マスク氏が評決取り消しを控訴",
+      "summary": "マスク氏は23日、ツイッター買収をめぐり株主をだましたとする陪審評決の取り消しを第9巡回区控訴裁判所に求めた。2022年5月に買収の「一時保留」を投稿した後の株価下落との因果関係が証明されていないなどと主張している。原告側弁護士は、賠償額が利息を除き約26億ドルになり得るとしている。",
+      "point": "一審の連邦地裁は7月に評決を支持しており、控訴審の判断次第でマスク氏個人の巨額の賠償責任が確定するかが決まる。",
+      "source": "ロイター（The Star掲載）",
+      "url": "https://www.thestar.com.my/tech/tech-news/2026/11/25/elon-musk-asks-us-appeals-court-to-throw-out-twitter-fraud-verdict",
+      "publishedAt": "2026-11-24"
     },
     {
-      "id": "ai5-to-optimus",
-      "importance": 2,
+      "id": "musk-starlink-in-tesla-2027",
+      "importance": 1,
       "category": "イーロン・マスク",
-      "title": "次世代AIチップ「AI5」はOptimus向け、車はAI4のままとマスク氏",
-      "summary": "マスク氏はXへの22日の投稿で、テスラの次世代チップAI5は人型ロボットOptimusに回し、車にはAI4を使い続けると述べた。メモリーやストレージの値上がりでAI4のコストが2倍になったとも明かした。",
-      "point": "自動運転とロボットの間で計算資源をどう配分するかについて、マスク氏がロボットを優先する姿勢を示した。",
-      "source": "EVXL（マスク氏のX投稿）",
-      "url": "https://evxl.co/2026/11/23/musk-tesla-cars-stay-ai4-ai5-chip-optimus/",
-      "publishedAt": "2026-11-22"
+      "title": "テスラ車へのStarlink搭載、2027年末を目指すとマスク氏",
+      "summary": "マスク氏はXへの投稿で、テスラ車にStarlinkを組み込む機能について、2027年の終わりごろに提供できればとの見通しを示した。Starlinkが認められていない中国は対象外になるという。",
+      "point": "",
+      "source": "Not a Tesla App（マスク氏のX投稿）",
+      "url": "https://www.notateslaapp.com/news/5067/tesla-is-looking-to-add-starlink-to-its-vehicles-next-year",
+      "publishedAt": "2026-11-23"
     }
   ]
 }
