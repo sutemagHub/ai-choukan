@@ -1,40 +1,51 @@
 {
-  "date": "2026-11-26",
-  "issuedAt": "2026-11-26T05:50:00+09:00",
-  "overview": "新しく裏取りできた話題が少ない朝でした。新規株式公開したAnthropicの株価が公開価格を下回ったことが最大のニュースです。AIエージェントによるコードレビューの新機能と、数学分野でのAIの成果をめぐる主張も続きました。国内では今回確認できた話題がありませんでした。",
+  "date": "2026-11-27",
+  "issuedAt": "2026-11-27T05:55:00+09:00",
+  "overview": "NVIDIAのジェンスン・ファン氏が辞任からおよそ2週間でCEOに復帰し、株価は大きく上がりました。国内では文部科学相が、生成AIの利活用指針を年度内に改訂する方向を示しています。新しい大型発表は今回確認できず、裏取りできた4本だけの小さな号です。",
   "items": [
     {
-      "id": "anthropic-ipo-below-offer",
+      "id": "nvidia-huang-reinstated",
       "importance": 3,
       "category": "ビジネス",
-      "title": "Anthropic株、上場後初めて公開価格83ドルを下回る",
-      "summary": "Anthropicの株価が、新規株式公開（IPO）の公開価格83ドルを下回りました。ブルームバーグによると、24日の終値は前日比6.5%安の81.91ドルでした。その後も下げが続き、一部の報道では75ドル台まで下げたとされています。",
-      "point": "初日の高値からの調整が続くかどうかは、AI関連株全体への市場の評価を映す材料になります。報道ごとに数字がずれているため、確定した終値は取引所の公表で確認が必要です。",
-      "source": "CNBC、Bloomberg",
-      "url": "https://www.cnbc.com/2026/11/24/anthropic-stock-ipo-price.html",
-      "publishedAt": "2026-11-24"
-    },
-    {
-      "id": "claude-ship-pr-agents",
-      "importance": 2,
-      "category": "開発者",
-      "title": "Anthropic、PRのレビューや修正、承認をAIエージェントが担う「Claude Ship」",
-      "summary": "Anthropicは、GitHub上のプルリクエストを扱う3つのエージェントをまとめた「Claude Ship」を公開しました。コードレビューは一般提供、PR Stewardと承認機能のClaude Approvalsはベータです。TeamとEnterpriseの組織が対象で、定めたポリシーに沿った変更を承認する仕組みも含まれます。",
-      "point": "コードの確認や修正が人の手から離れるほど、レビューは速くなります。一方で承認権限の設定を誤ると影響が大きいため、報道では最初は観察のみのモードで使うことが勧められています。",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/",
+      "title": "NVIDIA、ファン氏がCEOに復帰　株価は一時30%超上昇",
+      "summary": "NVIDIAの取締役会は23日、ジェンスン・ファン氏をCEO・取締役に復帰させると発表しました。11日に辞任が受け入れられてから、約2週間での復帰です。取締役会は、復帰に国家安全保障上のリスクはないと判断したとしています。外国の情報活動の標的になったかどうかの調査は、結論が出るまで続けるとしています。",
+      "point": "前号までの「復帰は検討しない」という報道とは経緯が変わりました。AI半導体の最大手で続いていた経営の空白は解消されましたが、議会による証言要請などの政治的な論点が残るかは、今回の確認では分かりません。",
+      "source": "NVIDIA（ニュースリリース）、CNBC",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director",
       "publishedAt": "2026-11-23"
     },
     {
-      "id": "openai-matrix-nine-fourths",
+      "id": "japan-mext-genai-guideline",
       "importance": 2,
-      "category": "研究",
-      "title": "OpenAI、行列積の指数は9/4とするプレプリントを公開と報道",
-      "summary": "OpenAIが、正方行列の掛け算に必要な計算量を表す「行列積の指数」は、あらゆる体で9/4になるとするプレプリント（査読前の論文）を公開したと報じられています。従来の上限は約2.37とされていました。解説では、形式検証が主張の一部にとどまるとも指摘されています。",
-      "point": "理論計算機科学の基本的な数値に関わる主張で、正しければ分野の知見が更新されます。ただし未査読で、専門家による検証を待つ必要があります。",
-      "source": "AI Weekly（プレプリントの報道・解説）",
-      "url": "https://aiweekly.co/alerts/openai-claims-matrix-multiplication-exponent-is-exactly-94",
+      "category": "国内",
+      "title": "文科相、生成AIの利活用指針を年度内に改訂へ",
+      "summary": "文部科学大臣は11月20日の会見で、児童生徒が生成AIを使う際のガイドラインを、AIへの過度な依存などのリスクを踏まえて2026年度内に改訂する方向で検討していると説明しました。教育現場でのAI利用の在り方が、あらためて見直されることになります。",
+      "point": "学校でのAI利用の枠組みが具体的に見直される段階に入ります。改訂の中身はまだ示されていません。",
+      "source": "reseed（専門メディア）",
+      "url": "https://reseed.resemom.jp/article/2026/11/24/14610.html",
       "publishedAt": "2026-11-24"
+    },
+    {
+      "id": "claude-artifacts-desktop",
+      "importance": 1,
+      "category": "プロダクト",
+      "title": "Claudeのアーティファクト、Mac・Windowsの単独アプリとして利用可能に",
+      "summary": "Claudeで作ったアーティファクトを、Mac・Windows向けの単独のデスクトップアプリとして入れられるようになったと報じられています。ただし二次報道のまとめに基づく情報で、公式の発表は今回確認できていません。",
+      "point": "",
+      "source": "AI News Brief（二次報道のまとめ）",
+      "url": "https://www.ai-news-brief.info/ai-news-brief-roundup-2026-11-25-evening-huang-back-at-nvidia-claude-artifacts-go-desktop-tempus-loan/",
+      "publishedAt": "2026-11-25"
+    },
+    {
+      "id": "aidenai-series-a",
+      "importance": 1,
+      "category": "ビジネス",
+      "title": "AidenAI、企業の既存システムにAIを組み込む事業で3200万ドル調達",
+      "summary": "ニュージャージー州の企業AidenAIが、A91 Partners主導のシリーズAで3200万ドルを調達しました。創業者は元Infosys幹部で、大企業が既存の基幹システムにAIを組み込むためのソフトウェアを手がけています。",
+      "point": "",
+      "source": "AIDaily Post（報道）",
+      "url": "https://aidailypost.com/news/ex-infosys-execs-ai-startup-raises",
+      "publishedAt": "2026-11-25"
     }
   ]
 }
