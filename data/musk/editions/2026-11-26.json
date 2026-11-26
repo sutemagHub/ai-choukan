@@ -1,0 +1,62 @@
+{
+  "date": "2026-11-26",
+  "issuedAt": "2026-11-26T11:25:00+09:00",
+  "overview": "米連邦通信委員会（FCC）が、スペースXの宇宙データセンター構想「Starmind」に最大100万基の衛星を認める免許を出しました。同社は「トランプ口座」への株式拠出も発表し、株価は一時大きく下げたあと小幅高で終えました。マスク氏については、AI部門でGPUを無駄にしないよう社員に強く求めていたと米紙が報じています。",
+  "items": [
+    {
+      "id": "fcc-starmind-approval",
+      "importance": 3,
+      "category": "スペースX",
+      "title": "FCC、宇宙データセンター衛星を最大100万基まで承認",
+      "summary": "FCCは25日、スペースXが計算処理用の衛星群「Starmind」を最大100万基まで打ち上げることを認めた。高度500〜1002kmの6つの軌道に配置し、2033年までに初号機を運用、2040年までに100万基をそろえる計画で、期限を守れなければ免許は失効する。",
+      "point": "宇宙にデータセンターを置く衛星群が米国で認められたのは初めて。一方、600km超の軌道ではデブリ対策の追加申請が必要で、天文学会やアマゾン、Viasatは反対していた。",
+      "source": "SiliconANGLE、AP通信",
+      "url": "https://siliconangle.com/2026/11/25/fcc-clears-spacex-to-put-up-to-1-million-starmind-data-centers-in-space/",
+      "publishedAt": "2026-11-25"
+    },
+    {
+      "id": "trump-accounts-shares",
+      "importance": 2,
+      "category": "スペースX",
+      "title": "「トランプ口座」に1株ずつ拠出、マスク氏も同数を寄付",
+      "summary": "スペースXは25日、子ども向けの投資口座「トランプ口座」のうち有効な全口座に、新たに発行するクラスA株を1株ずつ拠出すると発表した。マスク氏は同社と同じ株数を個人で寄付し、ショットウェル社長も200万株超を個人として贈るとした。",
+      "point": "上場企業が自社株を広く個人の口座に配る珍しい取り組み。総株数や金額は示されておらず、実施には政府などの承認が必要としている。",
+      "source": "SpaceX（投資家向け発表）",
+      "url": "https://ir.spacex.com/updates/releases-details/2026/SpaceX-to-Invest-in-the-Next-Generation-of-Americans-2026-r_LYQ5cH94/default.aspx",
+      "publishedAt": "2026-11-25"
+    },
+    {
+      "id": "stock-intraday-reversal",
+      "importance": 1,
+      "category": "スペースX",
+      "title": "株価、一時7％超下落から切り返し1.3％高",
+      "summary": "スペースX株は25日、テスラとの統合で株式が大きく希薄化するとの懸念などから午前に一時7.4％下げたが、FCCの承認もあって持ち直し、終値は前日比1.3％高の127.44ドルだった。",
+      "point": "",
+      "source": "モトリー・フール、SiliconANGLE",
+      "url": "https://www.fool.com/investing/2026/11/25/why-spacex-stock-keeps-going-down/",
+      "publishedAt": "2026-11-25"
+    },
+    {
+      "id": "musk-gpu-memo",
+      "importance": 3,
+      "category": "イーロン・マスク",
+      "title": "「GPUの無駄遣いは退職」マスク氏が社内に通告と米紙",
+      "summary": "ニューヨーク・タイムズによると、マスク氏はスペースXのAI部門の社員に、GPUを無駄に使う者は辞めてもらうと伝え、一部の技術者に毎週使い道の説明を求めた。AIの競争力は性能指標より「GPU1基あたりの売上」で決まるとして、計算資源の貸し出しを重視する姿勢を示したという。",
+      "point": "同紙によると、アンソロピックやグーグルが計算資源の大口顧客になっている。自社AI「Grok」の開発より貸し出しで稼ぐ方向へ、マスク氏の判断が傾いていることがうかがえる。",
+      "source": "ニューヨーク・タイムズ報道（TechRadar）",
+      "url": "https://www.techradar.com/pro/sell-compute-because-we-cant-compete-elon-musk-warns-renting-out-spacexs-compute-might-be-more-profitable-than-developing-new-ai-capabilities",
+      "publishedAt": "2026-11-26"
+    },
+    {
+      "id": "grok-black-friday",
+      "importance": 1,
+      "category": "イーロン・マスク",
+      "title": "マスク氏「Grokがブラックフライデーのお得情報を探す」",
+      "summary": "マスク氏は25日、Xへの投稿で、AIのGrokがブラックフライデーの割引を調べ、本物かどうかも確かめられると宣伝した。CNBCが紹介した調査では、直近1週間にAIエージェント経由で行われた注文のうちGrokが24％を占めたという。",
+      "point": "",
+      "source": "TIKR（CNBC紹介の調査を引用）",
+      "url": "https://www.tikr.com/blog/musk-says-grok-bot-can-find-the-best-black-friday-deals-grok-already-places-24-of-ai-agent-orders",
+      "publishedAt": "2026-11-25"
+    }
+  ]
+}
