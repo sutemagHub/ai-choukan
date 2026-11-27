@@ -1,0 +1,62 @@
+{
+  "date": "2026-11-27",
+  "issuedAt": "2026-11-27T11:17:03+09:00",
+  "overview": "スペースXは約7億3800万ドルの米ブロードバンド補助金を辞退し、対象世帯に機器を無償で提供する形で事業に残ります。メキシコはStarshipの空域利用について米国との協議を求め、アマゾンはスペースXでの打ち上げを前倒しします。マスク氏は超知能の開発競争でスペースXはまだ上位3社に入っていないと述べました。",
+  "items": [
+    {
+      "id": "bead-zero-award",
+      "importance": 3,
+      "category": "スペースX",
+      "title": "米補助金7億3800万ドルを辞退、Starlink機器は無償提供へ",
+      "summary": "米商務省の通信情報局（NTIA）は23日、低軌道衛星の事業者が補助金を受け取らずにブロードバンド整備事業（BEAD）に参加するための標準契約を示した。スペースXは約7億3800万ドル分の補助金を辞退する一方、割り当てられた地域では求められた速度で通信を提供し、受信機器を追加の費用なしで配る。",
+      "point": "補助金に伴う監査や報告の負担を避けつつ地方の利用者を確保する形で、ほかの事業者はこの地域に入札できなくなるため、光ファイバー業界からは反発も出ています。",
+      "source": "米商務省NTIA／Fierce Network",
+      "url": "https://broadbandusa.ntia.gov/waivers-policies/BEAD_Model_Zero_Outlay_Agreement",
+      "publishedAt": "2026-11-23"
+    },
+    {
+      "id": "mexico-airspace-talks",
+      "importance": 2,
+      "category": "スペースX",
+      "title": "メキシコ大統領、Starshipの空域利用で米国に協議を要請",
+      "summary": "シェインバウム大統領は26日、大使館を通じて米国とメキシコの航空当局の会合を求め、空域の利用許可や頻度、必要なら発射場の移転を話し合いたいと述べた。漂着物について、スペースXは見つかった量はごく少なく、同社のものかははっきりしないとXで反論した。",
+      "point": "スペースXはStarbaseで年456回の打ち上げを申請中で、隣国との調整が計画の行方に影響する可能性があります。",
+      "source": "アルジャジーラ（ロイター）",
+      "url": "https://www.aljazeera.com/news/2026/11/26/mexico-seeks-us-talks-about-suspected-spacex-debris",
+      "publishedAt": "2026-11-26"
+    },
+    {
+      "id": "amazon-leo-falcon9-december",
+      "importance": 2,
+      "category": "スペースX",
+      "title": "アマゾン、Falcon 9での次の打ち上げを12月に前倒し",
+      "summary": "アマゾンは衛星通信「Amazon Leo」の次の打ち上げを、2027年予定から12月に早めてスペースXのFalcon 9で行うと明らかにした。すでに予約しているほかの便も前倒しする。15日にULAのVulcanが失敗し衛星40基を失ったことが背景にある。",
+      "point": "競合のアマゾンも配備を急ぐうえでスペースXに頼っており、打ち上げ市場での同社の強さを示しています。",
+      "source": "ts2.tech（Ars Technicaの報道を引用）",
+      "url": "https://ts2.tech/en/amazon-leo-moves-next-spacex-launch-up-to-december/",
+      "publishedAt": "2026-11-25"
+    },
+    {
+      "id": "musk-ai-podium",
+      "importance": 3,
+      "category": "イーロン・マスク",
+      "title": "超知能の開発競争「スペースXは表彰台にも届かず」とマスク氏",
+      "summary": "マスク氏は26日、Xで読者の質問に答え、デジタル超知能の分野でスペースXはまだ銅メダルの位置にもいないと書き、残念だと述べた。上にいる企業の名前や、何を根拠にした順位かは示していない。",
+      "point": "xAIを傘下に入れAIインフラに巨額を投じるスペースXのトップが、自社の出遅れを認めた形です。",
+      "source": "TeslaNorth",
+      "url": "https://teslanorth.com/2026/11/26/musk-spacex-grok-ai-race/",
+      "publishedAt": "2026-11-26"
+    },
+    {
+      "id": "musk-share-pledge-timing",
+      "importance": 2,
+      "category": "イーロン・マスク",
+      "title": "子どもへの株式贈与、マスク氏の分は来年6月に移転",
+      "summary": "米国の子ども1人につきスペースXが1株、マスク氏が1株を贈る計画について、マスク氏は自分の分は来年6月にロックアップ（売却制限）が切れた後に移すと説明した。会社の分も移せるのは来月以降。ロイターによると、2株合わせた総額は約180億ドルになる。",
+      "point": "贈与の実行時期がはっきりし、マスク氏個人の保有株の動きにも関わります。",
+      "source": "ロイター（Yahoo Finance掲載）",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/elon-musk-says-ll-gift-164000030.html",
+      "publishedAt": "2026-11-26"
+    }
+  ]
+}
