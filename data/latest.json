@@ -1,51 +1,51 @@
 {
-  "date": "2026-11-27",
-  "issuedAt": "2026-11-27T05:55:00+09:00",
-  "overview": "NVIDIAのジェンスン・ファン氏が辞任からおよそ2週間でCEOに復帰し、株価は大きく上がりました。国内では文部科学相が、生成AIの利活用指針を年度内に改訂する方向を示しています。新しい大型発表は今回確認できず、裏取りできた4本だけの小さな号です。",
+  "date": "2026-11-28",
+  "issuedAt": "2026-11-28T05:46:12+09:00",
+  "overview": "新しく裏取りできた話題が少ない朝です。NVIDIAのファン氏が復帰したあとも、対中輸出の締め付けが実務に及び、東南アジア向けのサーバー出荷が止まったと報じられています。OpenAIは会話と業務の機能を一つの画面にまとめる展開を始めました。",
   "items": [
     {
-      "id": "nvidia-huang-reinstated",
+      "id": "nvidia-sea-server-halt",
       "importance": 3,
-      "category": "ビジネス",
-      "title": "NVIDIA、ファン氏がCEOに復帰　株価は一時30%超上昇",
-      "summary": "NVIDIAの取締役会は23日、ジェンスン・ファン氏をCEO・取締役に復帰させると発表しました。11日に辞任が受け入れられてから、約2週間での復帰です。取締役会は、復帰に国家安全保障上のリスクはないと判断したとしています。外国の情報活動の標的になったかどうかの調査は、結論が出るまで続けるとしています。",
-      "point": "前号までの「復帰は検討しない」という報道とは経緯が変わりました。AI半導体の最大手で続いていた経営の空白は解消されましたが、議会による証言要請などの政治的な論点が残るかは、今回の確認では分かりません。",
-      "source": "NVIDIA（ニュースリリース）、CNBC",
-      "url": "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director",
-      "publishedAt": "2026-11-23"
+      "category": "政策",
+      "title": "NVIDIA、マレーシアなど4か国向けAIサーバーの出荷を一時停止と報道",
+      "summary": "フィナンシャル・タイムズの報道によると、NVIDIAは製造パートナーに対し、マレーシア、シンガポール、タイ、インドネシア向けのAIサーバーの出荷を止めるよう伝えたとされます。米商務省が16日に示した、海外のデータセンター経由で先端チップを使う抜け道をふさぐ規則の直後の動きです。NVIDIA側の公式な説明は確認できていません。",
+      "point": "輸出規制が製品の出荷という実務の段階で効き始めた例です。規則の施行は90日後ですが、それより先に動いた形になります。",
+      "source": "Financial Times（Yahoo Finance経由の報道）",
+      "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-reportedly-halts-ai-server-081147271.html",
+      "publishedAt": "2026-11-27"
     },
     {
-      "id": "japan-mext-genai-guideline",
+      "id": "nvidia-china-chip-scrutiny",
       "importance": 2,
-      "category": "国内",
-      "title": "文科相、生成AIの利活用指針を年度内に改訂へ",
-      "summary": "文部科学大臣は11月20日の会見で、児童生徒が生成AIを使う際のガイドラインを、AIへの過度な依存などのリスクを踏まえて2026年度内に改訂する方向で検討していると説明しました。教育現場でのAI利用の在り方が、あらためて見直されることになります。",
-      "point": "学校でのAI利用の枠組みが具体的に見直される段階に入ります。改訂の中身はまだ示されていません。",
-      "source": "reseed（専門メディア）",
-      "url": "https://reseed.resemom.jp/article/2026/11/24/14610.html",
-      "publishedAt": "2026-11-24"
+      "category": "政策",
+      "title": "ファン氏の復帰で、対中チップ規制を年末の法案に盛り込む動き",
+      "summary": "ファン氏のCEO復帰を受け、米議会では対中半導体輸出の制限を年末の国防権限法に盛り込む超党派の動きが強まっています。ファン氏は12月1日に下院の3つの委員会で聴取を受ける予定と報じられています。CBSの調査では、NVIDIAが最先端のAIチップを中国系企業に支配された米国の2社に販売していたとされます。",
+      "point": "復帰が政治問題として再燃し、対中規制が法律として固まる可能性があります。出荷の一時停止と合わせて、NVIDIAの中国関連事業の先行きは読みにくくなっています。",
+      "source": "The Hill、CBS News（いずれも報道）",
+      "url": "https://thehill.com/policy/technology/6241299-nvidia-huang-reinstatement-china-chips/",
+      "publishedAt": "2026-11-27"
     },
     {
-      "id": "claude-artifacts-desktop",
-      "importance": 1,
+      "id": "chatgpt-unified-work",
+      "importance": 2,
       "category": "プロダクト",
-      "title": "Claudeのアーティファクト、Mac・Windowsの単独アプリとして利用可能に",
-      "summary": "Claudeで作ったアーティファクトを、Mac・Windows向けの単独のデスクトップアプリとして入れられるようになったと報じられています。ただし二次報道のまとめに基づく情報で、公式の発表は今回確認できていません。",
-      "point": "",
-      "source": "AI News Brief（二次報道のまとめ）",
-      "url": "https://www.ai-news-brief.info/ai-news-brief-roundup-2026-11-25-evening-huang-back-at-nvidia-claude-artifacts-go-desktop-tempus-loan/",
-      "publishedAt": "2026-11-25"
+      "title": "ChatGPTの会話と業務の機能を一つの画面に統合、一部利用者から展開",
+      "summary": "OpenAIのThibault Sottiaux氏がXで発表したと報じられました。会話機能と業務向けの機能を一つの画面にまとめる展開を、一部の利用者から始めています。両方で利用量の上限を共有する仕組みで、上限に早く達するのではという声もあります。OpenAIは12月に対象を広げる予定です。",
+      "point": "会話、業務、開発の入口が一つにまとまる流れで、利用上限の設計が有料プランの使い勝手を左右します。",
+      "source": "NewsBytes（OpenAI幹部のXでの発表を引用）",
+      "url": "https://www.newsbytesapp.com/news/science/openai-begins-rolling-out-unified-chat-and-work-experience/story",
+      "publishedAt": "2026-11-26"
     },
     {
-      "id": "aidenai-series-a",
+      "id": "kadokawa-children-genai-survey",
       "importance": 1,
-      "category": "ビジネス",
-      "title": "AidenAI、企業の既存システムにAIを組み込む事業で3200万ドル調達",
-      "summary": "ニュージャージー州の企業AidenAIが、A91 Partners主導のシリーズAで3200万ドルを調達しました。創業者は元Infosys幹部で、大企業が既存の基幹システムにAIを組み込むためのソフトウェアを手がけています。",
+      "category": "国内",
+      "title": "KADOKAWA調査、子どもの生成AI利用に思考力の低下や誤情報への懸念",
+      "summary": "KADOKAWAは11月27日、子どもや保護者向けのWebメディア「ヨメルバ」の会員550件の回答を集計した、生成AIの利用に関する調査結果を公表しました。思考力の低下や誤情報を懸念する声が出ているとされます。",
       "point": "",
-      "source": "AIDaily Post（報道）",
-      "url": "https://aidailypost.com/news/ex-infosys-execs-ai-startup-raises",
-      "publishedAt": "2026-11-25"
+      "source": "AI Watch（インプレス）",
+      "url": "https://ai.watch.impress.co.jp/docs/news/2160085.html",
+      "publishedAt": "2026-11-27"
     }
   ]
 }

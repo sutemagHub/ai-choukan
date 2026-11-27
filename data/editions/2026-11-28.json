@@ -1,0 +1,51 @@
+{
+  "date": "2026-11-28",
+  "issuedAt": "2026-11-28T05:46:12+09:00",
+  "overview": "新しく裏取りできた話題が少ない朝です。NVIDIAのファン氏が復帰したあとも、対中輸出の締め付けが実務に及び、東南アジア向けのサーバー出荷が止まったと報じられています。OpenAIは会話と業務の機能を一つの画面にまとめる展開を始めました。",
+  "items": [
+    {
+      "id": "nvidia-sea-server-halt",
+      "importance": 3,
+      "category": "政策",
+      "title": "NVIDIA、マレーシアなど4か国向けAIサーバーの出荷を一時停止と報道",
+      "summary": "フィナンシャル・タイムズの報道によると、NVIDIAは製造パートナーに対し、マレーシア、シンガポール、タイ、インドネシア向けのAIサーバーの出荷を止めるよう伝えたとされます。米商務省が16日に示した、海外のデータセンター経由で先端チップを使う抜け道をふさぐ規則の直後の動きです。NVIDIA側の公式な説明は確認できていません。",
+      "point": "輸出規制が製品の出荷という実務の段階で効き始めた例です。規則の施行は90日後ですが、それより先に動いた形になります。",
+      "source": "Financial Times（Yahoo Finance経由の報道）",
+      "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-reportedly-halts-ai-server-081147271.html",
+      "publishedAt": "2026-11-27"
+    },
+    {
+      "id": "nvidia-china-chip-scrutiny",
+      "importance": 2,
+      "category": "政策",
+      "title": "ファン氏の復帰で、対中チップ規制を年末の法案に盛り込む動き",
+      "summary": "ファン氏のCEO復帰を受け、米議会では対中半導体輸出の制限を年末の国防権限法に盛り込む超党派の動きが強まっています。ファン氏は12月1日に下院の3つの委員会で聴取を受ける予定と報じられています。CBSの調査では、NVIDIAが最先端のAIチップを中国系企業に支配された米国の2社に販売していたとされます。",
+      "point": "復帰が政治問題として再燃し、対中規制が法律として固まる可能性があります。出荷の一時停止と合わせて、NVIDIAの中国関連事業の先行きは読みにくくなっています。",
+      "source": "The Hill、CBS News（いずれも報道）",
+      "url": "https://thehill.com/policy/technology/6241299-nvidia-huang-reinstatement-china-chips/",
+      "publishedAt": "2026-11-27"
+    },
+    {
+      "id": "chatgpt-unified-work",
+      "importance": 2,
+      "category": "プロダクト",
+      "title": "ChatGPTの会話と業務の機能を一つの画面に統合、一部利用者から展開",
+      "summary": "OpenAIのThibault Sottiaux氏がXで発表したと報じられました。会話機能と業務向けの機能を一つの画面にまとめる展開を、一部の利用者から始めています。両方で利用量の上限を共有する仕組みで、上限に早く達するのではという声もあります。OpenAIは12月に対象を広げる予定です。",
+      "point": "会話、業務、開発の入口が一つにまとまる流れで、利用上限の設計が有料プランの使い勝手を左右します。",
+      "source": "NewsBytes（OpenAI幹部のXでの発表を引用）",
+      "url": "https://www.newsbytesapp.com/news/science/openai-begins-rolling-out-unified-chat-and-work-experience/story",
+      "publishedAt": "2026-11-26"
+    },
+    {
+      "id": "kadokawa-children-genai-survey",
+      "importance": 1,
+      "category": "国内",
+      "title": "KADOKAWA調査、子どもの生成AI利用に思考力の低下や誤情報への懸念",
+      "summary": "KADOKAWAは11月27日、子どもや保護者向けのWebメディア「ヨメルバ」の会員550件の回答を集計した、生成AIの利用に関する調査結果を公表しました。思考力の低下や誤情報を懸念する声が出ているとされます。",
+      "point": "",
+      "source": "AI Watch（インプレス）",
+      "url": "https://ai.watch.impress.co.jp/docs/news/2160085.html",
+      "publishedAt": "2026-11-27"
+    }
+  ]
+}
