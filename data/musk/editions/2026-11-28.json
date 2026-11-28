@@ -1,0 +1,62 @@
+{
+  "date": "2026-11-28",
+  "issuedAt": "2026-11-28T11:16:46+09:00",
+  "overview": "スペースXでは、Starlinkの事業運営を担ってきた幹部が退社することが分かり、モバイル通信への拡大を進める中での組織変更として注目されます。マスク氏は全米の子どもへのスペースX株の贈与を毎年続けると表明し、祝日明けの株価は上昇しました。",
+  "items": [
+    {
+      "id": "starlink-gibbs-departs",
+      "importance": 3,
+      "category": "スペースX",
+      "title": "Starlink事業の運営責任者ギブス氏が退社",
+      "summary": "Starlinkの携帯向け展開や供給網、販売、顧客対応を統括してきた副社長チャド・ギブス氏が、約10年在籍したスペースXを去る。Starlink責任者のマイケル・ニコルズ氏が社内メールで伝えた。後任は明らかにされていない。",
+      "point": "Starlinkは昨年の売上の6割超を占める柱で、携帯通信事業への参入を進める重要な時期の幹部交代となる。",
+      "source": "Business Insider（BigGo Finance経由）",
+      "url": "https://finance.biggo.jp/news/dd9ceeb9-a523-4b8e-9e1f-b64365952f40",
+      "publishedAt": "2026-11-27"
+    },
+    {
+      "id": "ng-25-cygnus-launch",
+      "importance": 2,
+      "category": "スペースX",
+      "title": "ISS補給船シグナス、29日にFalcon 9で打ち上げへ",
+      "summary": "ノースロップ・グラマンの補給船「シグナスXL」（NG-25）が、米東部時間29日午前10時47分（日本時間30日0時47分）にケープカナベラルからFalcon 9で打ち上げられる予定。約5トンの物資を国際宇宙ステーションに運ぶ。NASAは準備続行を決め、天候が良好な確率は60％としている。",
+      "point": "他社の補給船もFalcon 9で運んでおり、ISSへの物資輸送でスペースXのロケットの役割が大きくなっている。",
+      "source": "NASA",
+      "url": "https://www.nasa.gov/blogs/spacestation/2026/11/27/nasa-partners-preps-on-track-for-sunday-space-station-cargo-launch/",
+      "publishedAt": "2026-11-27"
+    },
+    {
+      "id": "starmind-astronomers-concern",
+      "importance": 1,
+      "category": "スペースX",
+      "title": "宇宙データセンター100万基の承認、天文学会が懸念",
+      "summary": "米連邦通信委員会（FCC）が承認した軌道上データセンター衛星「Starmind」計画について、米国天文学会が失望を表明し、免許に正式な調整の義務がない点を問題視した。FCCの条件では2033年11月までに配備を始め、2040年までに全基をそろえる。",
+      "point": "",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/11/27/why-does-elon-musk-want-to-put-a-million-satellite-data-centres-in-space",
+      "publishedAt": "2026-11-27"
+    },
+    {
+      "id": "musk-annual-share-gift",
+      "importance": 3,
+      "category": "イーロン・マスク",
+      "title": "子どもへのスペースX株贈与、毎年続けるとマスク氏",
+      "summary": "マスク氏はXで、全米の子どもにスペースX株を毎年さらに1株ずつ贈ると表明した。先に会社と本人から計2株を贈るとしていたもので、毎年の分の対象条件は示していない。祝日明け27日のスペースX株は3％前後上昇したが、6月の初値150ドルをなお1割余り下回る。",
+      "point": "株主の大幅な増加につながる一方、配る株の規模や条件が今後の焦点になる。",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/technology/article/spacex-stock-rises-after-musk-pledges-annual-share-giveaway-for-kids-140708762.html",
+      "publishedAt": "2026-11-27"
+    },
+    {
+      "id": "grok-bot-higher-plan",
+      "importance": 2,
+      "category": "イーロン・マスク",
+      "title": "Grok Botにより多く使える上位プラン、マスク氏が導入へ",
+      "summary": "月2000〜5000ドルを払ってでも使用量を増やしたいという利用者の投稿に、マスク氏が「実装する」と応じた。価格や時期は示していない。赤字でサービスを提供しては事業を伸ばせないとも述べ、上位プランへの切り替えを簡単にするとした。現在の最上位プランは月200ドル。",
+      "point": "AIエージェントの提供費用が重いなか、高額プランで収益性を高める方向を示した。",
+      "source": "TeslaNorth",
+      "url": "https://teslanorth.com/2026/11/27/grok-bot-higher-usage-plan-elon-musk",
+      "publishedAt": "2026-11-27"
+    }
+  ]
+}
